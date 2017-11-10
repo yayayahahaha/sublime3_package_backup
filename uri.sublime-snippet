@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+decodeURIComponent(${1:mess to url})
+encodeURI(${1:url to mess})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>uri</tabTrigger>
+    <!-- <tabTrigger>outline-with-value</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+/**
+	@typedef ${1:objectName}
+	@type {object}
+	@property \{${2:require_key_type}\} ${3:require_key_name} - ${4:require_key_description}
+	@property \{${5:optional_key_type}\} [${6:optional_key_name}=${7:optional_key_default_value}] - ${8:optional_key_description}
+*/
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>writeDefineObject</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

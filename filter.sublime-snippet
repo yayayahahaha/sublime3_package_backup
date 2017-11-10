@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+[].filter.call(${1:object}, function(item, index) {
+    return ${2:true};
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>filter</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

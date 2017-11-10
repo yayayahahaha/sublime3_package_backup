@@ -1,0 +1,68 @@
+{
+	"9o.hist.C:\\Program Files\\Sublime Text 3":
+	[
+		"gocode"
+	],
+	"9o.hist.C:\\Users\\flyc_chung":
+	[
+		"cd ~",
+		"cd go"
+	],
+	"9o.hist.C:\\Users\\flyc_chung\\go":
+	[
+		"cd src"
+	],
+	"9o.hist.C:\\Users\\flyc_chung\\go\\src":
+	[
+		"cd .",
+		"cd we",
+		"cd web",
+		"cd lv",
+		"cd gitlab.paradise-soft.com.tw"
+	],
+	"9o.hist.C:\\Users\\flyc_chung\\go\\src\\gitlab.paradise-soft.com.tw":
+	[
+		"pwd",
+		"git",
+		"cd web"
+	],
+	"9o.hist.C:\\Users\\flyc_chung\\go\\src\\gitlab.paradise-soft.com.tw\\web":
+	[
+		"cd base",
+		"cd lv"
+	],
+	"9o.hist.C:\\Users\\flyc_chung\\go\\src\\gitlab.paradise-soft.com.tw\\web\\base":
+	[
+		"cd .."
+	],
+	"9o.hist.C:\\Users\\flyc_chung\\go\\src\\gitlab.paradise-soft.com.tw\\web\\lv":
+	[
+		"go run main.js",
+		"go run main.go",
+		"go"
+	],
+	"9o.hist.C:\\Users\\flyc_chung\\workplace":
+	[
+		"pwd",
+		"ls -al",
+		"cd go",
+		"cd .."
+	],
+	"9o.hist.C:\\Users\\flyc_chung\\workplace\\knocktest":
+	[
+		"git settings",
+		"git status",
+		"git diff",
+		"ls -al",
+		"ls",
+		"git st",
+		"go run",
+		"go run index.html",
+		"help",
+		"cd..",
+		"cd .."
+	],
+	"ann": "a17.10.15-1",
+	"install_version": "r17.10.15-1",
+	"version": "r17.10.15-1"
+}

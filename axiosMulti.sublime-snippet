@@ -1,0 +1,20 @@
+<snippet>
+    <content><![CDATA[
+function ${1:request1}() {
+    return axios.get(${3:url_1});
+}
+
+function ${2:request2}() {
+    return axios.get(${4:url_2});
+}
+
+axios.all([${1:request1}(), ${2:request2}()])
+    .then(axios.spread(function (res1, res2) {
+        ${5://both requests are now complete}
+    }));
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>axiosMulti</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

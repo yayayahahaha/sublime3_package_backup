@@ -1,0 +1,22 @@
+<snippet>
+    <content><![CDATA[
+FB.ui({
+        method: 'share',
+        href: 'your_url', // The same than link in feed method
+        title: 'your_title', // The same than name in feed method
+        picture: 'path_to_your_picture',
+        caption: 'your_caption',
+        hashtag: "tag",
+        quote: "quote",
+        description: 'your_description',
+        mobile_iframe: true
+    },
+    function(response) {
+        // your code to manage the response
+    });
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>fb_share</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+/* get more info: http://usejsdoc.org/tags-type.html*/
+
+/**
+	${1:description}
+	@method ${2:function name}
+	@param \{${3:parameter type}\} ${4:parameter name}=${5:parameter default} - ${6:parameter description}
+	@param \{${7:parameter type}\} [${8:optional parameter name}=${9:optional parameter default}] ${10:parameter description}
+	@return \{${11:return type}\} ${12:return description}
+	@example ${2:function name}(${13:parameter})
+*/
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>writeDocument</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

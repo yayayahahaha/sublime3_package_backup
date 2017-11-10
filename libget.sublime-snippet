@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+lib.get('${1:path}', ${2:form}, function(data) {
+	${3://callback}
+});
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>libGet</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

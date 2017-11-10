@@ -1,0 +1,33 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"Color Highlighter",
+		"ColorPicker",
+		"CTags",
+		"Emmet",
+		"Git",
+		"GoSublime",
+		"HTMLBeautify",
+		"IMESupport",
+		"JavaScript Console",
+		"JavaScript Snippets",
+		"jQuery",
+		"JsFormat",
+		"Nettuts+ Fetch",
+		"Package Control",
+		"SCSS",
+		"Seti_UI",
+		"SideBarEnhancements",
+		"Sublime Bookmarks",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"Theme - Seti Monokai",
+		"TrailingSpaces",
+		"Vue Syntax Highlight"
+	]
+}

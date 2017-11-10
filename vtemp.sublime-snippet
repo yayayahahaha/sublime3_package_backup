@@ -1,0 +1,32 @@
+<snippet>
+    <content><![CDATA[
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script type="text/javascript" src="https://unpkg.com/vue/dist/vue.js"></script>
+        
+        <link rel="stylesheet" href="../css/${1:component_name}.css">
+        <script type="text/javascript" src="../js/${1:component_name}.js"></script>
+
+        <script type="text/javascript" src="../js/main.js"></script>
+    </head>
+    <body>
+
+        <div id="app">
+            <${2:tag-name}></${2:tag-name}>
+        </div>
+
+        <template id="${3:tag-id}">
+            <div class="">
+                <span></span>
+            </div>
+        </template>
+    </body>
+
+</html>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>vtemp</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.html</scope>
+</snippet>

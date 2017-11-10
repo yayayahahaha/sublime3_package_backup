@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+background-image: url($1);
+background-repeat: ${2:no-repeat};
+background-size: ${3:contain};
+background-position: ${4:center};
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>back</tabTrigger>
+    <!-- <tabTrigger>outline-with-value</tabTrigger> -->
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.scss</scope>
+</snippet>

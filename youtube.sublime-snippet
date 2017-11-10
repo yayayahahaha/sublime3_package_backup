@@ -1,0 +1,36 @@
+<snippet>
+    <content><![CDATA[
+<div id="player"></div>
+<script src="http://www.youtube.com/player_api"></script>
+<script>
+    // create youtube player
+    var player;
+
+    function onYouTubePlayerAPIReady() {
+        player = new YT.Player('player', {
+            height: '390',
+            width: '640',
+            videoId: '0Bmhjf0rKe8',
+            events: {
+                onReady: onPlayerReady,
+                onStateChange: onPlayerStateChange
+            }
+        });
+    }
+    // autoplay video
+    function onPlayerReady(event) {
+        event.target.playVideo();
+    }
+    // when video ends
+    function onPlayerStateChange(event) {
+        if (event.data === 0) {
+            alert('done');
+        }
+    }
+</script>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>youtube</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.html</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+gulp --gulpfile baseLink/gulpfile.js gitClear && gulp --gulpfile baseLink/gulpfile.js baseLink && go run main.go
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>gulp_n_go</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.js</scope> -->
+</snippet>
