@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-outline: ${1:1px} solid ${2:red};
+outline: ${1:3px} solid ${2:red};
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>out</tabTrigger>

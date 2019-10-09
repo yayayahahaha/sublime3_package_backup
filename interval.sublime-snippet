@@ -1,10 +1,7 @@
 <snippet>
-    <!-- Type `bracket` and hit tab to open a bracket with a closing comment. -->
-    <!-- Type the class for the element you are styling and it is placed at the top and in the comment after the closing bracket -->
-    <!-- Hit tab a second time to put your cursor into a beautifuly tabbed spot within the bracket -->
     <content><![CDATA[
 var ${1:timmer} = setInterval(function() {
-    console.log("hey");
+    console.log('hey');
     clearInterval(${1:timmer});
 }, 300);
 ]]></content>

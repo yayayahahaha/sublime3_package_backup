@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
 decodeURIComponent(${1:mess to url})
-encodeURI(${1:url to mess})
+encodeURI(${2:url to mess})
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>uri</tabTrigger>

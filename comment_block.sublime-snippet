@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
-/*************************************************
+/${1/./*/g}
  ${1:some comments}
- **************************************************/
+ ${1/./*/g}/
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>comment</tabTrigger>

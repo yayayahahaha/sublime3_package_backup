@@ -1,9 +1,15 @@
 <snippet>
     <content><![CDATA[
 new Vue({
-    el:"#app",
-    data:{
-        
+    el: '#app',
+    data: {
+        ${1:key}: ${2:'value'}
+    },
+    methods: {
+
+    },
+    mounted: function() {
+        ${3://something}
     }
 });
 ]]></content>

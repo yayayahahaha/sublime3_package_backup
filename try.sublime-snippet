@@ -3,10 +3,10 @@
     <!-- Type the class for the element you are styling and it is placed at the top and in the comment after the closing bracket -->
     <!-- Hit tab a second time to put your cursor into a beautifuly tabbed spot within the bracket -->
     <content><![CDATA[
-try{
+try {
     $1
-}catch(e){
-
+} catch (e) {
+    console.log(e);
 }
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

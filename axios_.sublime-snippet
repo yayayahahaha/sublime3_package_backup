@@ -1,8 +1,8 @@
 <snippet>
     <content><![CDATA[
 axios({
-    method: 'get',
-    url: '/',
+    method: '${1:get}',
+    url: '${2:/}',
     data: {
         key: "value"
     },
@@ -11,7 +11,7 @@ axios({
         'Accept':'application/json'
     }
 }).then(function(res) {
-    console.log(res);
+    console.log(${3:res});
 }).catch(function(error) {
     console.error(error);
 });

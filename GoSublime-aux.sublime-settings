@@ -1,4 +1,28 @@
 {
+	"9o.hist./Users/flyc/go/src/gitlab.paradise-soft.com.tw/frontend":
+	[
+		"git st",
+		"cd admin"
+	],
+	"9o.hist./Users/flyc/go/src/gitlab.paradise-soft.com.tw/frontend/admin":
+	[
+		"cd ..",
+		"git pull",
+		"git st",
+		"git br",
+		"gma"
+	],
+	"9o.hist./Users/flyc/go/src/gitlab.paradise-soft.com.tw/frontend/admin/modules":
+	[
+		"hello",
+		"git gra",
+		"gad",
+		"cd .."
+	],
+	"9o.hist.9o":
+	[
+		"ls"
+	],
 	"9o.hist.C:\\Program Files\\Sublime Text 3":
 	[
 		"gocode"
@@ -62,7 +86,7 @@
 		"cd..",
 		"cd .."
 	],
-	"ann": "a17.10.15-1",
-	"install_version": "r17.10.15-1",
-	"version": "r17.10.15-1"
+	"ann": "a18.11.28-1",
+	"install_version": "r18.11.28-1",
+	"version": "r18.11.28-1"
 }

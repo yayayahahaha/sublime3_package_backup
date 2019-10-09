@@ -1,0 +1,27 @@
+<snippet>
+    <content><![CDATA[
+type ${1:ObjectName} struct {
+    Name      string `json:"name"`
+    TrueFalse bool   `json:"trueFalse"`
+    Num       int    `json:"num"`
+}
+
+c := glob.NewClient(glob.ApiHost+"${2:api-path}", ctx)
+buf, err := c.Get(glob.GetMapFromContext(ctx))
+
+if err != nil {
+    ctx.Response.Tags["${3:tag-name}"] = "[]"
+} else {
+    ${1:ObjectName}_s := make([]*${1:ObjectName}, 0, 10)
+    if err = json.Unmarshal(buf, &${1:ObjectName}_s); err != nil {
+
+    } else {
+        ctx.Response.Tags["${3:tag-name}"] = ${1:ObjectName}_s
+    }
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>api_tag</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.go</scope>
+</snippet>

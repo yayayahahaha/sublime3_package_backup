@@ -2,10 +2,10 @@
     <content><![CDATA[
 @include keyframes (${1:animation_name}) {
     0% {
-        
+        ${2:here}
     }
     100% {
-        
+
     }
 }
 ]]></content>

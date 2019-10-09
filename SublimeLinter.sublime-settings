@@ -1,0 +1,16 @@
+// SublimeLinter Settings - User
+{
+    "linters": {
+        "eslint": {
+            "selector": "text.html.vue, source.js - meta.attribute-with-value",
+            "args": ["--config", "~/.eslintrc.js"]
+        }
+    },
+    "paths": {
+        "linux": [],
+        "osx": [],
+        "windows": []
+    },
+    "lint_mode": "background",
+    "show_panel_on_save": "never",
+}

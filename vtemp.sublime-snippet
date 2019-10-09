@@ -4,7 +4,7 @@
 <html lang="en">
     <head>
         <script type="text/javascript" src="https://unpkg.com/vue/dist/vue.js"></script>
-        
+
         <link rel="stylesheet" href="../css/${1:component_name}.css">
         <script type="text/javascript" src="../js/${1:component_name}.js"></script>
 

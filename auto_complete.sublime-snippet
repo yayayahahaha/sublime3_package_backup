@@ -5,11 +5,11 @@
     <input class="typeahead" type="text" placeholder="States of USA">
 </div>
 */
-var array = ["kjafs", "afhljkds", "vucxio", "qewrm", "fsdjl"];
+var array = ['kjafs', 'afhljkds', 'vucxio', 'qewrm', 'fsdjl'];
 var states = new Bloodhound({
     datumTokenizer: Bloodhound.tokenizers.whitespace,
     queryTokenizer: Bloodhound.tokenizers.whitespace,
-    // `states` is an array of state names defined in "The Basics"
+    // `states` is an array of state names defined in 'The Basics'
     local: array
 });
 \$('#holderId .typeahead').typeahead({

@@ -2,13 +2,13 @@
     <content><![CDATA[
 FB.ui({
     method: 'feed',
-    link: "https://codepen.io",
-    picture: "https://www.google.com.tw/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png",
-    name: "Title!!!",
-    caption: "author name",
-    description: "我是描述",
-    message: "我不知道?",
-    redirect_uri: "http://fb-sample-flyc.c9users.io:8008/app/"
+    link: 'https://codepen.io',
+    picture: 'https://www.google.com.tw/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png',
+    name: 'Title!!!',
+    caption: 'author name',
+    description: '我是描述',
+    message: '我不知道?',
+    redirect_uri: 'http://fb-sample-flyc.c9users.io:8008/app/'
 }, function(response) {
     console.log(response);
 });

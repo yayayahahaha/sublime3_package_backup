@@ -2,6 +2,7 @@
     <content><![CDATA[
 ${1:array}.sort(function(a, b){
 	return a - b;
+    // return a.localeCompare(b);
 });
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

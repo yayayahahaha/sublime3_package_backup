@@ -1,0 +1,21 @@
+[
+	{
+		"args":
+		{
+			"extend": false,
+			"to": "eol"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
+			"to": "brackets"
+		},
+		"command": "expand_selection"
+	},
+	{
+		"command": "fold"
+	}
+]
+// sublime.log_commands(True)

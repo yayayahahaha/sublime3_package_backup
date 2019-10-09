@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+echo "\${${3:LightCyan}}${2:--${1:青色訊息}--}\${NC}"
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>sh_cyan</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>

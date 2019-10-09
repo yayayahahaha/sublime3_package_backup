@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+if [[ \$? == 0 ]]; then
+    echo "${1:message}成功"
+else
+    echo "${1:message}失敗!"
+    echo
+    ${2:echo '--操作終止--'
+    return}
+fi
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>cmd_status</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>

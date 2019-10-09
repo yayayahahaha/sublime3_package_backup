@@ -1,15 +1,98 @@
 {
+	"always_show_minimap_viewport": true,
+	"auto_complete_triggers":
+	[
+		{
+			"characters": "<",
+			"selector": "text.html"
+		},
+		{
+			"characters": ".",
+			"selector": "source.js"
+		}
+	],
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"*.min.js",
+		"*-min.js",
+		"*.woff2",
+		"*.exe"
+	],
 	"caret_extra_width": 1,
-	"color_scheme": "Packages/User/SublimeLinter/Seti Monokai (SL).tmTheme",
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+	"draw_white_space": "selection",
+	"esversion": 6,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.scss",
+		"*.css",
+		"*.db",
+		"*.sublime-workspace"
+	],
 	"folder_exclude_patterns":
 	[
-		".sass-cache"
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"build/out",
+		"dist",
+		"node_modules",
+		"release",
+		".nuxt"
 	],
 	"font_size": 14,
 	"ignored_packages":
 	[
+		"Color Highlight",
+		"ColorPicker",
+		"Format JSDoc @params",
+		"Git Formats",
+		"GitSavvy",
+		"GitStatusBar",
+		"HTMLBeautify",
+		"IMESupport",
+		"JavaScript Completions",
+		"SublimeCodeIntel",
+		"SublimeGit",
+		"SyntaxFold",
+		"Transparency",
 		"Vintage"
 	],
 	"scroll_past_end": true,
-	"theme": "Seti.sublime-theme"
+	"show_encoding": true,
+	"show_full_path": true,
+	"tab_size": 2,
+	"theme": "ayu-mirage.sublime-theme",
+	"translate_tabs_to_spaces": true
 }

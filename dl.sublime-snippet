@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener('DOMContentLoaded', function() {
     ${1://something}
 });
 ]]></content>

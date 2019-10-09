@@ -1,17 +1,12 @@
 <snippet>
 <content><![CDATA[
 export default {
-    asyncData: function(context) {
-        return {
-            msg: Object.keys(context)
-        };
-    },
     data: function() {
         return {
-
+            ${1:msg: 'welcome'}
         };
     }
-}
+};
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>export_vue</tabTrigger>
