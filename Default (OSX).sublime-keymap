@@ -61,5 +61,9 @@
             "overlay": "goto",
             "text": "#"
         }
-    },
+    }, {
+        "keys": ["ctrl+alt+m"],
+        "command": "open_markdown_preview"
+    }
+
 ]

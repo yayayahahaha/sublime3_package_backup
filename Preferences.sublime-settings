@@ -32,7 +32,7 @@
 		"*.exe"
 	],
 	"caret_extra_width": 1,
-	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 	"draw_white_space": "selection",
 	"esversion": 6,
 	"file_exclude_patterns":
@@ -72,6 +72,7 @@
 	"font_size": 14,
 	"ignored_packages":
 	[
+		"Better JavaScript",
 		"Color Highlight",
 		"ColorPicker",
 		"Format JSDoc @params",
@@ -92,7 +93,7 @@
 	"show_encoding": true,
 	"show_full_path": true,
 	"tab_size": 2,
-	"theme": "ayu-mirage.sublime-theme",
+	"theme": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
