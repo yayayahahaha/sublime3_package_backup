@@ -15,7 +15,7 @@
 	[
 		"*.jpg",
 		"*.jpeg",
-		"*.png",
+		"// *.png",
 		"*.gif",
 		"*.ttf",
 		"*.tga",
@@ -28,6 +28,7 @@
 		"*.zip",
 		"*.min.js",
 		"*-min.js",
+		"*.map",
 		"*.woff2",
 		"*.exe"
 	],
@@ -95,5 +96,5 @@
 	"tab_size": 2,
 	"theme": "Material-Theme.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": false
 }
