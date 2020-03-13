@@ -26,14 +26,14 @@
 		"*.swf",
 		"*.jar",
 		"*.zip",
-		"*.min.js",
-		"*-min.js",
+		"// *.min.js",
+		"// *-min.js",
 		"*.map",
 		"*.woff2",
 		"*.exe"
 	],
 	"caret_extra_width": 1,
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+	"color_scheme": "Packages/ayu/ayu-mirage.sublime-color-scheme",
 	"draw_white_space": "selection",
 	"esversion": 6,
 	"file_exclude_patterns":
@@ -80,7 +80,6 @@
 		"Git Formats",
 		"GitSavvy",
 		"GitStatusBar",
-		"HTMLBeautify",
 		"Image2Base64",
 		"IMESupport",
 		"JavaScript Completions",
@@ -94,7 +93,7 @@
 	"show_encoding": true,
 	"show_full_path": true,
 	"tab_size": 2,
-	"theme": "Material-Theme.sublime-theme",
+	"theme": "ayu-mirage.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": false
+	"trim_trailing_white_space_on_save": true
 }

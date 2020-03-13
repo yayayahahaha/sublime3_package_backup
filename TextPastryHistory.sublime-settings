@@ -1,0 +1,570 @@
+{
+	"history":
+	[
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "110"
+				},
+				"command": "text_pastry_step",
+				"text": "110"
+			},
+			"key": "5f93f983524def3dca464469d2cf9f3e",
+			"label": "110"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 0"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 0"
+			},
+			"key": "df5947fb78700bdd567c5ebf0d912085",
+			"label": "1 1 0"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": null,
+					"operator": null,
+					"pattern": "case"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "find case"
+			},
+			"key": "3aa9cdea679e89b01b9599aa01990683",
+			"label": "find case"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "case",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "case"
+			},
+			"key": "cd14c323902024e72c850aa828d634a7",
+			"label": "case"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "1",
+					"stop": "1"
+				},
+				"command": "text_pastry_range",
+				"text": "range 1 1"
+			},
+			"key": "e3feeee2e8fce90c642a7bb63dfdc8da",
+			"label": "range 1 1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "hello world",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "hello world"
+			},
+			"key": "5eb63bbbe01eeed093cb22bb8f5acdc3",
+			"label": "hello world"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "hello world this is",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "hello world this is"
+			},
+			"key": "fe3215cf6e73e3221a655eea6b45b1fe",
+			"label": "hello world this is"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1"
+				},
+				"command": "text_pastry_step",
+				"text": "\\i"
+			},
+			"key": "1bd7ee1ce72751da4e64129f6d32db41",
+			"label": "\\i"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 5"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 5"
+			},
+			"key": "ca734ffac66870f30421623f0e37ddd7",
+			"label": "1 1 5"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"clipboard": true
+				},
+				"command": "text_pastry_insert_text",
+				"text": "\\p"
+			},
+			"key": "ceb8141b2b1d05fb9539bc1381b58745",
+			"label": "\\p"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1"
+			},
+			"key": "75c124fae7a8b8b89183d4de196613b3",
+			"label": "1 1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "lottery qipai video game fish sport hb",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "lottery qipai video game fish sport hb"
+			},
+			"key": "08ef75a4dd155395675ae150d5e8b5be",
+			"label": "lottery qipai video game fish sport hb"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "另開 另開 直開 另開 直開 直開 另開",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "另開 另開 直開 另開 直開 直開 另開"
+			},
+			"key": "6402338b5d2653a6c07941da9e82874d",
+			"label": "另開 另開 直開 另開 直開 直開 另開"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 3"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 3"
+			},
+			"key": "1d8e21222441705afd7a0df819b716b7",
+			"label": "1 1 3"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "2 1 1"
+				},
+				"command": "text_pastry_step",
+				"text": "2 1 1"
+			},
+			"key": "94d3af9cf0b36d0a52cc4e4d45358db5",
+			"label": "2 1 1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "video game fish sport",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "video game fish sport"
+			},
+			"key": "1d54ea1dcb07914cb7a75e41eeef9fca",
+			"label": "video game fish sport"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "guid",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "guid"
+			},
+			"key": "1e0ca5b1252f1f6b1e0ac91be7e7219e",
+			"label": "guid"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "post  put",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "post  put"
+			},
+			"key": "c093bfa50e2e37cedf78474b599dd7d1",
+			"label": "post  put"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "post hello",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "post hello"
+			},
+			"key": "9d6383943e63c4957b444d6b446dc208",
+			"label": "post hello"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "post \nput",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "post \nput"
+			},
+			"key": "6493198b99e84631018d3a53a840e4db",
+			"label": "post \nput"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "h 2 j u l",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "h 2 j u l"
+			},
+			"key": "3b47151bfd3da33d5daa3ad255afec2d",
+			"label": "h 2 j u l"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "h l",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "h l"
+			},
+			"key": "54d515055cd44a012433ac6a88502e7d",
+			"label": "h l"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "j ie a",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "j ie a"
+			},
+			"key": "404c6b5a061cea238387fb903dc7861c",
+			"label": "j ie a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "post put",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "post put"
+			},
+			"key": "1600a92a58b4dda42bfb15071e2a275a",
+			"label": "post put"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "post put ",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "post put "
+			},
+			"key": "455902be37cd9aa60bbfdee096ba6163",
+			"label": "post put "
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": " post put hello",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": " post put hello"
+			},
+			"key": "a4d1b467ef8a119a1d87bcb2df702b5c",
+			"label": " post put hello"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "post put nothing",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "post put nothing"
+			},
+			"key": "2771ec37ef0c5c7346ed459bd1050f23",
+			"label": "post put nothing"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'add' 'edit' a",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'add' 'edit' a"
+			},
+			"key": "7967b4afad42ff96af8b819e6ffb7d98",
+			"label": "'add' 'edit' a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "新增",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "新增"
+			},
+			"key": "66ab5e9f24c8f46012a25c89919fb191",
+			"label": "新增"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "新增 修改 d",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "新增 修改 d"
+			},
+			"key": "783321dfad39c3135eceecd55a48a95d",
+			"label": "新增 修改 d"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'add' 'edit' ",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'add' 'edit' "
+			},
+			"key": "6d5da7dca4f4c0e7dd8599462c8f6524",
+			"label": "'add' 'edit' "
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'add' 'edit' d",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'add' 'edit' d"
+			},
+			"key": "3d10426d1e690f7ce10ccc47a04e335f",
+			"label": "'add' 'edit' d"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1"
+				},
+				"command": "text_pastry_step",
+				"text": "1"
+			},
+			"key": "c4ca4238a0b923820dcc509a6f75849b",
+			"label": "1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 uuid"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 uuid"
+			},
+			"key": "53529a24c83776349e3b0bce9b20521d",
+			"label": "1 1 uuid"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 1"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 1"
+			},
+			"key": "f4093d4303a6804a1cf378c28e59581a",
+			"label": "1 1 1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "addRole editRole a",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "addRole editRole a"
+			},
+			"key": "1d7a7d5e0760c4a0d530e584234af1c6",
+			"label": "addRole editRole a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 0 d"
+				},
+				"command": "text_pastry_step",
+				"text": "1 0 d"
+			},
+			"key": "871e101b396e5a564dcaf2b8ec01af3a",
+			"label": "1 0 d"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "roleList groupList f",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "roleList groupList f"
+			},
+			"key": "5efdfeedb2d85f27c51b6aaa61a876a6",
+			"label": "roleList groupList f"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "Add Edit n",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "Add Edit n"
+			},
+			"key": "a20940fe04428bd6783f5272ba7ab298",
+			"label": "Add Edit n"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'compare' 'with' d",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'compare' 'with' d"
+			},
+			"key": "89810e914ec80e41d8b92b1ff3d37a96",
+			"label": "'compare' 'with' d"
+		},
+		{
+			"data":
+			{
+				"args": null,
+				"command": "text_pastry_uuid",
+				"text": "uuid"
+			},
+			"key": "ef7c876f00f3acddd00fa671f52d0b1f",
+			"label": "uuid"
+		}
+	],
+	"last_command":
+	{
+		"args": null,
+		"command": "text_pastry_uuid",
+		"text": "uuid"
+	}
+}
