@@ -473,19 +473,6 @@
 			{
 				"args":
 				{
-					"text": "1 1 1"
-				},
-				"command": "text_pastry_step",
-				"text": "1 1 1"
-			},
-			"key": "f4093d4303a6804a1cf378c28e59581a",
-			"label": "1 1 1"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "addRole editRole a",
 					"threshold": 3
 				},
@@ -553,18 +540,233 @@
 		{
 			"data":
 			{
+				"args":
+				{
+					"text": "start end d",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "start end d"
+			},
+			"key": "edac5dfb77afd883249851026477fafb",
+			"label": "start end d"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "p1 p2 a",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "p1 p2 a"
+			},
+			"key": "7f27be6b509277813a8f7c476b2f7d8e",
+			"label": "p1 p2 a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "Group Role a",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "Group Role a"
+			},
+			"key": "caa8e2d05ccf32a3a60aedeb12c9056b",
+			"label": "Group Role a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "file",
+					"operator": "add",
+					"pattern": "edit d"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "add edit d"
+			},
+			"key": "01325c4c2e6ba1d65d046b8f93c1d6f9",
+			"label": "add edit d"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "file",
+					"operator": "add",
+					"pattern": "edit a"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "add edit a"
+			},
+			"key": "50ae28a764fc224425292b96b42ca576",
+			"label": "add edit a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "hello world hello",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "hello world hello"
+			},
+			"key": "550ab93940f11deda7bc182976c73788",
+			"label": "hello world hello"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "file",
+					"operator": "add",
+					"pattern": "edit hello world"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "add edit hello world"
+			},
+			"key": "109b67587522bebbf9c1fb9ebbfd0954",
+			"label": "add edit hello world"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'add' 'edit' hello",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'add' 'edit' hello"
+			},
+			"key": "c1582e5c4607e52c1c49bdfef2090efc",
+			"label": "'add' 'edit' hello"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 1"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 1"
+			},
+			"key": "f4093d4303a6804a1cf378c28e59581a",
+			"label": "1 1 1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 6"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 6"
+			},
+			"key": "597f4ead33160ded8ac39c0952d9628a",
+			"label": "1 1 6"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "分類 代碼 事件名稱 提示訊息 警示頻率",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "分類 代碼 事件名稱 提示訊息 警示頻率"
+			},
+			"key": "a22bbeeb91649c914b1db8b4715153b3",
+			"label": "分類 代碼 事件名稱 提示訊息 警示頻率"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "category code eventName message alertRate slackChannel",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "category code eventName message alertRate slackChannel"
+			},
+			"key": "9dd6153fe0fd8203a316dc5bf31087af",
+			"label": "category code eventName message alertRate slackChannel"
+		},
+		{
+			"data":
+			{
 				"args": null,
 				"command": "text_pastry_uuid",
 				"text": "uuid"
 			},
 			"key": "ef7c876f00f3acddd00fa671f52d0b1f",
 			"label": "uuid"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'xiaoshuo' 'lottery' f",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'xiaoshuo' 'lottery' f"
+			},
+			"key": "078f7cd8c54649a4aff6417af2cffcbe",
+			"label": "'xiaoshuo' 'lottery' f"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'hk6' 'sf6' f",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'hk6' 'sf6' f"
+			},
+			"key": "f12cc8b7011d88e9befbca4d6f2427cd",
+			"label": "'hk6' 'sf6' f"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'1' 2 3",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'1' 2 3"
+			},
+			"key": "eda203ed235767ed361805d16ae88c66",
+			"label": "'1' 2 3"
 		}
 	],
 	"last_command":
 	{
-		"args": null,
-		"command": "text_pastry_uuid",
-		"text": "uuid"
+		"args":
+		{
+			"text": "'1' 2 3",
+			"threshold": 3
+		},
+		"command": "text_pastry_insert_text",
+		"text": "'1' 2 3"
 	}
 }
