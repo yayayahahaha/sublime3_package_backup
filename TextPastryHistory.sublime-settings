@@ -657,19 +657,6 @@
 			{
 				"args":
 				{
-					"text": "1 1 1"
-				},
-				"command": "text_pastry_step",
-				"text": "1 1 1"
-			},
-			"key": "f4093d4303a6804a1cf378c28e59581a",
-			"label": "1 1 1"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "1 1 6"
 				},
 				"command": "text_pastry_step",
@@ -705,16 +692,6 @@
 			},
 			"key": "9dd6153fe0fd8203a316dc5bf31087af",
 			"label": "category code eventName message alertRate slackChannel"
-		},
-		{
-			"data":
-			{
-				"args": null,
-				"command": "text_pastry_uuid",
-				"text": "uuid"
-			},
-			"key": "ef7c876f00f3acddd00fa671f52d0b1f",
-			"label": "uuid"
 		},
 		{
 			"data":
@@ -757,16 +734,67 @@
 			},
 			"key": "eda203ed235767ed361805d16ae88c66",
 			"label": "'1' 2 3"
+		},
+		{
+			"data":
+			{
+				"args": null,
+				"command": "text_pastry_uuid",
+				"text": "uuid"
+			},
+			"key": "ef7c876f00f3acddd00fa671f52d0b1f",
+			"label": "uuid"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 1"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 1"
+			},
+			"key": "f4093d4303a6804a1cf378c28e59581a",
+			"label": "1 1 1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "label value asdf",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "label value asdf"
+			},
+			"key": "0ec773b09bc2310a320342c24c372511",
+			"label": "label value asdf"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "label value adf",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "label value adf"
+			},
+			"key": "a45593975e0f0e7e6f6a713a22517778",
+			"label": "label value adf"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"text": "'1' 2 3",
+			"text": "label value adf",
 			"threshold": 3
 		},
 		"command": "text_pastry_insert_text",
-		"text": "'1' 2 3"
+		"text": "label value adf"
 	}
 }

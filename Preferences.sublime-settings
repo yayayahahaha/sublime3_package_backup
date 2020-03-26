@@ -15,7 +15,7 @@
 	[
 		"*.jpg",
 		"*.jpeg",
-		"// *.png",
+		"*.png",
 		"*.gif",
 		"*.ttf",
 		"*.tga",
@@ -26,8 +26,8 @@
 		"*.swf",
 		"*.jar",
 		"*.zip",
-		"// *.min.js",
-		"// *-min.js",
+		"*.min.js",
+		"*-min.js",
 		"*.map",
 		"*.woff2",
 		"*.exe"
@@ -68,6 +68,7 @@
 		"dist",
 		"node_modules",
 		"release",
+		"release_folder",
 		".nuxt"
 	],
 	"font_size": 14,
