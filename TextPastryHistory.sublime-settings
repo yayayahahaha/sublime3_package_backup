@@ -785,16 +785,44 @@
 			},
 			"key": "a45593975e0f0e7e6f6a713a22517778",
 			"label": "label value adf"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "hot jisu 高頻 地方 全國",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "hot jisu 高頻 地方 全國"
+			},
+			"key": "5d02f2f4eb045983494128c45c78e5ea",
+			"label": "hot jisu 高頻 地方 全國"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "true false asdf",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "true false asdf"
+			},
+			"key": "93e9da4b5d1a3f1e6a3ef31ca2039afb",
+			"label": "true false asdf"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"text": "label value adf",
+			"text": "true false asdf",
 			"threshold": 3
 		},
 		"command": "text_pastry_insert_text",
-		"text": "label value adf"
+		"text": "true false asdf"
 	}
 }
