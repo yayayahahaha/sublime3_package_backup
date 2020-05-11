@@ -142,19 +142,6 @@
 			{
 				"args":
 				{
-					"text": "1 1"
-				},
-				"command": "text_pastry_step",
-				"text": "1 1"
-			},
-			"key": "75c124fae7a8b8b89183d4de196613b3",
-			"label": "1 1"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "lottery qipai video game fish sport hb",
 					"threshold": 3
 				},
@@ -177,19 +164,6 @@
 			},
 			"key": "6402338b5d2653a6c07941da9e82874d",
 			"label": "另開 另開 直開 另開 直開 直開 另開"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
-					"text": "1 1 3"
-				},
-				"command": "text_pastry_step",
-				"text": "1 1 3"
-			},
-			"key": "1d8e21222441705afd7a0df819b716b7",
-			"label": "1 1 3"
 		},
 		{
 			"data":
@@ -750,19 +724,6 @@
 			{
 				"args":
 				{
-					"text": "1 1 1"
-				},
-				"command": "text_pastry_step",
-				"text": "1 1 1"
-			},
-			"key": "f4093d4303a6804a1cf378c28e59581a",
-			"label": "1 1 1"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "label value asdf",
 					"threshold": 3
 				},
@@ -813,16 +774,616 @@
 			},
 			"key": "93e9da4b5d1a3f1e6a3ef31ca2039afb",
 			"label": "true false asdf"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "A B C D",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "A B C D"
+			},
+			"key": "69a6611cfa84065caad71f79c747390e",
+			"label": "A B C D"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1"
+			},
+			"key": "75c124fae7a8b8b89183d4de196613b3",
+			"label": "1 1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 10"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 10"
+			},
+			"key": "fefc2b0565fca979029b613ca397dbf6",
+			"label": "1 1 10"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 3"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 3"
+			},
+			"key": "1d8e21222441705afd7a0df819b716b7",
+			"label": "1 1 3"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "abc dec asdf 222 fef",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "abc dec asdf 222 fef"
+			},
+			"key": "6f988b35006e54135812bf462d465473",
+			"label": "abc dec asdf 222 fef"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 123"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 123"
+			},
+			"key": "73a8d89654bee7447840a8214d91e8ea",
+			"label": "1 1 123"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "定位走勢 形態特徵 012路 生平將",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "定位走勢 形態特徵 012路 生平將"
+			},
+			"key": "a563b315c41c42d1cdd5df16cada02c5",
+			"label": "定位走勢 形態特徵 012路 生平將"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "0 1 1"
+				},
+				"command": "text_pastry_step",
+				"text": "0 1 1"
+			},
+			"key": "661ea57b2ee2f892b90f1296ab868e99",
+			"label": "0 1 1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "30 60 90"
+				},
+				"command": "text_pastry_step",
+				"text": "30 60 90"
+			},
+			"key": "a1b67437df9d9145c9bca8cbec87caa1",
+			"label": "30 60 90"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'30' 60 90",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'30' 60 90"
+			},
+			"key": "407f295b032d5c098b4379019f4b92ae",
+			"label": "'30' 60 90"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "a b",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "a b"
+			},
+			"key": "0cc9cd4dd26c5137b675a0d819cb9ab0",
+			"label": "a b"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "遺漏 折線 遺漏分層 分隔線",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "遺漏 折線 遺漏分層 分隔線"
+			},
+			"key": "e02a1fdef7f5f770ab22270c89d5391c",
+			"label": "遺漏 折線 遺漏分層 分隔線"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "龍 虎 合",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "龍 虎 合"
+			},
+			"key": "d544bd6ac75f128cf435f417ebf9d951",
+			"label": "龍 虎 合"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "30a 60a 90a"
+				},
+				"command": "text_pastry_step",
+				"text": "30a 60a 90a"
+			},
+			"key": "5b86d6489acd55592049506cbee35e80",
+			"label": "30a 60a 90a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "30' 60' 90'"
+				},
+				"command": "text_pastry_step",
+				"text": "30' 60' 90'"
+			},
+			"key": "23b429e0396a98165900eac01e6af0cf",
+			"label": "30' 60' 90'"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "a30 a60 a90",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "a30 a60 a90"
+			},
+			"key": "8be67879c2788b2b7e268db7a5a6d4f0",
+			"label": "a30 a60 a90"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "今天 昨天 前天",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "今天 昨天 前天"
+			},
+			"key": "5afd324f4602536e0274206a88cb0eb0",
+			"label": "今天 昨天 前天"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "重慶幸運農場 廣東快樂10分 廣東",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "重慶幸運農場 廣東快樂10分 廣東"
+			},
+			"key": "fe82d661593896c8d45e3572a9caa260",
+			"label": "重慶幸運農場 廣東快樂10分 廣東"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": " 號碼型態 總分",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": " 號碼型態 總分"
+			},
+			"key": "6c8de1921096dd0b47d2057ae99bff1b",
+			"label": " 號碼型態 總分"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "和大 和小 大小和",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "和大 和小 大小和"
+			},
+			"key": "697c8217f023fe9085ab67923a384f57",
+			"label": "和大 和小 大小和"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "和單 和雙 ck6ck6",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "和單 和雙 ck6ck6"
+			},
+			"key": "12e55e626fa9b8c6cd986343691d9799",
+			"label": "和單 和雙 ck6ck6"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "豹子 三不同 對子",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "豹子 三不同 對子"
+			},
+			"key": "65a2dc7c68dff3c152b0bae641cc3b5e",
+			"label": "豹子 三不同 對子"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "form present hm",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "form present hm"
+			},
+			"key": "b258a193d69ed7c7f388799ff3be6e67",
+			"label": "form present hm"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "a b c",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "a b c"
+			},
+			"key": "06f0760ec7f18687a7fbc0ddbf1b1722",
+			"label": "a b c"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "if else adsf",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "if else adsf"
+			},
+			"key": "262ae6facda6a181b013336d63729db6",
+			"label": "if else adsf"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "極速 高頻 地方 全國",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "極速 高頻 地方 全國"
+			},
+			"key": "160f739bc39b69073ea21fd550297bc4",
+			"label": "極速 高頻 地方 全國"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "PK10 時時彩 11選5 快三",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "PK10 時時彩 11選5 快三"
+			},
+			"key": "6f939e32dacf1555fe336a974e27149a",
+			"label": "PK10 時時彩 11選5 快三"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "pk10 ssc 11x5 k3",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "pk10 ssc 11x5 k3"
+			},
+			"key": "3964930c389379734d8e9360f090ba2f",
+			"label": "pk10 ssc 11x5 k3"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "2 3 4"
+				},
+				"command": "text_pastry_step",
+				"text": "2 3 4"
+			},
+			"key": "aed437e50caab91dbef4caaecc9117a9",
+			"label": "2 3 4"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "10 20 30 50 100"
+				},
+				"command": "text_pastry_step",
+				"text": "10 20 30 50 100"
+			},
+			"key": "825579a23beb5c3179cab556e9526f39",
+			"label": "10 20 30 50 100"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "10a 20a 30a 50a 100a"
+				},
+				"command": "text_pastry_step",
+				"text": "10a 20a 30a 50a 100a"
+			},
+			"key": "57f4068e3de52b6a4e11dcf273e4e125",
+			"label": "10a 20a 30a 50a 100a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "a10 a20 a30 a50 a100",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "a10 a20 a30 a50 a100"
+			},
+			"key": "4cbd0a0555f4fef6c007f0db2cf6afa7",
+			"label": "a10 a20 a30 a50 a100"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "red blue green",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "red blue green"
+			},
+			"key": "0f26a0352db2265b7ce21e58c8525881",
+			"label": "red blue green"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "30% 35% adsf"
+				},
+				"command": "text_pastry_step",
+				"text": "30% 35% adsf"
+			},
+			"key": "37811f07b48c908ec84cfcff68b3ad60",
+			"label": "30% 35% adsf"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "a30% b35% asdf",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "a30% b35% asdf"
+			},
+			"key": "de25bf6e71e9e88827831299ee9f9454",
+			"label": "a30% b35% asdf"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "3 3 6a"
+				},
+				"command": "text_pastry_step",
+				"text": "3 3 6a"
+			},
+			"key": "3d7967173debe3dbaf14ef1459170c35",
+			"label": "3 3 6a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "3 3 a6"
+				},
+				"command": "text_pastry_step",
+				"text": "3 3 a6"
+			},
+			"key": "17a12beb4c39037786626c03f41c9d77",
+			"label": "3 3 a6"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "a3 3 6",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "a3 3 6"
+			},
+			"key": "e4d00b17aba2cee068b246f685ecea4f",
+			"label": "a3 3 6"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "a30% 35% 35%",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "a30% 35% 35%"
+			},
+			"key": "f697f8484cc7758c4ede8ba3c70ec2b9",
+			"label": "a30% 35% 35%"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 8"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 8"
+			},
+			"key": "c99b5bfbd7bdafdccde9d058888a017b",
+			"label": "1 1 8"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 1"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 1"
+			},
+			"key": "f4093d4303a6804a1cf378c28e59581a",
+			"label": "1 1 1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "百 十 個",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "百 十 個"
+			},
+			"key": "ecdb2765856e8b5b1f0c89085b4eb249",
+			"label": "百 十 個"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "a0:3 1:2 2:1 3:0",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "a0:3 1:2 2:1 3:0"
+			},
+			"key": "fe1403ef7d9d7317e59b68b10b5c074a",
+			"label": "a0:3 1:2 2:1 3:0"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "型態 組選類型 d",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "型態 組選類型 d"
+			},
+			"key": "a936704da5d52529ea92d2ae65416262",
+			"label": "型態 組選類型 d"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"text": "true false asdf",
+			"text": "型態 組選類型 d",
 			"threshold": 3
 		},
 		"command": "text_pastry_insert_text",
-		"text": "true false asdf"
+		"text": "型態 組選類型 d"
 	}
 }
