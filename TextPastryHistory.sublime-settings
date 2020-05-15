@@ -1325,19 +1325,6 @@
 			{
 				"args":
 				{
-					"text": "1 1 1"
-				},
-				"command": "text_pastry_step",
-				"text": "1 1 1"
-			},
-			"key": "f4093d4303a6804a1cf378c28e59581a",
-			"label": "1 1 1"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "百 十 個",
 					"threshold": 3
 				},
@@ -1374,16 +1361,28 @@
 			},
 			"key": "a936704da5d52529ea92d2ae65416262",
 			"label": "型態 組選類型 d"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 1"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 1"
+			},
+			"key": "f4093d4303a6804a1cf378c28e59581a",
+			"label": "1 1 1"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"text": "型態 組選類型 d",
-			"threshold": 3
+			"text": "1 1 1"
 		},
-		"command": "text_pastry_insert_text",
-		"text": "型態 組選類型 d"
+		"command": "text_pastry_step",
+		"text": "1 1 1"
 	}
 }

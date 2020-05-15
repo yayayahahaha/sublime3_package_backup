@@ -14,8 +14,8 @@
 	"binary_file_patterns":
 	[
 		"*.jpg",
-		"// *.jpeg",
-		"// *.png",
+		"*.jpeg",
+		"*.png",
 		"*.gif",
 		"*.ttf",
 		"*.tga",
@@ -65,10 +65,10 @@
 		".hg",
 		"CVS",
 		"build/out",
-		"dist",
+		"// dist",
 		"node_modules",
 		"release",
-		"release_folder",
+		"// release_folder",
 		".nuxt"
 	],
 	"font_size": 14,
