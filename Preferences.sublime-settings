@@ -68,7 +68,7 @@
 		"// dist",
 		"node_modules",
 		"release",
-		"// release_folder",
+		"release_folder",
 		".nuxt"
 	],
 	"font_size": 14,
@@ -76,7 +76,6 @@
 	[
 		"Better JavaScript",
 		"Color Highlight",
-		"ColorPicker",
 		"Format JSDoc @params",
 		"Git Formats",
 		"GitSavvy",
@@ -88,7 +87,8 @@
 		"SublimeGit",
 		"SyntaxFold",
 		"Transparency",
-		"Vintage"
+		"Vintage",
+		"zzz A File Icon zzz"
 	],
 	"scroll_past_end": true,
 	"show_encoding": true,

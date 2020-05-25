@@ -874,19 +874,6 @@
 			{
 				"args":
 				{
-					"text": "0 1 1"
-				},
-				"command": "text_pastry_step",
-				"text": "0 1 1"
-			},
-			"key": "661ea57b2ee2f892b90f1296ab868e99",
-			"label": "0 1 1"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "30 60 90"
 				},
 				"command": "text_pastry_step",
@@ -1374,15 +1361,181 @@
 			},
 			"key": "f4093d4303a6804a1cf378c28e59581a",
 			"label": "1 1 1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "0 1 1"
+				},
+				"command": "text_pastry_step",
+				"text": "0 1 1"
+			},
+			"key": "661ea57b2ee2f892b90f1296ab868e99",
+			"label": "0 1 1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"script": "weiss blake yang"
+				},
+				"command": "text_pastry_ruby",
+				"text": "ruby weiss blake yang"
+			},
+			"key": "06fbc0417c7cdf5e2f658a4cf84b6f65",
+			"label": "ruby weiss blake yang"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"script": "weiss blake yang 'hello'"
+				},
+				"command": "text_pastry_ruby",
+				"text": "ruby weiss blake yang 'hello'"
+			},
+			"key": "350089c660354a05faf3d3420c0c3814",
+			"label": "ruby weiss blake yang 'hello'"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'ruby' weiss blake yang",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'ruby' weiss blake yang"
+			},
+			"key": "60f9b3a3f39329ab3b1e984642c65472",
+			"label": "'ruby' weiss blake yang"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "aaa bbb ccc ddd ''",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "aaa bbb ccc ddd ''"
+			},
+			"key": "cef311e396862915104e7cede176c9e1",
+			"label": "aaa bbb ccc ddd ''"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'aaa bbb ccc ddd",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'aaa bbb ccc ddd"
+			},
+			"key": "6241c186b38c3ea7c15780b658b2ab87",
+			"label": "'aaa bbb ccc ddd"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'xxx yyy zzz",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'xxx yyy zzz"
+			},
+			"key": "fca366f881ffe345303c08be08351b1b",
+			"label": "'xxx yyy zzz"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'大雙 大單 小雙 小單",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'大雙 大單 小雙 小單"
+			},
+			"key": "9c1d5f2d1a16b108a06c1f08ecc0fa15",
+			"label": "'大雙 大單 小雙 小單"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'大 和 小",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'大 和 小"
+			},
+			"key": "cbe4f86a0a383d484386f6b33fb8c7e4",
+			"label": "'大 和 小"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'龍 虎 和",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'龍 虎 和"
+			},
+			"key": "1e0a32edf2635655e9d765203e1d2029",
+			"label": "'龍 虎 和"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "front center back",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "front center back"
+			},
+			"key": "46dcde438e36e46c0ffce5a75e3b924a",
+			"label": "front center back"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "data list asdf",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "data list asdf"
+			},
+			"key": "72db8d6a12b03477f0a6bef2cb2b31ea",
+			"label": "data list asdf"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"text": "1 1 1"
+			"text": "data list asdf",
+			"threshold": 3
 		},
-		"command": "text_pastry_step",
-		"text": "1 1 1"
+		"command": "text_pastry_insert_text",
+		"text": "data list asdf"
 	}
 }
