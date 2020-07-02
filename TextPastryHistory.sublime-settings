@@ -1354,32 +1354,6 @@
 			{
 				"args":
 				{
-					"text": "1 1 1"
-				},
-				"command": "text_pastry_step",
-				"text": "1 1 1"
-			},
-			"key": "f4093d4303a6804a1cf378c28e59581a",
-			"label": "1 1 1"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
-					"text": "0 1 1"
-				},
-				"command": "text_pastry_step",
-				"text": "0 1 1"
-			},
-			"key": "661ea57b2ee2f892b90f1296ab868e99",
-			"label": "0 1 1"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"script": "weiss blake yang"
 				},
 				"command": "text_pastry_ruby",
@@ -1526,16 +1500,223 @@
 			},
 			"key": "72db8d6a12b03477f0a6bef2cb2b31ea",
 			"label": "data list asdf"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "自研發遊戲 第三方遊戲 asd",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "自研發遊戲 第三方遊戲 asd"
+			},
+			"key": "281698eec2ce1a57dcdaca124c0841f9",
+			"label": "自研發遊戲 第三方遊戲 asd"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 2 3"
+				},
+				"command": "text_pastry_step",
+				"text": "1 2 3"
+			},
+			"key": "5ba48b6e5a7c4d4930fda256f411e55b",
+			"label": "1 2 3"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "折線 遺漏分層 分隔線",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "折線 遺漏分層 分隔線"
+			},
+			"key": "f74d464cdac71fd170646f4a5effa0f2",
+			"label": "折線 遺漏分層 分隔線"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "name html a",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "name html a"
+			},
+			"key": "b8360afcf9812d0f7ce4312711549002",
+			"label": "name html a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "red blue green orange",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "red blue green orange"
+			},
+			"key": "b0582af5e5605796463b1fe28887b9ed",
+			"label": "red blue green orange"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'0 1 2 3",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'0 1 2 3"
+			},
+			"key": "27801e2a42fe8b047b8417f466bc6e89",
+			"label": "'0 1 2 3"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "第一球 第二球 ff",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "第一球 第二球 ff"
+			},
+			"key": "3eb9efa16b802468457ef3faa45af519",
+			"label": "第一球 第二球 ff"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "號碼分佈 總分 fadsf",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "號碼分佈 總分 fadsf"
+			},
+			"key": "d348cc935b384bf9760757e13ceb003e",
+			"label": "號碼分佈 總分 fadsf"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "hm",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "hm"
+			},
+			"key": "2ab5564b805d8065f4bcf81060472746",
+			"label": "hm"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "六 七 八",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "六 七 八"
+			},
+			"key": "9efa5e958b868907c6213612090caa7e",
+			"label": "六 七 八"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 1"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 1"
+			},
+			"key": "f4093d4303a6804a1cf378c28e59581a",
+			"label": "1 1 1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "0 1 1"
+				},
+				"command": "text_pastry_step",
+				"text": "0 1 1"
+			},
+			"key": "661ea57b2ee2f892b90f1296ab868e99",
+			"label": "0 1 1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "近10 20 30 50 100",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "近10 20 30 50 100"
+			},
+			"key": "26ce611182086858dffba1252337fabf",
+			"label": "近10 20 30 50 100"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "hm daXiao danshuang",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "hm daXiao danshuang"
+			},
+			"key": "750c06120e33be52b12ebb6ecd6f4258",
+			"label": "hm daXiao danshuang"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "hm daXiao danShuang",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "hm daXiao danShuang"
+			},
+			"key": "25d1c6d6f1ea263f56f61178fbefb994",
+			"label": "hm daXiao danShuang"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"text": "data list asdf",
+			"text": "hm daXiao danShuang",
 			"threshold": 3
 		},
 		"command": "text_pastry_insert_text",
-		"text": "data list asdf"
+		"text": "hm daXiao danShuang"
 	}
 }
