@@ -766,20 +766,6 @@
 			{
 				"args":
 				{
-					"text": "true false asdf",
-					"threshold": 3
-				},
-				"command": "text_pastry_insert_text",
-				"text": "true false asdf"
-			},
-			"key": "93e9da4b5d1a3f1e6a3ef31ca2039afb",
-			"label": "true false asdf"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "A B C D",
 					"threshold": 3
 				},
@@ -801,19 +787,6 @@
 			},
 			"key": "75c124fae7a8b8b89183d4de196613b3",
 			"label": "1 1"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
-					"text": "1 1 10"
-				},
-				"command": "text_pastry_step",
-				"text": "1 1 10"
-			},
-			"key": "fefc2b0565fca979029b613ca397dbf6",
-			"label": "1 1 10"
 		},
 		{
 			"data":
@@ -1645,19 +1618,6 @@
 			{
 				"args":
 				{
-					"text": "1 1 1"
-				},
-				"command": "text_pastry_step",
-				"text": "1 1 1"
-			},
-			"key": "f4093d4303a6804a1cf378c28e59581a",
-			"label": "1 1 1"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "0 1 1"
 				},
 				"command": "text_pastry_step",
@@ -1707,16 +1667,176 @@
 			},
 			"key": "25d1c6d6f1ea263f56f61178fbefb994",
 			"label": "hm daXiao danShuang"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 10"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 10"
+			},
+			"key": "fefc2b0565fca979029b613ca397dbf6",
+			"label": "1 1 10"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 10"
+				},
+				"command": "text_pastry_step",
+				"text": "1 10"
+			},
+			"key": "44f12d685cf916f35aa97ef1c1565350",
+			"label": "1 10"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 10 1"
+				},
+				"command": "text_pastry_step",
+				"text": "1 10 1"
+			},
+			"key": "ab99c7c50d7704c2e5e4eae25340560e",
+			"label": "1 10 1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "10 1 1"
+				},
+				"command": "text_pastry_step",
+				"text": "10 1 1"
+			},
+			"key": "5cd82a7c865c1d7569809dadf8a2e9fd",
+			"label": "10 1 1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "10 10 10"
+				},
+				"command": "text_pastry_step",
+				"text": "10 10 10"
+			},
+			"key": "6666d2b52d6d4f4defe9a72cbb61d12c",
+			"label": "10 10 10"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "0 1 10"
+				},
+				"command": "text_pastry_step",
+				"text": "0 1 10"
+			},
+			"key": "d0e95dfd2fbaef274d5671d0f3f59533",
+			"label": "0 1 10"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 2 10"
+				},
+				"command": "text_pastry_step",
+				"text": "1 2 10"
+			},
+			"key": "0d3e70f63b6862c2a141f6e332ebe05a",
+			"label": "1 2 10"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "string",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "string"
+			},
+			"key": "b45cffe084dd3d20d928bee85e7b0f21",
+			"label": "string"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 1"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 1"
+			},
+			"key": "f4093d4303a6804a1cf378c28e59581a",
+			"label": "1 1 1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "products statusLabel sort",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "products statusLabel sort"
+			},
+			"key": "3ed6dc80efb4030a29358014a16d87ea",
+			"label": "products statusLabel sort"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "true false asdf",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "true false asdf"
+			},
+			"key": "93e9da4b5d1a3f1e6a3ef31ca2039afb",
+			"label": "true false asdf"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "已啟用 已禁用 XXX",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "已啟用 已禁用 XXX"
+			},
+			"key": "8717a0a15faa53a2c2156db493c027a4",
+			"label": "已啟用 已禁用 XXX"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"text": "hm daXiao danShuang",
+			"text": "已啟用 已禁用 XXX",
 			"threshold": 3
 		},
 		"command": "text_pastry_insert_text",
-		"text": "hm daXiao danShuang"
+		"text": "已啟用 已禁用 XXX"
 	}
 }

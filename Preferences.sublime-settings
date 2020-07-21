@@ -33,7 +33,7 @@
 		"*.exe"
 	],
 	"caret_extra_width": 1,
-	"color_scheme": "Packages/ayu/ayu-mirage.sublime-color-scheme",
+	"color_scheme": "Packages/Color Scheme - Default/Celeste.sublime-color-scheme",
 	"draw_white_space": "selection",
 	"esversion": 6,
 	"file_exclude_patterns":
@@ -65,13 +65,13 @@
 		".hg",
 		"CVS",
 		"build/out",
-		"// dist",
+		"dist",
 		"node_modules",
 		"release",
 		"release_folder",
 		".nuxt"
 	],
-	"font_size": 14,
+	"font_size": 13,
 	"ignored_packages":
 	[
 		"Better JavaScript",
@@ -93,7 +93,7 @@
 	"show_encoding": true,
 	"show_full_path": true,
 	"tab_size": 2,
-	"theme": "ayu-mirage.sublime-theme",
+	"theme": "ayu-light.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
