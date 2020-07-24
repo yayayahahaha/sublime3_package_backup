@@ -1778,19 +1778,6 @@
 			{
 				"args":
 				{
-					"text": "1 1 1"
-				},
-				"command": "text_pastry_step",
-				"text": "1 1 1"
-			},
-			"key": "f4093d4303a6804a1cf378c28e59581a",
-			"label": "1 1 1"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "products statusLabel sort",
 					"threshold": 3
 				},
@@ -1827,16 +1814,405 @@
 			},
 			"key": "8717a0a15faa53a2c2156db493c027a4",
 			"label": "已啟用 已禁用 XXX"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "標題 指定會員 指定體系",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "標題 指定會員 指定體系"
+			},
+			"key": "cce047167b6bcd70dc1c9aac224fec20",
+			"label": "標題 指定會員 指定體系"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "title memberlogin agentlogin",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "title memberlogin agentlogin"
+			},
+			"key": "fa798e8e3823e2b497b38dec97ecff08",
+			"label": "title memberlogin agentlogin"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "全部 未開始 進行中 已結束",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "全部 未開始 進行中 已結束"
+			},
+			"key": "7264ac6b8c09da58dbedd0c099181ca0",
+			"label": "全部 未開始 進行中 已結束"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "startTime endTime a",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "startTime endTime a"
+			},
+			"key": "746cfcd1b0c4fcb2ff4e6e79761eac8e",
+			"label": "startTime endTime a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "startTime endTime f",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "startTime endTime f"
+			},
+			"key": "bc4b66b71a07627edf44eb43d36911eb",
+			"label": "startTime endTime f"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "start end start end",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "start end start end"
+			},
+			"key": "b16b07ee4e46fc680b328b25a23a64f2",
+			"label": "start end start end"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "startTime startTime endTime endTime",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "startTime startTime endTime endTime"
+			},
+			"key": "101ee923c42c43994d4d944919474007",
+			"label": "startTime startTime endTime endTime"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "0 1 0 1 adsf"
+				},
+				"command": "text_pastry_step",
+				"text": "0 1 0 1 adsf"
+			},
+			"key": "6f452a57157da4aa7eb8a5136f518fb4",
+			"label": "0 1 0 1 adsf"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "方案編號 閱讀狀態 修改 刪除",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "方案編號 閱讀狀態 修改 刪除"
+			},
+			"key": "3bc68669861be7e608821c6a1e0506bd",
+			"label": "方案編號 閱讀狀態 修改 刪除"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "已結束 進行中 未開始",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "已結束 進行中 未開始"
+			},
+			"key": "e22187c11461573eda04df8008ed82ec",
+			"label": "已結束 進行中 未開始"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "成功 失敗 f",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "成功 失敗 f"
+			},
+			"key": "b92029cc64042d0f2b16a796ef4b1082",
+			"label": "成功 失敗 f"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "success error a",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "success error a"
+			},
+			"key": "22a1690695cd3c8115df07b153675e90",
+			"label": "success error a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "股東 總代 代理",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "股東 總代 代理"
+			},
+			"key": "0163a10a30cf8cf7373e5600bcc4d54e",
+			"label": "股東 總代 代理"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "發布時間 結束時間 s",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "發布時間 結束時間 s"
+			},
+			"key": "f89bbea9017218dab0f07a86dce01bdd",
+			"label": "發布時間 結束時間 s"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "會員 級別 體系",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "會員 級別 體系"
+			},
+			"key": "df02a6b61663f3721e4fcfe6c730ab6c",
+			"label": "會員 級別 體系"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 1"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 1"
+			},
+			"key": "f4093d4303a6804a1cf378c28e59581a",
+			"label": "1 1 1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "會員",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "會員"
+			},
+			"key": "051d470c2066aa77615941174f5ed9a7",
+			"label": "會員"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "會員 級別 ㄨ",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "會員 級別 ㄨ"
+			},
+			"key": "032fefe1639c3d41ecf1d7b78eac28ac",
+			"label": "會員 級別 ㄨ"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "title content f",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "title content f"
+			},
+			"key": "94a1bcf2e946a5cc3b66079d2ffc8482",
+			"label": "title content f"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "標題 發布時間 結束時間",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "標題 發布時間 結束時間"
+			},
+			"key": "54b4218dfe3cbbc6ea03fcef8e30347b",
+			"label": "標題 發布時間 結束時間"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "memberlogin levelcode agentlogin",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "memberlogin levelcode agentlogin"
+			},
+			"key": "c23afb1ea712b52f47f5fbe338499712",
+			"label": "memberlogin levelcode agentlogin"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 2 3 k"
+				},
+				"command": "text_pastry_step",
+				"text": "1 2 3 k"
+			},
+			"key": "beb52c0be86c4239e807b444d38b8483",
+			"label": "1 2 3 k"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'1 2 3 ",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'1 2 3 "
+			},
+			"key": "0ec366d49feed96021fce17ef0409c09",
+			"label": "'1 2 3 "
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'1 2 3",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'1 2 3"
+			},
+			"key": "6fc61da109f8cf92bbb8ad278cab3620",
+			"label": "'1 2 3"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "memberlogin name levelname agentlogin readtime",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "memberlogin name levelname agentlogin readtime"
+			},
+			"key": "e0668869b30760b8599bd330e671407b",
+			"label": "memberlogin name levelname agentlogin readtime"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "true false a",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "true false a"
+			},
+			"key": "7a5fb936483c64da547e6a25aa63d3c1",
+			"label": "true false a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "memberlogin name readttime",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "memberlogin name readttime"
+			},
+			"key": "7a61a1e3a880637a4e50f5ecfd31561a",
+			"label": "memberlogin name readttime"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "kangaroo shark s",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "kangaroo shark s"
+			},
+			"key": "ed2ac3374339c39600c9562a77b3bf43",
+			"label": "kangaroo shark s"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"text": "已啟用 已禁用 XXX",
+			"text": "kangaroo shark s",
 			"threshold": 3
 		},
 		"command": "text_pastry_insert_text",
-		"text": "已啟用 已禁用 XXX"
+		"text": "kangaroo shark s"
 	}
 }
