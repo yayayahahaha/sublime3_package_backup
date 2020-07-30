@@ -1,5 +1,5 @@
 [
-    {
+  {
     "keys": ["super+shift+["],
     "command": "run_macro_file",
     "args": {
@@ -66,12 +66,19 @@
     "keys": ["ctrl+alt+m"],
     "command": "markdown_preview",
     "args": {
-        "target": "browser",
-        "parser": "markdown"
+      "target": "browser",
+      "parser": "markdown"
     }
   }, {
     "keys": ["ctrl+k", "ctrl+k"],
     "command": "sublime_linter_toggle_highlights"
-  }
+  },
 
+  { "keys": [""], "command": "next_bookmark" },
+  { "keys": [""], "command": "prev_bookmark" },
+  { "keys": [""], "command": "toggle_bookmark" },
+  { "keys": [""], "command": "clear_bookmarks" },
+  { "keys": [""], "command": "select_all_bookmarks" },
+  { "keys": [""], "command": "next_bookmark" },
+  { "keys": [""], "command": "toggle_bookmark" }
 ]

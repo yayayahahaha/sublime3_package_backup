@@ -1618,19 +1618,6 @@
 			{
 				"args":
 				{
-					"text": "0 1 1"
-				},
-				"command": "text_pastry_step",
-				"text": "0 1 1"
-			},
-			"key": "661ea57b2ee2f892b90f1296ab868e99",
-			"label": "0 1 1"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "近10 20 30 50 100",
 					"threshold": 3
 				},
@@ -2203,16 +2190,449 @@
 			},
 			"key": "ed2ac3374339c39600c9562a77b3bf43",
 			"label": "kangaroo shark s"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "推薦會員 銀行卡號 ㄨ",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "推薦會員 銀行卡號 ㄨ"
+			},
+			"key": "8322501114d3fd5c0568540f8622dd3f",
+			"label": "推薦會員 銀行卡號 ㄨ"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "全部 是 否",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "全部 是 否"
+			},
+			"key": "281d28a7987e8f21695ea1e7b73e1aae",
+			"label": "全部 是 否"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "在線 離線 a",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "在線 離線 a"
+			},
+			"key": "6d85ea6f032a9cfc64ebc5a521452568",
+			"label": "在線 離線 a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "start end a",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "start end a"
+			},
+			"key": "b5d46425c7f01146f22ef7249d52a27a",
+			"label": "start end a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "帳號 姓名 暱稱 級別",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "帳號 姓名 暱稱 級別"
+			},
+			"key": "f72ad6c5cb43ada1e59316b757cc89dc",
+			"label": "帳號 姓名 暱稱 級別"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "login name nickname levelCodeLabel",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "login name nickname levelCodeLabel"
+			},
+			"key": "c6d0174121160f77b121d1a0e7f8a657",
+			"label": "login name nickname levelCodeLabel"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "0 1 1"
+				},
+				"command": "text_pastry_step",
+				"text": "0 1 1"
+			},
+			"key": "661ea57b2ee2f892b90f1296ab868e99",
+			"label": "0 1 1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "已啟用 已禁用 已鎖定",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "已啟用 已禁用 已鎖定"
+			},
+			"key": "21ca4d17e24b6f1bfaf3f8ecf694cdb7",
+			"label": "已啟用 已禁用 已鎖定"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "green red red",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "green red red"
+			},
+			"key": "8539217551ed33d2926862d1603e5590",
+			"label": "green red red"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "success danger warning",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "success danger warning"
+			},
+			"key": "04177c0f556d311dba3357b171d0032c",
+			"label": "success danger warning"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "dnager success s",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "dnager success s"
+			},
+			"key": "317b423b9dd7c438c32f1b1f3397cfdb",
+			"label": "dnager success s"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "warning",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "warning"
+			},
+			"key": "7b83d3f08fa392b79e3f553b585971cd",
+			"label": "warning"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "可用 信用",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "可用 信用"
+			},
+			"key": "e2118375df855e56c345b448e6806620",
+			"label": "可用 信用"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "可用 信用 a",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "可用 信用 a"
+			},
+			"key": "e140ac6bd7398b47b3a01f0de5dbc08e",
+			"label": "可用 信用 a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "agent member a",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "agent member a"
+			},
+			"key": "62bcd5a98fad3f3aae8d56e54964e35b",
+			"label": "agent member a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "備註信息: 特殊備註: f",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "備註信息: 特殊備註: f"
+			},
+			"key": "98d14298faa5e37dedb0ff76cc6da306",
+			"label": "備註信息: 特殊備註: f"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "已實名 未實名 a",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "已實名 未實名 a"
+			},
+			"key": "e2fdabfc03c9a2e20fc46ba53b080091",
+			"label": "已實名 未實名 a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "級別 狀態 停權",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "級別 狀態 停權"
+			},
+			"key": "9b76a45bb2c29646e1416c90eff5fe4c",
+			"label": "級別 狀態 停權"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "levelCodeOption statusOption lockedOption",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "levelCodeOption statusOption lockedOption"
+			},
+			"key": "9b338fa34e45368c799d358ba5e50461",
+			"label": "levelCodeOption statusOption lockedOption"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "保存",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "保存"
+			},
+			"key": "be5fbbe34ce9979bfb6576d9eddc5612",
+			"label": "保存"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "省 縣市 d",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "省 縣市 d"
+			},
+			"key": "33ee5996de66116f9cfdedbd90d00d4c",
+			"label": "省 縣市 d"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "保存 返回 S",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "保存 返回 S"
+			},
+			"key": "452c016f044afd22f3fe112828892779",
+			"label": "保存 返回 S"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "會員語言 可用餘額 信用額度",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "會員語言 可用餘額 信用額度"
+			},
+			"key": "e564afc7f896f8aee4056010f6bab306",
+			"label": "會員語言 可用餘額 信用額度"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "開戶卡號 開戶銀行 省 縣市",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "開戶卡號 開戶銀行 省 縣市"
+			},
+			"key": "27e852e771d1c090127f8fb9b5769c3a",
+			"label": "開戶卡號 開戶銀行 省 縣市"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "所屬代理 推薦會員 註冊時間",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "所屬代理 推薦會員 註冊時間"
+			},
+			"key": "f03f3e62d1c82b02f6835c9aacbafe70",
+			"label": "所屬代理 推薦會員 註冊時間"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "狀態 鎖定 類型",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "狀態 鎖定 類型"
+			},
+			"key": "963b460b45bcb33dcde95e14645ecdc6",
+			"label": "狀態 鎖定 類型"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "轉正時間 轉換限額 備註訊息 特殊備註",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "轉正時間 轉換限額 備註訊息 特殊備註"
+			},
+			"key": "ebe57ae6f855e6e7581c9ee6fa7686b8",
+			"label": "轉正時間 轉換限額 備註訊息 特殊備註"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "會員姓名 會員代理",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "會員姓名 會員代理"
+			},
+			"key": "bbd1f11bd4cf6458822860fa9be6bd7c",
+			"label": "會員姓名 會員代理"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "保存 取消 ㄑ",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "保存 取消 ㄑ"
+			},
+			"key": "66dab435065c8c4f3d55ac12e049967a",
+			"label": "保存 取消 ㄑ"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "郵件地址 手機號碼 QQ 為帳號為",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "郵件地址 手機號碼 QQ 為帳號為"
+			},
+			"key": "1fba1d9486e41e242ae574c38eff4374",
+			"label": "郵件地址 手機號碼 QQ 為帳號為"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "email mobile qq wechat",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "email mobile qq wechat"
+			},
+			"key": "46553ad285307007da7044534ca3653d",
+			"label": "email mobile qq wechat"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"text": "kangaroo shark s",
+			"text": "email mobile qq wechat",
 			"threshold": 3
 		},
 		"command": "text_pastry_insert_text",
-		"text": "kangaroo shark s"
+		"text": "email mobile qq wechat"
 	}
 }
