@@ -793,19 +793,6 @@
 			{
 				"args":
 				{
-					"text": "1 1 3"
-				},
-				"command": "text_pastry_step",
-				"text": "1 1 3"
-			},
-			"key": "1d8e21222441705afd7a0df819b716b7",
-			"label": "1 1 3"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "abc dec asdf 222 fef",
 					"threshold": 3
 				},
@@ -1493,19 +1480,6 @@
 			{
 				"args":
 				{
-					"text": "1 2 3"
-				},
-				"command": "text_pastry_step",
-				"text": "1 2 3"
-			},
-			"key": "5ba48b6e5a7c4d4930fda256f411e55b",
-			"label": "1 2 3"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "折線 遺漏分層 分隔線",
 					"threshold": 3
 				},
@@ -1654,19 +1628,6 @@
 			},
 			"key": "25d1c6d6f1ea263f56f61178fbefb994",
 			"label": "hm daXiao danShuang"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
-					"text": "1 1 10"
-				},
-				"command": "text_pastry_step",
-				"text": "1 1 10"
-			},
-			"key": "fefc2b0565fca979029b613ca397dbf6",
-			"label": "1 1 10"
 		},
 		{
 			"data":
@@ -2010,19 +1971,6 @@
 			},
 			"key": "df02a6b61663f3721e4fcfe6c730ab6c",
 			"label": "會員 級別 體系"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
-					"text": "1 1 1"
-				},
-				"command": "text_pastry_step",
-				"text": "1 1 1"
-			},
-			"key": "f4093d4303a6804a1cf378c28e59581a",
-			"label": "1 1 1"
 		},
 		{
 			"data":
@@ -2461,20 +2409,6 @@
 			{
 				"args":
 				{
-					"text": "保存",
-					"threshold": 3
-				},
-				"command": "text_pastry_insert_text",
-				"text": "保存"
-			},
-			"key": "be5fbbe34ce9979bfb6576d9eddc5612",
-			"label": "保存"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "省 縣市 d",
 					"threshold": 3
 				},
@@ -2623,16 +2557,613 @@
 			},
 			"key": "46553ad285307007da7044534ca3653d",
 			"label": "email mobile qq wechat"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "submit cnacel d",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "submit cnacel d"
+			},
+			"key": "bd477903da5d26483a1b96953d9682ac",
+			"label": "submit cnacel d"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "submit cancel s",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "submit cancel s"
+			},
+			"key": "f421f58b1d194c536d13c7e43d4e7655",
+			"label": "submit cancel s"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "銀行帳號 在線商號 ㄑ",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "銀行帳號 在線商號 ㄑ"
+			},
+			"key": "95e6c6bbe58b1dc1ceaa964fb2a04310",
+			"label": "銀行帳號 在線商號 ㄑ"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "會員設定 代理設定 運營設定",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "會員設定 代理設定 運營設定"
+			},
+			"key": "072aa379055b1d6a221cafb156b90019",
+			"label": "會員設定 代理設定 運營設定"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "免費次數 出款手續 手續上限",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "免費次數 出款手續 手續上限"
+			},
+			"key": "9d0a6915cdaa38d9e2b4e59c956e6841",
+			"label": "免費次數 出款手續 手續上限"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "最小出款 最大出款",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "最小出款 最大出款"
+			},
+			"key": "8dfcbd28559667aa5056d83b16ebc617",
+			"label": "最小出款 最大出款"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "保存",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "保存"
+			},
+			"key": "be5fbbe34ce9979bfb6576d9eddc5612",
+			"label": "保存"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "0 1 1 "
+				},
+				"command": "text_pastry_step",
+				"text": "0 1 1 "
+			},
+			"key": "91fce1d720f78e806162726def2bdc79",
+			"label": "0 1 1 "
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "save gotoChannel remove",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "save gotoChannel remove"
+			},
+			"key": "1100aa3c4e2210b43b463ee10072bb0b",
+			"label": "save gotoChannel remove"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "新增 取消 d",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "新增 取消 d"
+			},
+			"key": "6f325443b3a1967d0d8649b2d2b17c51",
+			"label": "新增 取消 d"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "從 至 f",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "從 至 f"
+			},
+			"key": "b4ebaf05fdcb06058460f359accdf11d",
+			"label": "從 至 f"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "總代 代理 g",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "總代 代理 g"
+			},
+			"key": "0a9fcd07eba404721180fbd7f4fce79e",
+			"label": "總代 代理 g"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "申請時間 操作時間 f",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "申請時間 操作時間 f"
+			},
+			"key": "a62765c4dd3c9c7dd707a421e297e528",
+			"label": "申請時間 操作時間 f"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1, 2, 0,"
+				},
+				"command": "text_pastry_step",
+				"text": "1, 2, 0,"
+			},
+			"key": "40083d9c622417e8d308756c6e8c2112",
+			"label": "1, 2, 0,"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "accept reject revert",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "accept reject revert"
+			},
+			"key": "fde941bde7510a44bdb31d8a41b358bc",
+			"label": "accept reject revert"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "會員錢包 財務報表 差額報表",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "會員錢包 財務報表 差額報表"
+			},
+			"key": "96d3a1b06eaf61bd8d6f4608d37fb202",
+			"label": "會員錢包 財務報表 差額報表"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "wallet financial-statements diff",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "wallet financial-statements diff"
+			},
+			"key": "b1bf2f40a72aeff046b3d17c12ad10bf",
+			"label": "wallet financial-statements diff"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "cm-wallet cm-transaction asdf",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "cm-wallet cm-transaction asdf"
+			},
+			"key": "12b685cb9dab450df05dd9dae037eb81",
+			"label": "cm-wallet cm-transaction asdf"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "外接錢包 現金流水 s",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "外接錢包 現金流水 s"
+			},
+			"key": "8e8be07bf603852032aefc55bf346476",
+			"label": "外接錢包 現金流水 s"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "從 至 s",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "從 至 s"
+			},
+			"key": "467d67a50a316358aef9767c537cbe3b",
+			"label": "從 至 s"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "會員帳號 流水號 操作者",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "會員帳號 流水號 操作者"
+			},
+			"key": "fee3f47e117573455260158b466195ab",
+			"label": "會員帳號 流水號 操作者"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "股東 總代理 代理",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "股東 總代理 代理"
+			},
+			"key": "84e9e8399e1d65101081e4cac32d6a05",
+			"label": "股東 總代理 代理"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "轉帳 優惠 入帳",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "轉帳 優惠 入帳"
+			},
+			"key": "d554967ce776cd60b625d3ab4daff056",
+			"label": "轉帳 優惠 入帳"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "primary danger f",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "primary danger f"
+			},
+			"key": "d8a1c162615c7844b437e4d2d23b3666",
+			"label": "primary danger f"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "批量入款 批量取消 f",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "批量入款 批量取消 f"
+			},
+			"key": "30884cccad03a9b3e69906ce4614dfe0",
+			"label": "批量入款 批量取消 f"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "Confirm Cancel ad",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "Confirm Cancel ad"
+			},
+			"key": "4875caa65aaf1b4e46315f4071ecb107",
+			"label": "Confirm Cancel ad"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "小計算 總計算",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "小計算 總計算"
+			},
+			"key": "88a7eab1789c0e1caebe40be72248cfc",
+			"label": "小計算 總計算"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "小計算 總計算 s",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "小計算 總計算 s"
+			},
+			"key": "f8e05d05429ad2057c02a13b122c0ccf",
+			"label": "小計算 總計算 s"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "新增 批量新增 f",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "新增 批量新增 f"
+			},
+			"key": "b7e0baf0adb3af04312ac2805803e07e",
+			"label": "新增 批量新增 f"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "number code a",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "number code a"
+			},
+			"key": "c62be52500a5329b4187f62188ae9f64",
+			"label": "number code a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 3"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 3"
+			},
+			"key": "1d8e21222441705afd7a0df819b716b7",
+			"label": "1 1 3"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "file",
+					"operator": "add",
+					"pattern": "batch_add asdf"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "add batch_add asdf"
+			},
+			"key": "b698ce6c28a97e8740c617aabbf8da7b",
+			"label": "add batch_add asdf"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "file",
+					"operator": "add",
+					"pattern": "add add"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "add add add"
+			},
+			"key": "ee583c28cd69cac49fa6ca2be3acc4ac",
+			"label": "add add add"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "file",
+					"operator": "add",
+					"pattern": "batch-add hello"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "add batch-add hello"
+			},
+			"key": "b7d98e6c425c2f51ac365a55313f6806",
+			"label": "add batch-add hello"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "confirm-detail confirm cancel",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "confirm-detail confirm cancel"
+			},
+			"key": "e57f791f0a4c9383049d0d9916cfe056",
+			"label": "confirm-detail confirm cancel"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 10"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 10"
+			},
+			"key": "fefc2b0565fca979029b613ca397dbf6",
+			"label": "1 1 10"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 2 3"
+				},
+				"command": "text_pastry_step",
+				"text": "1 2 3"
+			},
+			"key": "5ba48b6e5a7c4d4930fda256f411e55b",
+			"label": "1 2 3"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "3 2 1"
+				},
+				"command": "text_pastry_step",
+				"text": "3 2 1"
+			},
+			"key": "3571ec90fdc0f753b0884054e6e7f786",
+			"label": "3 2 1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 11"
+				},
+				"command": "text_pastry_step",
+				"text": "1 11"
+			},
+			"key": "b265e55b91d62fb0bee9ad7b3933b635",
+			"label": "1 11"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 1"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 1"
+			},
+			"key": "f4093d4303a6804a1cf378c28e59581a",
+			"label": "1 1 1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "mobile app asdf",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "mobile app asdf"
+			},
+			"key": "b187371c2d2cc3d7a992a8d664fbcafb",
+			"label": "mobile app asdf"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "電腦版 手機版 APP",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "電腦版 手機版 APP"
+			},
+			"key": "1e6ad4a1f30fae26ba1f12f615f1941d",
+			"label": "電腦版 手機版 APP"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "隱藏",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "隱藏"
+			},
+			"key": "2671918958cd24c8175863765902dfed",
+			"label": "隱藏"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"text": "email mobile qq wechat",
+			"text": "隱藏",
 			"threshold": 3
 		},
 		"command": "text_pastry_insert_text",
-		"text": "email mobile qq wechat"
+		"text": "隱藏"
 	}
 }

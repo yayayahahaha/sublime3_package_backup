@@ -75,10 +75,17 @@
   },
 
   {
-    "keys": ["super+f3"],
+    "keys": ["super+f2"],
     "command": "sublime_bookmark",
     "args": {
       "type": "add"
+    }
+  },
+  {
+    "keys": ["f2"],
+    "command": "sublime_bookmark",
+    "args": {
+      "type": "goto_next"
     }
   },
   {
@@ -89,14 +96,14 @@
     }
   },
   {
-    "keys": ["super+shift+f3"],
+    "keys": ["super+shift+f2"],
     "command": "sublime_bookmark",
     "args": {
       "type": "remove"
     }
   },
   {
-    "keys": ["super+shift+alt+f3"],
+    "keys": ["super+shift+alt+f2"],
     "command": "sublime_bookmark",
     "args": {
       "type": "remove_all"
