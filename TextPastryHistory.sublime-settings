@@ -1921,34 +1921,6 @@
 			{
 				"args":
 				{
-					"text": "success error a",
-					"threshold": 3
-				},
-				"command": "text_pastry_insert_text",
-				"text": "success error a"
-			},
-			"key": "22a1690695cd3c8115df07b153675e90",
-			"label": "success error a"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
-					"text": "股東 總代 代理",
-					"threshold": 3
-				},
-				"command": "text_pastry_insert_text",
-				"text": "股東 總代 代理"
-			},
-			"key": "0163a10a30cf8cf7373e5600bcc4d54e",
-			"label": "股東 總代 代理"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "發布時間 結束時間 s",
 					"threshold": 3
 				},
@@ -3105,19 +3077,6 @@
 			{
 				"args":
 				{
-					"text": "1 1 1"
-				},
-				"command": "text_pastry_step",
-				"text": "1 1 1"
-			},
-			"key": "f4093d4303a6804a1cf378c28e59581a",
-			"label": "1 1 1"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "mobile app asdf",
 					"threshold": 3
 				},
@@ -3154,16 +3113,183 @@
 			},
 			"key": "2671918958cd24c8175863765902dfed",
 			"label": "隱藏"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "頻道設置 遊戲列表 補單管理",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "頻道設置 遊戲列表 補單管理"
+			},
+			"key": "ed963e010a158adcb37418c1977bf1da",
+			"label": "頻道設置 遊戲列表 補單管理"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "派彩時間 下注時間 kj",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "派彩時間 下注時間 kj"
+			},
+			"key": "2ff29f65d627ce4966fadc5b13df2df8",
+			"label": "派彩時間 下注時間 kj"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "股東 總代 代理",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "股東 總代 代理"
+			},
+			"key": "0163a10a30cf8cf7373e5600bcc4d54e",
+			"label": "股東 總代 代理"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "派彩 返水 f",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "派彩 返水 f"
+			},
+			"key": "b23e947c3475672436826950eaca403f",
+			"label": "派彩 返水 f"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "損益 打碼 s",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "損益 打碼 s"
+			},
+			"key": "40d744cff0c60818a443d81816ac8afa",
+			"label": "損益 打碼 s"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "success error a",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "success error a"
+			},
+			"key": "22a1690695cd3c8115df07b153675e90",
+			"label": "success error a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "成功 失敗 a",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "成功 失敗 a"
+			},
+			"key": "502d349f24f8e0e8421b8e419e08c973",
+			"label": "成功 失敗 a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "submitForm add j",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "submitForm add j"
+			},
+			"key": "f586add27096c3695277610e952ba298",
+			"label": "submitForm add j"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "danger success a",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "danger success a"
+			},
+			"key": "4ba4d6eaa9748eec81d3c7b689ce3a9b",
+			"label": "danger success a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "put post get",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "put post get"
+			},
+			"key": "6c795cf365ed50eeca247db99ce95517",
+			"label": "put post get"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 1"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 1"
+			},
+			"key": "f4093d4303a6804a1cf378c28e59581a",
+			"label": "1 1 1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "詳細",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "詳細"
+			},
+			"key": "5043de34de24aab6eb6ff3dbb06c08dd",
+			"label": "詳細"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"text": "隱藏",
+			"text": "詳細",
 			"threshold": 3
 		},
 		"command": "text_pastry_insert_text",
-		"text": "隱藏"
+		"text": "詳細"
 	}
 }

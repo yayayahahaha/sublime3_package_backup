@@ -1,4 +1,10 @@
 {
+	"// on_post_save_user":
+	[
+		{
+			"command": "eslint_fix"
+		}
+	],
 	"always_show_minimap_viewport": true,
 	"auto_complete_triggers":
 	[

@@ -11,20 +11,6 @@
   },
 
   {
-    "keys": ["ctrl+shift+alt+u"],
-    "command": "update_as_you_type",
-    "context": [{
-      "operand": false,
-      "operator": "equal",
-      "match_all": true,
-      "key": "setting.is_widget"
-    }, {
-      "match_all": true,
-      "key": "emmet_action_enabled.update_as_you_type"
-    }]
-  },
-
-  {
     "keys": ["ctrl+shift+up"],
     "command": "swap_line_up"
   }, {
@@ -44,18 +30,31 @@
     "args": {
       "forward": true
     }
-  }, {
-    "keys": [
-      "super+e"
-    ],
-    "args": {
-      "action": "expand_abbreviation"
-    },
+  },
+
+  {
+      "keys": ["super+e"],
+      "command": "emmet_expand_abbreviation",
+      "context": []
+  },
+  {
+      "keys": ["ctrl+alt+right"],
+      "command": "emmet_go_to_edit_point"
+  },
+  {
+      "keys": ["ctrl+alt+left"],
+      "command": "emmet_go_to_edit_point",
+      "args": { "previous": true }
+  },
+  {
+    "// not working": "have no idea why",
+    "keys": ["ctrl+e"],
     "command": "run_emmet_action",
-    "context": [{
-      "key": "emmet_action_enabled.expand_abbreviation"
-    }]
-  }, {
+    "context": [{ "key": "emmet_expand_abbreviation" }]
+  },
+
+
+  {
     "keys": ["super+t"],
     "command": "show_overlay",
     "args": {
