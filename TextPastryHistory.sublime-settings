@@ -2158,20 +2158,6 @@
 			{
 				"args":
 				{
-					"text": "start end a",
-					"threshold": 3
-				},
-				"command": "text_pastry_insert_text",
-				"text": "start end a"
-			},
-			"key": "b5d46425c7f01146f22ef7249d52a27a",
-			"label": "start end a"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "帳號 姓名 暱稱 級別",
 					"threshold": 3
 				},
@@ -2194,19 +2180,6 @@
 			},
 			"key": "c6d0174121160f77b121d1a0e7f8a657",
 			"label": "login name nickname levelCodeLabel"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
-					"text": "0 1 1"
-				},
-				"command": "text_pastry_step",
-				"text": "0 1 1"
-			},
-			"key": "661ea57b2ee2f892b90f1296ab868e99",
-			"label": "0 1 1"
 		},
 		{
 			"data":
@@ -2627,19 +2600,6 @@
 			},
 			"key": "be5fbbe34ce9979bfb6576d9eddc5612",
 			"label": "保存"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
-					"text": "0 1 1 "
-				},
-				"command": "text_pastry_step",
-				"text": "0 1 1 "
-			},
-			"key": "91fce1d720f78e806162726def2bdc79",
-			"label": "0 1 1 "
 		},
 		{
 			"data":
@@ -3259,19 +3219,6 @@
 			{
 				"args":
 				{
-					"text": "1 1 1"
-				},
-				"command": "text_pastry_step",
-				"text": "1 1 1"
-			},
-			"key": "f4093d4303a6804a1cf378c28e59581a",
-			"label": "1 1 1"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "詳細",
 					"threshold": 3
 				},
@@ -3280,16 +3227,235 @@
 			},
 			"key": "5043de34de24aab6eb6ff3dbb06c08dd",
 			"label": "詳細"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "Object Array s",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "Object Array s"
+			},
+			"key": "dc00ff6a14c9a2bd81425dea1ceba18d",
+			"label": "Object Array s"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "{} [] a",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "{} [] a"
+			},
+			"key": "09509824bc2245a65bc4ce637cac88d1",
+			"label": "{} [] a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "pc mobile d",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "pc mobile d"
+			},
+			"key": "3fdd0cc5cdc4d1731df5982932b45113",
+			"label": "pc mobile d"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "gotoRuleDetail delete copy",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "gotoRuleDetail delete copy"
+			},
+			"key": "4cf770da538e8fff738f9bd5d685aae3",
+			"label": "gotoRuleDetail delete copy"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "時 天 舟 月",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "時 天 舟 月"
+			},
+			"key": "efc50fb24a0e315a8d369725f6144835",
+			"label": "時 天 舟 月"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "a b d",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "a b d"
+			},
+			"key": "08b49adf9bb053d51241647f12117fac",
+			"label": "a b d"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "hk6 k3 s",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "hk6 k3 s"
+			},
+			"key": "da33d333189b49c4de574ce96777234b",
+			"label": "hk6 k3 s"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "min max s",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "min max s"
+			},
+			"key": "6e0b0b3155040b70e5e4665c2a655c41",
+			"label": "min max s"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "prepend append a",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "prepend append a"
+			},
+			"key": "977b1ce760dcb2dae36f850ef5ac4c7a",
+			"label": "prepend append a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "start end a",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "start end a"
+			},
+			"key": "b5d46425c7f01146f22ef7249d52a27a",
+			"label": "start end a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "start end s",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "start end s"
+			},
+			"key": "fb0be7e8944ba92ab7c50840c039ece2",
+			"label": "start end s"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "0 1 1"
+				},
+				"command": "text_pastry_step",
+				"text": "0 1 1"
+			},
+			"key": "661ea57b2ee2f892b90f1296ab868e99",
+			"label": "0 1 1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "5 5 5 5 4 'a'"
+				},
+				"command": "text_pastry_step",
+				"text": "5 5 5 5 4 'a'"
+			},
+			"key": "45921df8ffca7af3ef243b9f8af2fe83",
+			"label": "5 5 5 5 4 'a'"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "code name a",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "code name a"
+			},
+			"key": "d03937433d5ab88bdf8ad9ef56976a72",
+			"label": "code name a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "0 1 1 "
+				},
+				"command": "text_pastry_step",
+				"text": "0 1 1 "
+			},
+			"key": "91fce1d720f78e806162726def2bdc79",
+			"label": "0 1 1 "
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 1"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 1"
+			},
+			"key": "f4093d4303a6804a1cf378c28e59581a",
+			"label": "1 1 1"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"text": "詳細",
-			"threshold": 3
+			"text": "1 1 1"
 		},
-		"command": "text_pastry_insert_text",
-		"text": "詳細"
+		"command": "text_pastry_step",
+		"text": "1 1 1"
 	}
 }

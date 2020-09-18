@@ -39,7 +39,7 @@
 		"*.exe"
 	],
 	"caret_extra_width": 1,
-	"color_scheme": "Packages/Agila Theme/Markdown/Dracula Markdown.tmTheme",
+	"color_scheme": "Packages/Agila Theme/Markdown/Cobalt Markdown.tmTheme",
 	"draw_white_space": "selection",
 	"esversion": 6,
 	"file_exclude_patterns":
@@ -99,7 +99,7 @@
 	"show_encoding": true,
 	"show_full_path": true,
 	"tab_size": 2,
-	"theme": "Material-Theme-Palenight.sublime-theme",
+	"theme": "Agila Cobalt.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true
 }
