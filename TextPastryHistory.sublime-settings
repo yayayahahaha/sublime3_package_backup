@@ -3447,15 +3447,72 @@
 			},
 			"key": "f4093d4303a6804a1cf378c28e59581a",
 			"label": "1 1 1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "withHandCard withoutHandCard withRoundAndRound",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "withHandCard withoutHandCard withRoundAndRound"
+			},
+			"key": "fa570d67325865131e3466a046d0223b",
+			"label": "withHandCard withoutHandCard withRoundAndRound"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "white red k",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "white red k"
+			},
+			"key": "c322e48270d323751499ba6d98c5f81a",
+			"label": "white red k"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "left right a",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "left right a"
+			},
+			"key": "1efad1c237eaf9e88add2aef5ebac7e4",
+			"label": "left right a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "false true a",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "false true a"
+			},
+			"key": "d3e714c5aca48449928f030d1deb4a89",
+			"label": "false true a"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"text": "1 1 1"
+			"text": "false true a",
+			"threshold": 3
 		},
-		"command": "text_pastry_step",
-		"text": "1 1 1"
+		"command": "text_pastry_insert_text",
+		"text": "false true a"
 	}
 }
