@@ -3440,19 +3440,6 @@
 			{
 				"args":
 				{
-					"text": "1 1 1"
-				},
-				"command": "text_pastry_step",
-				"text": "1 1 1"
-			},
-			"key": "f4093d4303a6804a1cf378c28e59581a",
-			"label": "1 1 1"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "withHandCard withoutHandCard withRoundAndRound",
 					"threshold": 3
 				},
@@ -3503,16 +3490,59 @@
 			},
 			"key": "d3e714c5aca48449928f030d1deb4a89",
 			"label": "false true a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 1"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 1"
+			},
+			"key": "f4093d4303a6804a1cf378c28e59581a",
+			"label": "1 1 1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "submit add a",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "submit add a"
+			},
+			"key": "3fde7fbb34376b1a23bd42dd8f43d3bd",
+			"label": "submit add a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "file",
+					"operator": "add",
+					"pattern": "accept s"
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "add accept s"
+			},
+			"key": "067e8f412b6962e183c5cd50e6b7c9e5",
+			"label": "add accept s"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"text": "false true a",
-			"threshold": 3
+			"context": "file",
+			"operator": "add",
+			"pattern": "accept s"
 		},
-		"command": "text_pastry_insert_text",
-		"text": "false true a"
+		"command": "text_pastry_modify_selection",
+		"text": "add accept s"
 	}
 }
