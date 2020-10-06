@@ -3532,17 +3532,30 @@
 			},
 			"key": "067e8f412b6962e183c5cd50e6b7c9e5",
 			"label": "add accept s"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "f l y c ",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "f l y c "
+			},
+			"key": "bd59528d519d221ead14e264147eb2c8",
+			"label": "f l y c "
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"context": "file",
-			"operator": "add",
-			"pattern": "accept s"
+			"text": "f l y c ",
+			"threshold": 3
 		},
-		"command": "text_pastry_modify_selection",
-		"text": "add accept s"
+		"command": "text_pastry_insert_text",
+		"text": "f l y c "
 	}
 }

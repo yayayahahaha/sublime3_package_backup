@@ -46,13 +46,6 @@
       "command": "emmet_go_to_edit_point",
       "args": { "previous": true }
   },
-  {
-    "// not working": "have no idea why",
-    "keys": ["ctrl+e"],
-    "command": "run_emmet_action",
-    "context": [{ "key": "emmet_expand_abbreviation" }]
-  },
-
 
   {
     "keys": ["super+t"],
@@ -61,14 +54,18 @@
       "overlay": "goto",
       "text": "#"
     }
-  }, {
+  },
+
+  {
     "keys": ["ctrl+alt+m"],
     "command": "markdown_preview",
     "args": {
       "target": "browser",
       "parser": "markdown"
     }
-  }, {
+  },
+
+  {
     "keys": ["ctrl+k", "ctrl+k"],
     "command": "sublime_linter_toggle_highlights"
   },
@@ -79,33 +76,39 @@
     "args": {
       "type": "add"
     }
-  },
-  {
+  }, {
     "keys": ["f2"],
     "command": "sublime_bookmark",
     "args": {
       "type": "goto_next"
     }
-  },
-  {
+  }, {
     "keys": ["shift+f2"],
     "command": "sublime_bookmark",
     "args": {
       "type": "goto_previous"
     }
-  },
-  {
+  }, {
     "keys": ["super+shift+f2"],
     "command": "sublime_bookmark",
     "args": {
       "type": "remove"
     }
-  },
-  {
+  }, {
     "keys": ["super+shift+alt+f2"],
     "command": "sublime_bookmark",
     "args": {
       "type": "remove_all"
     }
+  },
+
+  {
+    "keys": ["ctrl+k", "ctrl+c"],
+    "command": "close_to_right_by_index",
+    "args": {
+      "index": 0,
+      "group": 0
+    }
   }
+
 ]
