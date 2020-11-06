@@ -1164,20 +1164,6 @@
 			{
 				"args":
 				{
-					"text": "red blue green",
-					"threshold": 3
-				},
-				"command": "text_pastry_insert_text",
-				"text": "red blue green"
-			},
-			"key": "0f26a0352db2265b7ce21e58c8525881",
-			"label": "red blue green"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "30% 35% adsf"
 				},
 				"command": "text_pastry_step",
@@ -3496,19 +3482,6 @@
 			{
 				"args":
 				{
-					"text": "1 1 1"
-				},
-				"command": "text_pastry_step",
-				"text": "1 1 1"
-			},
-			"key": "f4093d4303a6804a1cf378c28e59581a",
-			"label": "1 1 1"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "submit add a",
 					"threshold": 3
 				},
@@ -3546,16 +3519,84 @@
 			},
 			"key": "bd59528d519d221ead14e264147eb2c8",
 			"label": "f l y c "
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "submit reset a",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "submit reset a"
+			},
+			"key": "8522695b8f8892d6b903109df8614b62",
+			"label": "submit reset a"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "rowToCol normalChunk",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "rowToCol normalChunk"
+			},
+			"key": "c27d4afeb79266ea1418040d322f338b",
+			"label": "rowToCol normalChunk"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "紅 藍 綠",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "紅 藍 綠"
+			},
+			"key": "9bfd95e1ed463a43d5ce1bc636c0621b",
+			"label": "紅 藍 綠"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "red blue green",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "red blue green"
+			},
+			"key": "0f26a0352db2265b7ce21e58c8525881",
+			"label": "red blue green"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 1"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 1"
+			},
+			"key": "f4093d4303a6804a1cf378c28e59581a",
+			"label": "1 1 1"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"text": "f l y c ",
-			"threshold": 3
+			"text": "1 1 1"
 		},
-		"command": "text_pastry_insert_text",
-		"text": "f l y c "
+		"command": "text_pastry_step",
+		"text": "1 1 1"
 	}
 }
