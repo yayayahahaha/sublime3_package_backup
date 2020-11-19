@@ -39,7 +39,7 @@
 		"*.exe"
 	],
 	"caret_extra_width": 1,
-	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Palenight.tmTheme",
+	"color_scheme": "Packages/Agila Theme/Agila Light Solarized.tmTheme",
 	"draw_white_space": "selection",
 	"esversion": 6,
 	"file_exclude_patterns":
@@ -89,6 +89,7 @@
 		"Image2Base64",
 		"IMESupport",
 		"JavaScript Completions",
+		"JavaScript Snippets",
 		"SublimeCodeIntel",
 		"SublimeGit",
 		"SyntaxFold",

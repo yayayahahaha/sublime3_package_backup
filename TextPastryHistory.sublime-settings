@@ -1245,19 +1245,6 @@
 			{
 				"args":
 				{
-					"text": "1 1 8"
-				},
-				"command": "text_pastry_step",
-				"text": "1 1 8"
-			},
-			"key": "c99b5bfbd7bdafdccde9d058888a017b",
-			"label": "1 1 8"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "百 十 個",
 					"threshold": 3
 				},
@@ -3567,6 +3554,58 @@
 			{
 				"args":
 				{
+					"text": "5 1 12"
+				},
+				"command": "text_pastry_step",
+				"text": "5 1 12"
+			},
+			"key": "7cd25bd493438b0001bbc17b43f598eb",
+			"label": "5 1 12"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 8"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 8"
+			},
+			"key": "c99b5bfbd7bdafdccde9d058888a017b",
+			"label": "1 1 8"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "5 1 1"
+				},
+				"command": "text_pastry_step",
+				"text": "5 1 1"
+			},
+			"key": "6b92b4f0ff1233299e0daa5ec9685794",
+			"label": "5 1 1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 1"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 1"
+			},
+			"key": "f4093d4303a6804a1cf378c28e59581a",
+			"label": "1 1 1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
 					"text": "red blue green",
 					"threshold": 3
 				},
@@ -3581,22 +3620,24 @@
 			{
 				"args":
 				{
-					"text": "1 1 1"
+					"text": "大 小 a",
+					"threshold": 3
 				},
-				"command": "text_pastry_step",
-				"text": "1 1 1"
+				"command": "text_pastry_insert_text",
+				"text": "大 小 a"
 			},
-			"key": "f4093d4303a6804a1cf378c28e59581a",
-			"label": "1 1 1"
+			"key": "0724c12e565b9fe01f36d49725b52380",
+			"label": "大 小 a"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"text": "1 1 1"
+			"text": "大 小 a",
+			"threshold": 3
 		},
-		"command": "text_pastry_step",
-		"text": "1 1 1"
+		"command": "text_pastry_insert_text",
+		"text": "大 小 a"
 	}
 }
