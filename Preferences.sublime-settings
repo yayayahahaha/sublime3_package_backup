@@ -80,15 +80,14 @@
 	"font_size": 14,
 	"ignored_packages":
 	[
-		"Better JavaScript",
 		"Color Highlight",
+		"CTags",
 		"Format JSDoc @params",
 		"Git Formats",
 		"GitSavvy",
 		"GitStatusBar",
 		"Image2Base64",
 		"IMESupport",
-		"JavaScript Completions",
 		"JavaScript Snippets",
 		"SublimeCodeIntel",
 		"SublimeGit",
@@ -97,6 +96,7 @@
 		"Vintage"
 	],
 	"scroll_past_end": true,
+	"show_definitions": false,
 	"show_encoding": true,
 	"show_full_path": true,
 	"tab_size": 2,
