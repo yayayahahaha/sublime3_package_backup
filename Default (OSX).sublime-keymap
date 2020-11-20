@@ -109,6 +109,10 @@
       "index": 0,
       "group": 0
     }
+  },
+  // Emmet Rename Tag
+  {
+      "keys": ["super+shift+k"],
+      "command": "emmet_rename_tag"
   }
-
 ]
