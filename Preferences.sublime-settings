@@ -71,7 +71,7 @@
 		".hg",
 		"CVS",
 		"build/out",
-		"dist",
+		"// dist",
 		"node_modules",
 		"release",
 		"release_folder",
