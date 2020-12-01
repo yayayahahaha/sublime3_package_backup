@@ -3360,19 +3360,6 @@
 			{
 				"args":
 				{
-					"text": "0 1 1"
-				},
-				"command": "text_pastry_step",
-				"text": "0 1 1"
-			},
-			"key": "661ea57b2ee2f892b90f1296ab868e99",
-			"label": "0 1 1"
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "5 5 5 5 4 'a'"
 				},
 				"command": "text_pastry_step",
@@ -3621,6 +3608,20 @@
 			{
 				"args":
 				{
+					"text": "today yesterday d",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "today yesterday d"
+			},
+			"key": "4ec3005634076563eb0e9ada3dc2e8d4",
+			"label": "today yesterday d"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
 					"text": "1 1 1"
 				},
 				"command": "text_pastry_step",
@@ -3628,15 +3629,28 @@
 			},
 			"key": "f4093d4303a6804a1cf378c28e59581a",
 			"label": "1 1 1"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "0 1 1"
+				},
+				"command": "text_pastry_step",
+				"text": "0 1 1"
+			},
+			"key": "661ea57b2ee2f892b90f1296ab868e99",
+			"label": "0 1 1"
 		}
 	],
 	"last_command":
 	{
 		"args":
 		{
-			"text": "1 1 1"
+			"text": "0 1 1"
 		},
 		"command": "text_pastry_step",
-		"text": "1 1 1"
+		"text": "0 1 1"
 	}
 }
