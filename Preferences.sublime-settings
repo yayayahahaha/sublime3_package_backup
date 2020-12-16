@@ -21,7 +21,7 @@
 	[
 		"*.jpg",
 		"*.jpeg",
-		"*.png",
+		"// *.png",
 		"*.gif",
 		"*.ttf",
 		"*.tga",
@@ -34,6 +34,8 @@
 		"*.zip",
 		"*.min.js",
 		"*-min.js",
+		"*.*.js",
+		"chunk-libs.js",
 		"*.map",
 		"*.woff2",
 		"*.exe"
