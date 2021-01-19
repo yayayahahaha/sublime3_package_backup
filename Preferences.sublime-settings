@@ -34,14 +34,13 @@
 		"*.zip",
 		"*.min.js",
 		"*-min.js",
-		"*.*.js",
 		"chunk-libs.js",
 		"*.map",
 		"*.woff2",
 		"*.exe"
 	],
 	"caret_extra_width": 1,
-	"color_scheme": "Packages/Agila Theme/Agila Light Solarized.tmTheme",
+	"color_scheme": "Packages/Silence Color Scheme/silence-light.tmTheme",
 	"draw_white_space": "selection",
 	"esversion": 6,
 	"file_exclude_patterns":
