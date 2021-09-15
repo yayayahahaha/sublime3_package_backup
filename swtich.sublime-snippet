@@ -1,15 +1,15 @@
 <snippet>
-    <content><![CDATA[
+  <content><![CDATA[
 switch (${1:option}) {
-    case $2:
-        break;
-    default:
-        break;
+  case $2:
+    break;
+  default:
+    break;
 }
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>sw</tabTrigger>
-    <tabTrigger>switch</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <scope>source.js</scope>
+<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+<tabTrigger>sw</tabTrigger>
+<tabTrigger>switch</tabTrigger>
+<!-- Optional: Set a scope to limit where the snippet will trigger -->
+<scope>source.js</scope>
 </snippet>

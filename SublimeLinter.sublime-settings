@@ -3,7 +3,7 @@
     "linters": {
         "eslint": {
             "selector": "text.html.vue, source.js - meta.attribute-with-value",
-            "args": ["--config", "~/.eslintrc.js"]
+            "// args": ["--config", "./.eslintrc.js"]
         }
     },
     "paths": {

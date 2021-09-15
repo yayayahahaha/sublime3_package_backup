@@ -59,9 +59,9 @@
 		"vue.js": "https://yayayahahaha.github.io/sublime-fetch/vue.js",
 		"vue.min.js": "https://yayayahahaha.github.io/sublime-fetch/vue.min.js",
 		"w3_include_js.js": "https://yayayahahaha.github.io/sublime-fetch/w3_include_js.js",
-		"zip_js_simeple_dc.js": "https://yayayahahaha.github.io/sublime-fetch/zip_js_simeple_dc.js"
+		"zip_js_simeple_dc.js": "https://yayayahahaha.github.io/sublime-fetch/zip_js_simeple_dc.js",
 	},
 	"packages":
 	{
-	}
+	},
 }

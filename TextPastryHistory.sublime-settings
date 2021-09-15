@@ -1,0 +1,4168 @@
+{
+	"history":
+	[
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "110",
+				},
+				"command": "text_pastry_step",
+				"text": "110",
+			},
+			"key": "5f93f983524def3dca464469d2cf9f3e",
+			"label": "110",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 0",
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 0",
+			},
+			"key": "df5947fb78700bdd567c5ebf0d912085",
+			"label": "1 1 0",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": null,
+					"operator": null,
+					"pattern": "case",
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "find case",
+			},
+			"key": "3aa9cdea679e89b01b9599aa01990683",
+			"label": "find case",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "case",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "case",
+			},
+			"key": "cd14c323902024e72c850aa828d634a7",
+			"label": "case",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"start": "1",
+					"stop": "1",
+				},
+				"command": "text_pastry_range",
+				"text": "range 1 1",
+			},
+			"key": "e3feeee2e8fce90c642a7bb63dfdc8da",
+			"label": "range 1 1",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "hello world",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "hello world",
+			},
+			"key": "5eb63bbbe01eeed093cb22bb8f5acdc3",
+			"label": "hello world",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "hello world this is",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "hello world this is",
+			},
+			"key": "fe3215cf6e73e3221a655eea6b45b1fe",
+			"label": "hello world this is",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1",
+				},
+				"command": "text_pastry_step",
+				"text": "\\i",
+			},
+			"key": "1bd7ee1ce72751da4e64129f6d32db41",
+			"label": "\\i",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 5",
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 5",
+			},
+			"key": "ca734ffac66870f30421623f0e37ddd7",
+			"label": "1 1 5",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"clipboard": true,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "\\p",
+			},
+			"key": "ceb8141b2b1d05fb9539bc1381b58745",
+			"label": "\\p",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "lottery qipai video game fish sport hb",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "lottery qipai video game fish sport hb",
+			},
+			"key": "08ef75a4dd155395675ae150d5e8b5be",
+			"label": "lottery qipai video game fish sport hb",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "另開 另開 直開 另開 直開 直開 另開",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "另開 另開 直開 另開 直開 直開 另開",
+			},
+			"key": "6402338b5d2653a6c07941da9e82874d",
+			"label": "另開 另開 直開 另開 直開 直開 另開",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "2 1 1",
+				},
+				"command": "text_pastry_step",
+				"text": "2 1 1",
+			},
+			"key": "94d3af9cf0b36d0a52cc4e4d45358db5",
+			"label": "2 1 1",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "video game fish sport",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "video game fish sport",
+			},
+			"key": "1d54ea1dcb07914cb7a75e41eeef9fca",
+			"label": "video game fish sport",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "guid",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "guid",
+			},
+			"key": "1e0ca5b1252f1f6b1e0ac91be7e7219e",
+			"label": "guid",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "post  put",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "post  put",
+			},
+			"key": "c093bfa50e2e37cedf78474b599dd7d1",
+			"label": "post  put",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "post hello",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "post hello",
+			},
+			"key": "9d6383943e63c4957b444d6b446dc208",
+			"label": "post hello",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "post \nput",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "post \nput",
+			},
+			"key": "6493198b99e84631018d3a53a840e4db",
+			"label": "post \nput",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "h 2 j u l",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "h 2 j u l",
+			},
+			"key": "3b47151bfd3da33d5daa3ad255afec2d",
+			"label": "h 2 j u l",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "h l",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "h l",
+			},
+			"key": "54d515055cd44a012433ac6a88502e7d",
+			"label": "h l",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "j ie a",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "j ie a",
+			},
+			"key": "404c6b5a061cea238387fb903dc7861c",
+			"label": "j ie a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "post put",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "post put",
+			},
+			"key": "1600a92a58b4dda42bfb15071e2a275a",
+			"label": "post put",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "post put ",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "post put ",
+			},
+			"key": "455902be37cd9aa60bbfdee096ba6163",
+			"label": "post put ",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": " post put hello",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": " post put hello",
+			},
+			"key": "a4d1b467ef8a119a1d87bcb2df702b5c",
+			"label": " post put hello",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "post put nothing",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "post put nothing",
+			},
+			"key": "2771ec37ef0c5c7346ed459bd1050f23",
+			"label": "post put nothing",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'add' 'edit' a",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'add' 'edit' a",
+			},
+			"key": "7967b4afad42ff96af8b819e6ffb7d98",
+			"label": "'add' 'edit' a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "新增",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "新增",
+			},
+			"key": "66ab5e9f24c8f46012a25c89919fb191",
+			"label": "新增",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "新增 修改 d",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "新增 修改 d",
+			},
+			"key": "783321dfad39c3135eceecd55a48a95d",
+			"label": "新增 修改 d",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'add' 'edit' ",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'add' 'edit' ",
+			},
+			"key": "6d5da7dca4f4c0e7dd8599462c8f6524",
+			"label": "'add' 'edit' ",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'add' 'edit' d",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'add' 'edit' d",
+			},
+			"key": "3d10426d1e690f7ce10ccc47a04e335f",
+			"label": "'add' 'edit' d",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1",
+				},
+				"command": "text_pastry_step",
+				"text": "1",
+			},
+			"key": "c4ca4238a0b923820dcc509a6f75849b",
+			"label": "1",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 uuid",
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 uuid",
+			},
+			"key": "53529a24c83776349e3b0bce9b20521d",
+			"label": "1 1 uuid",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "addRole editRole a",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "addRole editRole a",
+			},
+			"key": "1d7a7d5e0760c4a0d530e584234af1c6",
+			"label": "addRole editRole a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 0 d",
+				},
+				"command": "text_pastry_step",
+				"text": "1 0 d",
+			},
+			"key": "871e101b396e5a564dcaf2b8ec01af3a",
+			"label": "1 0 d",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "roleList groupList f",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "roleList groupList f",
+			},
+			"key": "5efdfeedb2d85f27c51b6aaa61a876a6",
+			"label": "roleList groupList f",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "Add Edit n",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "Add Edit n",
+			},
+			"key": "a20940fe04428bd6783f5272ba7ab298",
+			"label": "Add Edit n",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'compare' 'with' d",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'compare' 'with' d",
+			},
+			"key": "89810e914ec80e41d8b92b1ff3d37a96",
+			"label": "'compare' 'with' d",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "start end d",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "start end d",
+			},
+			"key": "edac5dfb77afd883249851026477fafb",
+			"label": "start end d",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "p1 p2 a",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "p1 p2 a",
+			},
+			"key": "7f27be6b509277813a8f7c476b2f7d8e",
+			"label": "p1 p2 a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "Group Role a",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "Group Role a",
+			},
+			"key": "caa8e2d05ccf32a3a60aedeb12c9056b",
+			"label": "Group Role a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "file",
+					"operator": "add",
+					"pattern": "edit d",
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "add edit d",
+			},
+			"key": "01325c4c2e6ba1d65d046b8f93c1d6f9",
+			"label": "add edit d",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "file",
+					"operator": "add",
+					"pattern": "edit a",
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "add edit a",
+			},
+			"key": "50ae28a764fc224425292b96b42ca576",
+			"label": "add edit a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "hello world hello",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "hello world hello",
+			},
+			"key": "550ab93940f11deda7bc182976c73788",
+			"label": "hello world hello",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "file",
+					"operator": "add",
+					"pattern": "edit hello world",
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "add edit hello world",
+			},
+			"key": "109b67587522bebbf9c1fb9ebbfd0954",
+			"label": "add edit hello world",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'add' 'edit' hello",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'add' 'edit' hello",
+			},
+			"key": "c1582e5c4607e52c1c49bdfef2090efc",
+			"label": "'add' 'edit' hello",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 6",
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 6",
+			},
+			"key": "597f4ead33160ded8ac39c0952d9628a",
+			"label": "1 1 6",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "分類 代碼 事件名稱 提示訊息 警示頻率",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "分類 代碼 事件名稱 提示訊息 警示頻率",
+			},
+			"key": "a22bbeeb91649c914b1db8b4715153b3",
+			"label": "分類 代碼 事件名稱 提示訊息 警示頻率",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "category code eventName message alertRate slackChannel",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "category code eventName message alertRate slackChannel",
+			},
+			"key": "9dd6153fe0fd8203a316dc5bf31087af",
+			"label": "category code eventName message alertRate slackChannel",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'xiaoshuo' 'lottery' f",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'xiaoshuo' 'lottery' f",
+			},
+			"key": "078f7cd8c54649a4aff6417af2cffcbe",
+			"label": "'xiaoshuo' 'lottery' f",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'hk6' 'sf6' f",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'hk6' 'sf6' f",
+			},
+			"key": "f12cc8b7011d88e9befbca4d6f2427cd",
+			"label": "'hk6' 'sf6' f",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'1' 2 3",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'1' 2 3",
+			},
+			"key": "eda203ed235767ed361805d16ae88c66",
+			"label": "'1' 2 3",
+		},
+		{
+			"data":
+			{
+				"args": null,
+				"command": "text_pastry_uuid",
+				"text": "uuid",
+			},
+			"key": "ef7c876f00f3acddd00fa671f52d0b1f",
+			"label": "uuid",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "label value asdf",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "label value asdf",
+			},
+			"key": "0ec773b09bc2310a320342c24c372511",
+			"label": "label value asdf",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "label value adf",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "label value adf",
+			},
+			"key": "a45593975e0f0e7e6f6a713a22517778",
+			"label": "label value adf",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "hot jisu 高頻 地方 全國",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "hot jisu 高頻 地方 全國",
+			},
+			"key": "5d02f2f4eb045983494128c45c78e5ea",
+			"label": "hot jisu 高頻 地方 全國",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "A B C D",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "A B C D",
+			},
+			"key": "69a6611cfa84065caad71f79c747390e",
+			"label": "A B C D",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "abc dec asdf 222 fef",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "abc dec asdf 222 fef",
+			},
+			"key": "6f988b35006e54135812bf462d465473",
+			"label": "abc dec asdf 222 fef",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 123",
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 123",
+			},
+			"key": "73a8d89654bee7447840a8214d91e8ea",
+			"label": "1 1 123",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "定位走勢 形態特徵 012路 生平將",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "定位走勢 形態特徵 012路 生平將",
+			},
+			"key": "a563b315c41c42d1cdd5df16cada02c5",
+			"label": "定位走勢 形態特徵 012路 生平將",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "30 60 90",
+				},
+				"command": "text_pastry_step",
+				"text": "30 60 90",
+			},
+			"key": "a1b67437df9d9145c9bca8cbec87caa1",
+			"label": "30 60 90",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'30' 60 90",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'30' 60 90",
+			},
+			"key": "407f295b032d5c098b4379019f4b92ae",
+			"label": "'30' 60 90",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "a b",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "a b",
+			},
+			"key": "0cc9cd4dd26c5137b675a0d819cb9ab0",
+			"label": "a b",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "遺漏 折線 遺漏分層 分隔線",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "遺漏 折線 遺漏分層 分隔線",
+			},
+			"key": "e02a1fdef7f5f770ab22270c89d5391c",
+			"label": "遺漏 折線 遺漏分層 分隔線",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "龍 虎 合",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "龍 虎 合",
+			},
+			"key": "d544bd6ac75f128cf435f417ebf9d951",
+			"label": "龍 虎 合",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "30a 60a 90a",
+				},
+				"command": "text_pastry_step",
+				"text": "30a 60a 90a",
+			},
+			"key": "5b86d6489acd55592049506cbee35e80",
+			"label": "30a 60a 90a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "30' 60' 90'",
+				},
+				"command": "text_pastry_step",
+				"text": "30' 60' 90'",
+			},
+			"key": "23b429e0396a98165900eac01e6af0cf",
+			"label": "30' 60' 90'",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "a30 a60 a90",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "a30 a60 a90",
+			},
+			"key": "8be67879c2788b2b7e268db7a5a6d4f0",
+			"label": "a30 a60 a90",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "今天 昨天 前天",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "今天 昨天 前天",
+			},
+			"key": "5afd324f4602536e0274206a88cb0eb0",
+			"label": "今天 昨天 前天",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "重慶幸運農場 廣東快樂10分 廣東",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "重慶幸運農場 廣東快樂10分 廣東",
+			},
+			"key": "fe82d661593896c8d45e3572a9caa260",
+			"label": "重慶幸運農場 廣東快樂10分 廣東",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": " 號碼型態 總分",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": " 號碼型態 總分",
+			},
+			"key": "6c8de1921096dd0b47d2057ae99bff1b",
+			"label": " 號碼型態 總分",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "和大 和小 大小和",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "和大 和小 大小和",
+			},
+			"key": "697c8217f023fe9085ab67923a384f57",
+			"label": "和大 和小 大小和",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "和單 和雙 ck6ck6",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "和單 和雙 ck6ck6",
+			},
+			"key": "12e55e626fa9b8c6cd986343691d9799",
+			"label": "和單 和雙 ck6ck6",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "豹子 三不同 對子",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "豹子 三不同 對子",
+			},
+			"key": "65a2dc7c68dff3c152b0bae641cc3b5e",
+			"label": "豹子 三不同 對子",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "form present hm",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "form present hm",
+			},
+			"key": "b258a193d69ed7c7f388799ff3be6e67",
+			"label": "form present hm",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "if else adsf",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "if else adsf",
+			},
+			"key": "262ae6facda6a181b013336d63729db6",
+			"label": "if else adsf",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "極速 高頻 地方 全國",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "極速 高頻 地方 全國",
+			},
+			"key": "160f739bc39b69073ea21fd550297bc4",
+			"label": "極速 高頻 地方 全國",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "PK10 時時彩 11選5 快三",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "PK10 時時彩 11選5 快三",
+			},
+			"key": "6f939e32dacf1555fe336a974e27149a",
+			"label": "PK10 時時彩 11選5 快三",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "pk10 ssc 11x5 k3",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "pk10 ssc 11x5 k3",
+			},
+			"key": "3964930c389379734d8e9360f090ba2f",
+			"label": "pk10 ssc 11x5 k3",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "2 3 4",
+					/*"threshold": 3,*/
+				},
+				"command": "text_pastry_step",
+				"text": "2 3 4",
+			},
+			"key": "aed437e50caab91dbef4caaecc9117a9",
+			"label": "2 3 4",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "10 20 30 50 100",
+				},
+				"command": "text_pastry_step",
+				"text": "10 20 30 50 100",
+			},
+			"key": "825579a23beb5c3179cab556e9526f39",
+			"label": "10 20 30 50 100",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "10a 20a 30a 50a 100a",
+				},
+				"command": "text_pastry_step",
+				"text": "10a 20a 30a 50a 100a",
+			},
+			"key": "57f4068e3de52b6a4e11dcf273e4e125",
+			"label": "10a 20a 30a 50a 100a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "a10 a20 a30 a50 a100",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "a10 a20 a30 a50 a100",
+			},
+			"key": "4cbd0a0555f4fef6c007f0db2cf6afa7",
+			"label": "a10 a20 a30 a50 a100",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "30% 35% adsf",
+					/*"threshold": 3,*/
+				},
+				"command": "text_pastry_step",
+				"text": "30% 35% adsf",
+			},
+			"key": "37811f07b48c908ec84cfcff68b3ad60",
+			"label": "30% 35% adsf",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "a30% b35% asdf",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "a30% b35% asdf",
+			},
+			"key": "de25bf6e71e9e88827831299ee9f9454",
+			"label": "a30% b35% asdf",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "3 3 6a",
+					/*"threshold": 3,*/
+				},
+				"command": "text_pastry_step",
+				"text": "3 3 6a",
+			},
+			"key": "3d7967173debe3dbaf14ef1459170c35",
+			"label": "3 3 6a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "3 3 a6",
+				},
+				"command": "text_pastry_step",
+				"text": "3 3 a6",
+			},
+			"key": "17a12beb4c39037786626c03f41c9d77",
+			"label": "3 3 a6",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "a3 3 6",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "a3 3 6",
+			},
+			"key": "e4d00b17aba2cee068b246f685ecea4f",
+			"label": "a3 3 6",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "a30% 35% 35%",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "a30% 35% 35%",
+			},
+			"key": "f697f8484cc7758c4ede8ba3c70ec2b9",
+			"label": "a30% 35% 35%",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "百 十 個",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "百 十 個",
+			},
+			"key": "ecdb2765856e8b5b1f0c89085b4eb249",
+			"label": "百 十 個",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "a0:3 1:2 2:1 3:0",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "a0:3 1:2 2:1 3:0",
+			},
+			"key": "fe1403ef7d9d7317e59b68b10b5c074a",
+			"label": "a0:3 1:2 2:1 3:0",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "型態 組選類型 d",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "型態 組選類型 d",
+			},
+			"key": "a936704da5d52529ea92d2ae65416262",
+			"label": "型態 組選類型 d",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"text": "型態 組選類型 d",*/
+					/*"threshold": 3,*/
+					"script": "weiss blake yang",
+				},
+				"command": "text_pastry_ruby",
+				"text": "ruby weiss blake yang",
+			},
+			"key": "06fbc0417c7cdf5e2f658a4cf84b6f65",
+			"label": "ruby weiss blake yang",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"script": "weiss blake yang 'hello'",
+				},
+				"command": "text_pastry_ruby",
+				"text": "ruby weiss blake yang 'hello'",
+			},
+			"key": "350089c660354a05faf3d3420c0c3814",
+			"label": "ruby weiss blake yang 'hello'",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"script": "weiss blake yang 'hello'",*/
+					"text": "'ruby' weiss blake yang",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'ruby' weiss blake yang",
+			},
+			"key": "60f9b3a3f39329ab3b1e984642c65472",
+			"label": "'ruby' weiss blake yang",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "aaa bbb ccc ddd ''",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "aaa bbb ccc ddd ''",
+			},
+			"key": "cef311e396862915104e7cede176c9e1",
+			"label": "aaa bbb ccc ddd ''",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'aaa bbb ccc ddd",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'aaa bbb ccc ddd",
+			},
+			"key": "6241c186b38c3ea7c15780b658b2ab87",
+			"label": "'aaa bbb ccc ddd",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'xxx yyy zzz",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'xxx yyy zzz",
+			},
+			"key": "fca366f881ffe345303c08be08351b1b",
+			"label": "'xxx yyy zzz",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'大雙 大單 小雙 小單",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'大雙 大單 小雙 小單",
+			},
+			"key": "9c1d5f2d1a16b108a06c1f08ecc0fa15",
+			"label": "'大雙 大單 小雙 小單",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'大 和 小",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'大 和 小",
+			},
+			"key": "cbe4f86a0a383d484386f6b33fb8c7e4",
+			"label": "'大 和 小",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'龍 虎 和",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'龍 虎 和",
+			},
+			"key": "1e0a32edf2635655e9d765203e1d2029",
+			"label": "'龍 虎 和",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "front center back",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "front center back",
+			},
+			"key": "46dcde438e36e46c0ffce5a75e3b924a",
+			"label": "front center back",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "data list asdf",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "data list asdf",
+			},
+			"key": "72db8d6a12b03477f0a6bef2cb2b31ea",
+			"label": "data list asdf",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "自研發遊戲 第三方遊戲 asd",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "自研發遊戲 第三方遊戲 asd",
+			},
+			"key": "281698eec2ce1a57dcdaca124c0841f9",
+			"label": "自研發遊戲 第三方遊戲 asd",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "折線 遺漏分層 分隔線",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "折線 遺漏分層 分隔線",
+			},
+			"key": "f74d464cdac71fd170646f4a5effa0f2",
+			"label": "折線 遺漏分層 分隔線",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "name html a",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "name html a",
+			},
+			"key": "b8360afcf9812d0f7ce4312711549002",
+			"label": "name html a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "red blue green orange",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "red blue green orange",
+			},
+			"key": "b0582af5e5605796463b1fe28887b9ed",
+			"label": "red blue green orange",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'0 1 2 3",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'0 1 2 3",
+			},
+			"key": "27801e2a42fe8b047b8417f466bc6e89",
+			"label": "'0 1 2 3",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "第一球 第二球 ff",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "第一球 第二球 ff",
+			},
+			"key": "3eb9efa16b802468457ef3faa45af519",
+			"label": "第一球 第二球 ff",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "號碼分佈 總分 fadsf",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "號碼分佈 總分 fadsf",
+			},
+			"key": "d348cc935b384bf9760757e13ceb003e",
+			"label": "號碼分佈 總分 fadsf",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "hm",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "hm",
+			},
+			"key": "2ab5564b805d8065f4bcf81060472746",
+			"label": "hm",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "六 七 八",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "六 七 八",
+			},
+			"key": "9efa5e958b868907c6213612090caa7e",
+			"label": "六 七 八",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "近10 20 30 50 100",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "近10 20 30 50 100",
+			},
+			"key": "26ce611182086858dffba1252337fabf",
+			"label": "近10 20 30 50 100",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "hm daXiao danshuang",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "hm daXiao danshuang",
+			},
+			"key": "750c06120e33be52b12ebb6ecd6f4258",
+			"label": "hm daXiao danshuang",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "hm daXiao danShuang",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "hm daXiao danShuang",
+			},
+			"key": "25d1c6d6f1ea263f56f61178fbefb994",
+			"label": "hm daXiao danShuang",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 10",
+					/*"threshold": 3,*/
+				},
+				"command": "text_pastry_step",
+				"text": "1 10",
+			},
+			"key": "44f12d685cf916f35aa97ef1c1565350",
+			"label": "1 10",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 10 1",
+				},
+				"command": "text_pastry_step",
+				"text": "1 10 1",
+			},
+			"key": "ab99c7c50d7704c2e5e4eae25340560e",
+			"label": "1 10 1",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "10 10 10",
+				},
+				"command": "text_pastry_step",
+				"text": "10 10 10",
+			},
+			"key": "6666d2b52d6d4f4defe9a72cbb61d12c",
+			"label": "10 10 10",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "0 1 10",
+				},
+				"command": "text_pastry_step",
+				"text": "0 1 10",
+			},
+			"key": "d0e95dfd2fbaef274d5671d0f3f59533",
+			"label": "0 1 10",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 2 10",
+				},
+				"command": "text_pastry_step",
+				"text": "1 2 10",
+			},
+			"key": "0d3e70f63b6862c2a141f6e332ebe05a",
+			"label": "1 2 10",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "string",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "string",
+			},
+			"key": "b45cffe084dd3d20d928bee85e7b0f21",
+			"label": "string",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "products statusLabel sort",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "products statusLabel sort",
+			},
+			"key": "3ed6dc80efb4030a29358014a16d87ea",
+			"label": "products statusLabel sort",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "true false asdf",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "true false asdf",
+			},
+			"key": "93e9da4b5d1a3f1e6a3ef31ca2039afb",
+			"label": "true false asdf",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "已啟用 已禁用 XXX",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "已啟用 已禁用 XXX",
+			},
+			"key": "8717a0a15faa53a2c2156db493c027a4",
+			"label": "已啟用 已禁用 XXX",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "標題 指定會員 指定體系",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "標題 指定會員 指定體系",
+			},
+			"key": "cce047167b6bcd70dc1c9aac224fec20",
+			"label": "標題 指定會員 指定體系",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "title memberlogin agentlogin",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "title memberlogin agentlogin",
+			},
+			"key": "fa798e8e3823e2b497b38dec97ecff08",
+			"label": "title memberlogin agentlogin",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "全部 未開始 進行中 已結束",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "全部 未開始 進行中 已結束",
+			},
+			"key": "7264ac6b8c09da58dbedd0c099181ca0",
+			"label": "全部 未開始 進行中 已結束",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "startTime endTime a",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "startTime endTime a",
+			},
+			"key": "746cfcd1b0c4fcb2ff4e6e79761eac8e",
+			"label": "startTime endTime a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "startTime endTime f",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "startTime endTime f",
+			},
+			"key": "bc4b66b71a07627edf44eb43d36911eb",
+			"label": "startTime endTime f",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "start end start end",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "start end start end",
+			},
+			"key": "b16b07ee4e46fc680b328b25a23a64f2",
+			"label": "start end start end",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "startTime startTime endTime endTime",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "startTime startTime endTime endTime",
+			},
+			"key": "101ee923c42c43994d4d944919474007",
+			"label": "startTime startTime endTime endTime",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "0 1 0 1 adsf",
+					/*"threshold": 3,*/
+				},
+				"command": "text_pastry_step",
+				"text": "0 1 0 1 adsf",
+			},
+			"key": "6f452a57157da4aa7eb8a5136f518fb4",
+			"label": "0 1 0 1 adsf",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "方案編號 閱讀狀態 修改 刪除",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "方案編號 閱讀狀態 修改 刪除",
+			},
+			"key": "3bc68669861be7e608821c6a1e0506bd",
+			"label": "方案編號 閱讀狀態 修改 刪除",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "已結束 進行中 未開始",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "已結束 進行中 未開始",
+			},
+			"key": "e22187c11461573eda04df8008ed82ec",
+			"label": "已結束 進行中 未開始",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "成功 失敗 f",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "成功 失敗 f",
+			},
+			"key": "b92029cc64042d0f2b16a796ef4b1082",
+			"label": "成功 失敗 f",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "發布時間 結束時間 s",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "發布時間 結束時間 s",
+			},
+			"key": "f89bbea9017218dab0f07a86dce01bdd",
+			"label": "發布時間 結束時間 s",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "會員 級別 體系",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "會員 級別 體系",
+			},
+			"key": "df02a6b61663f3721e4fcfe6c730ab6c",
+			"label": "會員 級別 體系",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "會員",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "會員",
+			},
+			"key": "051d470c2066aa77615941174f5ed9a7",
+			"label": "會員",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "會員 級別 ㄨ",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "會員 級別 ㄨ",
+			},
+			"key": "032fefe1639c3d41ecf1d7b78eac28ac",
+			"label": "會員 級別 ㄨ",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "title content f",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "title content f",
+			},
+			"key": "94a1bcf2e946a5cc3b66079d2ffc8482",
+			"label": "title content f",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "標題 發布時間 結束時間",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "標題 發布時間 結束時間",
+			},
+			"key": "54b4218dfe3cbbc6ea03fcef8e30347b",
+			"label": "標題 發布時間 結束時間",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "memberlogin levelcode agentlogin",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "memberlogin levelcode agentlogin",
+			},
+			"key": "c23afb1ea712b52f47f5fbe338499712",
+			"label": "memberlogin levelcode agentlogin",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 2 3 k",
+					/*"threshold": 3,*/
+				},
+				"command": "text_pastry_step",
+				"text": "1 2 3 k",
+			},
+			"key": "beb52c0be86c4239e807b444d38b8483",
+			"label": "1 2 3 k",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'1 2 3 ",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'1 2 3 ",
+			},
+			"key": "0ec366d49feed96021fce17ef0409c09",
+			"label": "'1 2 3 ",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "'1 2 3",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "'1 2 3",
+			},
+			"key": "6fc61da109f8cf92bbb8ad278cab3620",
+			"label": "'1 2 3",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "memberlogin name levelname agentlogin readtime",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "memberlogin name levelname agentlogin readtime",
+			},
+			"key": "e0668869b30760b8599bd330e671407b",
+			"label": "memberlogin name levelname agentlogin readtime",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "true false a",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "true false a",
+			},
+			"key": "7a5fb936483c64da547e6a25aa63d3c1",
+			"label": "true false a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "memberlogin name readttime",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "memberlogin name readttime",
+			},
+			"key": "7a61a1e3a880637a4e50f5ecfd31561a",
+			"label": "memberlogin name readttime",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "kangaroo shark s",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "kangaroo shark s",
+			},
+			"key": "ed2ac3374339c39600c9562a77b3bf43",
+			"label": "kangaroo shark s",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "推薦會員 銀行卡號 ㄨ",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "推薦會員 銀行卡號 ㄨ",
+			},
+			"key": "8322501114d3fd5c0568540f8622dd3f",
+			"label": "推薦會員 銀行卡號 ㄨ",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "全部 是 否",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "全部 是 否",
+			},
+			"key": "281d28a7987e8f21695ea1e7b73e1aae",
+			"label": "全部 是 否",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "在線 離線 a",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "在線 離線 a",
+			},
+			"key": "6d85ea6f032a9cfc64ebc5a521452568",
+			"label": "在線 離線 a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "帳號 姓名 暱稱 級別",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "帳號 姓名 暱稱 級別",
+			},
+			"key": "f72ad6c5cb43ada1e59316b757cc89dc",
+			"label": "帳號 姓名 暱稱 級別",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "login name nickname levelCodeLabel",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "login name nickname levelCodeLabel",
+			},
+			"key": "c6d0174121160f77b121d1a0e7f8a657",
+			"label": "login name nickname levelCodeLabel",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "已啟用 已禁用 已鎖定",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "已啟用 已禁用 已鎖定",
+			},
+			"key": "21ca4d17e24b6f1bfaf3f8ecf694cdb7",
+			"label": "已啟用 已禁用 已鎖定",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "green red red",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "green red red",
+			},
+			"key": "8539217551ed33d2926862d1603e5590",
+			"label": "green red red",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "success danger warning",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "success danger warning",
+			},
+			"key": "04177c0f556d311dba3357b171d0032c",
+			"label": "success danger warning",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "dnager success s",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "dnager success s",
+			},
+			"key": "317b423b9dd7c438c32f1b1f3397cfdb",
+			"label": "dnager success s",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "warning",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "warning",
+			},
+			"key": "7b83d3f08fa392b79e3f553b585971cd",
+			"label": "warning",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "可用 信用",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "可用 信用",
+			},
+			"key": "e2118375df855e56c345b448e6806620",
+			"label": "可用 信用",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "可用 信用 a",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "可用 信用 a",
+			},
+			"key": "e140ac6bd7398b47b3a01f0de5dbc08e",
+			"label": "可用 信用 a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "agent member a",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "agent member a",
+			},
+			"key": "62bcd5a98fad3f3aae8d56e54964e35b",
+			"label": "agent member a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "備註信息: 特殊備註: f",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "備註信息: 特殊備註: f",
+			},
+			"key": "98d14298faa5e37dedb0ff76cc6da306",
+			"label": "備註信息: 特殊備註: f",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "已實名 未實名 a",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "已實名 未實名 a",
+			},
+			"key": "e2fdabfc03c9a2e20fc46ba53b080091",
+			"label": "已實名 未實名 a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "級別 狀態 停權",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "級別 狀態 停權",
+			},
+			"key": "9b76a45bb2c29646e1416c90eff5fe4c",
+			"label": "級別 狀態 停權",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "levelCodeOption statusOption lockedOption",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "levelCodeOption statusOption lockedOption",
+			},
+			"key": "9b338fa34e45368c799d358ba5e50461",
+			"label": "levelCodeOption statusOption lockedOption",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "省 縣市 d",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "省 縣市 d",
+			},
+			"key": "33ee5996de66116f9cfdedbd90d00d4c",
+			"label": "省 縣市 d",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "保存 返回 S",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "保存 返回 S",
+			},
+			"key": "452c016f044afd22f3fe112828892779",
+			"label": "保存 返回 S",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "會員語言 可用餘額 信用額度",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "會員語言 可用餘額 信用額度",
+			},
+			"key": "e564afc7f896f8aee4056010f6bab306",
+			"label": "會員語言 可用餘額 信用額度",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "開戶卡號 開戶銀行 省 縣市",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "開戶卡號 開戶銀行 省 縣市",
+			},
+			"key": "27e852e771d1c090127f8fb9b5769c3a",
+			"label": "開戶卡號 開戶銀行 省 縣市",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "所屬代理 推薦會員 註冊時間",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "所屬代理 推薦會員 註冊時間",
+			},
+			"key": "f03f3e62d1c82b02f6835c9aacbafe70",
+			"label": "所屬代理 推薦會員 註冊時間",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "狀態 鎖定 類型",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "狀態 鎖定 類型",
+			},
+			"key": "963b460b45bcb33dcde95e14645ecdc6",
+			"label": "狀態 鎖定 類型",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "轉正時間 轉換限額 備註訊息 特殊備註",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "轉正時間 轉換限額 備註訊息 特殊備註",
+			},
+			"key": "ebe57ae6f855e6e7581c9ee6fa7686b8",
+			"label": "轉正時間 轉換限額 備註訊息 特殊備註",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "會員姓名 會員代理",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "會員姓名 會員代理",
+			},
+			"key": "bbd1f11bd4cf6458822860fa9be6bd7c",
+			"label": "會員姓名 會員代理",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "保存 取消 ㄑ",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "保存 取消 ㄑ",
+			},
+			"key": "66dab435065c8c4f3d55ac12e049967a",
+			"label": "保存 取消 ㄑ",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "郵件地址 手機號碼 QQ 為帳號為",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "郵件地址 手機號碼 QQ 為帳號為",
+			},
+			"key": "1fba1d9486e41e242ae574c38eff4374",
+			"label": "郵件地址 手機號碼 QQ 為帳號為",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "email mobile qq wechat",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "email mobile qq wechat",
+			},
+			"key": "46553ad285307007da7044534ca3653d",
+			"label": "email mobile qq wechat",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "submit cnacel d",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "submit cnacel d",
+			},
+			"key": "bd477903da5d26483a1b96953d9682ac",
+			"label": "submit cnacel d",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "submit cancel s",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "submit cancel s",
+			},
+			"key": "f421f58b1d194c536d13c7e43d4e7655",
+			"label": "submit cancel s",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "銀行帳號 在線商號 ㄑ",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "銀行帳號 在線商號 ㄑ",
+			},
+			"key": "95e6c6bbe58b1dc1ceaa964fb2a04310",
+			"label": "銀行帳號 在線商號 ㄑ",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "會員設定 代理設定 運營設定",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "會員設定 代理設定 運營設定",
+			},
+			"key": "072aa379055b1d6a221cafb156b90019",
+			"label": "會員設定 代理設定 運營設定",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "免費次數 出款手續 手續上限",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "免費次數 出款手續 手續上限",
+			},
+			"key": "9d0a6915cdaa38d9e2b4e59c956e6841",
+			"label": "免費次數 出款手續 手續上限",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "最小出款 最大出款",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "最小出款 最大出款",
+			},
+			"key": "8dfcbd28559667aa5056d83b16ebc617",
+			"label": "最小出款 最大出款",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "保存",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "保存",
+			},
+			"key": "be5fbbe34ce9979bfb6576d9eddc5612",
+			"label": "保存",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "save gotoChannel remove",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "save gotoChannel remove",
+			},
+			"key": "1100aa3c4e2210b43b463ee10072bb0b",
+			"label": "save gotoChannel remove",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "新增 取消 d",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "新增 取消 d",
+			},
+			"key": "6f325443b3a1967d0d8649b2d2b17c51",
+			"label": "新增 取消 d",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "從 至 f",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "從 至 f",
+			},
+			"key": "b4ebaf05fdcb06058460f359accdf11d",
+			"label": "從 至 f",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "總代 代理 g",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "總代 代理 g",
+			},
+			"key": "0a9fcd07eba404721180fbd7f4fce79e",
+			"label": "總代 代理 g",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "申請時間 操作時間 f",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "申請時間 操作時間 f",
+			},
+			"key": "a62765c4dd3c9c7dd707a421e297e528",
+			"label": "申請時間 操作時間 f",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1, 2, 0,",
+					/*"threshold": 3,*/
+				},
+				"command": "text_pastry_step",
+				"text": "1, 2, 0,",
+			},
+			"key": "40083d9c622417e8d308756c6e8c2112",
+			"label": "1, 2, 0,",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "accept reject revert",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "accept reject revert",
+			},
+			"key": "fde941bde7510a44bdb31d8a41b358bc",
+			"label": "accept reject revert",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "會員錢包 財務報表 差額報表",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "會員錢包 財務報表 差額報表",
+			},
+			"key": "96d3a1b06eaf61bd8d6f4608d37fb202",
+			"label": "會員錢包 財務報表 差額報表",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "wallet financial-statements diff",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "wallet financial-statements diff",
+			},
+			"key": "b1bf2f40a72aeff046b3d17c12ad10bf",
+			"label": "wallet financial-statements diff",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "cm-wallet cm-transaction asdf",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "cm-wallet cm-transaction asdf",
+			},
+			"key": "12b685cb9dab450df05dd9dae037eb81",
+			"label": "cm-wallet cm-transaction asdf",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "外接錢包 現金流水 s",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "外接錢包 現金流水 s",
+			},
+			"key": "8e8be07bf603852032aefc55bf346476",
+			"label": "外接錢包 現金流水 s",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "從 至 s",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "從 至 s",
+			},
+			"key": "467d67a50a316358aef9767c537cbe3b",
+			"label": "從 至 s",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "會員帳號 流水號 操作者",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "會員帳號 流水號 操作者",
+			},
+			"key": "fee3f47e117573455260158b466195ab",
+			"label": "會員帳號 流水號 操作者",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "股東 總代理 代理",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "股東 總代理 代理",
+			},
+			"key": "84e9e8399e1d65101081e4cac32d6a05",
+			"label": "股東 總代理 代理",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "轉帳 優惠 入帳",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "轉帳 優惠 入帳",
+			},
+			"key": "d554967ce776cd60b625d3ab4daff056",
+			"label": "轉帳 優惠 入帳",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "primary danger f",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "primary danger f",
+			},
+			"key": "d8a1c162615c7844b437e4d2d23b3666",
+			"label": "primary danger f",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "批量入款 批量取消 f",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "批量入款 批量取消 f",
+			},
+			"key": "30884cccad03a9b3e69906ce4614dfe0",
+			"label": "批量入款 批量取消 f",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "Confirm Cancel ad",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "Confirm Cancel ad",
+			},
+			"key": "4875caa65aaf1b4e46315f4071ecb107",
+			"label": "Confirm Cancel ad",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "小計算 總計算",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "小計算 總計算",
+			},
+			"key": "88a7eab1789c0e1caebe40be72248cfc",
+			"label": "小計算 總計算",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "小計算 總計算 s",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "小計算 總計算 s",
+			},
+			"key": "f8e05d05429ad2057c02a13b122c0ccf",
+			"label": "小計算 總計算 s",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "新增 批量新增 f",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "新增 批量新增 f",
+			},
+			"key": "b7e0baf0adb3af04312ac2805803e07e",
+			"label": "新增 批量新增 f",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "number code a",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "number code a",
+			},
+			"key": "c62be52500a5329b4187f62188ae9f64",
+			"label": "number code a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 3",
+					/*"threshold": 3,*/
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 3",
+			},
+			"key": "1d8e21222441705afd7a0df819b716b7",
+			"label": "1 1 3",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"text": "1 1 3",*/
+					"context": "file",
+					"operator": "add",
+					"pattern": "batch_add asdf",
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "add batch_add asdf",
+			},
+			"key": "b698ce6c28a97e8740c617aabbf8da7b",
+			"label": "add batch_add asdf",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "file",
+					"operator": "add",
+					"pattern": "add add",
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "add add add",
+			},
+			"key": "ee583c28cd69cac49fa6ca2be3acc4ac",
+			"label": "add add add",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "file",
+					"operator": "add",
+					"pattern": "batch-add hello",
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "add batch-add hello",
+			},
+			"key": "b7d98e6c425c2f51ac365a55313f6806",
+			"label": "add batch-add hello",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"context": "file",*/
+					/*"operator": "add",*/
+					/*"pattern": "batch-add hello",*/
+					"text": "confirm-detail confirm cancel",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "confirm-detail confirm cancel",
+			},
+			"key": "e57f791f0a4c9383049d0d9916cfe056",
+			"label": "confirm-detail confirm cancel",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 10",
+					/*"threshold": 3,*/
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 10",
+			},
+			"key": "fefc2b0565fca979029b613ca397dbf6",
+			"label": "1 1 10",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 2 3",
+				},
+				"command": "text_pastry_step",
+				"text": "1 2 3",
+			},
+			"key": "5ba48b6e5a7c4d4930fda256f411e55b",
+			"label": "1 2 3",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "3 2 1",
+				},
+				"command": "text_pastry_step",
+				"text": "3 2 1",
+			},
+			"key": "3571ec90fdc0f753b0884054e6e7f786",
+			"label": "3 2 1",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 11",
+				},
+				"command": "text_pastry_step",
+				"text": "1 11",
+			},
+			"key": "b265e55b91d62fb0bee9ad7b3933b635",
+			"label": "1 11",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "mobile app asdf",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "mobile app asdf",
+			},
+			"key": "b187371c2d2cc3d7a992a8d664fbcafb",
+			"label": "mobile app asdf",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "電腦版 手機版 APP",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "電腦版 手機版 APP",
+			},
+			"key": "1e6ad4a1f30fae26ba1f12f615f1941d",
+			"label": "電腦版 手機版 APP",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "隱藏",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "隱藏",
+			},
+			"key": "2671918958cd24c8175863765902dfed",
+			"label": "隱藏",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "頻道設置 遊戲列表 補單管理",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "頻道設置 遊戲列表 補單管理",
+			},
+			"key": "ed963e010a158adcb37418c1977bf1da",
+			"label": "頻道設置 遊戲列表 補單管理",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "派彩時間 下注時間 kj",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "派彩時間 下注時間 kj",
+			},
+			"key": "2ff29f65d627ce4966fadc5b13df2df8",
+			"label": "派彩時間 下注時間 kj",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "股東 總代 代理",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "股東 總代 代理",
+			},
+			"key": "0163a10a30cf8cf7373e5600bcc4d54e",
+			"label": "股東 總代 代理",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "派彩 返水 f",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "派彩 返水 f",
+			},
+			"key": "b23e947c3475672436826950eaca403f",
+			"label": "派彩 返水 f",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "損益 打碼 s",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "損益 打碼 s",
+			},
+			"key": "40d744cff0c60818a443d81816ac8afa",
+			"label": "損益 打碼 s",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "success error a",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "success error a",
+			},
+			"key": "22a1690695cd3c8115df07b153675e90",
+			"label": "success error a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "成功 失敗 a",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "成功 失敗 a",
+			},
+			"key": "502d349f24f8e0e8421b8e419e08c973",
+			"label": "成功 失敗 a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "submitForm add j",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "submitForm add j",
+			},
+			"key": "f586add27096c3695277610e952ba298",
+			"label": "submitForm add j",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "danger success a",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "danger success a",
+			},
+			"key": "4ba4d6eaa9748eec81d3c7b689ce3a9b",
+			"label": "danger success a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "put post get",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "put post get",
+			},
+			"key": "6c795cf365ed50eeca247db99ce95517",
+			"label": "put post get",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "詳細",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "詳細",
+			},
+			"key": "5043de34de24aab6eb6ff3dbb06c08dd",
+			"label": "詳細",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "Object Array s",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "Object Array s",
+			},
+			"key": "dc00ff6a14c9a2bd81425dea1ceba18d",
+			"label": "Object Array s",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "{} [] a",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "{} [] a",
+			},
+			"key": "09509824bc2245a65bc4ce637cac88d1",
+			"label": "{} [] a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "pc mobile d",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "pc mobile d",
+			},
+			"key": "3fdd0cc5cdc4d1731df5982932b45113",
+			"label": "pc mobile d",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "gotoRuleDetail delete copy",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "gotoRuleDetail delete copy",
+			},
+			"key": "4cf770da538e8fff738f9bd5d685aae3",
+			"label": "gotoRuleDetail delete copy",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "時 天 舟 月",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "時 天 舟 月",
+			},
+			"key": "efc50fb24a0e315a8d369725f6144835",
+			"label": "時 天 舟 月",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "a b d",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "a b d",
+			},
+			"key": "08b49adf9bb053d51241647f12117fac",
+			"label": "a b d",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "hk6 k3 s",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "hk6 k3 s",
+			},
+			"key": "da33d333189b49c4de574ce96777234b",
+			"label": "hk6 k3 s",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "min max s",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "min max s",
+			},
+			"key": "6e0b0b3155040b70e5e4665c2a655c41",
+			"label": "min max s",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "prepend append a",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "prepend append a",
+			},
+			"key": "977b1ce760dcb2dae36f850ef5ac4c7a",
+			"label": "prepend append a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "start end s",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "start end s",
+			},
+			"key": "fb0be7e8944ba92ab7c50840c039ece2",
+			"label": "start end s",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "5 5 5 5 4 'a'",
+					/*"threshold": 3,*/
+				},
+				"command": "text_pastry_step",
+				"text": "5 5 5 5 4 'a'",
+			},
+			"key": "45921df8ffca7af3ef243b9f8af2fe83",
+			"label": "5 5 5 5 4 'a'",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "code name a",
+					/*"threshold": 3,*/
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "code name a",
+			},
+			"key": "d03937433d5ab88bdf8ad9ef56976a72",
+			"label": "code name a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "withHandCard withoutHandCard withRoundAndRound",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "withHandCard withoutHandCard withRoundAndRound",
+			},
+			"key": "fa570d67325865131e3466a046d0223b",
+			"label": "withHandCard withoutHandCard withRoundAndRound",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "white red k",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "white red k",
+			},
+			"key": "c322e48270d323751499ba6d98c5f81a",
+			"label": "white red k",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "left right a",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "left right a",
+			},
+			"key": "1efad1c237eaf9e88add2aef5ebac7e4",
+			"label": "left right a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "false true a",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "false true a",
+			},
+			"key": "d3e714c5aca48449928f030d1deb4a89",
+			"label": "false true a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "submit add a",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "submit add a",
+			},
+			"key": "3fde7fbb34376b1a23bd42dd8f43d3bd",
+			"label": "submit add a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"text": "submit add a",*/
+					/*"threshold": 3,*/
+					"context": "file",
+					"operator": "add",
+					"pattern": "accept s",
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "add accept s",
+			},
+			"key": "067e8f412b6962e183c5cd50e6b7c9e5",
+			"label": "add accept s",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"text": "submit add a",*/
+					/*"threshold": 3,*/
+					/*"context": "file",*/
+					/*"operator": "add",*/
+					/*"pattern": "accept s",*/
+					"text": "f l y c ",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "f l y c ",
+			},
+			"key": "bd59528d519d221ead14e264147eb2c8",
+			"label": "f l y c ",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"context": "file",*/
+					/*"operator": "add",*/
+					/*"pattern": "accept s",*/
+					"text": "submit reset a",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "submit reset a",
+			},
+			"key": "8522695b8f8892d6b903109df8614b62",
+			"label": "submit reset a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "rowToCol normalChunk",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "rowToCol normalChunk",
+			},
+			"key": "c27d4afeb79266ea1418040d322f338b",
+			"label": "rowToCol normalChunk",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "紅 藍 綠",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "紅 藍 綠",
+			},
+			"key": "9bfd95e1ed463a43d5ce1bc636c0621b",
+			"label": "紅 藍 綠",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "5 1 12",
+					/*"threshold": 3,*/
+				},
+				"command": "text_pastry_step",
+				"text": "5 1 12",
+			},
+			"key": "7cd25bd493438b0001bbc17b43f598eb",
+			"label": "5 1 12",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 8",
+					/*"threshold": 3,*/
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 8",
+			},
+			"key": "c99b5bfbd7bdafdccde9d058888a017b",
+			"label": "1 1 8",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "5 1 1",
+				},
+				"command": "text_pastry_step",
+				"text": "5 1 1",
+			},
+			"key": "6b92b4f0ff1233299e0daa5ec9685794",
+			"label": "5 1 1",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "red blue green",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "red blue green",
+			},
+			"key": "0f26a0352db2265b7ce21e58c8525881",
+			"label": "red blue green",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "大 小 a",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "大 小 a",
+			},
+			"key": "0724c12e565b9fe01f36d49725b52380",
+			"label": "大 小 a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "today yesterday d",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "today yesterday d",
+			},
+			"key": "4ec3005634076563eb0e9ada3dc2e8d4",
+			"label": "today yesterday d",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "count detail d",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "count detail d",
+			},
+			"key": "7b48a70d92d6cc946e95fb7b57a4c6be",
+			"label": "count detail d",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "wuxin-name wuxin-number wuxin-br",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "wuxin-name wuxin-number wuxin-br",
+			},
+			"key": "36535451dee615b38d76f6e55b517cf9",
+			"label": "wuxin-name wuxin-number wuxin-br",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 ",
+					/*"threshold": 3,*/
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 ",
+			},
+			"key": "a8298a42ea90ddbf790d1db1028db19f",
+			"label": "1 1 ",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "10 1 1",
+					/*"threshold": 3,*/
+				},
+				"command": "text_pastry_step",
+				"text": "10 1 1",
+			},
+			"key": "5cd82a7c865c1d7569809dadf8a2e9fd",
+			"label": "10 1 1",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "100 1 1",
+				},
+				"command": "text_pastry_step",
+				"text": "100 1 1",
+			},
+			"key": "b6a55b16be6018cceba163f7e037a075",
+			"label": "100 1 1",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "10 10 ",
+				},
+				"command": "text_pastry_step",
+				"text": "10 10 ",
+			},
+			"key": "3bd0d3e9711362c11a462625fd24e17d",
+			"label": "10 10 ",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1000 1 ",
+				},
+				"command": "text_pastry_step",
+				"text": "1000 1 ",
+			},
+			"key": "3a10826875398e4761c902b2c3a71c58",
+			"label": "1000 1 ",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "top bottom right left",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "top bottom right left",
+			},
+			"key": "b00fa6917816776d2857ef7d064c556c",
+			"label": "top bottom right left",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "top bottom left right",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "top bottom left right",
+			},
+			"key": "47fdda1161d0ecf4255fa7dd2bd05e38",
+			"label": "top bottom left right",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "冠軍 亞軍 s",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "冠軍 亞軍 s",
+			},
+			"key": "fe5b50bf2ee6fbe1d81ff90a517f0ae3",
+			"label": "冠軍 亞軍 s",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "0 1 1 ",
+					/*"threshold": 3,*/
+				},
+				"command": "text_pastry_step",
+				"text": "0 1 1 ",
+			},
+			"key": "91fce1d720f78e806162726def2bdc79",
+			"label": "0 1 1 ",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "dw lm j",
+					/*"threshold": 3,*/
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "dw lm j",
+			},
+			"key": "f78ab4adb8f48fbb20c8406ad033a355",
+			"label": "dw lm j",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "填入金額 填入權重 ㄑ",
+					/*"threshold": 3*/
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "填入金額 填入權重 ㄑ",
+			},
+			"key": "f92e6b26dde88035dd616a4cd0b63f27",
+			"label": "填入金額 填入權重 ㄑ",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "pc m a",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "pc m a",
+			},
+			"key": "65ceb6e7a94930969df6e9fd6f3ed2f0",
+			"label": "pc m a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "flyc flyc2 flyc3",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "flyc flyc2 flyc3",
+			},
+			"key": "6f58d2d7ab656809cc010fd178cc320b",
+			"label": "flyc flyc2 flyc3",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1",
+					/*"threshold": 3,*/
+				},
+				"command": "text_pastry_step",
+				"text": "1 1",
+			},
+			"key": "75c124fae7a8b8b89183d4de196613b3",
+			"label": "1 1",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "change keyup f",
+					/*"threshold": 3,*/
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "change keyup f",
+			},
+			"key": "431de61d6c6a40267b5880e8a5287aa3",
+			"label": "change keyup f",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "change keyup",
+					/*"threshold": 3,*/
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "change keyup",
+			},
+			"key": "700632e392d9a666f56ac5e6df1d14a7",
+			"label": "change keyup",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "change keyup d",
+					/*"threshold": 3*/
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "change keyup d",
+			},
+			"key": "eb9890158e5e2ae034ed738f0332d0d1",
+			"label": "change keyup d",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 1 ",
+					/*"threshold": 3,*/
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 1 ",
+			},
+			"key": "2b550755b5990e6077f2a05a3ec337d5",
+			"label": "1 1 1 ",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "4 1 1",
+					/*"threshold": 3,*/
+				},
+				"command": "text_pastry_step",
+				"text": "4 1 1",
+			},
+			"key": "366ca64aac50030e083f720c45d70c7f",
+			"label": "4 1 1",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "3 1 1",
+					/*"threshold": 3,*/
+				},
+				"command": "text_pastry_step",
+				"text": "3 1 1",
+			},
+			"key": "76370a01d1e0694d5d572b1907d9f98a",
+			"label": "3 1 1",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "x y s",
+					/*"threshold": 3,*/
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "x y s",
+			},
+			"key": "1322cda5113b79473af750fd1c268deb",
+			"label": "x y s",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "web admin ",
+					/*"threshold": 3,*/
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "web admin ",
+			},
+			"key": "ad1b8e3941367255a7931dd1d8d152a8",
+			"label": "web admin ",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "web admin k",
+					/*"threshold": 3*/
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "web admin k",
+			},
+			"key": "199721cf889c6e6eb9db40b42fc45d94",
+			"label": "web admin k",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"text": "web admin k",*/
+					/*"threshold": 3,*/
+					"clipboard": true,
+					"regex": true,
+					"separator": "e a",
+				},
+				"command": "text_pastry_insert_text",
+				"text": "r e a",
+			},
+			"key": "915894112dd9216b348982ac7e5aa24a",
+			"label": "r e a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"text": "web admin k",*/
+					/*"threshold": 3,*/
+					/*"clipboard": true,*/
+					/*"regex": true,*/
+					/*"separator": "e a",*/
+					"text": "leagueID matchID scheduledStartTime",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "leagueID matchID scheduledStartTime",
+			},
+			"key": "df12a9a5bebbf8599f662df93143446d",
+			"label": "leagueID matchID scheduledStartTime",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"text": "web admin k",*/
+					/*"threshold": 3,*/
+					/*"clipboard": true,*/
+					/*"regex": true,*/
+					/*"separator": "e a",*/
+					"text": "leagueName competitors periodName",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "leagueName competitors periodName",
+			},
+			"key": "562f186471ef908bcce1edbdfc5e7490",
+			"label": "leagueName competitors periodName",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"text": "web admin k",*/
+					/*"threshold": 3,*/
+					/*"clipboard": true,*/
+					/*"regex": true,*/
+					/*"separator": "e a",*/
+					"text": "0 1 1",
+					/*"threshold": 3,*/
+				},
+				"command": "text_pastry_step",
+				"text": "0 1 1",
+			},
+			"key": "661ea57b2ee2f892b90f1296ab868e99",
+			"label": "0 1 1",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"text": "1 1 1",*/
+					/*"threshold": 3*/
+					/*"clipboard": true,*/
+					/*"regex": true,*/
+					/*"separator": "e a",*/
+					"text": "0 7 1",
+					/*"threshold": 3,*/
+				},
+				"command": "text_pastry_step",
+				"text": "0 7 1",
+			},
+			"key": "342a9c0c022ae21b783cc99b72891c39",
+			"label": "0 7 1",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"clipboard": true,*/
+					/*"regex": true,*/
+					/*"separator": "e a",*/
+					"text": " 1 1 1",
+					/*"threshold": 3,*/
+				},
+				"command": "text_pastry_step",
+				"text": " 1 1 1",
+			},
+			"key": "4a2e2a17b1d1ee7fe8416c839b5e4925",
+			"label": " 1 1 1",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "a b c",
+					/*"threshold": 3,*/
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "a b c",
+			},
+			"key": "06f0760ec7f18687a7fbc0ddbf1b1722",
+			"label": "a b c",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "cancel confirm asdf",
+					/*"threshold": 3*/
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "cancel confirm asdf",
+			},
+			"key": "e2f9a25ccfd6b93d937e31cc8cb4e6a1",
+			"label": "cancel confirm asdf",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "h e l l o",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "h e l l o",
+			},
+			"key": "935f7ef10d6e87e8a1f8071d2b5c4e40",
+			"label": "h e l l o",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 3 5 8 10",
+					/*"threshold": 3,*/
+				},
+				"command": "text_pastry_step",
+				"text": "1 3 5 8 10",
+			},
+			"key": "fef4f7bc0b5099d10cd7e2b552a22ce0",
+			"label": "1 3 5 8 10",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "A B s",
+					/*"threshold": 3,*/
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "A B s",
+			},
+			"key": "5c270b6d5d243cb2c10b3a8e92c18c7a",
+			"label": "A B s",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "start end a",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "start end a",
+			},
+			"key": "b5d46425c7f01146f22ef7249d52a27a",
+			"label": "start end a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 1",
+					/*"threshold": 3,*/
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 1",
+			},
+			"key": "f4093d4303a6804a1cf378c28e59581a",
+			"label": "1 1 1",
+		},
+	],
+	"last_command":
+	{
+		"args":
+		{
+			/*"text": "1 1 1",*/
+			/*"threshold": 3*/
+			/*"threshold": 3,*/
+			/*"clipboard": true,*/
+			/*"regex": true,*/
+			/*"separator": "e a",*/
+			"text": "1 1 1",
+			/*"threshold": 3,*/
+			/*"threshold": 3,*/
+			/*"threshold": 3,*/
+		},
+		"command": "text_pastry_step",
+		"text": "1 1 1",
+	},
+}

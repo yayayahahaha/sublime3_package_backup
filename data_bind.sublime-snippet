@@ -1,11 +1,9 @@
 <snippet>
     <content><![CDATA[
-[].filter.call(${1:object}, function(item, index) {
-    return ${2:true};
-});
+data-bind="$1"
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>filter</tabTrigger>
+    <tabTrigger>db</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <scope>source.js</scope>
+    <scope>text.html</scope>
 </snippet>

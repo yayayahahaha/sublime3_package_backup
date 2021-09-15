@@ -4,9 +4,9 @@
     <!-- Hit tab a second time to put your cursor into a beautifuly tabbed spot within the bracket -->
     <content><![CDATA[
 try {
-    $1
+  $1
 } catch (e) {
-    console.log(e);
+  console.log(e);
 }
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

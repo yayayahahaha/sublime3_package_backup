@@ -1,10 +1,9 @@
 <snippet>
     <content><![CDATA[
-console.log(${1:something});
+console.log(${1:something})
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>console</tabTrigger>
-    <tabTrigger>con</tabTrigger>
+    <tabTrigger>cons</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js</scope>
 </snippet>

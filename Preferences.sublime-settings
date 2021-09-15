@@ -1,26 +1,32 @@
-{
+ {
+	"// draw_white_space": "selection",
+	"// on_post_save_user":[
+		{
+			"command": "eslint_fix",
+		}
+	],
 	"always_show_minimap_viewport": true,
 	"auto_complete_triggers":
 	[
 		{
 			"characters": "<",
-			"selector": "text.html"
+			"selector": "text.html",
 		},
 		{
 			"characters": ".",
-			"selector": "source.js"
+			"selector": "source.js",
 		}
 	],
 	"binary_file_patterns":
 	[
 		"*.jpg",
 		"*.jpeg",
-		"*.png",
+		"// *.png",
 		"*.gif",
 		"*.ttf",
 		"*.tga",
 		"*.dds",
-		"*.ico",
+		"// *.ico",
 		"*.eot",
 		"*.pdf",
 		"*.swf",
@@ -28,12 +34,15 @@
 		"*.zip",
 		"*.min.js",
 		"*-min.js",
+		"chunk-libs.js",
+		"*.map",
 		"*.woff2",
 		"*.exe"
 	],
+	"caret_extra_bottom": 2,
+	"caret_extra_top": 2,
 	"caret_extra_width": 1,
-	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
-	"draw_white_space": "selection",
+	"color_scheme": "Packages/User/neon-custom.sublime-color-scheme",
 	"esversion": 6,
 	"file_exclude_patterns":
 	[
@@ -54,8 +63,6 @@
 		".DS_Store",
 		"*.class",
 		"*.psd",
-		"*.scss",
-		"*.css",
 		"*.db",
 		"*.sublime-workspace"
 	],
@@ -66,33 +73,39 @@
 		".hg",
 		"CVS",
 		"build/out",
-		"dist",
+		"// dist",
+		"v1",
 		"node_modules",
 		"release",
+		"release_folder",
+		"design",
 		".nuxt"
 	],
 	"font_size": 14,
 	"ignored_packages":
 	[
-		"Color Highlight",
-		"ColorPicker",
-		"Format JSDoc @params",
+		"CTags",
 		"Git Formats",
 		"GitSavvy",
 		"GitStatusBar",
-		"HTMLBeautify",
+		"Highlight Dodgy Chars",
+		"Image2Base64",
 		"IMESupport",
-		"JavaScript Completions",
+		"JavaScript Snippets",
 		"SublimeCodeIntel",
 		"SublimeGit",
-		"SyntaxFold",
 		"Transparency",
-		"Vintage"
+		"Vintage",
 	],
 	"scroll_past_end": true,
+	"show_definitions": false,
 	"show_encoding": true,
 	"show_full_path": true,
 	"tab_size": 2,
-	"theme": "ayu-mirage.sublime-theme",
-	"translate_tabs_to_spaces": true
+	"theme": "Seti Monokai.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": "all",
+	"dark_theme": "Default.sublime-theme",
+	"light_theme": "Default.sublime-theme",
+	"relative_line_numbers": false,
 }
