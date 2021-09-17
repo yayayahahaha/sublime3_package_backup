@@ -104,7 +104,7 @@
 	"tab_size": 2,
 	"theme": "Seti Monokai.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": "all",
+	"trim_trailing_white_space_on_save": "none",
 	"dark_theme": "Default.sublime-theme",
 	"light_theme": "Default.sublime-theme",
 	"relative_line_numbers": false,
