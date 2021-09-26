@@ -78,7 +78,7 @@
 		"node_modules",
 		"release",
 		"release_folder",
-		"design",
+		"// design",
 		".nuxt"
 	],
 	"font_size": 14,
