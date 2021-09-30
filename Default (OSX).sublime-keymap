@@ -89,6 +89,14 @@
       "text": "#"
     }
   },
+/*  {
+    "comments": "快速產生 insert_snippet 的範例",
+    "keys": ["ctrl+shift+g"],
+    "command": "insert_snippet",
+    "args": {
+      "contents": "t(${SELECTION})"
+    }
+  },*/
 
   // Markdown
   {
@@ -175,6 +183,17 @@
   {
     "keys": ["ctrl+super+m"],
     "command": "emmet_go_to_tag_pair"
+  },
+
+  // 繁化姬 Fanhuaji
+  {
+    "keys": ["super+alt+shift+r"],
+    "command": "fanhuaji_convert",
+    "args": {
+      "args": {
+        "converter": "Pinyin"
+      }
+    }
   },
 
   // Mark: see Edit -> Mark to get more detail
