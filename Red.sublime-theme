@@ -1,0 +1,29 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+  "variables": {
+    "light_gray": "rgb(240, 240, 240)"
+  },
+  "rules": [
+    // Show the highlight texture when the button is hovered
+    {
+      "class": "button_control",
+      "attributes": ["hover"],
+      "layer2.opacity": 1.0
+    },
+    // Basic text label style
+    {
+      "class": "label_control",
+      "fg": "var(light_gray)",
+      "font.bold": true
+    },
+    // Brighten labels contained in a button on hover
+    {
+      "class": "label_control",
+      "parents": [{
+        "class": "button_control",
+        "attributes": ["hover"]
+      }],
+      "fg": "white"
+    }
+  ]
+}

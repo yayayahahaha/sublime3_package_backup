@@ -14,5 +14,7 @@ Package Control.ca-certs/
 !*.sublime-macro
 !*.sublime-project
 !*.sublime-workspace
+!*.sublime-color-scheme
+!*.sublime-theme
 !.gitignore
 !README.md
