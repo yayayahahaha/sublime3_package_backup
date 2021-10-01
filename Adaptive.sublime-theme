@@ -1,0 +1,22 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+  "variables":
+  {
+    "font_face": "system",
+    "font_size_sm": 11,
+    "font_size": 14,
+    "font_size_lg": 13,
+    "font_size_title": 24,
+    "medium_dark_bg": "color(#390000 l(- 3.5%))",
+  },
+  "rules":
+  [
+    {
+      "class": "title_bar",
+      "attributes": ["file_medium_dark"],
+      "settings": ["themed_title_bar"],
+      "bg": "color(#390000 l(- 3%))",
+      "style": "dark"
+    },
+  ]
+}
