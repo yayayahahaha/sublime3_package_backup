@@ -1,0 +1,378 @@
+{
+  "name": "Red",
+  "author": "VSCode native",
+  "globals": {
+    "background": "#390000",
+    "foreground": "var(white)",
+    "caret": "var(white)",
+    "block_caret": "var(white)",
+    "line_highlight": "#ff000033",
+    // "misspelling": "",
+    "fold_marker": "#ff4444",
+    "accent": "#ff4444",
+    "gutter_foreground": "#ff777788",
+    "line_diff_width": "2",
+    "line_diff_added": "#2AB814",
+    "line_diff_modified": "#E0FF00",
+    "line_diff_deleted": "#FC2003",
+    "selection": "#750000",
+    "inactive_selection": "#770000",
+    // "inactive_selection_foreground": "",
+    "highlight": "#C6A81E",
+    "find_highlight": "#ff4444",
+    "find_highlight_foreground": "black",
+    // "guide": "",
+    // "active_guide": "",
+    // "stack_guide": "",
+    "brackets_foreground": "#ff777788",
+    "tags_foreground": "#ff777788",
+    // "shadow": ""
+  },
+  "variables": {
+    // "black": "",
+    "white": "#F8F8F8",
+    "deep_red": "#C4000C",
+    "red": "#F12727",
+    // "green": "",
+    "yellow": "#FEC758",
+    "orange": "#FB9A4B",
+    // "blue": "",
+    // "magenta": "",
+    // "cyan": "",
+    "pink": "#ff0063"
+  },
+  "rules": [
+    {
+      "foreground": "var(white)",
+      "font_style": 0,
+      "scope": "meta.embedded, source.groovy.embedded"
+    },
+    {
+      "// foreground": "#E7C0C0",
+      "foreground": "color(var(red) l(- 20%)",
+      "font_style": "italic",
+      "scope": "comment"
+    },
+    {
+      "foreground": "#994646",
+      "font_style": "italic bold",
+      "scope": "constant"
+    },
+    {
+      "foreground": "var(red)",
+      "font_style": "bold",
+      "scope": "keyword"
+    },
+    {
+      "foreground": "var(yellow)",
+      "font_style": "",
+      "scope": "entity"
+    },
+    {
+      "foreground": "#FF6262",
+      "font_style": "bold",
+      "scope": "storage"
+    },
+    {
+      "foreground": "#CD8D8D",
+      "font_style": "",
+      "scope": "string"
+    },
+    {
+      "foreground": "#9DF39F",
+      "font_style": "",
+      "scope": "support"
+    },
+    {
+      "foreground": "var(orange)",
+      "font_style": "italic",
+      "scope": "variable"
+    },
+    {
+      "foreground": "#FFFFFF",
+      "font_style": 0,
+      "scope": "invalid"
+    },
+    {
+      "foreground": "#AA5507",
+      "font_style": "underline",
+      "scope": "entity.other.inherited-class"
+    },
+    {
+      "foreground": "#EC0D1E",
+      "font_style": 0,
+      "scope": "constant.character"
+    },
+    {
+      "foreground": "#FFE862",
+      "font_style": "",
+      "scope": "string constant, constant.character.escape"
+    },
+    {
+      "foreground": "#FFB454",
+      "font_style": 0,
+      "scope": "string.regexp"
+    },
+    {
+      "foreground": "#EDEF7D",
+      "font_style": 0,
+      "scope": "string variable"
+    },
+    {
+      "foreground": "#FFB454",
+      "font_style": "",
+      "scope": "support.function"
+    },
+    {
+      "foreground": "#EB939A",
+      "font_style": "",
+      "scope": "support.constant, support.variable"
+    },
+    {
+      "foreground": "#73817D",
+      "font_style": "",
+      "scope": "declaration.sgml.html declaration.doctype, declaration.sgml.html declaration.doctype entity, declaration.sgml.html declaration.doctype string, declaration.xml-processing, declaration.xml-processing entity, declaration.xml-processing string"
+    },
+    {
+      "foreground": "#EC0D1E",
+      "font_style": "",
+      "scope": "declaration.tag, declaration.tag entity, meta.tag, meta.tag entity"
+    },
+    {
+      "foreground": "#AA5507",
+      "font_style": "",
+      "scope": "meta.selector.css entity.name.tag"
+    },
+    {
+      "foreground": "var(yellow)",
+      "font_style": 0,
+      "scope": "meta.selector.css entity.other.attribute-name.id"
+    },
+    {
+      "foreground": "#41A83E",
+      "font_style": "",
+      "scope": "meta.selector.css entity.other.attribute-name.class"
+    },
+    {
+      "foreground": "#96DD3B",
+      "font_style": "",
+      "scope": "support.type.property-name.css"
+    },
+    {
+      "foreground": "#FFE862",
+      "font_style": "italic",
+      "scope": "meta.property-group support.constant.property-value.css, meta.property-value support.constant.property-value.css"
+    },
+    {
+      "foreground": "#FFE862",
+      "font_style": "",
+      "scope": "meta.property-value support.constant.named-color.css, meta.property-value constant"
+    },
+    {
+      "foreground": "#FD6209",
+      "font_style": 0,
+      "scope": "meta.preprocessor.at-rule keyword.control.at-rule"
+    },
+    {
+      "foreground": "#EC9799",
+      "font_style": "",
+      "scope": "meta.constructor.argument.css"
+    },
+    {
+      "foreground": "var(white)",
+      "font_style": "italic",
+      "scope": "meta.diff, meta.diff.header"
+    },
+    {
+      "foreground": "#EC9799",
+      "font_style": 0,
+      "scope": "markup.deleted"
+    },
+    {
+      "foreground": "var(white)",
+      "font_style": 0,
+      "scope": "markup.changed"
+    },
+    {
+      "foreground": "#41A83E",
+      "font_style": 0,
+      "scope": "markup.inserted"
+    },
+    {
+      "foreground": "var(red)",
+      "font_style": 0,
+      "scope": "markup.quote"
+    },
+    {
+      "foreground": "#FF6262",
+      "font_style": 0,
+      "scope": "markup.list"
+    },
+    {
+      "foreground": "var(orange)",
+      "font_style": 0,
+      "scope": "markup.bold, markup.italic"
+    },
+    {
+      "font_style": "bold",
+      "scope": "markup.bold"
+    },
+    {
+      "font_style": "italic",
+      "scope": "markup.italic"
+    },
+    {
+      "foreground": "#CD8D8D",
+      "font_style": "",
+      "scope": "markup.inline.raw"
+    },
+    {
+      "foreground": "var(yellow)",
+      "font_style": "bold",
+      "scope": "markup.heading, markup.heading.setext, punctuation.definition.heading, entity.name.section"
+    },
+    {
+      "foreground": "#EC0D1E",
+      "font_style": 0,
+      "scope": "punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end, punctuation.section.embedded, .format.placeholder"
+    },
+    {
+      "foreground": "#6796E6",
+      "font_style": 0,
+      "scope": "token.info-token"
+    },
+    {
+      // "foreground": "#CD9731",
+      "foreground": "blue",
+      "font_style": 0,
+      "scope": "token.warn-token"
+    },
+    {
+      "foreground": "#F44747",
+      "font_style": 0,
+      "scope": "token.error-token"
+    },
+    {
+      "foreground": "#B267E6",
+      "font_style": 0,
+      "scope": "token.debug-token"
+    },
+
+    // HTML part from Neon
+    {
+      // html 標籤的TAG div
+      "name": "Tag",
+      "scope": "meta.tag entity.name, entity.name.tag",
+      "foreground": "color(var(yellow) l(- 10%))",
+      "font_style": "bold"
+    },
+    {
+      // html 的屬性名稱 class, id, v-if
+      "name": "Attribute name",
+      "scope": "entity.other.attribute-name, storage.type.attr",
+      "foreground": "var(red)",
+      "font_style": "italic"
+    },
+    {
+      // html 屬性的value含"" "bg-red classValue", 不含 vue 相關的內文
+      "name": "HTML String",
+      "scope": "string.quoted.double.html, string.quoted.single.html",
+      "foreground": "color(var(orange) l(+ 15%))"
+    },
+    {
+      // html 標籤旁邊的 < />
+      "name": "Tag Punctuation",
+      "scope": "punctuation.definition.tag, meta.tag.validhtml",
+      "foreground": "color(var(red) l(- 25%))"
+    },
+    {
+      // vue attribute 旁邊的冒號
+      "name": "Punctuation",
+      "scope": "punctuation - (punctuation.definition.string | punctuation.definition.comment)",
+      "foreground": "var(white)"
+    },
+
+    // javascript part
+    {
+      // support.function.name,
+    },
+    {
+      // function 宣告的顏色 function here()
+      "name": "Function call",
+      "scope": "entity.name.function",
+      "foreground": "color(var(red) l(+ 10%))",
+      "background": "color(var(red) l(+ 50%) a(0.1))",
+      "font_style": "bold"
+    },
+    {
+      // function 呼叫的顏色 here()
+      "name": "Function call",
+      "scope": "variable.function",
+      "foreground": "color(var(red) l(+ 10%))"
+    },
+    {
+      // function 宣告的時候的參數顏色 callMe(here)
+      "name": "Function definition parameters",
+      "scope": "variable.parameter.function, meta.function.parameters variable.parameter, meta.function-call.arguments variable.parameter",
+      "foreground": "color(var(yellow) l(+ 10%))",
+      "font_style": "italic"
+    },
+    {
+      // 字串模板的 ${}
+      "name": "String interpolation delimiters",
+      "scope": "punctuation.section.interpolation",
+      "foreground": "color(var(yellow) l(+ 15%))"
+    },
+    {
+      // 數字
+      "name": "數字",
+      "scope": "constant.numeric.value",
+      "foreground": "color(var(yellow) l(+ 15%))",
+      "font_style": ""
+    },
+    {
+      // object 的 key: 在function call 參數使用 { here: 'string-value' }
+      "name": "object 的 key, 含宣告與在function call 參數使用",
+      "scope": "meta.function-call.method.js",
+      "foreground": "color(var(orange) l(+ 15%))",
+      "font_style": ""
+    },
+    {
+      // object 的 key: 宣告 { here: 'string-value' }
+      "name": "我不知道",
+      "scope": "meta.mapping.js",
+      "foreground": "color(var(orange) l(+ 15%))",
+      "font_style": ""
+    },
+    {
+      // dot: 不是function call 的 . 後面的節點value obj.here, obj.node.not_here()
+      "name": "不是function call 的 . 後面的節點value",
+      "scope": "meta.property.object.js",
+      "foreground": "color(var(red) l(+ 15%))",
+      "font_style": ""
+    },
+/*    {
+        // 三元運算子的 ? :
+        "name": "Ternary Operator",
+        "scope": "keyword.operator.ternary",
+        "foreground": "blue",
+        "font_style": "bold italic"
+    }*/
+    {
+      // sublime linter 出錯的顏色, 要跟著sublimeLinter 的設定走樣式
+      "name": "Sublimelinter Error Mark dot",
+      "scope": "region.redish markup.error.sublime_linter",
+      "foreground": "#A500FF",
+      "background": "#A500FF",
+      "font_style": "bold italic"
+    },
+    {
+      // sublime linter 出警告的顏色, 要跟著sublimeLinter 的設定走樣式
+      "name": "Sublimelinter warning Mark dot",
+      "scope": "region.yellowish markup.warning.sublime_linter",
+      "foreground": "#FFFE0A",
+      "background": "#FFFE0A",
+      "font_style": "bold italic"
+    },
+  ]
+}

@@ -1,10 +1,16 @@
-*.*
-*
-.*
+.DS_Store
+
+*.cache
+*.sublime-color-scheme.chback
+Color\ Highlighter/
+HighlightTrailingWhitespace/
+Terminus/
+
 Package Control.last-run
 Package Control.ca-list
 Package Control.ca-bundle
 Package Control.system-ca-bundle
+Package Control.user-ca-bundle
 Package Control.cache/
 Package Control.ca-certs/
 
