@@ -42,7 +42,7 @@
 	"caret_extra_bottom": 2,
 	"caret_extra_top": 2,
 	"caret_extra_width": 1,
-	"color_scheme": "Packages/Dank Neon/Dank_Neon.tmTheme",
+	"color_scheme": "Packages/User/color-scheme/Raijū - Dark/Raijū - Dark.sublime-color-scheme",
 	"esversion": 6,
 	"file_exclude_patterns":
 	[
@@ -92,6 +92,7 @@
 		"Image2Base64",
 		"IMESupport",
 		"JavaScript Snippets",
+		"Outline",
 		"SublimeCodeIntel",
 		"SublimeGit",
 		"Transparency",
@@ -102,7 +103,7 @@
 	"show_encoding": true,
 	"show_full_path": true,
 	"tab_size": 2,
-	"theme": "Gravity One.sublime-theme",
+	"theme": "Raijū - Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": "all",
 	"dark_theme": "Default.sublime-theme",

@@ -184,6 +184,10 @@
     "keys": ["ctrl+super+m"],
     "command": "emmet_go_to_tag_pair"
   },
+  {
+    "keys": ["shift+super+y"],
+    "command": "emmet_evaluate_math"
+  },
 
   // 繁化姬 Fanhuaji
   {
