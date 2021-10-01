@@ -42,7 +42,7 @@
 	"caret_extra_bottom": 2,
 	"caret_extra_top": 2,
 	"caret_extra_width": 1,
-	"color_scheme": "Packages/User/color-scheme/EVA/EVA.sublime-color-scheme",
+	"color_scheme": "Packages/User/color-scheme/Red/Red.sublime-color-scheme",
 	"esversion": 6,
 	"file_exclude_patterns":
 	[
@@ -103,7 +103,7 @@
 	"show_encoding": true,
 	"show_full_path": true,
 	"tab_size": 2,
-	"theme": "EVA.sublime-theme",
+	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": "all",
 	"dark_theme": "Default.sublime-theme",

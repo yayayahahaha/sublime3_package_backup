@@ -13,4 +13,39 @@
     },
     "lint_mode": "background",
     "show_panel_on_save": "never",
+    "styles": [
+        {
+            "scope": "region.yellowish markup.warning.sublime_linter",
+            "types": ["warning"],
+            "icon": "dot",
+            "mark_style": "outline"
+        },
+        {
+            // Determines, for overlapping errors, which one is visualised.
+            "priority": 1,
+
+            // The icon displayed in the gutter area
+            // - "circle", "dot" or "bookmark"
+            // - "none" to remove the icon
+            // - A path to an icon file like
+            //   "Packages/SublimeLinter/gutter-themes/Blueberry Cross/error.png"
+            // - One provided by a gutter theme (e.g. "warning" or "error").
+            //   In theme Default: warning, error, cog, x,
+            //   and diamond, heart, pointer, square, star, triangle, which all
+            //   also have an -outline variant.
+            "icon": "circle",
+
+            // The highlight style:
+            // - "none"
+            // - "fill", "outline",
+            // - "solid_underline", "squiggly_underline", "stippled_underline"
+            // In ST < 4074 the underline styles are replaced with outlines when
+            // there is whitespace in the problem region (ST issue #137).
+            // In newer versions underlines are replaced with outlines when
+            // there are newlines in the problem region for readability.
+            "mark_style": "fill",
+
+            "scope": "region.redish markup.error.sublime_linter"
+        }
+    ],
 }
