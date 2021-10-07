@@ -1,10 +1,6 @@
  {
-	"// draw_white_space": "selection",
-	"// on_post_save_user":[
-		{
-			"command": "eslint_fix",
-		}
-	],
+	// "draw_white_space": "selection",
+	// "on_post_save_user": [{ "command": "eslint_fix" }],
 	"always_show_minimap_viewport": true,
 	"auto_complete_triggers":
 	[
@@ -21,12 +17,12 @@
 	[
 		"*.jpg",
 		"*.jpeg",
-		"// *.png",
+		// "*.png",
 		"*.gif",
 		"*.ttf",
 		"*.tga",
 		"*.dds",
-		"// *.ico",
+		// "*.ico",
 		"*.eot",
 		"*.pdf",
 		"*.swf",
@@ -73,7 +69,7 @@
 		".hg",
 		"CVS",
 		"build/out",
-		"// dist",
+		// "dist",
 		"v1",
 		"node_modules",
 		"release",
@@ -103,7 +99,7 @@
 	"show_encoding": true,
 	"show_full_path": true,
 	"tab_size": 2,
-	"theme": "Adaptive.sublime-theme",
+	"theme": "Red.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": "all",
 	"dark_theme": "Default.sublime-theme",
