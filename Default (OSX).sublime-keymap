@@ -25,7 +25,11 @@
   },
   {
     "keys": ["super+k", "super+c"],
-    "command": "copy_path"
+    "command": "side_bar_copy_path_relative_from_project"
+  },
+  {
+    "keys": ["super+k", "super+r"],
+    "command": "side_bar_reveal" // show in finder
   },
   {
     "keys": ["super+shift+["],
