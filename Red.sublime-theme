@@ -1,29 +1,31 @@
 // Documentation at https://www.sublimetext.com/docs/themes.html
 {
-  "variables": {
-    "light_gray": "rgb(240, 240, 240)"
+  "variables":
+  {
+    // "font_face": "system",
+    "font_face": "Comic sans",
+    "font_size_sm": 11,
+    "font_size": 14,
+    "font_size_lg": 13,
+    "font_size_title": 24,
+    "medium_dark_bg": "color(#390000 l(- 3.5%))",
   },
-  "rules": [
-    // Show the highlight texture when the button is hovered
+  "rules":
+  [
+    // Title Bar
     {
-      "class": "button_control",
-      "attributes": ["hover"],
-      "layer2.opacity": 1.0
+      "class": "title_bar",
+      "attributes": ["file_medium_dark"],
+      "settings": ["themed_title_bar"],
+      "bg": "color(#390000 l(- 3%))",
+      "style": "dark"
     },
-    // Basic text label style
     {
-      "class": "label_control",
-      "fg": "var(light_gray)",
-      "font.bold": true
+      "class": "sidebar_label",
+      // "fg": "color(var(--background) blend(white 20%))",
+      "fg": "color(#FB9A4B l(+ 25%))",
+      "font.face": "var(font_face)",
+      "font.size": "var(font_size)"
     },
-    // Brighten labels contained in a button on hover
-    {
-      "class": "label_control",
-      "parents": [{
-        "class": "button_control",
-        "attributes": ["hover"]
-      }],
-      "fg": "white"
-    }
   ]
 }

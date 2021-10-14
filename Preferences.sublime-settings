@@ -78,6 +78,7 @@
 		".nuxt"
 	],
 	"font_size": 14,
+	// "font_face": "Monaco",
 	"ignored_packages":
 	[
 		"CTags",
