@@ -4244,6 +4244,20 @@
 			"key": "661ea57b2ee2f892b90f1296ab868e99",
 			"label": "0 1 1",
 		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "key quote f",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "key quote f"
+			},
+			"key": "9edef507928f17e62a24d7d522618040",
+			"label": "key quote f"
+		},
 	],
 	"last_command":
 	{
@@ -4255,14 +4269,15 @@
 			/*"clipboard": true,*/
 			/*"regex": true,*/
 			/*"separator": "e a",*/
-			"text": "0 1 1",
+			"text": "key quote f",
 			/*"threshold": 3,*/
 			/*"threshold": 3,*/
 			/*"threshold": 3,*/
 			/*"threshold": 3,*/
 			/*"threshold": 3,*/
+			"threshold": 3,
 		},
-		"command": "text_pastry_step",
-		"text": "0 1 1",
+		"command": "text_pastry_insert_text",
+		"text": "key quote f",
 	},
 }
