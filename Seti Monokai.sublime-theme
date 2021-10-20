@@ -1,0 +1,15 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+  "variables":
+  {
+    // "font_face": "system",
+    "font_face": "Comic sans",
+    "font_size_sm": 11,
+    "font_size": 14,
+    "font_size_lg": 13,
+    "font_size_title": 24
+  },
+  "rules":
+  [
+  ]
+}

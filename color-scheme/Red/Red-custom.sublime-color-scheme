@@ -338,7 +338,7 @@
     },
     {
       // object 的 key: 宣告 { here: 'string-value' }
-      "name": "我不知道",
+      "name": "object 的 key: 宣告",
       "scope": "meta.mapping.js",
       "foreground": "color(var(orange) l(+ 15%))",
       "font_style": ""

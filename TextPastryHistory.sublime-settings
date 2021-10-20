@@ -3896,20 +3896,6 @@
 			{
 				"args":
 				{
-					"text": "4 1 1",
-					/*"threshold": 3,*/
-				},
-				"command": "text_pastry_step",
-				"text": "4 1 1",
-			},
-			"key": "366ca64aac50030e083f720c45d70c7f",
-			"label": "4 1 1",
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "3 1 1",
 					/*"threshold": 3,*/
 				},
@@ -3970,7 +3956,7 @@
 				"args":
 				{
 					/*"text": "web admin k",*/
-					/*"threshold": 3*/
+					/*"threshold": 3,*/
 					/*"threshold": 3,*/
 					"clipboard": true,
 					"regex": true,
@@ -3988,6 +3974,7 @@
 				"args":
 				{
 					/*"text": "web admin k",*/
+					/*"threshold": 3*/
 					/*"threshold": 3,*/
 					/*"clipboard": true,*/
 					/*"regex": true,*/
@@ -4063,8 +4050,8 @@
 			{
 				"args":
 				{
-					/*"text": "1 1 1",*/
-					/*"threshold": 3*/
+					/*"text": "web admin k",*/
+					/*"threshold": 3,*/
 					/*"clipboard": true,*/
 					/*"regex": true,*/
 					/*"separator": "e a",*/
@@ -4083,6 +4070,8 @@
 			{
 				"args":
 				{
+					/*"text": "1 1 1",*/
+					/*"threshold": 3*/
 					/*"clipboard": true,*/
 					/*"regex": true,*/
 					/*"separator": "e a",*/
@@ -4101,6 +4090,9 @@
 			{
 				"args":
 				{
+					/*"clipboard": true,*/
+					/*"regex": true,*/
+					/*"separator": "e a",*/
 					"text": "h e l l o",
 					/*"threshold": 3,*/
 					"threshold": 3,
@@ -4117,7 +4109,7 @@
 				"args":
 				{
 					"text": "1 3 5 8 10",
-					/*"threshold": 3*/
+					/*"threshold": 3,*/
 					/*"threshold": 3,*/
 				},
 				"command": "text_pastry_step",
@@ -4132,6 +4124,7 @@
 				"args":
 				{
 					"text": "A B s",
+					/*"threshold": 3*/
 					/*"threshold": 3,*/
 					"threshold": 3,
 				},
@@ -4177,6 +4170,7 @@
 				"args":
 				{
 					"text": "homeName awayName f",
+					/*"threshold": 3,*/
 					"threshold": 3,
 				},
 				"command": "text_pastry_insert_text",
@@ -4192,7 +4186,6 @@
 				{
 					"text": "2 1 1",
 					/*"threshold": 3,*/
-					/*"threshold": 3,*/
 				},
 				"command": "text_pastry_step",
 				"text": "2 1 1",
@@ -4207,6 +4200,7 @@
 				{
 					"text": "#app #flyc a",
 					/*"threshold": 3,*/
+					/*"threshold": 3,*/
 					"threshold": 3,
 				},
 				"command": "text_pastry_insert_text",
@@ -4214,6 +4208,37 @@
 			},
 			"key": "9b27984cafed0b6b5dcc1ec57564e261",
 			"label": "#app #flyc a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "0 1 1",
+					/*"threshold": 3,*/
+					/*"threshold": 3,*/
+				},
+				"command": "text_pastry_step",
+				"text": "0 1 1",
+			},
+			"key": "661ea57b2ee2f892b90f1296ab868e99",
+			"label": "0 1 1",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "key quote f",
+					/*"threshold": 3*/
+					/*"threshold": 3,*/
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "key quote f",
+			},
+			"key": "9edef507928f17e62a24d7d522618040",
+			"label": "key quote f",
 		},
 		{
 			"data":
@@ -4235,28 +4260,14 @@
 			{
 				"args":
 				{
-					"text": "0 1 1",
+					"text": "4 1 1",
 					/*"threshold": 3*/
 				},
 				"command": "text_pastry_step",
-				"text": "0 1 1",
+				"text": "4 1 1",
 			},
-			"key": "661ea57b2ee2f892b90f1296ab868e99",
-			"label": "0 1 1",
-		},
-		{
-			"data":
-			{
-				"args":
-				{
-					"text": "key quote f",
-					"threshold": 3
-				},
-				"command": "text_pastry_insert_text",
-				"text": "key quote f"
-			},
-			"key": "9edef507928f17e62a24d7d522618040",
-			"label": "key quote f"
+			"key": "366ca64aac50030e083f720c45d70c7f",
+			"label": "4 1 1",
 		},
 	],
 	"last_command":
@@ -4269,15 +4280,15 @@
 			/*"clipboard": true,*/
 			/*"regex": true,*/
 			/*"separator": "e a",*/
-			"text": "key quote f",
+			"text": "4 1 1",
 			/*"threshold": 3,*/
 			/*"threshold": 3,*/
 			/*"threshold": 3,*/
 			/*"threshold": 3,*/
 			/*"threshold": 3,*/
-			"threshold": 3,
+			/*"threshold": 3,*/
 		},
-		"command": "text_pastry_insert_text",
-		"text": "key quote f",
+		"command": "text_pastry_step",
+		"text": "4 1 1",
 	},
 }

@@ -38,7 +38,7 @@
 	"caret_extra_bottom": 2,
 	"caret_extra_top": 2,
 	"caret_extra_width": 1,
-	"color_scheme": "Packages/SynthWave 84 - Color Scheme/SynthWave 84.tmTheme",
+	"color_scheme": "Packages/User/Pandju - No italics.sublime-color-scheme",
 	"esversion": 6,
 	"file_exclude_patterns":
 	[
@@ -100,7 +100,7 @@
 	"show_encoding": true,
 	"show_full_path": true,
 	"tab_size": 2,
-	"theme": "Adaptive.sublime-theme",
+	"theme": "Raijū.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": "all",
 	"dark_theme": "Default.sublime-theme",

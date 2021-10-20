@@ -108,7 +108,9 @@
       "scope": "variable.language"
     },
     {
-      "foreground": "#d7e2ff",
+      // "foreground": "#d7e2ff",
+      // "foreground": "#EEE899",
+      "foreground": "#EDF0C1",
       "font_style": 0,
       "scope": "variable.function, meta.selectionset.graphql variable.graphql, meta.type.interface.graphql meta.type.object.graphql variable.graphql"
     },
@@ -209,6 +211,7 @@
     },
     {
       "foreground": "#d7e2ff",
+      // "foreground": "#FF0000",
       "font_style": 0,
       "scope": "support.function"
     },
@@ -372,6 +375,7 @@
       "scope": "entity.other.pseudo-class, entity.other.pseudo-element"
     },
     {
+      // check: nothing
       "foreground": "#d7e2ff",
       "font_style": 0,
       "scope": "meta.interface meta.method.declaration meta.definition.method entity.name.function, meta.type.declaration meta.object.type meta.method.declaration meta.definition.method entity.name.function, meta.interface meta.field.declaration meta.definition.property entity.name.function, meta.type.declaration meta.object.type meta.field.declaration meta.definition.property entity.name.function, storage.modifier.import"

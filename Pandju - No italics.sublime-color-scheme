@@ -1,0 +1,57 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+  "variables":
+  {
+  },
+  "globals":
+  {
+  },
+  "rules": [
+    {
+      // function 宣告的時候的參數顏色 callMe(here)
+      "name": "Function definition parameters",
+      "scope": "variable.parameter.function, meta.function.parameters variable.parameter, meta.function-call.arguments variable.parameter",
+      "foreground": "#86FFB7",
+      "font_style": "italic"
+    },
+    {
+      // dot: 不是function call 的 . 後面的節點value obj.here, obj.node.not_here()
+      "name": "不是function call 的 . 後面的節點value",
+      "scope": "meta.property.object.js",
+      // "foreground": "#8AB6FC",
+      "foreground": "#A4D4FC",
+      "font_style": ""
+    },
+
+    //
+    {
+      "name": "JSON - level 0 - key",
+      "scope": "source.json, source.json.npm meta.mapping.key.json string.quoted.double.json",
+      // "foreground": "#5EF1A6"
+      "foreground": "#6B5DEF"
+    },
+    {
+      "name": "JSON - level 0 - quote",
+      "scope": "source.json, source.json.npm meta.mapping.key.json string.quoted.double.json punctuation.definition.string",
+      // "foreground": "#5EF1A6"
+      "foreground": "#6B5DEF"
+    },
+    {
+      "name": "JSON - level 1 - key",
+      "scope": "source.json, source.json.npm meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
+      // "foreground": "#5EF1A6"
+      "foreground": "#6B5DEF"
+    },
+    {
+      "name": "JSON - level 1 - quote",
+      "scope": "source.json, source.json.npm meta.mapping.value.json meta.mapping.key.json string.quoted.double.json punctuation.definition.string",
+      // "foreground": "#5EF1A6"
+      "foreground": "#6B5DEF"
+    },
+    {
+      "name": "符號{},:",
+      "scope": "source.json, source.json.npm meta.mapping.value.json meta.mapping.json punctuation.section.mapping.begin.json",
+      "foreground": "#FFFFFF"
+    }
+  ]
+}
