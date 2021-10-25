@@ -11,11 +11,11 @@
   "rules": [
     {
       // function 宣告的顏色 function here()
-      // "name": "Function call",
-      // "scope": "entity.name.function",
-      // "foreground": "color(var(red) l(+ 10%))",
-      // "background": "color(var(red) l(+ 50%) a(0.1))",
-      // "font_style": "bold"
+      "name": "Function call",
+      "scope": "entity.name.function",
+      "foreground": "color(#6695EE l(+ 5%))",
+      "background": "color(#6695EE a(0.1)",
+      "font_style": "bold"
     },
     {
       // function 呼叫的顏色 here()
