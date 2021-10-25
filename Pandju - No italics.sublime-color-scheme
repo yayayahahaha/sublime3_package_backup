@@ -5,9 +5,25 @@
   },
   "globals":
   {
+    // 相同的字被預選取起來的外框顏色
     "highlight": "#E9F0B2"
   },
   "rules": [
+    {
+      // function 宣告的顏色 function here()
+      // "name": "Function call",
+      // "scope": "entity.name.function",
+      // "foreground": "color(var(red) l(+ 10%))",
+      // "background": "color(var(red) l(+ 50%) a(0.1))",
+      // "font_style": "bold"
+    },
+    {
+      // function 呼叫的顏色 here()
+      // "name": "Function call",
+      // "scope": "variable.function",
+      // "foreground": "color(var(red) l(+ 10%))"
+    },
+
     {
       // function 宣告的時候的參數顏色 callMe(here)
       "name": "Function definition parameters",
