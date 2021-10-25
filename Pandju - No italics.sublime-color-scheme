@@ -5,6 +5,7 @@
   },
   "globals":
   {
+    "highlight": "#E9F0B2"
   },
   "rules": [
     {
