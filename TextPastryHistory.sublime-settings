@@ -4055,26 +4055,6 @@
 					/*"clipboard": true,*/
 					/*"regex": true,*/
 					/*"separator": "e a",*/
-					"text": "a b c",
-					/*"threshold": 3,*/
-					"threshold": 3,
-				},
-				"command": "text_pastry_insert_text",
-				"text": "a b c",
-			},
-			"key": "06f0760ec7f18687a7fbc0ddbf1b1722",
-			"label": "a b c",
-		},
-		{
-			"data":
-			{
-				"args":
-				{
-					/*"text": "1 1 1",*/
-					/*"threshold": 3*/
-					/*"clipboard": true,*/
-					/*"regex": true,*/
-					/*"separator": "e a",*/
 					"text": "cancel confirm asdf",
 					/*"threshold": 3,*/
 					"threshold": 3,
@@ -4090,6 +4070,8 @@
 			{
 				"args":
 				{
+					/*"text": "1 1 1",*/
+					/*"threshold": 3*/
 					/*"clipboard": true,*/
 					/*"regex": true,*/
 					/*"separator": "e a",*/
@@ -4108,6 +4090,9 @@
 			{
 				"args":
 				{
+					/*"clipboard": true,*/
+					/*"regex": true,*/
+					/*"separator": "e a",*/
 					"text": "1 3 5 8 10",
 					/*"threshold": 3,*/
 					/*"threshold": 3,*/
@@ -4124,7 +4109,7 @@
 				"args":
 				{
 					"text": "A B s",
-					/*"threshold": 3*/
+					/*"threshold": 3,*/
 					/*"threshold": 3,*/
 					"threshold": 3,
 				},
@@ -4140,6 +4125,7 @@
 				"args":
 				{
 					"text": "start end a",
+					/*"threshold": 3*/
 					/*"threshold": 3,*/
 					"threshold": 3,
 				},
@@ -4186,6 +4172,7 @@
 				{
 					"text": "2 1 1",
 					/*"threshold": 3,*/
+					/*"threshold": 3,*/
 				},
 				"command": "text_pastry_step",
 				"text": "2 1 1",
@@ -4199,7 +4186,6 @@
 				"args":
 				{
 					"text": "#app #flyc a",
-					/*"threshold": 3,*/
 					/*"threshold": 3,*/
 					"threshold": 3,
 				},
@@ -4217,6 +4203,7 @@
 					"text": "0 1 1",
 					/*"threshold": 3,*/
 					/*"threshold": 3,*/
+					/*"threshold": 3,*/
 				},
 				"command": "text_pastry_step",
 				"text": "0 1 1",
@@ -4230,7 +4217,7 @@
 				"args":
 				{
 					"text": "key quote f",
-					/*"threshold": 3*/
+					/*"threshold": 3,*/
 					/*"threshold": 3,*/
 					"threshold": 3,
 				},
@@ -4248,6 +4235,7 @@
 					"text": "4 1 1",
 					/*"threshold": 3*/
 					/*"threshold": 3,*/
+					/*"threshold": 3,*/
 				},
 				"command": "text_pastry_step",
 				"text": "4 1 1",
@@ -4262,12 +4250,42 @@
 				{
 					"text": "1 1 1",
 					/*"threshold": 3*/
+					/*"threshold": 3,*/
 				},
 				"command": "text_pastry_step",
 				"text": "1 1 1",
 			},
 			"key": "f4093d4303a6804a1cf378c28e59581a",
 			"label": "1 1 1",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "b a c",
+					/*"threshold": 3*/
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "b a c",
+			},
+			"key": "750645906cbd4dcd7cd034906f1499e2",
+			"label": "b a c",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "a b c",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "a b c",
+			},
+			"key": "06f0760ec7f18687a7fbc0ddbf1b1722",
+			"label": "a b c",
 		},
 	],
 	"last_command":
@@ -4280,15 +4298,16 @@
 			/*"clipboard": true,*/
 			/*"regex": true,*/
 			/*"separator": "e a",*/
-			"text": "1 1 1",
+			"text": "a b c",
 			/*"threshold": 3,*/
 			/*"threshold": 3,*/
 			/*"threshold": 3,*/
 			/*"threshold": 3,*/
 			/*"threshold": 3,*/
 			/*"threshold": 3,*/
+			"threshold": 3,
 		},
-		"command": "text_pastry_step",
-		"text": "1 1 1",
+		"command": "text_pastry_insert_text",
+		"text": "a b c",
 	},
 }
