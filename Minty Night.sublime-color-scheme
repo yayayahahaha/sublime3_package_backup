@@ -1,0 +1,70 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+  "variables":
+  {
+    "green": "#6BF2BC"
+  },
+  "globals":
+  {
+  },
+  "rules":
+  [
+    // HTML part from Neon
+    {
+      // html 標籤的TAG div
+      "name": "Tag",
+      "scope": "meta.tag entity.name, entity.name.tag",
+      "foreground": "#b1e7fd",
+      "font_style": "bold"
+    },
+    {
+      // html 的屬性名稱 class, id, v-if
+      "name": "Attribute name",
+      "scope": "entity.other.attribute-name, storage.type.attr",
+      // "foreground": "#64bfc5",
+      "foreground": "color(var(green))",
+      "font_style": "italic"
+    },
+    {
+      // html 屬性的value含"" "bg-red classValue", 不含 vue 相關的內文
+      "name": "HTML String",
+      "scope": "string.quoted.double.html, string.quoted.single.html",
+      "foreground": "#64bfc5"
+    },
+    {
+      // html 標籤旁邊的 < />
+      "name": "Tag Punctuation",
+      "scope": "punctuation.definition.tag, meta.tag.validhtml",
+      "foreground": "#64bfc5"
+    },
+    {
+      // vue attribute 旁邊的冒號
+      "name": "Punctuation",
+      "scope": "punctuation - (punctuation.definition.string | punctuation.definition.comment)",
+      "foreground": "#b1e7fd"
+    },
+
+    // function
+    {
+      // function 宣告的顏色 function here()
+      "name": "Function call",
+      "scope": "entity.name.function",
+      "foreground": "#73B7FF",
+      "background": "color(#C6EEFF a(0.1))",
+      "font_style": "bold"
+    },
+    {
+      // function 呼叫的顏色 here()
+      "name": "Function call",
+      "scope": "variable.function",
+      "foreground": "#73B7FF"
+    },
+    {
+      // function 宣告的時候的參數顏色 callMe(here)
+      "name": "Function definition parameters",
+      "scope": "variable.parameter.function, meta.function.parameters variable.parameter, meta.function-call.arguments variable.parameter",
+      "foreground": "color(var(green))",
+      "font_style": "italic"
+    },
+  ]
+}
