@@ -71,6 +71,32 @@
       "name": "return 的字",
       "scope": "keyword.control.flow.return.js",
       "foreground": "color(var(green) l(+ 15%))",
+    },
+
+    // JSON part
+    {
+      "name": "JSON - level 0 - key",
+      "scope": "source.json, source.json.npm meta.mapping.key.json string.quoted.double.json",
+      // "foreground": "#5EF1A6"
+      "foreground": "color(var(green))"
+    },
+    {
+      "name": "JSON - level 0 - quote",
+      "scope": "source.json, source.json.npm meta.mapping.key.json string.quoted.double.json punctuation.definition.string",
+      // "foreground": "#5EF1A6"
+      "foreground": "color(var(green))"
+    },
+    {
+      "name": "JSON - level 1 - key",
+      "scope": "source.json, source.json.npm meta.mapping.value.json meta.mapping.key.json string.quoted.double.json",
+      // "foreground": "#5EF1A6"
+      "foreground": "color(var(green))"
+    },
+    {
+      "name": "JSON - level 1 - quote",
+      "scope": "source.json, source.json.npm meta.mapping.value.json meta.mapping.key.json string.quoted.double.json punctuation.definition.string",
+      // "foreground": "#5EF1A6"
+      "foreground": "color(var(green))"
     }
   ]
 }
