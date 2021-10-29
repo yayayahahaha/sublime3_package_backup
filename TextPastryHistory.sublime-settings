@@ -4170,22 +4170,8 @@
 			{
 				"args":
 				{
-					"text": "2 1 1",
-					/*"threshold": 3,*/
-					/*"threshold": 3,*/
-				},
-				"command": "text_pastry_step",
-				"text": "2 1 1",
-			},
-			"key": "94d3af9cf0b36d0a52cc4e4d45358db5",
-			"label": "2 1 1",
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "#app #flyc a",
+					/*"threshold": 3,*/
 					/*"threshold": 3,*/
 					"threshold": 3,
 				},
@@ -4203,7 +4189,6 @@
 					"text": "0 1 1",
 					/*"threshold": 3,*/
 					/*"threshold": 3,*/
-					/*"threshold": 3,*/
 				},
 				"command": "text_pastry_step",
 				"text": "0 1 1",
@@ -4217,6 +4202,7 @@
 				"args":
 				{
 					"text": "key quote f",
+					/*"threshold": 3,*/
 					/*"threshold": 3,*/
 					/*"threshold": 3,*/
 					"threshold": 3,
@@ -4233,7 +4219,7 @@
 				"args":
 				{
 					"text": "4 1 1",
-					/*"threshold": 3*/
+					/*"threshold": 3,*/
 					/*"threshold": 3,*/
 					/*"threshold": 3,*/
 				},
@@ -4251,6 +4237,7 @@
 					"text": "1 1 1",
 					/*"threshold": 3*/
 					/*"threshold": 3,*/
+					/*"threshold": 3,*/
 				},
 				"command": "text_pastry_step",
 				"text": "1 1 1",
@@ -4265,6 +4252,7 @@
 				{
 					"text": "b a c",
 					/*"threshold": 3*/
+					/*"threshold": 3,*/
 					"threshold": 3,
 				},
 				"command": "text_pastry_insert_text",
@@ -4279,6 +4267,7 @@
 				"args":
 				{
 					"text": "a b c",
+					/*"threshold": 3*/
 					"threshold": 3,
 				},
 				"command": "text_pastry_insert_text",
@@ -4286,6 +4275,20 @@
 			},
 			"key": "06f0760ec7f18687a7fbc0ddbf1b1722",
 			"label": "a b c",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "2 1 1",
+					/*"threshold": 3,*/
+				},
+				"command": "text_pastry_step",
+				"text": "2 1 1",
+			},
+			"key": "94d3af9cf0b36d0a52cc4e4d45358db5",
+			"label": "2 1 1",
 		},
 	],
 	"last_command":
@@ -4298,16 +4301,16 @@
 			/*"clipboard": true,*/
 			/*"regex": true,*/
 			/*"separator": "e a",*/
-			"text": "a b c",
+			"text": "2 1 1",
 			/*"threshold": 3,*/
 			/*"threshold": 3,*/
 			/*"threshold": 3,*/
 			/*"threshold": 3,*/
 			/*"threshold": 3,*/
 			/*"threshold": 3,*/
-			"threshold": 3,
+			/*"threshold": 3,*/
 		},
-		"command": "text_pastry_insert_text",
-		"text": "a b c",
+		"command": "text_pastry_step",
+		"text": "2 1 1",
 	},
 }
