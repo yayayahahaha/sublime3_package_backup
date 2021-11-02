@@ -38,7 +38,7 @@
 	"caret_extra_bottom": 2,
 	"caret_extra_top": 2,
 	"caret_extra_width": 1,
-	"color_scheme": "Packages/Frontend Light Color Scheme/Minty Night.tmTheme",
+	"color_scheme": "Pandju - No italics.sublime-color-scheme",
 	"esversion": 6,
 	"file_exclude_patterns":
 	[
@@ -72,9 +72,11 @@
 		"dist",
 		"v1",
 		"node_modules",
+		".pnpm-store",
+		"Caches",
 		"release",
 		"release_folder",
-		// "design",
+		"design",
 		".nuxt"
 	],
 	"font_size": 14,
