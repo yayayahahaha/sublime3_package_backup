@@ -70,7 +70,7 @@
 		"CVS",
 		"build/out",
 		"dist",
-		"v1",
+		// "v1",
 		"node_modules",
 		".pnpm-store",
 		"Caches",
