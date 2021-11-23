@@ -66,11 +66,15 @@
       "foreground": "color(var(green))",
       "font_style": "italic"
     },
-
     {
       "name": "return 的字",
       "scope": "keyword.control.flow.return.js",
-      "foreground": "color(var(green) l(+ 15%))",
+      "foreground": "color(var(green) l(+ 5%))",
+    },
+    {
+      "name": "[{}]",
+      "scope": "punctuation.section.brackets",
+      "foreground": "color(var(green) l(- 5%))"
     },
 
     // JSON part

@@ -4234,24 +4234,9 @@
 			{
 				"args":
 				{
-					"text": "1 1 1",
-					/*"threshold": 3*/
-					/*"threshold": 3,*/
-					/*"threshold": 3,*/
-				},
-				"command": "text_pastry_step",
-				"text": "1 1 1",
-			},
-			"key": "f4093d4303a6804a1cf378c28e59581a",
-			"label": "1 1 1",
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "b a c",
 					/*"threshold": 3*/
+					/*"threshold": 3,*/
 					/*"threshold": 3,*/
 					"threshold": 3,
 				},
@@ -4268,6 +4253,7 @@
 				{
 					"text": "a b c",
 					/*"threshold": 3*/
+					/*"threshold": 3,*/
 					"threshold": 3,
 				},
 				"command": "text_pastry_insert_text",
@@ -4281,7 +4267,40 @@
 			{
 				"args":
 				{
+					"text": "item detail d",
+					/*"threshold": 3*/
+					/*"threshold": 3,*/
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "item detail d",
+			},
+			"key": "8696e76240c94d3abc899af81b0180b0",
+			"label": "item detail d",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "build deploy a",
+					/*"threshold": 3,*/
+					/*"threshold": 3,*/
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "build deploy a",
+			},
+			"key": "eaf17240531675e956cbde5b56915d30",
+			"label": "build deploy a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
 					"text": "2 1 1",
+					/*"threshold": 3*/
 					/*"threshold": 3,*/
 				},
 				"command": "text_pastry_step",
@@ -4289,6 +4308,20 @@
 			},
 			"key": "94d3af9cf0b36d0a52cc4e4d45358db5",
 			"label": "2 1 1",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 1",
+					/*"threshold": 3*/
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 1",
+			},
+			"key": "f4093d4303a6804a1cf378c28e59581a",
+			"label": "1 1 1",
 		},
 	],
 	"last_command":
@@ -4301,7 +4334,9 @@
 			/*"clipboard": true,*/
 			/*"regex": true,*/
 			/*"separator": "e a",*/
-			"text": "2 1 1",
+			"text": "1 1 1",
+			/*"threshold": 3,*/
+			/*"threshold": 3,*/
 			/*"threshold": 3,*/
 			/*"threshold": 3,*/
 			/*"threshold": 3,*/
@@ -4311,6 +4346,6 @@
 			/*"threshold": 3,*/
 		},
 		"command": "text_pastry_step",
-		"text": "2 1 1",
+		"text": "1 1 1",
 	},
 }

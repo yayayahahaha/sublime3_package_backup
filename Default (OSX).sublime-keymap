@@ -1,6 +1,10 @@
 [
   // System
   {
+    "keys": ["super+b"],
+    "command": "none"
+  },
+  {
     // put selected codes to "goto" panel
     "keys": ["super+alt+p"],
     "command": "chain",
