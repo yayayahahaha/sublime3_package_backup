@@ -1,3 +1,4 @@
+// 如果 cmd + p 變成了insert: cmd + opt + o
  {
 	// "draw_white_space": "selection",
 	// "on_post_save_user": [{ "command": "eslint_fix" }],
@@ -38,7 +39,7 @@
 	"caret_extra_bottom": 2,
 	"caret_extra_top": 2,
 	"caret_extra_width": 1,
-	"color_scheme": "Celeste.sublime-color-scheme",
+	"color_scheme": "Pandju - No italics.sublime-color-scheme",
 	"esversion": 6,
 	"file_exclude_patterns":
 	[
