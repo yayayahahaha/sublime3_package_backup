@@ -3896,20 +3896,6 @@
 			{
 				"args":
 				{
-					"text": "3 1 1",
-					/*"threshold": 3,*/
-				},
-				"command": "text_pastry_step",
-				"text": "3 1 1",
-			},
-			"key": "76370a01d1e0694d5d572b1907d9f98a",
-			"label": "3 1 1",
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "x y s",
 					/*"threshold": 3,*/
 					"threshold": 3,
@@ -3974,7 +3960,7 @@
 				"args":
 				{
 					/*"text": "web admin k",*/
-					/*"threshold": 3*/
+					/*"threshold": 3,*/
 					/*"threshold": 3,*/
 					/*"clipboard": true,*/
 					/*"regex": true,*/
@@ -3994,6 +3980,7 @@
 				"args":
 				{
 					/*"text": "web admin k",*/
+					/*"threshold": 3*/
 					/*"threshold": 3,*/
 					/*"clipboard": true,*/
 					/*"regex": true,*/
@@ -4070,8 +4057,8 @@
 			{
 				"args":
 				{
-					/*"text": "1 1 1",*/
-					/*"threshold": 3*/
+					/*"text": "web admin k",*/
+					/*"threshold": 3,*/
 					/*"clipboard": true,*/
 					/*"regex": true,*/
 					/*"separator": "e a",*/
@@ -4090,6 +4077,8 @@
 			{
 				"args":
 				{
+					/*"text": "1 1 1",*/
+					/*"threshold": 3*/
 					/*"clipboard": true,*/
 					/*"regex": true,*/
 					/*"separator": "e a",*/
@@ -4108,6 +4097,9 @@
 			{
 				"args":
 				{
+					/*"clipboard": true,*/
+					/*"regex": true,*/
+					/*"separator": "e a",*/
 					"text": "A B s",
 					/*"threshold": 3,*/
 					/*"threshold": 3,*/
@@ -4125,7 +4117,7 @@
 				"args":
 				{
 					"text": "start end a",
-					/*"threshold": 3*/
+					/*"threshold": 3,*/
 					/*"threshold": 3,*/
 					"threshold": 3,
 				},
@@ -4141,6 +4133,7 @@
 				"args":
 				{
 					"text": "notYet already",
+					/*"threshold": 3*/
 					/*"threshold": 3,*/
 					"threshold": 3,
 				},
@@ -4172,7 +4165,6 @@
 				{
 					"text": "#app #flyc a",
 					/*"threshold": 3,*/
-					/*"threshold": 3,*/
 					"threshold": 3,
 				},
 				"command": "text_pastry_insert_text",
@@ -4187,6 +4179,7 @@
 				"args":
 				{
 					"text": "0 1 1",
+					/*"threshold": 3,*/
 					/*"threshold": 3,*/
 					/*"threshold": 3,*/
 				},
@@ -4204,7 +4197,6 @@
 					"text": "key quote f",
 					/*"threshold": 3,*/
 					/*"threshold": 3,*/
-					/*"threshold": 3,*/
 					"threshold": 3,
 				},
 				"command": "text_pastry_insert_text",
@@ -4218,24 +4210,9 @@
 			{
 				"args":
 				{
-					"text": "4 1 1",
-					/*"threshold": 3,*/
-					/*"threshold": 3,*/
-					/*"threshold": 3,*/
-				},
-				"command": "text_pastry_step",
-				"text": "4 1 1",
-			},
-			"key": "366ca64aac50030e083f720c45d70c7f",
-			"label": "4 1 1",
-		},
-		{
-			"data":
-			{
-				"args":
-				{
 					"text": "b a c",
-					/*"threshold": 3*/
+					/*"threshold": 3,*/
+					/*"threshold": 3,*/
 					/*"threshold": 3,*/
 					/*"threshold": 3,*/
 					"threshold": 3,
@@ -4252,7 +4229,8 @@
 				"args":
 				{
 					"text": "a b c",
-					/*"threshold": 3*/
+					/*"threshold": 3,*/
+					/*"threshold": 3,*/
 					/*"threshold": 3,*/
 					"threshold": 3,
 				},
@@ -4270,6 +4248,7 @@
 					"text": "item detail d",
 					/*"threshold": 3*/
 					/*"threshold": 3,*/
+					/*"threshold": 3,*/
 					"threshold": 3,
 				},
 				"command": "text_pastry_insert_text",
@@ -4284,7 +4263,7 @@
 				"args":
 				{
 					"text": "build deploy a",
-					/*"threshold": 3,*/
+					/*"threshold": 3*/
 					/*"threshold": 3,*/
 					"threshold": 3,
 				},
@@ -4293,6 +4272,38 @@
 			},
 			"key": "eaf17240531675e956cbde5b56915d30",
 			"label": "build deploy a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "3 1 1",
+					/*"threshold": 3*/
+					/*"threshold": 3,*/
+					/*"threshold": 3,*/
+				},
+				"command": "text_pastry_step",
+				"text": "3 1 1",
+			},
+			"key": "76370a01d1e0694d5d572b1907d9f98a",
+			"label": "3 1 1",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 1",
+					/*"threshold": 3,*/
+					/*"threshold": 3,*/
+					/*"threshold": 3,*/
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 1",
+			},
+			"key": "f4093d4303a6804a1cf378c28e59581a",
+			"label": "1 1 1",
 		},
 		{
 			"data":
@@ -4314,14 +4325,14 @@
 			{
 				"args":
 				{
-					"text": "1 1 1",
+					"text": "4 1 1",
 					/*"threshold": 3*/
 				},
 				"command": "text_pastry_step",
-				"text": "1 1 1",
+				"text": "4 1 1",
 			},
-			"key": "f4093d4303a6804a1cf378c28e59581a",
-			"label": "1 1 1",
+			"key": "366ca64aac50030e083f720c45d70c7f",
+			"label": "4 1 1",
 		},
 	],
 	"last_command":
@@ -4334,7 +4345,7 @@
 			/*"clipboard": true,*/
 			/*"regex": true,*/
 			/*"separator": "e a",*/
-			"text": "1 1 1",
+			"text": "4 1 1",
 			/*"threshold": 3,*/
 			/*"threshold": 3,*/
 			/*"threshold": 3,*/
@@ -4346,6 +4357,6 @@
 			/*"threshold": 3,*/
 		},
 		"command": "text_pastry_step",
-		"text": "1 1 1",
+		"text": "4 1 1",
 	},
 }

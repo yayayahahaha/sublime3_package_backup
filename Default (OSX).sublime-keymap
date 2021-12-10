@@ -1,7 +1,13 @@
 [
   // System
   {
+    // avoid Building codes
     "keys": ["super+b"],
+    "command": "none"
+  },
+  {
+    // avoid open code, use cmd + p instead
+    "keys": ["super+o"],
     "command": "none"
   },
   {
