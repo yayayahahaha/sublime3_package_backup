@@ -43,7 +43,7 @@
             // there is whitespace in the problem region (ST issue #137).
             // In newer versions underlines are replaced with outlines when
             // there are newlines in the problem region for readability.
-            "mark_style": "fill",
+            "mark_style": "outline",
 
             "scope": "region.redish markup.error.sublime_linter"
         }
