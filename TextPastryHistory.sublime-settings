@@ -4371,6 +4371,20 @@
 			"key": "f4093d4303a6804a1cf378c28e59581a",
 			"label": "1 1 1",
 		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "top left width height",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "top left width height"
+			},
+			"key": "17df21a2c5abe9f6938b6e5f4ef29c29",
+			"label": "top left width height"
+		},
 	],
 	"last_command":
 	{
@@ -4382,7 +4396,7 @@
 			/*"clipboard": true,*/
 			/*"regex": true,*/
 			/*"separator": "e a",*/
-			"text": "1 1 1",
+			"text": "top left width height",
 			/*"threshold": 3,*/
 			/*"threshold": 3,*/
 			/*"threshold": 3,*/
@@ -4393,8 +4407,9 @@
 			/*"threshold": 3,*/
 			/*"threshold": 3,*/
 			/*"threshold": 3,*/
+			"threshold": 3,
 		},
-		"command": "text_pastry_step",
-		"text": "1 1 1",
+		"command": "text_pastry_insert_text",
+		"text": "top left width height",
 	},
 }
