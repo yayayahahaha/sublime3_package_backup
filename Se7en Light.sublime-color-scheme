@@ -1,0 +1,17 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+  "variables":
+  {
+  },
+  "globals":
+  {
+    "line_highlight": "#E4E6FF",
+    "selection": "#AFB6E8",
+    // "selection": "#9FA5D1",
+    // "highlight": "#C6A81E",
+    // "find_highlight": "#ff4444",
+    // "find_highlight_foreground": "black",
+  },
+  "rules":
+  []
+}

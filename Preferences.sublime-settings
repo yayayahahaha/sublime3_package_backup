@@ -39,7 +39,7 @@
 	"caret_extra_bottom": 2,
 	"caret_extra_top": 2,
 	"caret_extra_width": 1,
-	"color_scheme": "Pandju - No italics.sublime-color-scheme",
+	"color_scheme": "Packages/Se7en Color Schemes/Themes/Se7en Light.tmTheme",
 	"esversion": 6,
 	"file_exclude_patterns":
 	[
@@ -108,4 +108,6 @@
 	"dark_theme": "Default.sublime-theme",
 	"light_theme": "Default.sublime-theme",
 	"relative_line_numbers": false,
+	"dark_color_scheme": "Monokai.sublime-color-scheme",
+	"light_color_scheme": "Breakers.sublime-color-scheme",
 }
