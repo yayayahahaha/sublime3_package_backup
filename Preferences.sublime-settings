@@ -39,7 +39,7 @@
 	"caret_extra_bottom": 2,
 	"caret_extra_top": 2,
 	"caret_extra_width": 1,
-	"color_scheme": "GitHub Light Legacy.sublime-color-scheme",
+	"color_scheme": "Packages/Colorsublime - Themes/Foggy-Morning.tmTheme",
 	"esversion": 6,
 	"file_exclude_patterns":
 	[
@@ -101,9 +101,10 @@
 	"show_encoding": true,
 	"show_full_path": true,
 	"tab_size": 2,
-	"theme": "GitHub Light.sublime-theme",
+	"theme": "Soda Light 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	// "trim_trailing_white_space_on_save": "all",
 	"trim_trailing_white_space_on_save": "none",
 	"relative_line_numbers": false,
+	"original_color_scheme": "Packages/Colorsublime - Themes/cache/Colorsublime-Themes-master/themes/Foggy-Morning.tmTheme",
 }
