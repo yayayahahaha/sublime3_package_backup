@@ -1,0 +1,13 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+  "variables":
+  {
+    "inputBackground": "#000",
+    "inputBorder": "#000",
+    "inputForeground": "#000",
+  },
+  "rules":
+  [
+    
+  ]
+}
