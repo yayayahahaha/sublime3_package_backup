@@ -84,15 +84,7 @@
 	// "font_face": "Monaco",
 	"ignored_packages":
 	[
-		"CTags",
-		"Git Formats",
-		"GitSavvy",
-		"GitStatusBar",
-		"Highlight Dodgy Chars",
-		"Image2Base64",
 		"IMESupport",
-		"SublimeCodeIntel",
-		"SublimeGit",
 		"Transparency",
 		"Vintage",
 	],

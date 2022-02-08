@@ -80,6 +80,21 @@
     "command": "swap_line_down"
   },
   {
+    // scroll view down
+    "keys": ["ctrl+alt+up"],
+    "command": "scroll_lines",
+    "args": {
+      "amount": 5.0
+    }
+  }, {
+    // scroll view up
+    "keys": ["ctrl+alt+down"],
+    "command": "scroll_lines",
+    "args": {
+      "amount": -5.0
+    }
+  },
+  {
     // create more pointer up
     "keys": ["ctrl+super+up"],
     "command": "select_lines",
