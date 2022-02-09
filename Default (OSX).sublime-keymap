@@ -45,7 +45,7 @@
     "keys": ["super+shift+["],
     "command": "run_macro_file",
     "args": {
-      "file": "Packages/User/folder-current-scope.sublime-macro"
+      "file": "Packages/User/sublime-macro/folder-current-scope.sublime-macro"
     }
   },
   {

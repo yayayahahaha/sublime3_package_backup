@@ -1,14 +1,15 @@
 {
   "bootstrapped": true,
   "installed_packages": [
-    "Color Convert",
-    "Color Highlight",
     "ayu",
     "BlackBird-ColorScheme",
     "BracketHighlighter",
     "Case Conversion",
     "Chain of Command",
+    "Color Convert",
+    "Color Highlight",
     "ColorPicker",
+    "ColorSchemeEditor",
     "Colorsublime",
     "Dank Neon",
     "Dark Neon Color Scheme",
@@ -16,6 +17,7 @@
     "DotENV",
     "Dracula Color Scheme",
     "Emmet",
+    "ESLint Fix",
     "FindKeyConflicts",
     "Fold Comments",
     "Git",
@@ -33,6 +35,7 @@
     "Neon Color Scheme",
     "Nettuts+ Fetch",
     "nginx",
+    "Nodejs",
     "One Half Color Schemes",
     "Package Control",
     "PackageResourceViewer",
@@ -56,7 +59,8 @@
     "TOML",
     "Unicode Character Highlighter",
     "Vaporwave",
+    "VisualizeZeroWidthChars",
     "Vue Syntax Highlight"
   ],
-  "in_process_packages": []
+  "in_process_packages": [],
 }
