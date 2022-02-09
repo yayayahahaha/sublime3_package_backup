@@ -1,0 +1,12 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+  "variables":
+  {
+    "font_face": "Comic sans",
+    "font_size": 14
+  },
+  "rules":
+  [
+
+  ]
+}

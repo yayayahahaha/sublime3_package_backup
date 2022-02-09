@@ -1,0 +1,28 @@
+<snippet>
+<content><![CDATA[
+/*
+<div id="holderId">
+    <input class="typeahead" type="text" placeholder="States of USA">
+</div>
+*/
+var array = ['kjafs', 'afhljkds', 'vucxio', 'qewrm', 'fsdjl'];
+var states = new Bloodhound({
+    datumTokenizer: Bloodhound.tokenizers.whitespace,
+    queryTokenizer: Bloodhound.tokenizers.whitespace,
+    // `states` is an array of state names defined in 'The Basics'
+    local: array
+});
+\$('#holderId .typeahead').typeahead({
+    hint: true,
+    highlight: true,
+    minLength: 1
+}, {
+    name: 'Just_a_name',
+    source: states
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>auto_complete</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

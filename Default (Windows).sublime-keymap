@@ -1,4 +1,44 @@
-[
-	{ "keys": ["ctrl+shift+alt+s"], "command": "prompt_save_as" },
-	{ "keys": ["ctrl+shift+s"], "command": "save_all" }
-]
+[{
+	"keys": ["ctrl+shift+alt+s"],
+	"command": "prompt_save_as"
+}, {
+	"keys": ["ctrl+shift+s"],
+	"command": "save_all"
+}, {
+	"keys": ["ctrl+alt+p"],
+	"command": "prompt_select_workspace"
+}, {
+	"keys": ["ctrl+alt+c"],
+	"command": "css_format",
+	"args": {
+		"action": "expand"
+	}
+}, {
+	"keys": ["alt+shift+["],
+	"command": "run_macro_file",
+	"args": {
+		"file": "Packages/User/folder-current-scope.sublime-macro"
+	}
+}, {
+	"keys": ["ctrl+shift+alt+t", "ctrl+shift+alt+r"],
+	"command": "ternjs_reload"
+}, {
+	"keys": ["ctrl+u"],
+	"command": "soft_undo"
+}, {
+	"keys": ["ctrl+shift+u"],
+	"command": "soft_redo"
+}, {
+	"keys": ["ctrl+shift+alt+u"],
+	"command": "update_as_you_type",
+	"context": [{
+		"operand": false,
+		"operator": "equal",
+		"match_all": true,
+		"key": "setting.is_widget"
+	}, {
+		"match_all": true,
+		"key": "emmet_action_enabled.update_as_you_type"
+	}]
+
+}]

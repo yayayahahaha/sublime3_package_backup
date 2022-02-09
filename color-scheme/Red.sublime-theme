@@ -1,0 +1,31 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+  "variables":
+  {
+    // "font_face": "system",
+    "font_face": "Comic sans",
+    "font_size_sm": 11,
+    "font_size": 14,
+    "font_size_lg": 13,
+    "font_size_title": 24,
+    "medium_dark_bg": "color(#390000 l(- 3.5%))",
+  },
+  "rules":
+  [
+    // Title Bar
+    {
+      "class": "title_bar",
+      "attributes": ["file_medium_dark"],
+      "settings": ["themed_title_bar"],
+      "bg": "color(#390000 l(- 3%))",
+      "style": "dark"
+    },
+    {
+      "class": "sidebar_label",
+      // "fg": "color(var(--background) blend(white 20%))",
+      "fg": "color(#FB9A4B l(+ 25%))",
+      "font.face": "var(font_face)",
+      "font.size": "var(font_size)"
+    },
+  ]
+}

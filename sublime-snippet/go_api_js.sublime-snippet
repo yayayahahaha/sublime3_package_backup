@@ -1,0 +1,19 @@
+<snippet>
+    <content><![CDATA[
+mvc.Get("${1:front-end-api-path}", func(ctx *mvc.Context) {
+    c := glob.NewClient(glob.ApiHost+"${2:back-end-api-path}", ctx)
+    buf, err := c.Get(glob.GetMapFromContext(ctx))
+
+    if err != nil {
+        ctx.Response.StatusCode = http.StatusInternalServerError
+        ctx.Response.Body = c.ParseError(err)
+    } else {
+        ctx.Response.Body = string(buf)
+    }
+}).SetAuthorizer(&glob.Authorizer).SetWriter(&glob.ApiWriter)
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>api_js</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.go</scope>
+</snippet>

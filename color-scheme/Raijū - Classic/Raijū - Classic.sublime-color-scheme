@@ -1,0 +1,806 @@
+{
+  "name": "Raijū - Classic",
+  "author": "Tobias Timm",
+  "globals": {
+    "background": "#2a2d37",
+    "foreground": "#d4d4d4",
+    "caret": "#ffffffc9",
+    "block_caret": "#ffffffc9",
+    "line_highlight": "#65737e30",
+    "misspelling": "#E15A60",
+    "fold_marker": "#7c9ffe",
+    "accent": "#7c9ffe",
+    "gutter": "#282c35",
+    "gutter_foreground": "#495162",
+    "line_diff_added": "#01579b",
+    "line_diff_modified": "#8d9ad1",
+    "line_diff_deleted": "#6F7899",
+    "selection": "#67769660",
+    "inactive_selection": "#343d64",
+    "inactive_selection_foreground": "#dfe1e8",
+    "highlight": "#314365",
+    "find_highlight": "#314365",
+    "find_highlight_foreground": "#7c9ffe",
+    "guide": "#3B4048",
+    "active_guide": "#8d9ad1",
+    "stack_guide": "#d4d4d4",
+    "brackets_foreground": "",
+    "tags_foreground": "",
+    "shadow": "#282c35"
+  },
+  "variables": {
+    "black": "",
+    "white": "",
+    "red": "",
+    "green": "",
+    "yellow": "",
+    "orange": "",
+    "blue": "",
+    "magenta": "",
+    "cyan": ""
+  },
+  "rules": [
+    {
+      "name": "JSON Punctuation",
+      "foreground": "#d4d4d4ff",
+      "font_style": 0,
+      "scope": "punctuation.support.type.property-name.begin.json, punctuation.support.type.property-name.end.json"
+    },
+    {
+      "name": "Reason - Keyword",
+      "foreground": "#8d9ad1",
+      "font_style": "italic",
+      "scope": "source.reason keyword, source.reason storage.type"
+    },
+    {
+      "name": "Reason - Control",
+      "foreground": "#ffedcb",
+      "font_style": "italic",
+      "scope": "source.reason keyword.control.switch"
+    },
+    {
+      "name": "Reason - Operator",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "source.reason keyword.control.less, source.reason keyword.operator keyword.control"
+    },
+    {
+      "name": "Reason - Class",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "source.reason support.class entity.name.class"
+    },
+    {
+      "name": "Reason - Call",
+      "foreground": "#d7e2ff",
+      "font_style": 0,
+      "scope": "source.reason support.property-value entity.name.filename"
+    },
+    {
+      "name": "Block & Braces",
+      "foreground": "#817c98",
+      "font_style": 0,
+      "scope": "keyword.operator.type.annotation, meta.brace.round, punctuation, keyword.operator.ternary, meta.brace.curly.graphql, meta.brace.square, punctuation.support.type.property-name.begin.json, punctuation.support.type.property-name.end.json"
+    },
+    {
+      "name": "Constants",
+      "foreground": "#ceb3f7",
+      "font_style": 0,
+      "scope": "meta.block.js variable.other.constant.property.js, meta.block.js.jsx variable.other.constant.property.js.jsx, meta.block.ts variable.other.constant.property.ts, meta.block.tsx variable.other.constant.property.tsx"
+    },
+    {
+      "name": "Decorator",
+      "foreground": "#d7e2ff",
+      "font_style": 0,
+      "scope": "punctuation.decorator.js, punctuation.decorator.js.jsx, punctuation.decorator.ts, punctuation.decorator.tsx, meta.decorator.js meta.function-call.js entity.name.function.js, meta.decorator.js.jsx meta.function-call.js.jsx entity.name.function.js.jsx, meta.decorator.ts meta.function-call.ts entity.name.function.ts, meta.decorator.tsx meta.function-call.tsx entity.name.function.tsx"
+    },
+    {
+      "name": "Meta object literal key",
+      "font_style": 0,
+      "scope": "source.js meta.object-literal.key.js, source.js.jsx meta.object-literal.key.js.jsx, source.ts meta.object-literal.key.ts, source.tsx meta.object-literal.key.tsx, source.js variable.object.property.js, source.js.jsx variable.object.property.js.jsx, source.ts variable.object.property.ts, source.tsx variable.object.property.tsx"
+    },
+    {
+      "name": "Meta object literal key - Punctuation",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "source.js meta.object-literal.key.js punctuation.separator.key-value.js, source.js.jsx meta.object-literal.key.js.jsx punctuation.separator.key-value.js.jsx, source.ts meta.object-literal.key.ts punctuation.separator.key-value.ts, source.tsx meta.object-literal.key.tsx punctuation.separator.key-value.tsx, source.ts keyword.operator.type.annotation.ts, source.tsx keyword.operator.type.annotation.tsx, punctuation.colon.graphql, punctuation.graphql, source.js keyword.operator.ternary.js, source.js.jsx keyword.operator.ternary.js.jsx, source.ts keyword.operator.ternary.ts, source.tsx keyword.operator.ternary.tsx"
+    },
+    {
+      "name": "jsx attributes",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "entity.other.attribute-name, source.js entity.other.attribute-name.js, source.js.jsx entity.other.attribute-name.js"
+    },
+    {
+      "name": "HTML / JSX - Assignments #2",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "meta.tag.attributes.js meta.var.expr.js keyword.operator.assignment.js, meta.tag.attributes.js.jsx meta.var.expr.js.jsx keyword.operator.assignment.js.jsx, meta.tag.attributes.tsx meta.var.expr.tsx keyword.operator.assignment.tsx"
+    },
+    {
+      "name": "HTML / JSX - Assignments",
+      "foreground": "#c9ccd8",
+      "font_style": 0,
+      "scope": "meta.tag.attributes.js keyword.operator.assignment.js, meta.tag.attributes.js.jsx keyword.operator.assignment.js.jsx, meta.tag.attributes.tsx keyword.operator.assignment.tsx, meta.tag.any.html"
+    },
+    {
+      "name": "graphql",
+      "foreground": "#A7A7EE",
+      "font_style": 0,
+      "scope": "source.js entity.name.function.tagged-template.js, source.js.jsx entity.name.function.tagged-template.js.jsx, source.ts entity.name.function.tagged-template.ts, source.tsx entity.name.function.tagged-template.tsx"
+    },
+    {
+      "name": "graphql - functions",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "source.js entity.name.function.graphql, source.js.jsx entity.name.function.graphql, source.ts entity.name.function.graphql, source.tsx entity.name.function.graphql, entity.name.function.graphql"
+    },
+    {
+      "name": "graphql - keyword",
+      "foreground": "#8d9ad1",
+      "font_style": "italic",
+      "scope": "source.graphql keyword"
+    },
+    {
+      "name": "graphql - types",
+      "foreground": "#8d9ad1",
+      "font_style": 0,
+      "scope": "source.js support.type.builtin.graphql, source.js.jsx support.type.builtin.graphql, source.ts support.type.builtin.graphql, source.tsx support.type.builtin.graphql, keyword.operation.graphql, support.type.builtin.graphql"
+    },
+    {
+      "name": "graphql - Object Types",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "source.graphql meta.type.interface.graphql support.type.graphql, keyword.operator.nulltype.graphql, punctuation.assignment.graphql, support.type.graphql"
+    },
+    {
+      "name": "graphql - Object Types",
+      "foreground": "#d7e2ff",
+      "font_style": 0,
+      "scope": "source.graphql meta.type.interface.graphql meta.type.object.graphql support.type.graphql"
+    },
+    {
+      "name": "graphql - variable parameters",
+      "foreground": "#d7e2ff",
+      "font_style": 0,
+      "scope": "variable.parameter.graphql"
+    },
+    {
+      "name": "graphql - variables",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "source.js meta.embedded.block.graphql meta.selectionset.graphql meta.arguments.graphql variable.graphql, source.js.jsx meta.embedded.block.graphql meta.selectionset.graphql meta.arguments.graphql variable.graphql, source.ts meta.embedded.block.graphql meta.selectionset.graphql meta.arguments.graphql variable.graphql, source.tsx meta.embedded.block.graphql meta.selectionset.graphql meta.arguments.graphql variable.graphql, meta.selectionset.graphql variable.graphql"
+    },
+    {
+      "name": "GraphQL - ENF",
+      "foreground": "#A7A7EE",
+      "font_style": 0,
+      "scope": "entity.name.function.directive.graphql"
+    },
+    {
+      "name": "graphql - variable function",
+      "foreground": "",
+      "font_style": 0,
+      "scope": "source.js meta.embedded.block.graphql meta.selectionset.graphql meta.selectionset.graphql variable.graphql, source.js.jsx meta.embedded.block.graphql meta.selectionset.graphql meta.selectionset.graphql variable.graphql, source.ts meta.embedded.block.graphql meta.selectionset.graphql meta.selectionset.graphql variable.graphql, source.tsx meta.embedded.block.graphql meta.selectionset.graphql meta.selectionset.graphql variable.graphql, meta.selectionset.graphql meta.selectionset.graphql variable.graphql"
+    },
+    {
+      "name": "Comments",
+      "foreground": "#6F7899",
+      "font_style": "italic",
+      "scope": "comment, punctuation.definition.comment"
+    },
+    {
+      "name": "Flow Typedef",
+      "foreground": "#8d9ad1",
+      "font_style": "italic",
+      "scope": "source.js meta.interface.js storage.type.interface.js, source.js.jsx meta.interface.js.jsx storage.type.interface.js.jsx, source.js meta.type.declaration.js storage.type.type.js, source.js.jsx meta.type.declaration.js.jsx storage.type.type.js.jsx, meta.type.flowtype.js variable.other.flowtype.js, meta.type.flowtype.js.jsx variable.other.flowtype.js.jsx, meta.flowtype.polymorph.js variable.other.flowtype.js, meta.flowtype.polymorph.js.jsx variable.other.flowtype.js.jsx"
+    },
+    {
+      "name": "Flow - Method return",
+      "font_style": 0,
+      "scope": "source.js meta.type.declaration.js meta.object.type.js meta.field.declaration.js meta.type.annotation.js meta.type.function.return.js support.type.primitive.js, source.js.jsx meta.type.declaration.js.jsx meta.object.type.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx meta.type.function.return.js.jsx support.type.primitive.js.jsx, source.js meta.interface.js meta.field.declaration.js meta.type.annotation.js meta.type.function.return.js support.type.primitive.js, source.js.jsx meta.interface.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx meta.type.function.return.js.jsx support.type.primitive.js.jsx"
+    },
+    {
+      "name": "Flow Types - Primitives",
+      "foreground": "#ceb3f7",
+      "font_style": 0,
+      "scope": "source.js meta.interface.js meta.field.declaration.js meta.type.annotation.js support.type.primitive.js, source.js.jsx meta.interface.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx support.type.primitive.js.jsx, source.js meta.var.expr.js meta.var-single-variable.expr.js meta.type.annotation.js support.type.primitive.js, source.js.jsx meta.var.expr.js.jsx meta.var-single-variable.expr.js.jsx meta.type.annotation.js.jsx support.type.primitive.js.jsx, source.js meta.type.declaration.js meta.object.type.js meta.field.declaration.js meta.type.annotation.js support.type.primitive.js, source.js.jsx meta.type.declaration.js.jsx meta.object.type.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx support.type.primitive.js.jsx, source.js meta.class.js meta.field.declaration.js meta.type.annotation.js support.type.primitive.js, source.js.jsx meta.class.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx support.type.primitive.js.jsx, source.js meta.class.js meta.method.declaration.js meta.parameters.js meta.type.annotation.js support.type.primitive.js, source.js.jsx meta.class.js.jsx meta.method.declaration.js.jsx meta.parameters.js.jsx meta.type.annotation.js.jsx support.type.primitive.js.jsx, source.js meta.interface.js meta.field.declaration.js meta.type.annotation.js support.type.builtin.js, source.js.jsx meta.interface.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx support.type.builtin.js.jsx, source.js meta.type.declaration.js meta.object.type.js meta.field.declaration.js meta.type.annotation.js support.type.builtin.js, source.js.jsx meta.type.declaration.js.jsx meta.object.type.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx support.type.builtin.js.jsx, support.type.primitive.js, support.type.primitive.js.jsx"
+    },
+    {
+      "name": "Flow Types - Objects",
+      "foreground": "#d7e2ff",
+      "font_style": 0,
+      "scope": "source.js meta.interface.js meta.field.declaration.js meta.type.annotation.js entity.name.type.js, source.js.jsx meta.interface.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx entity.name.type.js.jsx, source.js meta.type.declaration.js meta.object.type.js meta.field.declaration.js meta.type.annotation.js entity.name.type.js, source.js.jsx meta.type.declaration.js.jsx meta.object.type.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx entity.name.type.js.jsx, source.js meta.class.js meta.field.declaration.js meta.type.annotation.js entity.name.type.js, source.js.jsx meta.class.js.jsx meta.field.declaration.js.jsx meta.type.annotation.js.jsx entity.name.type.js.jsx, source.js meta.var.expr.js meta.var-single-variable.expr.js meta.type.annotation.js entity.name.type.js, source.js.jsx meta.var.expr.js.jsx meta.var-single-variable.expr.js.jsx meta.type.annotation.js.jsx entity.name.type.js.jsx, source.js meta.class.js meta.method.declaration.js meta.parameters.js meta.type.annotation.js entity.name.type.js, source.js.jsx meta.class.js.jsx meta.method.declaration.js.jsx meta.parameters.js.jsx meta.type.annotation.js.jsx entity.name.type.js.jsx, source.js meta.type.declaration.js meta.type.parameters.js entity.name.type.js, source.js.jsx meta.type.declaration.js.jsx meta.type.parameters.js.jsx entity.name.type.js.jsx"
+    },
+    {
+      "name": "TypeScript Typedef",
+      "foreground": "#8d9ad1",
+      "font_style": "italic",
+      "scope": "source.ts meta.interface.ts storage.type.interface.ts, source.tsx meta.interface.tsx storage.type.interface.tsx, source.ts meta.type.declaration.ts storage.type.type.ts, source.tsx meta.type.declaration.tsx storage.type.type.tsx"
+    },
+    {
+      "name": "TypeScript - Method return",
+      "font_style": 0,
+      "scope": "source.ts meta.type.declaration.ts meta.object.type.ts meta.field.declaration.ts meta.type.annotation.ts meta.type.function.return.ts support.type.primitive.ts, source.tsx meta.type.declaration.tsx meta.object.type.tsx meta.field.declaration.tsx meta.type.annotation.tsx meta.type.function.return.tsx support.type.primitive.tsx, source.ts meta.interface.ts meta.field.declaration.ts meta.type.annotation.ts meta.type.function.return.ts support.type.primitive.ts, source.tsx meta.interface.tsx meta.field.declaration.tsx meta.type.annotation.tsx meta.type.function.return.tsx support.type.primitive.tsx"
+    },
+    {
+      "name": "TypeScript - Primitives",
+      "foreground": "#ceb3f7",
+      "font_style": 0,
+      "scope": "source.ts meta.interface.ts meta.field.declaration.ts meta.type.annotation.ts support.type.primitive.ts, source.tsx meta.interface.tsx meta.field.declaration.tsx meta.type.annotation.tsx support.type.primitive.tsx, source.ts meta.var.expr.ts meta.var-single-variable.expr.ts meta.type.annotation.ts support.type.primitive.ts, source.tsx meta.var.expr.tsx meta.var-single-variable.expr.tsx meta.type.annotation.tsx support.type.primitive.tsx, source.ts meta.type.declaration.ts meta.object.type.ts meta.field.declaration.ts meta.type.annotation.ts support.type.primitive.ts, source.tsx meta.type.declaration.tsx meta.object.type.tsx meta.field.declaration.tsx meta.type.annotation.tsx support.type.primitive.tsx, source.ts meta.class.ts meta.field.declaration.ts meta.type.annotation.ts support.type.primitive.ts, source.tsx meta.class.tsx meta.field.declaration.tsx meta.type.annotation.tsx support.type.primitive.tsx, source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts support.type.primitive.ts, source.tsx meta.class.tsx meta.method.declaration.tsx meta.parameters.tsx meta.type.annotation.tsx support.type.primitive.tsx, source.ts meta.class.ts meta.type.annotation.ts support.type.primitive.ts, source.tsx meta.class.tsx meta.type.annotation.tsx support.type.primitive.tsx, source.ts meta.interface.ts meta.field.declaration.ts meta.type.annotation.ts support.type.builtin.ts, source.tsx meta.interface.tsx meta.field.declaration.tsx meta.type.annotation.tsx support.type.builtin.tsx, support.type.primitive.ts, support.type.primitive.tsx"
+    },
+    {
+      "name": "TypeScript - Objects",
+      "foreground": "#d7e2ff",
+      "font_style": 0,
+      "scope": "source.ts meta.interface.ts meta.field.declaration.ts meta.type.annotation.ts entity.name.type.ts, source.tsx meta.interface.tsx meta.field.declaration.tsx meta.type.annotation.tsx entity.name.type.tsx, source.ts meta.type.declaration.ts meta.object.type.ts meta.field.declaration.ts meta.type.annotation.ts entity.name.type.ts, source.tsx meta.type.declaration.tsx meta.object.type.tsx meta.field.declaration.tsx meta.type.annotation.tsx entity.name.type.tsx, source.ts meta.class.ts meta.field.declaration.ts meta.type.annotation.ts entity.name.type.ts, source.tsx meta.class.tsx meta.field.declaration.tsx meta.type.annotation.tsx entity.name.type.tsx, source.ts meta.var.expr.ts meta.var-single-variable.expr.ts meta.type.annotation.ts entity.name.type.ts, source.tsx meta.var.expr.tsx meta.var-single-variable.expr.tsx meta.type.annotation.tsx entity.name.type.tsx, source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts, source.tsx meta.class.tsx meta.method.declaration.tsx meta.parameters.tsx meta.type.annotation.tsx entity.name.type.tsx, source.ts meta.type.declaration.ts meta.type.parameters.ts entity.name.type.ts, source.tsx meta.type.declaration.tsx meta.type.parameters.tsx entity.name.type.tsx, source.ts meta.class.ts meta.method.declaration.ts meta.parameters.ts meta.type.annotation.ts entity.name.type.ts, source.tsx meta.class.tsx meta.method.declaration.tsx meta.parameters.tsx meta.type.annotation.tsx entity.name.type.tsx, source.ts meta.class.ts meta.method.declaration.ts meta.return.type.ts entity.name.type.ts, source.tsx meta.class.tsx meta.method.declaration.tsx meta.return.type.tsx entity.name.type.tsx, meta.parameters.ts meta.type.annotation.ts entity.name.type.ts, meta.parameters.tsx meta.type.annotation.tsx entity.name.type.tsx"
+    },
+    {
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "source.ts meta.class.ts meta.method.declaration.ts meta.return.type.ts meta.type.parameters.ts entity.name.type.ts, source.tsx meta.class.tsx meta.method.declaration.tsx meta.return.type.tsx meta.type.parameters.tsx entity.name.type.tsx"
+    },
+    {
+      "name": "C# Typedef",
+      "foreground": "#ceb3f7",
+      "font_style": "italic",
+      "scope": "keyword.type.cs"
+    },
+    {
+      "name": "C# Typedef - Object",
+      "foreground": "#d7e2ff",
+      "font_style": 0,
+      "scope": "source.cs storage.type.cs"
+    },
+    {
+      "name": "PHP Typedef",
+      "foreground": "#c9ccd8",
+      "font_style": 0,
+      "scope": "meta.function.parameter.typehinted.php storage.type.php"
+    },
+    {
+      "name": "Go Typedef",
+      "foreground": "#c9ccd8",
+      "font_style": 0,
+      "scope": "source.go storage.type"
+    },
+    {
+      "name": "PHP Block",
+      "foreground": "#c9ccd8",
+      "font_style": 0,
+      "scope": "punctuation.section.embedded.begin.php, punctuation.section.embedded.end.php"
+    },
+    {
+      "name": "Keyword - JavaScript",
+      "foreground": "#8d9ad1",
+      "font_style": "italic",
+      "scope": "source.js keyword, source.js.jsx keyword, storage.type.js, storage.type.js.jsx, storage.type.function.js, storage.type.function.js.jsx, storage.modifier.js, storage.modifier.js.jsx, meta.type.flowtype.js support.type.type.flowtype.js, meta.type.flowtype.js.jsx support.type.type.flowtype.js.jsx, variable.other.flowtype.js, variable.other.flowtype.js.jsx, storage.type.extends.js, storage.type.extends.js.jsx, storage.type.function.js, storage.type.function.js.jsx, storage.type.class.js, storage.type.class.js.jsx, support.type.object.module.js, support.type.object.module.js.jsx, string.regexp.js keyword, string.regexp.js.jsx keyword, constant.language.import-export-all.js, constant.language.import-export-all.js.jsx, source.js meta.group.braces.curly.js keyword.other.substitution, source.js.jsx meta.group.braces.curly.js.jsx keyword.other.substitution, keyword.operator, storage.modifier.async.js, storage.modifier.async.js.jsx, source.js meta.class.js meta.method.declaration.js storage.type.property.js, source.js.jsx meta.class.js.jsx meta.method.declaration.js.jsx storage.type.property.js.jsx, source.js meta.class.js meta.method.declaration.js storage.modifier.async.js, source.js.jsx meta.class.js.jsx meta.method.declaration.js.jsx storage.modifier.async.js.jsx, source.js meta.class.js meta.method.declaration.js meta.block.js meta.function-call.js variable.language.super.js, source.js.jsx meta.class.js.jsx meta.method.declaration.js.jsx meta.block.js.jsx meta.function-call.js.jsx variable.language.super.js.jsx"
+    },
+    {
+      "name": "Keyword - TypeScript",
+      "foreground": "#8d9ad1",
+      "font_style": "italic",
+      "scope": "source.ts keyword, source.tsx keyword, source.ts storage.modifier, source.tsx storage.modifer, storage.type.ts, storage.type.tsx, storage.type.function.ts, storage.type.function.tsx, storage.type.extends.ts, storage.type.extends.tsx, storage.type.type.ts, storage.type.type.tsx, storage.type.interface.ts, storage.type.interface.tsx, storage.type.class.ts, storage.type.class.tsx, storage.modifier.ts, storage.modifier.tsx, string.regexp.ts keyword, string.regexp.tsx keyword, constant.language.import-export-all.ts, constant.language.import-export-all.tsx, punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end, source.ts meta.class.ts meta.method.declaration.ts storage.type.property.ts, source.tsx meta.class.tsx meta.method.declaration.tsx storage.type.property.tsx, source.ts meta.enum.declaration.ts storage.type.enum.ts, source.tsx meta.enum.declaration.tsx storage.type.enum.tsx"
+    },
+    {
+      "name": "Keyword - PHP",
+      "foreground": "#8d9ad1",
+      "font_style": "italic",
+      "scope": "source.php keyword, storage.type.php, storage.type.function.php, storage.type.extends.php, storage.type.class.php, storage.modifier.php, source.php storage.modifier, storage.modifier.extends.php, storage.modifier.implements.php, source.php meta.group.braces.curly.php keyword.other.substitution, keyword.operator"
+    },
+    {
+      "name": "Keyword - Dockerfile",
+      "foreground": "#8d9ad1",
+      "font_style": "italic",
+      "scope": "source.dockerfile keyword"
+    },
+    {
+      "name": "Keyword - Shell Script",
+      "foreground": "#8d9ad1",
+      "font_style": "italic",
+      "scope": "source.shell keyword"
+    },
+    {
+      "name": "Keyword - XML",
+      "foreground": "#8d9ad1",
+      "font_style": "italic",
+      "scope": "text.xml keyword"
+    },
+    {
+      "name": "Java Typedef",
+      "foreground": "#ceb3f7",
+      "font_style": "italic",
+      "scope": "keyword.type.java, storage.type.primitive.java"
+    },
+    {
+      "name": "Java Typedef - Object",
+      "foreground": "#d7e2ff",
+      "font_style": 0,
+      "scope": "source.java storage.type.java, source.java storage.type.object, source.java entity.other.inherited-class.java"
+    },
+    {
+      "name": "Java Typedef - Generic",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "source.java storage.type.generic.java"
+    },
+    {
+      "name": "Keyword - Java",
+      "foreground": "#8d9ad1",
+      "font_style": "italic",
+      "scope": "source.java keyword, storage.modifier.java, storage.modifier.extends.java"
+    },
+    {
+      "name": "Annotations - Java",
+      "foreground": "#A7A7EE",
+      "font_style": "italic",
+      "scope": "meta.declaration.annotation.java storage.type.annotation.java"
+    },
+    {
+      "name": "Annotation Constants - Java",
+      "foreground": "#d7e2ff",
+      "font_style": 0,
+      "scope": "meta.declaration.annotation.java constant.other.key.java"
+    },
+    {
+      "name": "Var definition - Shell Script",
+      "foreground": "#8d9ad1",
+      "font_style": 0,
+      "scope": "source.shell punctuation.definition.variable.shell"
+    },
+    {
+      "name": "Keyword - Go",
+      "foreground": "#8d9ad1",
+      "font_style": "italic",
+      "scope": "source.go keyword, storage.modifier.go, storage.type.go, storage.type.primitive.go, storage.type.object.array.go"
+    },
+    {
+      "name": "Keyword - Elixir",
+      "foreground": "#8d9ad1",
+      "font_style": "italic",
+      "scope": "source.elixir keyword, storage.modifier.elixir, storage.type.elixir, storage.type.primitive.elixir, storage.type.object.array.elixir"
+    },
+    {
+      "name": "Variables - Elixir",
+      "foreground": "#d7e2ff",
+      "font_style": 0,
+      "scope": "source.elixir.embedded variable.other.readwrite.module.elixir"
+    },
+    {
+      "name": "HTML - Elixir",
+      "foreground": "#8d9ad1",
+      "font_style": 0,
+      "scope": "source.elixir.embedded punctuation.section.embedded.elixir"
+    },
+    {
+      "name": "Keyword - C#",
+      "foreground": "#8d9ad1",
+      "font_style": "italic",
+      "scope": "source.cs keyword, storage.modifier.cs, source.cs keyword.control.flow.break.cs"
+    },
+    {
+      "name": "Function Call - JavaScript",
+      "foreground": "#d7e2ff",
+      "font_style": 0,
+      "scope": "source.js support.function, source.js.jsx support.function, support.function.js, support.function.js.jsx, variable.function.js, variable.function.js.jsx, meta.function-call.js entity.name.function.js, meta.function-call.js.jsx entity.name.function.js.jsx, meta.method-call.static.js entity.name.function.js, meta.method-call.static.js.jsx entity.name.function.js.jsx, meta.class meta.group.braces.curly meta.function-call variable.function.js, meta.class meta.group.braces.curly meta.function-call variable.function.js.jsx, variable.function.constructor.js, variable.function.constructor.js.jsx, constant.language.import-export-all.js, constant.language.import-export-all.js.jsx, keyword.operator.arithmetic.js, keyword.operator.arithmetic.js.jsx, source.js entity.name.type.js, source.js.jsx entity.name.type.js.jsx, source.js entity.other.inherited-class.js, source.js.jsx entity.other.inherited-class.js.jsx, source.js meta.class entity.name.type.module.js, source.js.jsx meta.class entity.name.type.module.js.jsx"
+    },
+    {
+      "name": "Function Call - Go",
+      "foreground": "#d7e2ff",
+      "font_style": 0,
+      "scope": "source.go support.function, support.function.go, variable.function.go, keyword.operator.arithmetic.go"
+    },
+    {
+      "name": "Constant - Gradle",
+      "foreground": "#d7e2ff",
+      "font_style": 0,
+      "scope": "source.groovy constant.other.key.groovy"
+    },
+    {
+      "name": "Function Call - TypeScript",
+      "foreground": "#d7e2ff",
+      "font_style": 0,
+      "scope": "source.ts support.function, source.tsx support.function, support.function.ts, support.function.tsx, meta.function-call.ts entity.name.function.ts, meta.function-call.tsx entity.name.function.tsx, meta.method-call.static.ts entity.name.function.ts, meta.method-call.static.tsx entity.name.function.tsx, meta.class meta.group.braces.curly meta.function-call variable.function.ts, meta.class meta.group.braces.curly meta.function-call variable.function.tsx, variable.function.constructor.ts, variable.function.constructor.tsx, constant.language.import-export-all.ts, constant.language.import-export-all.tsx, meta.var.expr.ts new.expr.ts entity.name.type.ts, meta.var.expr.tsx new.expr.tsx entity.name.type.tsx, source.ts entity.other.inherited-class.ts, source.tsx entity.other.inherited-class.tsx, source.ts meta.class entity.name.type.module.ts, source.tsx meta.class entity.name.type.module.tsx"
+    },
+    {
+      "name": "Function Call - PHP",
+      "foreground": "#d7e2ff",
+      "font_style": 0,
+      "scope": "source.php support.function, variable.function.php, meta.class meta.group.braces.curly meta.function-call variable.function.php, variable.function.constructor.php, meta.method-call.php entity.name.function.php, meta.method-call.static.php entity.name.function.php, meta.function-call.php entity.name.function.php, keyword.operator.arithmetic.php, support.function.construct.output.php, support.class.php, meta.function-call.php support.function.construct.php"
+    },
+    {
+      "name": "Function Call - Shell Script",
+      "foreground": "#d7e2ff",
+      "font_style": 0,
+      "scope": "source.shell support.function, keyword.operator.arithmetic.shell"
+    },
+    {
+      "name": "Variable - XML",
+      "foreground": "#d7e2ff",
+      "font_style": 0,
+      "scope": "text.xml variable.language"
+    },
+    {
+      "name": "Function Call - Java",
+      "foreground": "#d7e2ff",
+      "font_style": 0,
+      "scope": "source.java support.function, support.function.java, meta.function-call.java entity.name.function.java, meta.method-call.static.java entity.name.function.java, meta.method-call.java entity.name.function.java, meta.class meta.group.braces.curly meta.function-call variable.function.java, variable.function.constructor.java, keyword.operator.arithmetic.java, storage.modifier.import.java variable.language.wildcard.java"
+    },
+    {
+      "name": "JSON",
+      "foreground": "#99a7e2",
+      "font_style": 0,
+      "scope": "string.quoted.double.json, punctuation.definition.string.begin.json, punctuation.definition.string.end.json"
+    },
+    {
+      "name": "CSS/SCSS/Styl - Operator",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "source.css keyword.operator, source.scss keyword.operator., source.stylus keyword.operator."
+    },
+    {
+      "name": "CSS/SCSS/Styl - Classes",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "source.css entity.other.attribute-name.class, source.scss entity.other.attribute-name.class, source.stylus entity.other.attribute-name.class"
+    },
+    {
+      "name": "CSS/SCSS/Styl - Id",
+      "foreground": "#c9ccd8",
+      "font_style": 0,
+      "scope": "source.css entity.other.attribute-name.id, source.scss entity.other.attribute-name.iccccccccccccccccccccccccccccd, source.stylus entity.other.attribute-name.id"
+    },
+    {
+      "name": "CSS/SCSS/Styl - Pseudo",
+      "foreground": "#d7e2ff",
+      "font_style": "italic",
+      "scope": "source.css entity.other.attribute-name.pseudo-class.css, source.css entity.other.attribute-name.pseudo-element, source.scss entity.other.attribute-name.pseudo-element, source.scss entity.other.attribute-name.pseudo-class.css, source.stylus entity.other.attribute-name.pseudo-class.css, source.stylus entity.other.attribute-name.pseudo-element, source.css.less entity.other.attribute-name.pseudo-class.css, source.css.less entity.other.attribute-name.pseudo-element"
+    },
+    {
+      "name": "CSS/SCSS/Styl - keyword",
+      "foreground": "#8d9ad1",
+      "font_style": "italic",
+      "scope": "keyword.control.at-rule, keyword.control.at-rule.mixin.scss, keyword.control.at-rule.import.scss, keyword.control.at-rule.include.scss, keyword.control.at-rule.extend.scss, keyword.control.at-rule.extend.scss, keyword.control.if.scss, keyword.control.else.scss, punctuation.definition.keyword.stylus, keyword.control.stylus, source.stylus meta.selector.stylus, source.css.less meta.property-list.css entity.other.attribute-name.parent-selector.css punctuation.definition.entity.css"
+    },
+    {
+      "foreground": "#d4d4d4",
+      "font_style": 0,
+      "scope": "entity.name.variable"
+    },
+    {
+      "name": "SCSS/Styl - Functions",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "source.css.scss entity.name.function, source.css.stylus entity.name.function, source.stylus entity.name.function.stylus"
+    },
+    {
+      "name": "LESS - Keyword",
+      "foreground": "#8d9ad1",
+      "font_style": "italic",
+      "scope": "source.css.less keyword.control.logical.operator.less"
+    },
+    {
+      "name": "SCSS/LESS - Function Call",
+      "foreground": "#d7e2ff",
+      "font_style": 0,
+      "scope": "source.css.scss meta.property-list.scss meta.property-value.scss variable.scss, source.css.less meta.property-list.css variable.other.less, source.css.less meta.property-list.css entity.other.attribute-name.class.mixin.css"
+    },
+    {
+      "name": "CSS/SCSS/LESS/Stylus - Punctuation",
+      "foreground": "#d7e2ff",
+      "font_style": 0,
+      "scope": "source.css entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css, source.css.scss entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css, source.stylus entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css, source.css.less entity.other.attribute-name.pseudo-class.css punctuation.definition.entity.css, source.css entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css, source.css.less entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css, source.scss entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css, source.stylus entity.other.attribute-name.pseudo-element.css punctuation.definition.entity.css"
+    },
+    {
+      "name": "Function Call - C#",
+      "foreground": "#d7e2ff",
+      "font_style": 0,
+      "scope": "source.cs support.function, support.function.cs, meta.function-call.cs entity.name.function.cs, meta.method-call.static.cs entity.name.function.cs, meta.method-call.cs entity.name.function.cs, meta.class meta.group.braces.curly meta.function-call variable.function.cs, variable.function.constructor.cs, keyword.operator.arithmetic.cs, storage.modifier.import.cs variable.language.wildcard.cs"
+    },
+    {
+      "name": "INI - Group",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "entity.name.section.group-title.ini"
+    },
+    {
+      "name": "INI - Operator",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "punctuation.separator.key-value.ini"
+    },
+    {
+      "name": "INI - Definition",
+      "foreground": "#8d9ad1",
+      "font_style": 0,
+      "scope": "keyword.other.definition.ini"
+    },
+    {
+      "name": "INI - Comment",
+      "foreground": "#6F7899",
+      "font_style": "italic",
+      "scope": "comment.line.number-sign.ini"
+    },
+    {
+      "name": "Markdown - Heading",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "markup.heading.markdown"
+    },
+    {
+      "name": "Markdown - Quote",
+      "foreground": "#d7e2ff",
+      "font_style": 0,
+      "scope": "markup.quote.markdown"
+    },
+    {
+      "name": "Markdown - Comment",
+      "foreground": "#6F7899",
+      "font_style": "italic",
+      "scope": "text.html.markdown comment.block.html"
+    },
+    {
+      "name": "Markdown - Link",
+      "foreground": "#ceb3f7",
+      "font_style": 0,
+      "scope": "text.html.markdown meta.link.inline.markdown, text.html.markdown meta.image.inline.markdown, text.html.markdown markup.inline.raw.string.markdown"
+    },
+    {
+      "name": "Function/Class Name - JavaScript",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "entity.name.function.js, entity.name.function.js.jsx, meta.class.js entity.name.class, meta.class.js.jsx entity.name.class, meta.class.js entity.name.type.class, meta.class.js.jsx entity.name.type.class, meta.class meta.function-call variable.function.js, meta.class meta.function-call variable.function.js.jsx, source.js keyword.control.loop.js, source.js.jsx keyword.control.loop.js.jsx, storage.type.function.arrow.js, storage.type.function.arrow.js.jsx, tag.decorator.js entity.name.tag.js, tag.decorator.js.jsx entity.name.tag.js.jsx, source.js meta.interface.js entity.name.type.interface.js, source.js.jsx meta.interface.js.jsx entity.name.type.interface.js.jsx, source.js meta.type.declaration.js entity.name.type.js, source.js.jsx meta.type.declaration.js.jsx entity.name.type.js.jsx, source.js entity.name.type.alias.js, source.js.jsx entity.name.type.alias.js.jsx"
+    },
+    {
+      "name": "Function/Class Name - Go",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "entity.name.function.go, source.go keyword.control.loop.go"
+    },
+    {
+      "name": "Function/Class Name - TypeScript",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "entity.name.function.ts, entity.name.function.tsx, meta.class.ts entity.name.type.class, meta.class.tsx entity.name.type.class, meta.class meta.function-call variable.function.ts, meta.class meta.function-call variable.function.tsx, source.ts keyword.control.loop.ts, source.tsx keyword.control.loop.tsx, storage.type.function.arrow.ts, storage.type.function.arrow.tsx, source.ts meta.interface.ts entity.name.type.interface.ts, source.tsx meta.interface.tsx entity.name.type.interface.tsx, source.ts meta.type.declaration.ts entity.name.type.ts, source.tsx meta.type.declaration.tsx entity.name.type.tsx, source.ts entity.name.type.alias.ts, source.tsx entity.name.type.alias.tsx"
+    },
+    {
+      "name": "Function/Class Name - PHP",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "entity.name.function.php, meta.class.php entity.name.type.class, meta.class meta.function-call variable.function.php, source.php keyword.control.loop.php, storage.type.function.arrow.php, support.function.magic.php"
+    },
+    {
+      "name": "Function/Class Name - Java",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "meta.method.identifier.java entity.name.function.java, meta.method.identifier.java storage.type.generic.java, meta.class meta.function-call variable.function.java, source.java keyword.control.loop.java, storage.type.function.arrow.java, meta.class.identifier.java entity.name.type.class.java"
+    },
+    {
+      "name": "Function/Class Name - C#",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "meta.method.identifier.cs entity.name.function.cs, meta.method.identifier.cs storage.type.generic.cs, meta.class meta.function-call variable.function.cs, source.cs keyword.control.loop.cs, storage.type.function.arrow.cs, meta.class.identifier.cs entity.name.type.class.cs, source.cs entity.name.function.cs, source.cs entity.name.type.class.cs"
+    },
+    {
+      "name": "Function/Class Name - Elixir",
+      "foreground": "#d7e2ff",
+      "font_style": 0,
+      "scope": "source.elixir entity.name.function.elixir, entity.name.type.module.elixir"
+    },
+    {
+      "name": "Definition - XML",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "meta.tag.preprocessor.xml punctuation.definition.tag.xml, meta.tag.sgml.doctype.xml punctuation.definition.tag.xml"
+    },
+    {
+      "name": "Control Flow - JavaScript",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "keyword.control.flow.js, keyword.control.flow.js.jsx, keyword.control.trycatch.js, keyword.control.trycatch.js.jsx, source.js meta.group.braces.curly.js keyword.control.loop.js, source.js.jsx meta.group.braces.curly.js.jsx keyword.control.loop.js.jsx, source.js meta.export.default.js keyword.control.default.js, source.js.jsx meta.export.default.js.jsx keyword.control.default.js.jsx, keyword.control.switch.js, keyword.control.switch.js.jsx"
+    },
+    {
+      "name": "Control Flow - TypeScript",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "keyword.control.flow.ts, keyword.control.flow.tsx, keyword.control.trycatch.ts, keyword.control.trycatch.tsx, source.ts meta.group.braces.curly.ts keyword.control.loop.ts, source.tsx meta.group.braces.curly.tsx keyword.control.loop.tsx, source.ts meta.export.default.ts keyword.control.default.ts, source.tsx meta.export.default.tsx keyword.control.default.tsx, keyword.control.switch.ts, keyword.control.switch.tsx"
+    },
+    {
+      "name": "Control Flow - php",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "keyword.control.flow.php, keyword.control.trycatch.php, source.php meta.group.braces.curly.php keyword.control.loop.php, keyword.control.switch.php"
+    },
+    {
+      "name": "Control Flow - Shell Script",
+      "foreground": "#ffedcb",
+      "font_style": "italic",
+      "scope": "source.shell meta.scope.while-loop.shell keyword.control.shell, source.shell meta.scope.for-in-loop.shell keyword.control.shell"
+    },
+    {
+      "name": "Control Flow - Shell Script 2",
+      "foreground": "#8d9ad1",
+      "font_style": "italic",
+      "scope": "source.shell meta.scope.while-loop.shell meta.scope.if-block.shell keyword.control.shell, source.shell meta.scope.for-in-loop.shell meta.scope.if-block.shell keyword.control.shell"
+    },
+    {
+      "name": "Control Flow - Java",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "keyword.control.flow.java, keyword.control.trycatch.java, source.java meta.group.braces.curly.java keyword.control.loop.java, keyword.control.switch.java"
+    },
+    {
+      "name": "Control Flow - C#",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "source.cs keyword.control.flow, keyword.control.trycatch.cs, source.cs meta.group.braces.curly.cs keyword.control.loop.cs, source.cs keyword.control.switch.cs"
+    },
+    {
+      "name": "Control Flow - Elixir",
+      "foreground": "#ffedcb",
+      "font_style": "italic",
+      "scope": "keyword.control.elixir"
+    },
+    {
+      "name": "Control Flow - Java italic",
+      "foreground": "#ffedcb",
+      "font_style": "italic",
+      "scope": "keyword.control.java"
+    },
+    {
+      "name": "Operator - XML",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "meta.tag.preprocessor.xml"
+    },
+    {
+      "name": "Operator - XML",
+      "foreground": "#c9ccd8",
+      "font_style": 0,
+      "scope": "meta.tag.preprocessor.xml entity.other.attribute-name"
+    },
+    {
+      "name": "Assignment",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "keyword.operator.assignment"
+    },
+    {
+      "name": "Logic - JavaScript",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "keyword.operator.logical.js, keyword.operator.logical.js.jsx"
+    },
+    {
+      "name": "Logic - TypeScript",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "keyword.operator.logical.ts, keyword.operator.logical.tsx"
+    },
+    {
+      "name": "Logic - Go",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "source.go keyword.operator.assignment.go"
+    },
+    {
+      "name": "Logic - PHP",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "source.php keyword.operator, punctuation.separator.inheritance.php"
+    },
+    {
+      "name": "Logic - Shell",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "source.shell meta.scope.logical-expression.shell"
+    },
+    {
+      "name": "Variables & Braces - Shell",
+      "foreground": "#c9ccd8",
+      "font_style": 0,
+      "scope": "source.shell punctuation.definition.logical-expression.shell, source.shell variable.other, source.shell variable.other.normal.shell"
+    },
+    {
+      "name": "HTML Tag names",
+      "foreground": "#99a7e2",
+      "font_style": 0,
+      "scope": "entity.name.tag support.class.component, meta.tag.other.html, meta.tag.other.js, meta.tag.other.js.jsx, meta.tag.other.tsx, entity.name.tag.tsx, entity.name.tag.js.jsx, entity.name.tag.js, entity.name.tag, meta.tag.html"
+    },
+    {
+      "name": "Template Strings",
+      "foreground": "#ffedcb",
+      "font_style": 0,
+      "scope": "keyword.other.template.begin, keyword.other.template.end, punctuation.definition.string.template.begin, punctuation.definition.string.template.end"
+    },
+    {
+      "name": "Template Strings - Elixir",
+      "foreground": "#8d9ad1",
+      "font_style": 0,
+      "scope": "source.elixir string.quoted.double.elixir source.elixir.embedded.source punctuation.section.embedded.elixir"
+    },
+    {
+      "name": "Template Strings Code - Elixir",
+      "foreground": "#c9ccd8",
+      "font_style": 0,
+      "scope": "source.elixir string.quoted.double.elixir source.elixir.embedded.source"
+    },
+    {
+      "name": "String",
+      "foreground": "#ceb3f7",
+      "font_style": 0,
+      "scope": "string.double, string.quoted, string.interpolated, string.template, punctuation.definition.string, markup.inline.raw.string"
+    },
+    {
+      "name": "Literal",
+      "foreground": "#cbb1f3",
+      "font_style": 0,
+      "scope": "constant.language, constant.numeric, support.constant, constant.character, constant.other.color, constant.other.symbol, constant.other.key, keyword.other.unit, variable.language.this"
+    },
+    {
+      "name": "Inserted",
+      "foreground": "#99C794",
+      "font_style": 0,
+      "scope": "markup.inserted"
+    },
+    {
+      "name": "Deleted",
+      "foreground": "#E15A60",
+      "font_style": 0,
+      "scope": "markup.deleted"
+    },
+    {
+      "name": "Changed",
+      "foreground": "#BB80B3",
+      "font_style": 0,
+      "scope": "markup.changed"
+    },
+    {
+      "name": "URL",
+      "font_style": "underline",
+      "scope": "*url*, *link*, *uri*"
+    },
+    {
+      "name": "Search Results Nums",
+      "foreground": "#AB7967",
+      "font_style": 0,
+      "scope": "constant.numeric.line-number.find-in-files - match"
+    },
+    {
+      "name": "Search Results Lines",
+      "foreground": "#99C794",
+      "font_style": 0,
+      "scope": "entity.name.filename.find-in-files"
+    },
+    {
+      "foreground": "#6796e6",
+      "font_style": 0,
+      "scope": "token.info-token"
+    },
+    {
+      "foreground": "#cd9731",
+      "font_style": 0,
+      "scope": "token.warn-token"
+    },
+    {
+      "foreground": "#f44747",
+      "font_style": 0,
+      "scope": "token.error-token"
+    },
+    {
+      "foreground": "#b267e6",
+      "font_style": 0,
+      "scope": "token.debug-token"
+    },
+    {
+      "name": "Italic font style",
+      "font_style": "italic",
+      "scope": "entity.name.tag.doctype, meta.tag.sgml.doctype, meta.tag.sgml.doctype.html, markup.italic.markdown, markup.quote.markdown, support.type.primitive, entity.other.attribute-name, entity.name.tag.custom, source.js entity.other.attribute-name.js, source.js.jsx entity.other.attribute-name.js, ext.html.basic entity.other.attribute-name.html, source.js.jsx keyword.control.flow.js, support.type.property.css, support.function.basic_functions, variable.assignment.coffee, support.function.basic_functions, keyword.operator.type.annotation, assignment.coffee, italic, quote, type .function, type.function, storage.modifier.js, storage.modifier.js.jsx, storage.modifier.ts, storage.modifier.tsx, storage.modifier.php, storage.type.class, modifier, keyword.control.flow, source.shell keyword.control.shell, keyword.control.default, keyword.control.switch, this, support.type.builtin, variable.language.this.php, variable.language.this"
+    },
+    {
+      "name": "Normal font style",
+      "font_style": 0,
+      "scope": "meta.interface.ts variable.object.property, meta.interface.tsx variable.object.property, meta.type.declaration.ts variable.object.property, meta.type.declaration.tsx variable.object.property, meta.function.parameter.typehinted.php storage.type.php, punctuation.definition.template-expression.begin, punctuation.definition.template-expression.end, source.js meta.group.braces.curly.js keyword.other.substitution, source.js.jsx meta.group.braces.curly.js.jsx keyword.other.substitution, keyword.operator.type.annotation, keyword.operator.type, keyword.operator.logical, source.php keyword.operator, variable.object.property.ts, variable.object.property.tsx, keyword.operator.class.php, support.function.basic_functions.php, keyword.operator.flowtype.other.js, keyword.operator.flowtype.other.js.jsx, source.shell keyword.operator, keyword.operator.ternary.js, keyword.operator.ternary.js.jsx, keyword.operator.ternary.ts, keyword.operator.ternary.tsx, source.js meta.group.regexp keyword.operator, source.js.jsx meta.group.regexp keyword.operator, source.ts meta.group.regexp keyword.operator, source.tsx meta.group.regexp keyword.operator, string.regexp.js keyword.control.anchor.regexp, string.regexp.js.jsx keyword.control.anchor.regexp, string.regexp.ts keyword.control.anchor.regexp, string.regexp.tsx keyword.control.anchor.regexp, keyword.operator.other.elixir, keyword.operator.assignment.go, source.ts keyword.operator.type.annotation.ts, source.tsx keyword.operator.type.annotation.tsx, source.js keyword.operator.ternary.js, source.js.jsx keyword.operator.ternary.js.jsx, source.ts keyword.operator.ternary.ts, source.tsx keyword.operator.ternary.tsx"
+    }
+  ]
+}

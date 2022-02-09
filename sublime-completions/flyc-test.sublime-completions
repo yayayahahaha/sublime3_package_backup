@@ -1,0 +1,7 @@
+{
+  "scope": "source.js",
+  "completions": [{
+    "trigger": "cons|con",
+    "contents": "console.log(${1:something})"
+  }]
+}

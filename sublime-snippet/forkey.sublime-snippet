@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+for (var ${2:key} in ${1:object}) {
+	console.log(${2:key} + ': ' + ${1:object}[${2:key}]);
+}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>forkey</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

@@ -1,0 +1,24 @@
+{
+    "config":[
+        {
+            "scope": "source.java, source.js, embedding.php, source.js.embedded.html, text.html.vue",
+            "startMarker": "//region",
+            "endMarker":"//endregion"
+        },
+        {
+            "scope": "source.java, source.js, embedding.php, source.js.embedded.html, text.html.vue",
+            "startMarker": "// region",
+            "endMarker":"// endregion"
+        },
+        {
+            "scope": "source.java, source.js, embedding.php, source.js.embedded.html, text.html.vue",
+            "startMarker": "// start",
+            "endMarker":"// end"
+        },
+        {
+            "scope": "source.java, source.js, embedding.php, source.js.embedded.html, text.html.vue",
+            "startMarker": "//start",
+            "endMarker":"//end"
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+// These settings override both User and Default settings for the custom_x-template- syntax
+
+// 用於客製化 custom_x-template 的color scheme, 需搭配 custom_x-template-.sublime-syntax 這個檔案使用
+{
+  "extensions": ["html"]
+}

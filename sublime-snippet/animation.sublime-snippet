@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+@include animation(${1:animation_name} ${2:time}s ${3:ease} ${4:delay} ${5:forwards});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>ani_</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.scss</scope>
+</snippet>

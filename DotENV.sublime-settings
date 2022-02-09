@@ -1,0 +1,13 @@
+// These settings override both User and Default settings for the DotENV syntax
+{
+  "extensions": [
+    "variable",
+    "conf",
+    "conf.default",
+    "development.default",
+    "production.default",
+    "env.default",
+    "env.production",
+    "env.uat"
+  ]
+}

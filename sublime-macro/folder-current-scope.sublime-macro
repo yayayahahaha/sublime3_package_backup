@@ -1,0 +1,21 @@
+// 將光標移動到當前那行的尾巴、區塊選擇、折疊
+[
+	{
+		"args":
+		{
+			"extend": false,
+			"to": "eol"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
+			"to": "brackets"
+		},
+		"command": "expand_selection"
+	},
+	{
+		"command": "fold"
+	}
+]

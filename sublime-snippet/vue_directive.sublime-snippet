@@ -1,0 +1,25 @@
+<snippet>
+    <content><![CDATA[
+// v-something:flyc.a.b.x.y="bigValue"
+// el 代表有綁這個自定義屬性的DOM
+// binding.value 代表傳入這個屬性後面的值 >> bigValue
+// binding.modifiers 代表後面 . 所接的陣列 >> a.b.x.y
+// binding.arg 代表 : 後面所接的值 >> flyc
+// vnode.context 代表綁定這個屬性的Vue
+Vue.directive('${1:directive_name}', {
+    bind: function(el, binding, vnode) {
+        // body...
+    },
+    update: function(el, binding, vnode) {
+        // body...
+    },
+    inserted: function(el, binding, vnode) {
+        // body...
+    },
+});
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>vue_directive</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

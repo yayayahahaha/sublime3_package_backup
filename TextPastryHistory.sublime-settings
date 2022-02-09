@@ -1,0 +1,27 @@
+{
+  "history": [],
+  "last_command": {
+    "args": {
+      /*"text": "1 1 1",*/
+      /*"threshold": 3*/
+      /*"threshold": 3,*/
+      /*"clipboard": true,*/
+      /*"regex": true,*/
+      /*"separator": "e a",*/
+      "text": "1 1 1"
+      /*"threshold": 3,*/
+      /*"threshold": 3,*/
+      /*"threshold": 3,*/
+      /*"threshold": 3,*/
+      /*"threshold": 3,*/
+      /*"threshold": 3,*/
+      /*"threshold": 3,*/
+      /*"threshold": 3,*/
+      /*"threshold": 3,*/
+      /*"threshold": 3,*/
+      /*"threshold": 3,*/
+    },
+    "command": "text_pastry_step",
+    "text": "1 1 1"
+  }
+}

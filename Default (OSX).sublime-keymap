@@ -1,0 +1,237 @@
+[
+  // System
+  {
+    // avoid Building codes
+    "keys": ["super+b"],
+    "command": "none"
+  },
+  {
+    // avoid open code, use cmd + p instead
+    "keys": ["super+o"],
+    "command": "none"
+  },
+  {
+    // put selected codes to "goto" panel
+    "keys": ["super+alt+p"],
+    "command": "chain",
+    "args": {
+      "commands": [
+        ["copy"],
+        ["show_overlay", { "overlay": "goto", "show_files": true }],
+        ["paste"]
+      ]
+    },
+    "context": [{
+      // when selection is empty, avoid running command
+      "key": "selection_empty",
+      "operator": "equal",
+      "operand": false,
+      "match_all": true
+    }]
+  },
+  {
+    "keys": ["super+k", "super+s"],
+    "command": "reveal_in_side_bar"
+  },
+  {
+    "keys": ["super+k", "super+c"],
+    "command": "side_bar_copy_path_relative_from_project"
+  },
+  {
+    "keys": ["super+k", "super+r"],
+    "command": "side_bar_reveal" // show in finder
+  },
+  {
+    "keys": ["super+shift+["],
+    "command": "run_macro_file",
+    "args": {
+      "file": "Packages/User/sublime-macro/folder-current-scope.sublime-macro"
+    }
+  },
+  {
+    "keys": ["super+shift+["],
+    "command": "fold",
+    "context": [{
+      "key": "selector",
+      "operator": "equal",
+      "operand": "//not-working_source.babel,source.jsx",
+    }]
+  },
+  {
+    "keys": ["super+shift+]"],
+    "command": "unfold"
+  },
+  {
+    "keys": ["ctrl+k", "ctrl+c"],
+    "command": "close_to_right_by_index",
+    "args": {
+      "index": 0,
+      "group": 0
+    }
+  },
+  {
+    // move line codes up
+    "keys": ["ctrl+shift+up"],
+    "command": "swap_line_up"
+  },
+  {
+    // move line codes down
+    "keys": ["ctrl+shift+down"],
+    "command": "swap_line_down"
+  },
+  {
+    // scroll view down
+    "keys": ["ctrl+alt+up"],
+    "command": "scroll_lines",
+    "args": {
+      "amount": 5.0
+    }
+  }, {
+    // scroll view up
+    "keys": ["ctrl+alt+down"],
+    "command": "scroll_lines",
+    "args": {
+      "amount": -5.0
+    }
+  },
+  {
+    // create more pointer up
+    "keys": ["ctrl+super+up"],
+    "command": "select_lines",
+    "args": {
+      "forward": false
+    }
+  },
+  {
+    // create more pointer down
+    "keys": ["ctrl+super+down"],
+    "command": "select_lines",
+    "args": {
+      "forward": true
+    }
+  },
+  {
+    "keys": ["super+t"],
+    "command": "show_overlay",
+    "args": {
+      "overlay": "goto",
+      "text": "#"
+    }
+  },
+/*  {
+    "comments": "快速產生 insert_snippet 的範例",
+    "keys": ["ctrl+shift+g"],
+    "command": "insert_snippet",
+    "args": {
+      "contents": "t(${SELECTION})"
+    }
+  },*/
+
+  // Markdown
+  {
+    "keys": ["ctrl+alt+m"],
+    "command": "markdown_preview",
+    "args": {
+      "target": "browser",
+      "parser": "markdown"
+    }
+  },
+
+  // SublimeLinter
+  {
+    "keys": ["ctrl+k", "ctrl+k"],
+    "command": "sublime_linter_toggle_highlights"
+  },
+  { "keys": ["ctrl+e"], "command": "sublime_linter_goto_error",
+    "args": { "direction": "next" }
+  },
+  { "keys": ["ctrl+shift+e"], "command": "sublime_linter_goto_error",
+    "args": { "direction": "previous" }
+  },
+
+  // SublimeBookmark
+  {
+    "keys": ["super+f2"],
+    "command": "sublime_bookmark",
+    "args": {
+      "type": "add"
+    }
+  },
+  {
+    "keys": ["f2"],
+    "command": "sublime_bookmark",
+    "args": {
+      "type": "goto_next"
+    }
+  },
+  {
+    "keys": ["shift+f2"],
+    "command": "sublime_bookmark",
+    "args": {
+      "type": "goto_previous"
+    }
+  },
+  {
+    "keys": ["super+shift+f2"],
+    "command": "sublime_bookmark",
+    "args": {
+      "type": "remove"
+    }
+  },
+  {
+    "keys": ["super+shift+alt+f2"],
+    "command": "sublime_bookmark",
+    "args": {
+      "type": "remove_all"
+    }
+  },
+
+  // Emmet
+  {
+    // rename-tag: <p></p> -> <div></div>
+    "keys": ["super+shift+k"],
+    "command": "emmet_rename_tag"
+  },
+  {
+    // expand-abbreviation: matoi -> <matoi></matoi>
+    "keys": ["super+e"],
+    "command": "emmet_expand_abbreviation",
+    "context": []
+  },
+  {
+    "keys": ["ctrl+alt+right"],
+    "command": "emmet_go_to_edit_point"
+  },
+  {
+    "keys": ["ctrl+alt+left"],
+    "command": "emmet_go_to_edit_point",
+    "args": {
+      "previous": true
+    }
+  },
+  {
+    "keys": ["ctrl+super+m"],
+    "command": "emmet_go_to_tag_pair"
+  },
+  {
+    "keys": ["shift+super+y"],
+    "command": "emmet_evaluate_math"
+  },
+
+  // 繁化姬 Fanhuaji
+  {
+    "keys": ["super+alt+shift+r"],
+    "command": "fanhuaji_convert",
+    "args": {
+      "args": {
+        "converter": "Pinyin"
+      }
+    }
+  },
+
+  // Mark: see Edit -> Mark to get more detail
+  {
+    "keys": ["super+k", "super+m"],
+    "command": "set_mark"
+  }
+]
