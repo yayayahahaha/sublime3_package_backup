@@ -229,6 +229,19 @@
     }
   },
 
+  // LSP
+  {
+      "command": "lsp_document_symbols",
+      "keys": ["super+r"],
+      "context": [
+          {
+              "key": "lsp.session_with_capability",
+              "operator": "equal",
+              "operand": "documentSymbolProvider"
+          }
+      ]
+  },
+
   // Mark: see Edit -> Mark to get more detail
   {
     "keys": ["super+k", "super+m"],
