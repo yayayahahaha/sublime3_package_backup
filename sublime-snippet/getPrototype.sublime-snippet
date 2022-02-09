@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-Object.getPrototypeOf(${1:variable});
-Object.getOwnPropertyNames(${1:variable});
+console.log(Object.getPrototypeOf(${1:variable}))
+console.log(Object.getOwnPropertyNames(${1:variable}))
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>getPrototype</tabTrigger>

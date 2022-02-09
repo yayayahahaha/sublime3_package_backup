@@ -1,7 +1,7 @@
 {
   "scope": "source.js",
   "completions": [{
-    "trigger": "cons|con",
+    "trigger": "cons",
     "contents": "console.log(${1:something})"
   }]
 }

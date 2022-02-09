@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-for(var key in ${1:object}){
-	${2:console.log(key);}
+for(let key in ${1:object}){
+	${2:console.log(key)}
 }
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

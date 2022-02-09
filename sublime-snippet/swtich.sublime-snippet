@@ -2,9 +2,9 @@
   <content><![CDATA[
 switch (${1:option}) {
   case $2:
-    break;
+    break
   default:
-    break;
+    break
 }
 ]]></content>
 <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

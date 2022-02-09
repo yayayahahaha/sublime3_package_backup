@@ -6,7 +6,7 @@
 try {
   $1
 } catch (e) {
-  console.log(e);
+  console.log(e)
 }
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

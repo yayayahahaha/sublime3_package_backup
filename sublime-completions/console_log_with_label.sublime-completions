@@ -1,0 +1,7 @@
+{
+  "scope": "source.js",
+  "completions": [{
+    "trigger": "conn",
+    "contents": "console.log('${1:something}:', ${1:something})"
+  }]
+}
