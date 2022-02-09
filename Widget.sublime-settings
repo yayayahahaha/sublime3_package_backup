@@ -1,4 +1,6 @@
 {
-  // 還是不知道到底要怎麼做最大化的客製化...
-  "color_scheme": "Packages/Color Scheme - Default/Celeste.sublime-color-scheme",
+  // 加上這個，可以讓畫面中的某些 Widget 變成所選的 color scheme 的樣式
+  // 如 cmd + p 或 cmd + f 等
+  // 但依舊不知道到底要怎麼做最大化的客製化...
+  // "color_scheme": "Packages/Color Scheme - Default/Celeste.sublime-color-scheme",
 }
