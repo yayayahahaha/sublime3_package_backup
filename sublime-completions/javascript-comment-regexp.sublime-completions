@@ -2,7 +2,7 @@
 {
   "scope": "source.js",
   "completions": [{
-    "trigger": "jj",
+    "trigger": "javascript-comment-regexp",
     "contents": "\\/\\*[\\s\\S]*?\\*\\/|([^\\\\\\:]|^)\\/\\/.*\\$"
   }]
 }
