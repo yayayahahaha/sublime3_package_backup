@@ -1,0 +1,8 @@
+// javascript 註解的正規表達式
+{
+  "scope": "source.js",
+  "completions": [{
+    "trigger": "comment-regexp",
+    "contents": "\/\\*[\\s\\S]*?\\*\/|([^\\:]|^)\/\/.*$"
+  }]
+}
