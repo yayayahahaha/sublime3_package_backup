@@ -1,0 +1,9 @@
+// 中文的正規表達式
+{
+  "scope": "source.js",
+  "completions": [{
+    "trigger": "chinese-regexp-javascript",
+    "contents": "[\\u{4e00}-\\u{9fa5}]"
+    // \u 開頭是 javascript 使用的，如果是sublime text 使用的要用 \x 開頭的 [\x{4e00}-\x{9fa5}]
+  }]
+}

@@ -1,0 +1,7 @@
+{
+  "scope": "source.html",
+  "completions": [{
+    "trigger": "ws",
+    "contents": "&nbsp;"
+  }]
+}

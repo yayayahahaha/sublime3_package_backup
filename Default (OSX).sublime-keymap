@@ -232,7 +232,7 @@
   // LSP
   {
       "command": "lsp_document_symbols",
-      "keys": ["super+r"],
+      "keys": ["super+shift+o"],
       "context": [
           {
               "key": "lsp.session_with_capability",
@@ -240,6 +240,30 @@
               "operand": "documentSymbolProvider"
           }
       ]
+  },
+  // Goto Definition
+  {
+      "command": "lsp_symbol_definition",
+      "args": { "side_by_side": false },
+      "keys": ["f12"],
+      "context": [
+          {
+              "key": "lsp.session_with_capability",
+              "operator": "equal",
+              "operand": "definitionProvider"
+          },
+          {
+              "key": "auto_complete_visible",
+              "operator": "equal",
+              "operand": false
+          }
+      ]
+  },
+
+  // Goto Definition - Default
+  {
+    "keys": ["super+shift+f12"],
+    "command": "goto_definition"
   },
 
   // Mark: see Edit -> Mark to get more detail
