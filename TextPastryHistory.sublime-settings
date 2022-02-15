@@ -1,5 +1,19 @@
 {
-  "history": [],
+  "history": [    {
+			"data":
+			{
+				"args":
+				{
+					"text": "a b c",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "a b c"
+			},
+			"key": "06f0760ec7f18687a7fbc0ddbf1b1722",
+			"label": "a b c"
+		},
+  ],
   "last_command": {
     "args": {
       /*"text": "1 1 1",*/
@@ -8,7 +22,7 @@
       /*"clipboard": true,*/
       /*"regex": true,*/
       /*"separator": "e a",*/
-      "text": "1 1 1"
+      "text": "a b c",
       /*"threshold": 3,*/
       /*"threshold": 3,*/
       /*"threshold": 3,*/
@@ -20,8 +34,9 @@
       /*"threshold": 3,*/
       /*"threshold": 3,*/
       /*"threshold": 3,*/
+      "threshold": 3,
     },
-    "command": "text_pastry_step",
-    "text": "1 1 1"
-  }
+    "command": "text_pastry_insert_text",
+    "text": "a b c",
+  },
 }

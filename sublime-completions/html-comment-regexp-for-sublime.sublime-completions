@@ -1,0 +1,8 @@
+// html註解的正規表達式 for sublime
+{
+  "scope": "source.js",
+  "completions": [{
+    "trigger": "html-comment-regexp-for-sublime",
+    "contents": "(?s)<!--.*?-->"
+  }]
+}
