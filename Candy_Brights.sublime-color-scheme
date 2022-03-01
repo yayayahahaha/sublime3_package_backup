@@ -1,0 +1,14 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+  "variables":
+  {
+  },
+  "globals":
+  {
+    "highlight": "#4F0085",  // search 或 cmd+d 的時候的其他候選字
+    "inactive_selection_foreground": "#000"
+  },
+
+  "rules":
+  []
+}
