@@ -39,7 +39,7 @@
 	"caret_extra_bottom": 2,
 	"caret_extra_top": 2,
 	"caret_extra_width": 1,
-	"color_scheme": "Packages/Colorsublime - Themes/Candy_Brights.tmTheme",
+	"color_scheme": "Packages/Se7en Color Schemes/Themes/Se7en Light.tmTheme",
 	"esversion": 6,
 	"file_exclude_patterns":
 	[
@@ -70,9 +70,9 @@
 		".hg",
 		"CVS",
 		"build/out",
+		"node_modules",
 		"dist",
 		// "v1",
-		"node_modules",
 		".pnpm-store",
 		"Caches",
 		// "release",
@@ -80,11 +80,11 @@
 		// "design",
 		".nuxt"
 	],
-	"font_size": 14,
 	// "font_face": "Monaco",
 	"ignored_packages":
 	[
 		"IMESupport",
+		"LSP-gopls",
 		"Transparency",
 		"Vintage",
 	],
@@ -92,6 +92,7 @@
 	"show_definitions": false,
 	"show_encoding": true,
 	"show_full_path": true,
+	"font_size": 14,
 	"tab_size": 2,
 	"theme": "Adaptive.sublime-theme",
 	"translate_tabs_to_spaces": true,

@@ -5,15 +5,98 @@
 				"args":
 				{
 					"text": "a b c",
-					"threshold": 3
+					"threshold": 3,
 				},
 				"command": "text_pastry_insert_text",
-				"text": "a b c"
+				"text": "a b c",
 			},
 			"key": "06f0760ec7f18687a7fbc0ddbf1b1722",
-			"label": "a b c"
+			"label": "a b c",
 		},
-  ],
+    {
+			"data":
+			{
+				"args":
+				{
+					"text": "熱門 推薦 a",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "熱門 推薦 a",
+			},
+			"key": "e3148a701249bb6a525bb41326e6fc1a",
+			"label": "熱門 推薦 a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "red blue a",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "red blue a",
+			},
+			"key": "588c828c955f47a598c811a1ed6c3834",
+			"label": "red blue a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "title content a",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "title content a",
+			},
+			"key": "7e3c3a975f0f9824f67e86718913b658",
+			"label": "title content a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "start end time",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "start end time",
+			},
+			"key": "d523dc6653d6f26f83865630bc7c9f0c",
+			"label": "start end time",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "second 3 a",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "second 3 a",
+			},
+			"key": "c7e38d7e6ccd03ec516a691460385e21",
+			"label": "second 3 a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 1"
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 1"
+			},
+			"key": "f4093d4303a6804a1cf378c28e59581a",
+			"label": "1 1 1"
+		},
+	],
   "last_command": {
     "args": {
       /*"text": "1 1 1",*/
@@ -22,7 +105,7 @@
       /*"clipboard": true,*/
       /*"regex": true,*/
       /*"separator": "e a",*/
-      "text": "a b c",
+      "text": "1 1 1",
       /*"threshold": 3,*/
       /*"threshold": 3,*/
       /*"threshold": 3,*/
@@ -34,9 +117,9 @@
       /*"threshold": 3,*/
       /*"threshold": 3,*/
       /*"threshold": 3,*/
-      "threshold": 3,
+      /*"threshold": 3,*/
     },
-    "command": "text_pastry_insert_text",
-    "text": "a b c",
+    "command": "text_pastry_step",
+    "text": "1 1 1",
   },
 }

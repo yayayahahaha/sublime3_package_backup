@@ -6,6 +6,11 @@
     "command": "none"
   },
   {
+    // avoid Building codes, 2
+    "keys": ["super+shift+b"],
+    "command": "none"
+  },
+  {
     // avoid open code, use cmd + p instead
     "keys": ["super+o"],
     "command": "none"
