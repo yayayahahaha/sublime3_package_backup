@@ -88,13 +88,13 @@
 			{
 				"args":
 				{
-					"text": "1 1 1"
+					"text": "1 1 1",
 				},
 				"command": "text_pastry_step",
-				"text": "1 1 1"
+				"text": "1 1 1",
 			},
 			"key": "f4093d4303a6804a1cf378c28e59581a",
-			"label": "1 1 1"
+			"label": "1 1 1",
 		},
 	],
   "last_command": {
