@@ -1,6 +1,5 @@
 // 如果 cmd + p 變成了insert: cmd + opt + o
  {
-	// "draw_white_space": "selection",
 	// "on_post_save_user": [{ "command": "eslint_fix" }],
 	"always_show_minimap_viewport": true,
 	"auto_complete_triggers":
@@ -16,9 +15,9 @@
 	],
 	"binary_file_patterns":
 	[
-		// "*.jpg",
-		// "*.jpeg",
-		// "*.png",
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
 		"*.gif",
 		"*.ttf",
 		"*.tga",
@@ -39,7 +38,7 @@
 	"caret_extra_bottom": 2,
 	"caret_extra_top": 2,
 	"caret_extra_width": 1,
-	"color_scheme": "Packages/Spirit Color Scheme/spirit.tmTheme",
+	"color_scheme": "Packages/Colorsublime - Themes/Forest_Focus.tmTheme",
 	"esversion": 6,
 	"file_exclude_patterns":
 	[
