@@ -1,6 +1,6 @@
 {
-  "auto_format_on_save": false,
   // "auto_format_on_save": false,
+  "auto_format_on_save": true,
   "debug": true
 }
 // Settings in here override those in "/JsPrettier/JsPrettier.sublime-settings",
