@@ -38,7 +38,7 @@
 	"caret_extra_bottom": 2,
 	"caret_extra_top": 2,
 	"caret_extra_width": 1,
-	"color_scheme": "Packages/Colorsublime - Themes/RefinedBlue.tmTheme",
+	"color_scheme": "Packages/Vaporwave/Vaporwave.tmTheme",
 	"esversion": 6,
 	"file_exclude_patterns":
 	[
@@ -93,7 +93,7 @@
 	"show_full_path": true,
 	"font_size": 14,
 	"tab_size": 2,
-	"theme": "Adaptive.sublime-theme",
+	"theme": "Default Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
 	// "trim_trailing_white_space_on_save": "all",
 	"trim_trailing_white_space_on_save": "none",
