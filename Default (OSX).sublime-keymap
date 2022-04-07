@@ -54,15 +54,6 @@
     }
   },
   {
-    "keys": ["super+shift+["],
-    "command": "fold",
-    "context": [{
-      "key": "selector",
-      "operator": "equal",
-      "operand": "//not-working_source.babel,source.jsx",
-    }]
-  },
-  {
     "keys": ["super+shift+]"],
     "command": "unfold"
   },
