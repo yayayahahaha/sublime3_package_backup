@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-Object.keys(${1:map}).map(key => ${1:map}[key])${2:.sort((a, b) => ${3:a${4} - b${4}})}
+Object.keys(${1:map}).map(key => ${1:map}[key])
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>toArray</tabTrigger>
