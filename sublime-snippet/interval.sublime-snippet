@@ -1,8 +1,8 @@
 <snippet>
   <content><![CDATA[
-const ${1:timmer} = setInterval(() => {
-  console.log('hey')
-  clearInterval(${1:timmer})
+${2:const ${1:timer} = }setInterval(() => {
+  ${4:console.log('hey')}
+  ${3:clearInterval(${1:timer})}
 }, 300)
 ]]></content>
 <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
