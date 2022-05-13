@@ -13,6 +13,7 @@
 		},
 	},
 	"tab_expand": false,
+	"multicursor_tab": false,
 	"jsx_prefix": false,
 	"telemetry": false,
 	"uid": "c3f485af-e873-4ffd-ad68-393d5bf29903",
