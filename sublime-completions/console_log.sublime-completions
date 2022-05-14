@@ -1,7 +1,0 @@
-{
-  "scope": "source.js,source.jsx",
-  "completions": [{
-    "trigger": "cons",
-    "contents": "console.log(${1:something})"
-  }]
-}
