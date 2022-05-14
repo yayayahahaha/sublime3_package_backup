@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+splice(${1:${2:起始座標包含}${3:, ${4:${5:移除的數量}${6:, ${7:...推入的項目}}}}})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>splice</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

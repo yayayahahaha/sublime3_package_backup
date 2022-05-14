@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+slice(${1:${2:起始座標包含}${3:, ${4:結束座標不含}}})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>slice</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>

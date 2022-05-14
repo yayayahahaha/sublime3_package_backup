@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+findIndex(item => {
+  ${1:/* 可以用 ~index 代表找到 */}
+  return item
+})
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>findIndex</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>
