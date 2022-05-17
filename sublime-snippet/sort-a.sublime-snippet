@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-.sort((a, b) => ${1:a${3} - b${3}}${2:a${4}.localeCompare(b${4})})
+sort((a, b) => ${1:a${3} - b${3}}${2:a${4}.localeCompare(b${4})})
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>sort-a</tabTrigger>
