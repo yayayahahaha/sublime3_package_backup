@@ -1,0 +1,10 @@
+{
+  "cmd": ["node", "$file"],
+  "file_regex": "^[ ]*File \"(...*?)\", line ([0-9]*)",
+  "selector": "source.js",
+  "shell": true,
+  "encoding": "utf8",
+  "osx": {
+    "shell_cmd": "/usr/bin/env node $file"
+  }
+}
