@@ -1,6 +1,16 @@
 [
   // System
   {
+    "keys": ["super+k", "super+k"],
+    "command": "chain",
+    "args": {
+      "commands": [
+        ["clone_file"],
+        ["new_pane"]
+      ]
+    }
+  },
+  {
     // avoid Building codes
     "keys": ["super+b"],
     "command": "none"
