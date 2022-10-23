@@ -1,5 +1,7 @@
 # Sublime Text Package Backup
 
+### Main Flow
+
 1. install sublime text
    https://www.sublimetext.com/
 
@@ -21,3 +23,14 @@
 9. restart sublime text
 
 10. happy hunting
+
+### Other Info
+
+顯示執行的 `command`, 可以用於顯示客製化 `key_bindings`
+
+> 但依舊無法顯示所有套件的行為
+
+```py
+# 開啟console panel: ctrl + `
+sublime.log_commands(True)
+```

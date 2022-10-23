@@ -6,6 +6,10 @@
     "command": "none"
   },
   {
+    "keys": ["option+shift+b"],
+    "command": "build"
+  },
+  {
     // avoid Building codes, 2
     "keys": ["super+shift+b"],
     "command": "none"
