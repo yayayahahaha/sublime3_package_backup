@@ -17,7 +17,7 @@
 	[
 		"*.jpg",
 		"*.jpeg",
-		"*.png",
+		// "*.png",
 		"*.gif",
 		"*.ttf",
 		"*.tga",
@@ -38,7 +38,7 @@
 	"caret_extra_bottom": 2,
 	"caret_extra_top": 2,
 	"caret_extra_width": 1,
-	"color_scheme": "Packages/Bubububububad and Boneyfied Color Schemes/Katzenmilch.tmTheme",
+	"color_scheme": "Packages/Colorsublime - Themes/cache/Colorsublime-Themes-master/themes/Flatgrammer.tmTheme",
 	"esversion": 6,
 	"file_exclude_patterns":
 	[
@@ -70,6 +70,7 @@
 		"CVS",
 		"build/out",
 		"node_modules",
+		"vendor",
 		"dist",
 		// "v1",
 		".pnpm-store",

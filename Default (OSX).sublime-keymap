@@ -206,7 +206,7 @@
     }
   },
   {
-    "keys": ["ctrl+super+m"],
+    "keys": ["shift+super+m"],
     "command": "emmet_go_to_tag_pair"
   },
   {
