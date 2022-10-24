@@ -129,8 +129,116 @@
 			{
 				"args":
 				{
+					"text": "top right bottom left",
+					/*"threshold": 3*/
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "top right bottom left",
+			},
+			"key": "f976f9216cbf5f1ee760c24ea3280861",
+			"label": "top right bottom left",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "還款狀態 資金凍結狀態 案件狀態",
+					/*"threshold": 3,*/
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "還款狀態 資金凍結狀態 案件狀態",
+			},
+			"key": "f6c27d4823b767d82dd777665e8afd2c",
+			"label": "還款狀態 資金凍結狀態 案件狀態",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "topic cluster h",
+					/*"threshold": 3,*/
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "topic cluster h",
+			},
+			"key": "c2b501c2839e54182aea724f4ff5ee39",
+			"label": "topic cluster h",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "1 1 1 ",
+					/*"threshold": 3*/
+					/*"threshold": 3,*/
+				},
+				"command": "text_pastry_step",
+				"text": "1 1 1 ",
+			},
+			"key": "2b550755b5990e6077f2a05a3ec337d5",
+			"label": "1 1 1 ",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "opened closed f",
+					/*"threshold": 3,*/
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "opened closed f",
+			},
+			"key": "393fdb9d478df280a134caec002d7f45",
+			"label": "opened closed f",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "備註 原因 123",
+					/*"threshold": 3*/
+					/*"threshold": 3,*/
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "備註 原因 123",
+			},
+			"key": "2f0b2b9bd1a46ba87b829c0ec733ea64",
+			"label": "備註 原因 123",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "remark reason asdf",
+					/*"threshold": 3*/
+					/*"threshold": 3,*/
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "remark reason asdf",
+			},
+			"key": "f745a46437a1ff8e2daf8e505a7331c9",
+			"label": "remark reason asdf",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
 					"text": "0 1 1",
 					/*"threshold": 3*/
+					/*"threshold": 3,*/
 				},
 				"command": "text_pastry_step",
 				"text": "0 1 1",
@@ -143,13 +251,179 @@
 			{
 				"args":
 				{
-					"text": "1 1 1 ",
+					"text": "凍結狀態 案件狀態 asdf",
+					/*"threshold": 3,*/
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "凍結狀態 案件狀態 asdf",
+			},
+			"key": "bcf0156fbd7c92e0af725bab554e1c94",
+			"label": "凍結狀態 案件狀態 asdf",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "freezeStatus caseStatus asdf",
+					/*"threshold": 3*/
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "freezeStatus caseStatus asdf",
+			},
+			"key": "2575efb5f323e4ab8aef440ad4aecab2",
+			"label": "freezeStatus caseStatus asdf",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "已還款 未還款 還款不禁用",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "已還款 未還款 還款不禁用",
+			},
+			"key": "e0803bfe3fd0a4a644c250d74f7d72f6",
+			"label": "已還款 未還款 還款不禁用",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "2 1 1",
+					/*"threshold": 3*/
+					/*"threshold": 3,*/
 				},
 				"command": "text_pastry_step",
-				"text": "1 1 1 ",
+				"text": "2 1 1",
 			},
-			"key": "2b550755b5990e6077f2a05a3ec337d5",
-			"label": "1 1 1 ",
+			"key": "94d3af9cf0b36d0a52cc4e4d45358db5",
+			"label": "2 1 1",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "11 1 1",
+					/*"threshold": 3*/
+				},
+				"command": "text_pastry_step",
+				"text": "11 1 1",
+			},
+			"key": "ada0f4da77799881d6f1e4e88ca6a675",
+			"label": "11 1 1",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "開啟 關閉 空跑",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "開啟 關閉 空跑",
+			},
+			"key": "062314a49b1017d7a0ad65521b4ea95f",
+			"label": "開啟 關閉 空跑",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "Index ParamName DataType Value",
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "Index ParamName DataType Value",
+			},
+			"key": "a6b2e182b1ad6b41d0fc5b7a0c8e090a",
+			"label": "Index ParamName DataType Value",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "true false a",
+					/*"threshold": 3*/
+					"threshold": 3,
+				},
+				"command": "text_pastry_insert_text",
+				"text": "true false a",
+			},
+			"key": "7a5fb936483c64da547e6a25aa63d3c1",
+			"label": "true false a",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"text": "1 1 1",*/
+					/*"threshold": 3*/
+					"context": "file",
+					"operator": "add",
+					"pattern": "edit f",
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "add edit f",
+			},
+			"key": "eab2e4e994c2e5e46cb65e35689318ae",
+			"label": "add edit f",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "file",
+					"operator": "add",
+					"pattern": "edit afsdf",
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "add edit afsdf",
+			},
+			"key": "ca2ee3a1b39b8c9793875051344c7b23",
+			"label": "add edit afsdf",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"context": "file",
+					"operator": "add",
+					"pattern": "edit asdf",
+				},
+				"command": "text_pastry_modify_selection",
+				"text": "add edit asdf",
+			},
+			"key": "96729bb42cbf6a6b740f82eedbc23994",
+			"label": "add edit asdf",
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					/*"context": "file",*/
+					/*"operator": "add",*/
+					/*"pattern": "edit asdf"*/
+					"text": "1 1",
+				},
+				"command": "text_pastry_step",
+				"text": "1 1",
+			},
+			"key": "75c124fae7a8b8b89183d4de196613b3",
+			"label": "1 1",
 		},
 		{
 			"data":
@@ -173,7 +447,7 @@
       /*"clipboard": true,*/
       /*"regex": true,*/
       /*"separator": "e a",*/
-      "text": "1 1 1",
+      /*"text": "1 1 1",*/
       /*"threshold": 3,*/
       /*"threshold": 3,*/
       /*"threshold": 3,*/
@@ -188,6 +462,19 @@
       /*"threshold": 3,*/
     
 			/*"threshold": 3,*/
+			/*"threshold": 3,*/
+			/*"threshold": 3,*/
+			/*"threshold": 3,*/
+			/*"threshold": 3,*/
+			/*"threshold": 3,*/
+			/*"threshold": 3,*/
+			/*"threshold": 3,*/
+			/*"threshold": 3,*/
+			/*"threshold": 3,*/
+			/*"context": "file",*/
+			/*"operator": "add",*/
+			/*"pattern": "edit asdf",*/
+			"text": "1 1 1",
 		},
     "command": "text_pastry_step",
     "text": "1 1 1",
