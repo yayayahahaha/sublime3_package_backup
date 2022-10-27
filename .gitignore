@@ -24,3 +24,6 @@ Package Control.ca-certs/
 !*.sublime-theme
 !.gitignore
 !README.md
+
+# 這個是 sublime package "compare side-by-side" 使用時會產生的樣式檔案
+SBSCompareTheme.hidden-tmTheme
