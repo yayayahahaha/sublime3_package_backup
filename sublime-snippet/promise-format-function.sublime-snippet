@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+const promiseFormat = promise => promise.then(r => [r, null]).catch(e => [null, e])
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>promise-format-function</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js</scope>
+</snippet>
