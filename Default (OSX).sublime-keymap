@@ -1,6 +1,18 @@
 [
   // System
   {
+    // use cmd + 9 jump to last tab, just like browser
+    "keys": ["super+9"],
+    "command": "chain",
+    "args": {
+      "commands": [
+        { "command": "select_by_index", "args": { "index": 0 }},
+        { "command": "prev_view" },
+      ]
+    }
+  },
+  {
+    // show same file in different panel
     "keys": ["super+k", "super+k"],
     "command": "chain",
     "args": {

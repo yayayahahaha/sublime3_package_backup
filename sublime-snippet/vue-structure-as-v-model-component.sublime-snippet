@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 <template>
-  <div>$1</div>
+  ${4:<div>$1</div>}
 </template>
 
 <script>
@@ -10,13 +10,27 @@ export default {
 
   components: {},
 
-  props: {},
+  props: {
+    value: {
+      type: ${2:Boolean},
+      required: true
+    }
+  },
 
   data() {
     return {}
   },
 
-  computed: {},
+  computed: {
+    ${3:computedValue}: {
+      get() {
+        return this.value
+      },
+      set(value) {
+        this.$emit('input', value)
+      }
+    }
+  },
 
   watch: {},
 
