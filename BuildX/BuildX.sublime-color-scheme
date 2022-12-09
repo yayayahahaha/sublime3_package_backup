@@ -1,0 +1,221 @@
+{
+  "name": "BuildX", 
+  "variables": {
+    "bg2": "color(var(bg) blend(red 50%) alpha(0.01))", 
+    "bg": "#292d3e"
+  }, 
+  "globals": {
+    "background": "var(bg)", 
+    "gutter": "#292d3e", 
+    "caret": "#515562", 
+    "foreground": "#abb2bf", 
+    "gutter_foreground": "#3a3f58", 
+    "selection": "#ffffff11", 
+    "line_highlight": "#ffffff00", 
+    "invisibles": "#ffffff33"
+  }, 
+  "rules": [
+    {
+      "foreground": "#545862", 
+      "background": "var(bg2)", 
+      "scope": "bright_black"
+    }, 
+    {
+      "scope": "bright_black.bold", 
+      "foreground": "#545862", 
+      "background": "var(bg2)", 
+      "font_style": "bold"
+    }, 
+    {
+      "foreground": "#545862", 
+      "background": "var(bg2)", 
+      "scope": "black"
+    }, 
+    {
+      "scope": "black.bold", 
+      "foreground": "#545862", 
+      "background": "var(bg2)", 
+      "font_style": "bold"
+    }, 
+    {
+      "foreground": "#e06c75", 
+      "background": "var(bg2)", 
+      "scope": "bright_red"
+    }, 
+    {
+      "scope": "bright_red.bold", 
+      "foreground": "#e06c75", 
+      "background": "var(bg2)", 
+      "font_style": "bold"
+    }, 
+    {
+      "foreground": "#e06c75", 
+      "background": "var(bg2)", 
+      "scope": "red"
+    }, 
+    {
+      "scope": "red.bold", 
+      "foreground": "#e06c75", 
+      "background": "var(bg2)", 
+      "font_style": "bold"
+    }, 
+    {
+      "foreground": "#98c379", 
+      "background": "var(bg2)", 
+      "scope": "bright_green"
+    }, 
+    {
+      "scope": "bright_green.bold", 
+      "foreground": "#98c379", 
+      "background": "var(bg2)", 
+      "font_style": "bold"
+    }, 
+    {
+      "foreground": "#98c379", 
+      "background": "var(bg2)", 
+      "scope": "green"
+    }, 
+    {
+      "scope": "green.bold", 
+      "foreground": "#98c379", 
+      "background": "var(bg2)", 
+      "font_style": "bold"
+    }, 
+    {
+      "foreground": "#e5c07b", 
+      "background": "var(bg2)", 
+      "scope": "bright_yellow"
+    }, 
+    {
+      "scope": "bright_yellow.bold", 
+      "foreground": "#e5c07b", 
+      "background": "var(bg2)", 
+      "font_style": "bold"
+    }, 
+    {
+      "foreground": "#e5c07b", 
+      "background": "var(bg2)", 
+      "scope": "yellow"
+    }, 
+    {
+      "scope": "yellow.bold", 
+      "foreground": "#e5c07b", 
+      "background": "var(bg2)", 
+      "font_style": "bold"
+    }, 
+    {
+      "foreground": "#61afef", 
+      "background": "var(bg2)", 
+      "scope": "bright_blue"
+    }, 
+    {
+      "scope": "bright_blue.bold", 
+      "foreground": "#61afef", 
+      "background": "var(bg2)", 
+      "font_style": "bold"
+    }, 
+    {
+      "foreground": "#61afef", 
+      "background": "var(bg2)", 
+      "scope": "blue"
+    }, 
+    {
+      "scope": "blue.bold", 
+      "foreground": "#61afef", 
+      "background": "var(bg2)", 
+      "font_style": "bold"
+    }, 
+    {
+      "foreground": "#c678dd", 
+      "background": "var(bg2)", 
+      "scope": "bright_magenta"
+    }, 
+    {
+      "scope": "bright_magenta.bold", 
+      "foreground": "#c678dd", 
+      "background": "var(bg2)", 
+      "font_style": "bold"
+    }, 
+    {
+      "foreground": "#c678dd", 
+      "background": "var(bg2)", 
+      "scope": "magenta"
+    }, 
+    {
+      "scope": "magenta.bold", 
+      "foreground": "#c678dd", 
+      "background": "var(bg2)", 
+      "font_style": "bold"
+    }, 
+    {
+      "foreground": "#56b6c2", 
+      "background": "var(bg2)", 
+      "scope": "bright_cyan"
+    }, 
+    {
+      "scope": "bright_cyan.bold", 
+      "foreground": "#56b6c2", 
+      "background": "var(bg2)", 
+      "font_style": "bold"
+    }, 
+    {
+      "foreground": "#56b6c2", 
+      "background": "var(bg2)", 
+      "scope": "cyan"
+    }, 
+    {
+      "scope": "cyan.bold", 
+      "foreground": "#56b6c2", 
+      "background": "var(bg2)", 
+      "font_style": "bold"
+    }, 
+    {
+      "foreground": "#c8ccd4", 
+      "background": "var(bg2)", 
+      "scope": "bright_white"
+    }, 
+    {
+      "scope": "bright_white.bold", 
+      "foreground": "#c8ccd4", 
+      "background": "var(bg2)", 
+      "font_style": "bold"
+    }, 
+    {
+      "foreground": "#ddd", 
+      "background": "var(bg2)", 
+      "scope": "white"
+    }, 
+    {
+      "scope": "white.bold", 
+      "foreground": "#ddd", 
+      "background": "var(bg2)", 
+      "font_style": "bold"
+    }, 
+    {
+      "foreground": "#98c379", 
+      "background": "var(bg2)", 
+      "scope": "success_msg"
+    }, 
+    {
+      "foreground": "#ccc", 
+      "background": "var(bg2)", 
+      "scope": "error_time"
+    }, 
+    {
+      "foreground": "#e5c07b", 
+      "background": "var(bg2)", 
+      "scope": "error_code"
+    }, 
+    {
+      "foreground": "#e06c75", 
+      "background": "var(bg2)", 
+      "scope": "error_msg"
+    }, 
+    {
+      "foreground": "#ccc", 
+      "background": "var(bg2)", 
+      "scope": "success_time"
+    }
+  ], 
+  "author": "Auto generated by BuildX"
+}
