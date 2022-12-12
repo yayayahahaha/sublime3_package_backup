@@ -6,5 +6,5 @@ getComputedStyle(${1:oneElement}).getPropertyValue('${2:css attribute}')
     <tabTrigger>getComputed</tabTrigger>
     <!-- <tabTrigger>outline-with-value</tabTrigger> -->
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <scope>source.js</scope>
+    <scope>source.js|source.ts</scope>
 </snippet>
