@@ -13,6 +13,6 @@ fetch('${1:https://jsonplaceholder.typicode.com/todos/1}', {
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>js-fetch</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.js</scope>
+  <scope>source.js|source.ts</scope>
   <!-- 直接用 cmd + shift + p 然後呼叫 snippet 吧 -->
 </snippet>

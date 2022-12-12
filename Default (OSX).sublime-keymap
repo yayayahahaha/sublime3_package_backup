@@ -27,10 +27,10 @@
     "keys": ["super+b"],
     "command": "none"
   },
-  {
+/*  {
     "keys": ["option+shift+b"],
     "command": "build"
-  },
+  },*/
   {
     // avoid Building codes, 2
     "keys": ["super+shift+b"],
@@ -292,5 +292,12 @@
   {
     "keys": ["super+k", "super+m"],
     "command": "set_mark"
+  },
+
+  // for BuildX key bindings
+  {
+    "keys": ["option+b"],
+    "command": "build",
+    "context": [{"key": "for_buildx", "operator":"equal", "operand":true}]
   }
 ]

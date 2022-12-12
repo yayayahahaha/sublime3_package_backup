@@ -8,5 +8,5 @@ switch (${1:option}) {
 <tabTrigger>sw</tabTrigger>
 <tabTrigger>switch</tabTrigger>
 <!-- Optional: Set a scope to limit where the snippet will trigger -->
-<scope>source.js</scope>
+<scope>source.js|source.ts</scope>
 </snippet>

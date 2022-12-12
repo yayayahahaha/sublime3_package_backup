@@ -5,5 +5,5 @@ Object.keys(${1:map}).map(key => ${1:map}[key])
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>toArray</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.js</scope>
+	<scope>source.js|source.ts</scope>
 </snippet>
