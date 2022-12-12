@@ -1,5 +1,9 @@
 // Settings in here override those in "ESLint Fix/eslint-fix.sublime-settings",
 
 {
-  
+  // 因為 pnpm 安裝 eslint 的位置會和 npm 不一樣，所以其實要根據當前的專案決定 eslint 會在哪裡..
+  // 如果不想要這樣常態調整的話，就要找個通用的地方放了，目前比較好的打算是 sublime-fetch 裡吧?
+  "local_eslint_path": {
+    "osx": "node_modules/.pnpm/eslint@8.29.0/node_modules/eslint/bin/eslint.js"
+  }
 }
