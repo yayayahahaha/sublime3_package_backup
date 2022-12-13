@@ -83,7 +83,6 @@
 	// "font_face": "Monaco",
 	"ignored_packages":
 	[
-		"ESLint Fix",
 		"IMESupport",
 		"LSP-gopls",
 		"Transparency",

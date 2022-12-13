@@ -1,9 +1,10 @@
 // Settings in here override those in "ESLint Fix/eslint-fix.sublime-settings",
 
 {
-  // 因為 pnpm 安裝 eslint 的位置會和 npm 不一樣，所以其實要根據當前的專案決定 eslint 會在哪裡..
-  // 如果不想要這樣常態調整的話，就要找個通用的地方放了，目前比較好的打算是 sublime-fetch 裡吧?
+  // 因為 pnpm 安裝 eslint 的位置會和 npm 不一樣，所以沒辦法透過指定專案內的 eslint 位置執行 eslint-fix
+  // 因此在家目錄下新建一個資料夾，裡面專門放這個 eslint, 而且還放用 pnpm 安裝的那種就沒問題了
+  // 不過可能會在 eslint 的版本有更新的時候出問題就是了
   "local_eslint_path": {
-    "osx": "node_modules/.pnpm/eslint@8.29.0/node_modules/eslint/bin/eslint.js"
+    "osx": "~/for-sublime-eslint-fix-eslint/node_modules/.pnpm/eslint@8.29.0/node_modules/eslint/bin/eslint.js"
   }
 }
