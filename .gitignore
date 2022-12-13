@@ -29,3 +29,5 @@ Package Control.ca-certs/
 
 # 這個是 sublime package "compare side-by-side" 使用時會產生的樣式檔案
 SBSCompareTheme.hidden-tmTheme
+# 這個是 BuildX 會產生的樣式檔案，我不知道為什麼這個也會有
+BuildX/BuildX.sublime-color-scheme
