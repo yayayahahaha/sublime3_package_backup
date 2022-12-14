@@ -170,6 +170,10 @@
   { "keys": ["ctrl+shift+e"], "command": "sublime_linter_goto_error",
     "args": { "direction": "previous" }
   },
+  // To trigger a quick action
+  { "keys": ["super+alt+a"],
+    "command": "sublime_linter_quick_actions"
+  },
 
   // SublimeBookmark
   {

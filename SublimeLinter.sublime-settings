@@ -1,10 +1,9 @@
 // SublimeLinter Settings - User
+// key-bindings document
+// https://github.com/SublimeLinter/SublimeLinter/blob/master/keymaps/Default%20(Windows).sublime-keymap
 {
     "linters": {
-        "eslint": {
-            "// selector": "text.html.vue, source.js - meta.attribute-with-value",
-            "// args": ["--config", "./.eslintrc.js"]
-        }
+        "eslint": {}
     },
     "paths": {
         "linux": [],
