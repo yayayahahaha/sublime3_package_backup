@@ -6,8 +6,6 @@ Color\ Highlighter/
 HighlightTrailingWhitespace/
 Terminus/
 
-TextPastryHistory.sublime-settings
-
 Package Control.last-run
 Package Control.ca-list
 Package Control.ca-bundle
@@ -26,6 +24,8 @@ Package Control.ca-certs/
 !*.sublime-theme
 !.gitignore
 !README.md
+
+TextPastryHistory.sublime-settings
 
 # 這個是 sublime package "compare side-by-side" 使用時會產生的樣式檔案
 SBSCompareTheme.hidden-tmTheme
