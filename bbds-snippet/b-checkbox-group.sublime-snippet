@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+b-checkbox-group(
+  v-model='${1:arrayValue}'
+  :vertical="false"
+  @input='onInput'
+)
+  b-checkbox(label="${2:check-box-value}" :disabled="false") checkbox text
+  b-checkbox(label="${2:check-box-value}" :disabled="false") checkbox text
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bbds:b-checkbox-group</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>
