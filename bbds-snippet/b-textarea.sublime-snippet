@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+b-textarea(
+  v-model="value"
+  placeholder="placeholder"
+  :disabled="false"
+  :rows="4"
+  :clearable="false"
+  :length-limit="-1"
+  :allow-limit-overflow="false"${1:
+  @input="onInput"
+  @blur="onBlur"}
+)
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bbds:b-textarea</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>

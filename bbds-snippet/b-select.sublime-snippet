@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+b-select(
+  v-model='value'
+  placeholder="placeholder"
+  :filterable="true"
+  :clearable="true"
+  :options="${2:[\{ value: 'value-1', label: 'label-1', disabled: false \}]}"${1:
+  label-key="label"
+  value-key="value"
+  disabled-key="disabled"
+  :disabled="false"
+  :loading="false"
+  :default-first-option="true"
+  size="'small'|'normal'|'large'"}
+)
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bbds:b-select</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>
