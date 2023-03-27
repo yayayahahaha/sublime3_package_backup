@@ -1,0 +1,65 @@
+<snippet>
+    <content><![CDATA[
+<template lang="pug">
+b-dialog(
+  title='${1:BBDS Dialog}'
+  v-model='show'
+)
+  .content Hello BBDS Dialog
+
+  b-flex(justify='end')
+    b-button(
+      variant='second'
+      :loading='isLoading'
+      @click='show = false'
+    ) Cancel
+    b-button(
+      :disabled='!validate'
+      :loading='isLoading'
+      @click='onOk'
+    ) Ok
+</template>
+
+<script>
+/**
+ * @event
+ * @input
+ * @bbds:done
+ * */
+export default {
+  props: {
+    visible: {
+      type: Boolean,
+      required: true,
+    },
+  },
+
+  data() {
+    return {}
+  },
+
+  computed: {
+    show: {
+      get() {
+        return this.visible
+      },
+
+      set(newValue) {
+        this.$emit('input', newValue)
+        this.$emit('bbds:done')
+      },
+    },
+  },
+
+  methods: {
+    onOk() {
+      this.$emit('bbds:done', { status: 'OK' })
+    }
+  }
+}
+</script>
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bbds:b-open-dialog-example</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>

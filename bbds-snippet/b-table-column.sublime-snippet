@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+b-table-column(
+  title="${1:column-title}"
+  prop="${2:column-prop}"
+
+  :width="'300px'"
+  fixed="'left''right'"
+  :formatter="val => val"
+  :sortable="false"
+  :tooltip="false"
+)
+  template(#header)
+    ${3:b \{\{ this is custom header \}\}}
+
+  template(slot-scope='scope')
+    .row scope.row
+    .index scope.index
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bbds:b-table-column</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>

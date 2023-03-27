@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+b-tooltip(
+  content='${1:content or use content-slot}'
+  size="'small'|'normal'"
+  trigger-position="'top'|'tl'|'tr'|'bottom'|'bl'|'br'|'left'|'lt'|'lb'|'right'|'rt'|'rb'"
+)
+  .trigger this-is-trigger
+  template(#content)
+    .content-slot this is content
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bbds:b-tooltip</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>

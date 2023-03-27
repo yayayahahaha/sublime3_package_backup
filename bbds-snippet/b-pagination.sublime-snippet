@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+b-pagination(
+  :total='total'
+  :current-page.sync='currentPage'
+  :page-size.sync='pageSize'
+  :page-size-options="[10, 20, 50, 100]"
+  :show-page-size-options="true"
+  :show-jumper="true"
+  @update:currentPage="doSearch"
+  @update:pageSize="doSearch"
+)
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bbds:b-pagination</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+b-alert(
+  title='Warning!'
+  body='${1:content-here, or use default-slot}'
+  variant="info|success|warning|error"
+  :closable="true"
+  @close='onClose /* Use v-if to implement this */'
+)
+  template(#icon)
+  template(#footer)
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bbds:b-alert</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>
