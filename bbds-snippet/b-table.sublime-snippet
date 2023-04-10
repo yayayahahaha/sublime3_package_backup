@@ -1,8 +1,10 @@
 <snippet>
     <content><![CDATA[
 b-table(
-  :data="${1:list}"
-  :loading="false"
+  :data="${2:list}"
+  :loading="false"${1:
+  :pagination="\{ total, currentPage, pageSize \}"
+  :selectable="false/* default config of `true`: \{ showCheckedAll: true, fixed: false \} */"}
 )
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
