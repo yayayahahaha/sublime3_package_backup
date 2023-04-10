@@ -1,18 +1,16 @@
 <snippet>
   <content><![CDATA[
-<template>
-  ${4:<div>$1</div>}
+<template lang="pug">
+.content ${1:v-model-structure}
 </template>
 
 <script>
 export default {
-  name: '$1',
-
-  components: {},
+  name: '${1:v-model-structure}',
 
   props: {
     value: {
-      type: ${2:Boolean},
+      type: Boolean,
       required: true
     }
   },
@@ -22,7 +20,7 @@ export default {
   },
 
   computed: {
-    ${3:computedValue}: {
+    computedValue: {
       get() {
         return this.value
       },
@@ -36,10 +34,11 @@ export default {
 
   created() {},
 
-  methods: {}
+  methods: {},
+
+  components: {},
 }
 </script>
-
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
   <tabTrigger>vue-structure-as-v-model</tabTrigger>
