@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+b-popover(
+  title='Title'
+  content="Content here"
+  :trigger-method='"hover"|"click"'
+  :trigger-position='"top"|"tl"|"tr"|"bottom"|"bl"|"br"|"left"|"lt"|"lb"|"right"|"rt"|"rb"'
+)
+  .default-slot
+    Trigger
+  div(slot='body')
+    p this is the body, which is content
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bbds:b-popover</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>
