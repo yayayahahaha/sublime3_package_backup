@@ -1,14 +1,13 @@
 <snippet>
     <content><![CDATA[
-b-form-item(
-  label='${1:label}'
-  detail='detail'
-  :required='false'
-  tooltip='tooltip'
+b-date-time-picker(
+  :timezone="0"
+  v-model='${2:date}'
+  placeholder='YYYY-MM-DD HH:MM:SS'
+  ${1:shortcuts='[\{ title: 'Now', value: () => new Date()\}]'}
 )
-  ${2:.content this is some content}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>bbds:b-form-item</tabTrigger>
+    <tabTrigger>bbds:b-date-time-picker</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
 </snippet>
