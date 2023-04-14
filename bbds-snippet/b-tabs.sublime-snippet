@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-b-tabs(v-model="activeTab")
+b-tabs(v-model="activeTab" :type='"line"|"filled"')
   b-tab-panel(
     title="Tab 1"
     value="tab-1"
