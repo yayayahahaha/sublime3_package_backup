@@ -7,7 +7,7 @@ b-popover(
   :trigger-position='"top"|"tl"|"tr"|"bottom"|"bl"|"br"|"left"|"lt"|"lb"|"right"|"rt"|"rb"'
 )
   .default-slot
-    Trigger
+    .trigger Trigger
   div(slot='body')
     p this is the body, which is content
 ]]></content>

@@ -4,11 +4,13 @@
 b-dialog(
   title='${1:BBDS Dialog}'
   v-model='show'
+  :close-on-click-mask='false'
+  :close-on-esc='false'
 )
   .content Hello BBDS Dialog
 
-  b-flex(justify='end')
-    b-button(
+  template(slot='footer')
+    b-button.mr-4(
       variant='second'
       :loading='isLoading'
       @click='show = false'
@@ -35,7 +37,9 @@ export default {
   },
 
   data() {
-    return {}
+    return {
+      isLoading: false
+    }
   },
 
   computed: {
@@ -45,15 +49,19 @@ export default {
       },
 
       set(newValue) {
-        this.$emit('input', newValue)
-        this.$emit('bbds:done')
+        this.\$emit('input', newValue)
+        this.\$emit('bbds:done')
       },
+    },
+
+    validate() {
+      return false
     },
   },
 
   methods: {
     onOk() {
-      this.$emit('bbds:done', { status: 'OK' })
+      this.\$emit('bbds:done', { status: 'OK' })
     }
   }
 }
