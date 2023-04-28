@@ -1,9 +1,8 @@
 // 如果 cmd + p 變成了insert: cmd + opt + o
- {
+{
 	// "on_post_save_user": [{ "command": "eslint_fix" }],
 	"always_show_minimap_viewport": true,
-	"auto_complete_triggers":
-	[
+	"auto_complete_triggers": [
 		{
 			"characters": "<",
 			"selector": "text.html",
@@ -13,8 +12,7 @@
 			"selector": "source.js",
 		}
 	],
-	"binary_file_patterns":
-	[
+	"binary_file_patterns": [
 		"*.jpg",
 		"*.jpeg",
 		// "*.png",
@@ -38,10 +36,9 @@
 	"caret_extra_bottom": 2,
 	"caret_extra_top": 2,
 	"caret_extra_width": 1,
-	"color_scheme": "Pandju - No italics.sublime-color-scheme",
+	"color_scheme": "Celeste.sublime-color-scheme",
 	"esversion": 6,
-	"file_exclude_patterns":
-	[
+	"file_exclude_patterns": [
 		"*.pyc",
 		"*.pyo",
 		"*.dll",
@@ -62,8 +59,7 @@
 		"*.db",
 		"*.sublime-workspace"
 	],
-	"folder_exclude_patterns":
-	[
+	"folder_exclude_patterns": [
 		".svn",
 		".git",
 		".hg",
@@ -81,11 +77,8 @@
 		".nuxt"
 	],
 	// "font_face": "Monaco",
-	"ignored_packages":
-	[
-		"IMESupport",
-		"LSP-gopls",
-		"Transparency",
+	"ignored_packages": [
+		"LSP-volar",
 		"Vintage",
 	],
 	"scroll_past_end": true,
