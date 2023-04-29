@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+b-tag(
+  size="'small'|'normal'|'large'"
+  variant="'primary'|'secondary'|'red'|'green'"
+  type="'dark'|'light'|'line'|'text'"${1:
+  bg-color="black"
+  border-color="#ff0063"
+  color="ff0063"}
+)
+  template(#icon)
+  .tag tag-content
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bbds:b-tag</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>

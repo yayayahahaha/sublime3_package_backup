@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+.catch(error => {
+  const { errorData, message } = error
+  console.error(`[\$\{this.\$options.name\}]${1:functionName}: ${2:something went wrong!}`, error)
+  ${3:this.\$message.error(errorData || message || JSON.stringify(error))}
+  ${4:this.\$notify.error(errorData || message || JSON.stringify(error))}
+})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>promise-catch-error-handler</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js|source.ts</scope>
+</snippet>

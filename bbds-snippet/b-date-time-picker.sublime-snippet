@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+b-date-time-picker(
+  :timezone="0"
+  v-model='${2:date}'
+  placeholder='YYYY-MM-DD HH:MM:SS'
+  ${1:shortcuts='[\{ title: 'Now', value: () => new Date()\}]'}
+)
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bbds:b-date-time-picker</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>

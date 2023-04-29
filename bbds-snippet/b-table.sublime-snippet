@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+b-table(
+  :data="${2:list}"
+  :loading="false"${1:
+  :pagination="\{ total, currentPage, pageSize \}"
+  :selectable="false/* default config of `true`: \{ showCheckedAll: true, fixed: false \} */"}
+)
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bbds:b-table</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>

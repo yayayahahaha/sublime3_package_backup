@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+b-upload(
+  v-model='files'${1:
+    type='button'
+    type='square'}
+  type='rect'
+
+  accept='.pdf,image/*'
+  :multiple='false'
+  :limit='-1'
+  :disabled='false'
+  file-list-type='"plain"${2:|"block"|"block2"}'
+  @exceed-limit='onExceedLimit'
+  @change="onChange"
+)
+${3://- Javascript Example
+  size: files[n].size 1024 / 1024 >= ??? MB}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bbds:b-upload</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+b-tabs(v-model="activeTab" :type='"line"|"filled"')
+  b-tab-panel(
+    title="Tab 1"
+    value="tab-1"
+    disabled="false"${1:
+    icon="${2:icon-href}"}
+  )
+    .content ${3:content of tab-1}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bbds:b-tabs</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>

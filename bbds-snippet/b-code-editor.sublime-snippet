@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+b-code-editor(
+  v-model="${1:value}"
+  lang="${2:'json'|'sql'|'javascript'|'groovy'|'java'}"${3:
+  :tab="true"
+  :read-only ="false"}
+)
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bbds:b-code-editor</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>

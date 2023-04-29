@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+${1:props-name}: \{
+  type: ${2:String},
+  ${4:default: ${3:'default-value'},}
+  ${6:${5:required:true},}
+  ${7:validator: value => value != null,}
+\},
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>props-item</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

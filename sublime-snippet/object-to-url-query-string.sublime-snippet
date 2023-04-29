@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+new URLSearchParams(${1:object}).toString()
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>object-to-url-query-string</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js</scope>
+</snippet>

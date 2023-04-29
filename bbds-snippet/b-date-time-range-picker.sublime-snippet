@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+b-date-time-range-picker(
+  v-model='${2:[Date.now() - 1000, Date.now()]}'
+  start-placeholder='YYYY-MM-DD HH:MM:SS'
+  end-placeholder='YYYY-MM-DD HH:MM:SS'
+  ${1:shortcuts='[\{ title: 'Now', value: () => new Date()\}]'}
+  :timezone='0'
+)
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bbds:b-date-time-range-picker</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>
