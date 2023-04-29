@@ -262,8 +262,10 @@
       "context": [
           {
               "key": "lsp.session_with_capability",
-              "operator": "equal",
-              "operand": "documentSymbolProvider"
+              // 發現下面這兩個註解掉也能工作
+              // 不知道這樣會不會比較快?
+              // "operator": "equal",
+              // "operand": "documentSymbolProvider"
           }
       ]
   },

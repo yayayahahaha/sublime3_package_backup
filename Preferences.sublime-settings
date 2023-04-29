@@ -38,7 +38,7 @@
 	"caret_extra_bottom": 2,
 	"caret_extra_top": 2,
 	"caret_extra_width": 1,
-	"color_scheme": "Pandju - No italics.sublime-color-scheme",
+	"color_scheme": "Packages/Colorsublime - Themes/cache/Colorsublime-Themes-master/themes/feel_good.tmTheme",
 	"esversion": 6,
 	"file_exclude_patterns":
 	[
@@ -83,9 +83,6 @@
 	// "font_face": "Monaco",
 	"ignored_packages":
 	[
-		"IMESupport",
-		"LSP-gopls",
-		"Transparency",
 		"Vintage",
 	],
 	"scroll_past_end": true,
