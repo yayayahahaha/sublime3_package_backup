@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+b-dropdown(trigger-method="hover")
+  b-button(type="text")
+    b-icon(href="menu-dots")
+
+  template(slot='dropdown')
+    b-option(@click='onClick') Option 1
+    b-option(disabled @click='onClick') Option 2
+    b-option(@click='onClick') Option 3
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bbds:b-dropdown</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+</snippet>
