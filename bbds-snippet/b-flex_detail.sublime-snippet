@@ -1,8 +1,12 @@
 <snippet>
     <content><![CDATA[
-b-flex${1:.w-full}(align='center' justify='start')
+b-flex${1:(
+  ${2::vertical='false'}
+  ${3::justify='"start"|"end"|"center"|"space-between"|"space-around"'}
+  ${4::align='"center"|"start"|"end"|"stretch"'}
+)}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>bbds:b-flex</tabTrigger>
+    <tabTrigger>bbds:b-flex_detail</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
 </snippet>

@@ -1,14 +1,6 @@
 <snippet>
     <content><![CDATA[
-b-button(
-  :size="'tiny'|'small'|'normal'|'large'"
-  :type="'face'|'text'|'round'"
-  :variant="'primary'|'secondary'|'red'|'green'|'link'"
-  :disabled="false"
-  :loading="false"
-)
-  | ${1:Button Display Text}
-  template(#icon)
+b-button(${1:type="text" }@click="${3:onClick}") ${2:ButtonText}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>bbds:b-button</tabTrigger>
