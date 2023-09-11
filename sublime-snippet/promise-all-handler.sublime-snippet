@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[
+.then(res => {
+  if (res.status !== 'OK') throw res
+  $2
+})
+.catch(error => {
+  const { errorData, message } = error
+  console.error('${1:functionName}: ', error)
+  this.\$message.error(errorData || message || JSON.stringify(error))
+  this.\$notify.error(errorData || message || JSON.stringify(error))
+})
+.finally(() => {
+  this.isLoading = false
+})
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>promise-all-handler</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js|source.ts</scope>
+</snippet>

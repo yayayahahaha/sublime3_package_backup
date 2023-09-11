@@ -65,6 +65,7 @@
 		".hg",
 		"CVS",
 		"build/out",
+		"build",
 		"node_modules",
 		"vendor",
 		"dist",
