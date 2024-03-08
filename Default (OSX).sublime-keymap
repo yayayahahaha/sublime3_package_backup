@@ -108,7 +108,20 @@
       "super+k",
       "super+c"
     ],
-    "command": "side_bar_copy_path_relative_from_project"
+    "command": "fm_copy",
+    "args": {
+      "which": "name"
+    }
+  },
+  {
+    "keys": [
+      "super+k",
+      "super+p"
+    ],
+    "command": "fm_copy",
+    "args": {
+      "which": "relative path"
+    }
   },
   {
     "keys": [

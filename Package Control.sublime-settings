@@ -2,6 +2,7 @@
   "bootstrapped": true,
   "installed_packages": [
     "A File Icon",
+    "Agila Theme",
     "ayu",
     "Babel",
     "BlackBird-ColorScheme",
@@ -26,6 +27,7 @@
     "Enki Theme",
     "ESLint Fix",
     "Fanhuaji",
+    "FileManager",
     "FindKeyConflicts",
     "Fold Comments",
     "Git",
