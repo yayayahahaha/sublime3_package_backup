@@ -37,6 +37,7 @@
     "Hooks",
     "JsFormat",
     "JsPrettier",
+    "Less",
     "Limegrass Color Scheme",
     "Local History",
     "Lotus Color Scheme",
@@ -50,6 +51,7 @@
     "Markdown Extended",
     "MarkdownPreview",
     "Material Theme",
+    "MJML-syntax",
     "Neon Color Scheme",
     "nginx",
     "Nodejs",
@@ -85,4 +87,5 @@
   ],
   "in_process_packages": [
   ],
+  "debug": true,
 }
