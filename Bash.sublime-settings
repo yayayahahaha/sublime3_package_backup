@@ -1,4 +1,14 @@
 // These settings override both User and Default settings for the Bash syntax
 {
-  "extensions": [".bash-work", ".bash-git", ".bashrc"]
+  "extensions": [
+    ".bash-work",
+    ".bash-git",
+    ".bashrc",
+
+    ".bash-git-backup",
+    ".zshrc-backup",
+    ".zprofile-backup",
+    ".gitconfig-backup",
+
+  ]
 }
