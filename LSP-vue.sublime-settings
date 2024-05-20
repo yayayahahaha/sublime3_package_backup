@@ -14,5 +14,6 @@
       "feature_selector": "text.html.vue",
     }
   ],
+
   "enabled": true,
 }

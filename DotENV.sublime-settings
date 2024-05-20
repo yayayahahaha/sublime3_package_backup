@@ -8,6 +8,5 @@
     "production.default",
     "env.default",
     "env.production",
-    "env.uat"
   ]
 }
