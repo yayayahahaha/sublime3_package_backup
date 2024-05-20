@@ -3,6 +3,6 @@
 b-button(${1:type="text" }@click="${3:onClick}") ${2:ButtonText}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>bbds:b-button</tabTrigger>
+    <!-- <tabTrigger>bbds:b-button</tabTrigger> -->
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
 </snippet>

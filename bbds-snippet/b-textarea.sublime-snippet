@@ -13,6 +13,6 @@ b-textarea(
 )
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>bbds:b-textarea</tabTrigger>
+    <!-- <tabTrigger>bbds:b-textarea</tabTrigger> -->
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
 </snippet>

@@ -8,6 +8,6 @@ b-icon(
 https://bbds.devfdg.net/components/icon#icons
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>bbds:b-icon</tabTrigger>
+    <!-- <tabTrigger>bbds:b-icon</tabTrigger> -->
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
 </snippet>

@@ -9,6 +9,6 @@ b-date-time-range-picker(
 )
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>bbds:b-date-time-range-picker</tabTrigger>
+    <!-- <tabTrigger>bbds:b-date-time-range-picker</tabTrigger> -->
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
 </snippet>
