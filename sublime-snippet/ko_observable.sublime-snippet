@@ -3,7 +3,7 @@
 ko.observable(${1:value})
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>ko_observable</tabTrigger>
+	<!-- <tabTrigger>ko_observable</tabTrigger> -->
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>source.js|source.ts</scope>
+	<!-- <scope>source.js|source.ts</scope> -->
 </snippet>
