@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+v-for="(${2:item}, ${4:index}) in ${1:list}"
+:key="${5:`${3:item-}\$\{${4:index}\}`}"
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>vue:v-for</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.vue</scope> -->
+  <!-- 直接用 cmd + shift + p 然後呼叫 snippet 吧 -->
+</snippet>
