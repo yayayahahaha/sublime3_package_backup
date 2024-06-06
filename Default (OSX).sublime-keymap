@@ -1,4 +1,15 @@
 [
+  // terminus: 可以在 sublime text 開啟 or 執行 terminal 的好東西
+  {
+    "keys": ["ctrl+s", "ctrl+s"],
+    "command": "terminus_open",
+    "args": {
+      "cmd": ["bash", "-c", "echo '[FC]執行 stylelint fix: ${file}';npx stylelint ${file} --fix"],
+      "cwd": "${file_path:${folder}}",
+      "auto_close": false
+    }
+  },
+
   // System
   {
     // use cmd + 9 jump to last tab, just like browser
