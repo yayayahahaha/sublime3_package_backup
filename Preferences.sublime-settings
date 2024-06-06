@@ -16,6 +16,8 @@
 		"*.jpg",
 		"*.jpeg",
 		"*.png",
+		"*.webp",
+
 		"*.gif",
 		"*.ttf",
 		"*.tga",
