@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+style="border: 3px solid ${1:red}"
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>style-border</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html.vue</scope>
+</snippet>
