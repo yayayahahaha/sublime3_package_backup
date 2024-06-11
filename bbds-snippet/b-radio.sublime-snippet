@@ -9,6 +9,6 @@ b-radio-group(
   b-radio(radio-value="ts" :disabled="false") TypeScript
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>bbds:b-radio</tabTrigger>
+    <!-- <tabTrigger>bbds:b-radio</tabTrigger> -->
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
 </snippet>

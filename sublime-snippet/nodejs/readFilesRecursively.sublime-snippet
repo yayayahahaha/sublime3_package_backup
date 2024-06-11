@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+function readFilesRecursively(pathStr, list = []) {
+  fs.readdirSync(pathStr).forEach(name => {
+    const fullPath = path.join(pathStr, name)
+    isDir(fullPath) ? readFilesRecursively(fullPath, list) : list.push(fullPath)
+  })
+  return list
+}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>nodejs:readFilesRecursively</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js|source.ts</scope>
+</snippet>

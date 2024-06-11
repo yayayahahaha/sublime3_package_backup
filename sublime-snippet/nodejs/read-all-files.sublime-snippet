@@ -1,0 +1,28 @@
+<snippet>
+    <content><![CDATA[
+import fs from 'fs'
+import path from 'path'
+
+start()
+function start() {
+  const allFiles = readFilesRecursively('./')
+  console.log('allFiles:', allFiles)
+}
+
+function readFilesRecursively(pathStr, list = []) {
+  fs.readdirSync(pathStr).forEach(name => {
+    const fullPath = path.join(pathStr, name)
+    isDir(fullPath) ? readFilesRecursively(fullPath, list) : list.push(fullPath)
+  })
+  return list
+}
+function isDir(path) {
+  return fs.lstatSync(path).isDirectory()
+}
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>nodejs:read-all-files</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js|source.ts</scope>
+</snippet>

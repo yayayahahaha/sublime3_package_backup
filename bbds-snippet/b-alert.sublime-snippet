@@ -11,6 +11,6 @@ b-alert(
   template(#footer)
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>bbds:b-alert</tabTrigger>
+    <!-- <tabTrigger>bbds:b-alert</tabTrigger> -->
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
 </snippet>
