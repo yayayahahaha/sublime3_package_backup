@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+function callMe(msg1, msg2) {
+  console.log(this.name, msg1, msg2)
+}
+const myObject = { name: 'flyc' }
+callMe.call(myObject, 'call-msg1', 'call-msg2')
+callMe.apply(myObject, ['apply-msg1', 'apply-msg2'])
+callMe.bind(myObject)('bind-msg1', 'bind-msg2')
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>call-apply-bind</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js|source.ts</scope>
+</snippet>
