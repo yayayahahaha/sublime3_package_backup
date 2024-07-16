@@ -86,6 +86,7 @@
 	// "font_face": "Monaco",
 	"ignored_packages": [
 		"Element UI Snippets",
+		"Nodejs",
 		"Vintage",
 	],
 	"scroll_past_end": true,
