@@ -32,3 +32,5 @@ SBSCompareTheme.hidden-tmTheme
 
 # 這個是 BuildX 會自動產生的 color scheme. 不知道為什麼
 BuildX/BuildX.sublime-color-scheme
+
+node_modules/

@@ -13,7 +13,7 @@
 		}
 	],
 	"binary_file_patterns": [
-		"*.jpg",
+		// "*.jpg",
 		"*.jpeg",
 		"*.png",
 		"*.webp",
@@ -40,7 +40,7 @@
 	"caret_extra_bottom": 2,
 	"caret_extra_top": 2,
 	"caret_extra_width": 1,
-	"color_scheme": "Packages/Colorsublime - Themes/cache/Colorsublime-Themes-master/themes/Oceanic-Reef.tmTheme",
+	"color_scheme": "Celeste.sublime-color-scheme",
 	"esversion": 6,
 	"file_exclude_patterns": [
 		"*.pyc",
@@ -85,6 +85,7 @@
 	],
 	// "font_face": "Monaco",
 	"ignored_packages": [
+		"Element UI Snippets",
 		"Vintage",
 	],
 	"scroll_past_end": true,
@@ -100,5 +101,5 @@
 	"relative_line_numbers": false,
 	"original_color_scheme": "Packages/Colorsublime - Themes/cache/Colorsublime-Themes-master/themes/Foggy-Morning.tmTheme",
 	"show_panel_on_build": false,
-	"index_files": true,
+	"index_files": false,
 }
