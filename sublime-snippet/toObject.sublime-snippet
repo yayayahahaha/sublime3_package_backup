@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-${1:list}.reduce((map, item) => Object.assign(map, { [item.${2:id}]: item }), {})
+Object.fromEntries(${1:list}.map(item => [item.${2:id}, item]))
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>toObject</tabTrigger>
