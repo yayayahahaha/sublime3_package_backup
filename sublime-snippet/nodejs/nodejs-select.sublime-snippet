@@ -1,0 +1,23 @@
+<snippet>
+    <content><![CDATA[
+${1:pnpm install @inquirer/select}
+// https://github.com/SBoudrias/Inquirer.js/tree/main/packages/select
+import select${2:, \{ Separator \}} from '@inquirer/select'
+const selectAnswer = await select({
+  message: ${4:'${3:用選的吧}'},
+  choices: [${5:
+      \{
+        name: '我是選項 1',
+        value: 'option-1',
+        description: '沒想到居然還可以選描述',
+        disabled: false
+      \},
+    }],
+})
+console.log(selectAnswer)
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>nodejs:select</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js|source.ts</scope>
+</snippet>

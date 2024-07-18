@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+${1:pnpm install @inquirer/checkbox}
+// https://github.com/SBoudrias/Inquirer.js/tree/main/packages/checkbox
+import checkbox from '@inquirer/checkbox'
+const checkboxAnswer = await checkbox({
+  message: ${3:'${2:Select multiple options}'},
+  choices: [${4:
+      \{
+        name: 'Ruby',
+        value: 'ruby',
+      \},
+      \{
+        name: 'Yang',
+        value: 'yang',
+        disabled: '(pnpm is not available)',
+      \},
+    }],
+})
+console.log(checkboxAnswer)
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>nodejs:checkbox</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js|source.ts</scope>
+</snippet>
