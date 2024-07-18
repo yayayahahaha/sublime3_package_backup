@@ -1,0 +1,29 @@
+<snippet>
+    <content><![CDATA[
+${1:pnpm install @inquirer/expand}
+// https://github.com/SBoudrias/Inquirer.js/tree/main/packages/expand
+import expand from '@inquirer/expand'
+const expandAnswer = await expand({
+  message: ${3:'${2:Select an option by key}'},
+  default: 'r',
+  choices: [${4:
+      \{
+        key: 'r',
+        name: 'Ruby',
+        value: 'ruby',
+      \},
+      \{
+        key: 'y',
+        name: 'Yang',
+        value: 'yang',
+        disabled: '(pnpm is not available)',
+      \},
+    }],
+})
+console.log(expandAnswer)
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>nodejs:expand</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js|source.ts</scope>
+</snippet>

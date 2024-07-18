@@ -1,0 +1,26 @@
+<snippet>
+    <content><![CDATA[
+${1:pnpm install @inquirer/rawlist}
+// https://github.com/SBoudrias/Inquirer.js/tree/main/packages/rawlist
+import rawlist from '@inquirer/rawlist'
+const rawlistAnswer = await rawlist({
+  message: ${3:'${2:Select an option by number}'},
+  choices: [${4:
+      \{
+        name: 'Ruby',
+        value: 'ruby',
+      \},
+      \{
+        name: 'Yang',
+        value: 'yang',
+        disabled: '(pnpm is not available)',
+      \},
+    }],
+})
+console.log(rawlistAnswer)
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>nodejs:rawlist</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js|source.ts</scope>
+</snippet>
