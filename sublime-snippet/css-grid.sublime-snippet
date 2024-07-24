@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+display: grid;
+grid-template-columns: auto auto auto; /* 這樣會變成每 3 個一排 */
+grid-template-columns: repeat(3, auto); /* 也可以這樣寫 */
+grid-template-columns: 1fr, 2fr, 1fr; /* 會自動伸縮大小、且是 1:2:1 的尺寸的 grid */
+grid-template-columns: repeat(5, 1fr, 2fr); /* 這樣就不用寫 10 次 */
+]]></content>
+    <!-- TODO -->
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>css:grid</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html.vue|source.css.embedded.html</scope>
+</snippet>

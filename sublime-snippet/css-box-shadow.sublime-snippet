@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+/* offset-x | offset-y | blur-radius | spread-radius | color */
+box-shadow: 2px 2px 2px 1px rgba(255, 0, 99, 0.2);
+]]></content>
+    <!-- TODO -->
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>css:box-shadow</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html.vue|source.css.embedded.html</scope>
+</snippet>
