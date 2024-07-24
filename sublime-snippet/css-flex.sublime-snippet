@@ -1,0 +1,15 @@
+<snippet>
+    <content><![CDATA[
+display: flex;
+flex-direction: row;${1}/* 橫向  */
+flex-direction: column;${1}/* 垂直  */
+align-items: center;${1}/* 是 row 的話就是垂直 align, 如果是 column 的話就是橫向 align  */
+justify-content: space-between;${1}/* 如果是 row 的話就是橫向 align, 是 column 的話就是垂直 align  */
+${1}/* 在子層可以透過 flex: 1 等來決定要佔據剩下的多少比例 */
+]]></content>
+    <!-- TODO -->
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>css:flex</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html.vue|source.css.embedded.html</scope>
+</snippet>
