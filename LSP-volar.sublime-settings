@@ -10,6 +10,16 @@
     // "typescript.inlayHints.parameterTypes.enabled": true,
     // "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
     // "typescript.inlayHints.variableTypes.enabled": true,
-  }
+  },
 
+  "command": [
+    "${node_bin}",
+    // If you have problem on frequently "Request textDocument/** failed." error, try setting higher memory (MB)
+    // on it. For example 4096 equals 4GB.
+    "--max-old-space-size=4096",
+    "${server_path}",
+    "--stdio"
+  ],
+
+  "enabled": true,
 }

@@ -1,6 +1,8 @@
 // 如果 cmd + p 變成了insert: cmd + opt + o
 {
-	// "on_post_save_user": [{ "command": "eslint_fix" }],
+	// 這個在存擋的時候會執行 eslint_fix 但不會再存一次
+	"on_post_save_user": [{ "command": "eslint_fix", }],
+
 	"always_show_minimap_viewport": true,
 	"auto_complete_triggers": [
 		{
@@ -85,8 +87,10 @@
 	],
 	// "font_face": "Monaco",
 	"ignored_packages": [
+		"ColorPicker",
 		"Element UI Snippets",
 		"Nodejs",
+		"React Templates",
 		"Vintage",
 	],
 	"scroll_past_end": true,
