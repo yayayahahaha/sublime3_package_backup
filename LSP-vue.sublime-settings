@@ -15,5 +15,12 @@
     }
   ],
 
+  "command": [
+    "${node_bin}",
+    "${server_path}",
+    "--max-old-space-size=4096",
+    "--stdio"
+  ],
+
   "enabled": true,
 }
