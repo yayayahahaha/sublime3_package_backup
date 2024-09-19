@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-style="border: 3px solid ${1:red}"
+style="border: 3px solid ${1:red} /* TODO(flyc): testing codes */ "
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>style-border</tabTrigger>
