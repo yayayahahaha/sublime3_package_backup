@@ -37,7 +37,7 @@ const colours = {
 console.log(colours.bg.blue, colours.fg.white, 'I am a white message with a blue background', colours.reset)
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>nodejs:colors</tabTrigger>
+    <!-- <tabTrigger>nodejs:colors</tabTrigger> -->
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
     <scope>source.js|source.ts</scope>
 </snippet>
