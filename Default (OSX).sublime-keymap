@@ -1,4 +1,11 @@
 [
+  // 透過 extract packages 把 Git 的 Package 解開後，找到裡面的 change branch command, 
+  // 然後再把它綁上 shortcut
+  {
+    "keys": ["super+shift+c"],
+    "command": "git_branch"
+  },
+
   // terminus: 可以在 sublime text 開啟 or 執行 terminal 的好東西
   {
     "keys": ["ctrl+s", "ctrl+s"],

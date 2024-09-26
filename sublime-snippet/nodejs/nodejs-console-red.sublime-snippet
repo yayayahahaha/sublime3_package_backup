@@ -1,9 +1,9 @@
 <snippet>
     <content><![CDATA[
-style="border: 3px solid ${1:red} /* TODO(flyc): testing codes */ "
+console.log(`\x1b[31m \${${1:red-message}} \x1b[0m`)
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>style-border</tabTrigger>
+    <tabTrigger>nodejs:console-red</tabTrigger>
     <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <scope>text.html.vue</scope>
+    <scope>source.js|source.ts</scope>
 </snippet>
