@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-console.log(`\x1b[34m \${${1:blue-message}} \x1b[0m`)
+console.log(`\x1b[34m${1:\${${2:blue-message}\}}\x1b[0m`)
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>nodejs:console-blue</tabTrigger>
