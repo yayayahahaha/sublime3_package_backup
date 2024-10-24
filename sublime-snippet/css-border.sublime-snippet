@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+border: 3px solid ${1:red}; // TODO(flyc): testing coodes
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>test-codes:border</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.less|meta.block.css|meta.property-list.css</scope>
+</snippet>

@@ -1,4 +1,41 @@
 [
+  // color convert to hex
+  {
+    "keys": ["ctrl+c", "ctrl+c"],
+    "command": "color_convert",
+    "args": {
+      "value": "hex",
+      "isSelect": "true"
+    },
+    "context": [
+      {
+        // when selection is empty, avoid running command
+        "key": "selection_empty",
+        "operator": "equal",
+        "operand": false,
+        "match_all": true
+      }
+    ]
+  },
+  // color convert to rgba
+  {
+    "keys": ["ctrl+c", "ctrl+x"],
+    "command": "color_convert",
+    "args": {
+      "value": "rgba",
+      "isSelect": "true"
+    },
+    "context": [
+      {
+        // when selection is empty, avoid running command
+        "key": "selection_empty",
+        "operator": "equal",
+        "operand": false,
+        "match_all": true
+      }
+    ]
+  },
+
   // 透過 extract packages 把 Git 的 Package 解開後，找到裡面的 change branch command, 
   // 然後再把它綁上 shortcut
   {
@@ -163,6 +200,7 @@
     ],
     "command": "unfold"
   },
+  // 關閉當前分頁右邊的全部分頁
   {
     "keys": [
       "ctrl+k",
