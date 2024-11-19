@@ -1,7 +1,8 @@
 // Settings in here override those in "LSP-volar/LSP-volar.sublime-settings"
 
 {
-  "selector": "text.html.vue | source.ts | source.tsx | source.js | source.jsx",
+  // 不知道是不是用這種方式調整 sublime text 的 scope lsp
+  // "selector": "text.html.vue | source.ts | source.tsx | source.js | source.jsx",
   "settings": {
     // "typescript.inlayHints.enumMemberValues.enabled": true,
     // "typescript.inlayHints.functionLikeReturnTypes.enabled": true,
@@ -16,7 +17,7 @@
     "${node_bin}",
     // If you have problem on frequently "Request textDocument/** failed." error, try setting higher memory (MB)
     // on it. For example 4096 equals 4GB.
-    "--max-old-space-size=4096",
+    "--max-old-space-size=8192",
     "${server_path}",
     "--stdio"
   ],
