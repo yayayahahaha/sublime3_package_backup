@@ -1,7 +1,7 @@
 // 如果 cmd + p 變成了insert: cmd + opt + o
 {
 	// 這個在存擋的時候會執行 eslint_fix 但不會再存一次
-	"on_post_save_user": [{ "command": "eslint_fix", }],
+	// "on_post_save_user": [{ "command": "eslint_fix", }],
 
 	"always_show_minimap_viewport": true,
 	"auto_complete_triggers": [
@@ -15,19 +15,21 @@
 		}
 	],
 	"binary_file_patterns": [
+		// region images
 		// "*.jpg",
-		"*.jpeg",
-		"*.png",
-		"*.webp",
+		// "*.jpeg",
+		// "*.png",
+		// "*.webp",
+		// "*.ico",
+		// "*.pdf",
+		// "*.swf",
+		// endregion images
 
 		"*.gif",
 		"*.ttf",
 		"*.tga",
 		"*.dds",
-		// "*.ico",
 		"*.eot",
-		"*.pdf",
-		"*.swf",
 		"*.jar",
 		"*.zip",
 		"*.min.js",
@@ -42,7 +44,7 @@
 	"caret_extra_bottom": 2,
 	"caret_extra_top": 2,
 	"caret_extra_width": 1,
-	"color_scheme": "Celeste.sublime-color-scheme",
+	"color_scheme": "Packages/Colorsublime - Themes/Facebook.tmTheme",
 	"esversion": 6,
 	"file_exclude_patterns": [
 		"*.pyc",

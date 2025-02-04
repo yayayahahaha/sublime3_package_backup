@@ -10,5 +10,6 @@
     ".zprofile-backup",
     ".gitconfig-backup",
 
+    "yml"
   ]
 }
