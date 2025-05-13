@@ -1,0 +1,1157 @@
+{
+  "scope": "text.html.vue source.less.embedded.html meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css",
+  "completions": [
+    {
+      "trigger": "ctoken-nav-bar-logo",
+      "contents": "nav-bar-logo",
+    },
+    {
+      "trigger": "ctoken-btn-disabled-opacity",
+      "contents": "btn-disabled-opacity",
+    },
+    {
+      "trigger": "ctoken-btn-filled-bg-brand",
+      "contents": "btn-filled-bg-brand",
+    },
+    {
+      "trigger": "ctoken-btn-filled-fg-on-brand-bg",
+      "contents": "btn-filled-fg-on-brand-bg",
+    },
+    {
+      "trigger": "ctoken-btn-filled-bg-brand-hover",
+      "contents": "btn-filled-bg-brand-hover",
+    },
+    {
+      "trigger": "ctoken-btn-filled-fg-on-brand-bg-hover",
+      "contents": "btn-filled-fg-on-brand-bg-hover",
+    },
+    {
+      "trigger": "ctoken-btn-filled-fg-brand",
+      "contents": "btn-filled-fg-brand",
+    },
+    {
+      "trigger": "ctoken-btn-filled-bg",
+      "contents": "btn-filled-bg",
+    },
+    {
+      "trigger": "ctoken-btn-filled-fg",
+      "contents": "btn-filled-fg",
+    },
+    {
+      "trigger": "ctoken-btn-filled-bg-hover",
+      "contents": "btn-filled-bg-hover",
+    },
+    {
+      "trigger": "ctoken-btn-filled-fg-white",
+      "contents": "btn-filled-fg-white",
+    },
+    {
+      "trigger": "ctoken-btn-filled-bg-red",
+      "contents": "btn-filled-bg-red",
+    },
+    {
+      "trigger": "ctoken-btn-filled-bg-red-hover",
+      "contents": "btn-filled-bg-red-hover",
+    },
+    {
+      "trigger": "ctoken-btn-filled-bg-green",
+      "contents": "btn-filled-bg-green",
+    },
+    {
+      "trigger": "ctoken-btn-filled-bg-green-hover",
+      "contents": "btn-filled-bg-green-hover",
+    },
+    {
+      "trigger": "ctoken-btn-outlined-bg-brand",
+      "contents": "btn-outlined-bg-brand",
+    },
+    {
+      "trigger": "ctoken-btn-filled-fg-disabled",
+      "contents": "btn-filled-fg-disabled",
+    },
+    {
+      "trigger": "ctoken-btn-filled-bg-transparent",
+      "contents": "btn-filled-bg-transparent",
+    },
+    {
+      "trigger": "ctoken-btn-outlined-border-brand",
+      "contents": "btn-outlined-border-brand",
+    },
+    {
+      "trigger": "ctoken-btn-outlined-fg-brand",
+      "contents": "btn-outlined-fg-brand",
+    },
+    {
+      "trigger": "ctoken-btn-outlined-icon-brand",
+      "contents": "btn-outlined-icon-brand",
+    },
+    {
+      "trigger": "ctoken-btn-outlined-bg-brand-hover",
+      "contents": "btn-outlined-bg-brand-hover",
+    },
+    {
+      "trigger": "ctoken-btn-outlined-border-brand-hover",
+      "contents": "btn-outlined-border-brand-hover",
+    },
+    {
+      "trigger": "ctoken-btn-outlined-fg-brand-hover",
+      "contents": "btn-outlined-fg-brand-hover",
+    },
+    {
+      "trigger": "ctoken-btn-outlined-bg",
+      "contents": "btn-outlined-bg",
+    },
+    {
+      "trigger": "ctoken-btn-outlined-fg",
+      "contents": "btn-outlined-fg",
+    },
+    {
+      "trigger": "ctoken-btn-filled-bg-hover-transparent",
+      "contents": "btn-filled-bg-hover-transparent",
+    },
+    {
+      "trigger": "ctoken-btn-outlined-border",
+      "contents": "btn-outlined-border",
+    },
+    {
+      "trigger": "ctoken-btn-outlined-icon",
+      "contents": "btn-outlined-icon",
+    },
+    {
+      "trigger": "ctoken-btn-outlined-bg-hover",
+      "contents": "btn-outlined-bg-hover",
+    },
+    {
+      "trigger": "ctoken-btn-outlined-border-hover",
+      "contents": "btn-outlined-border-hover",
+    },
+    {
+      "trigger": "ctoken-btn-outlined-border-red",
+      "contents": "btn-outlined-border-red",
+    },
+    {
+      "trigger": "ctoken-btn-outlined-border-red-hover",
+      "contents": "btn-outlined-border-red-hover",
+    },
+    {
+      "trigger": "ctoken-btn-outlined-fg-red",
+      "contents": "btn-outlined-fg-red",
+    },
+    {
+      "trigger": "ctoken-btn-outlined-fg-red-hover",
+      "contents": "btn-outlined-fg-red-hover",
+    },
+    {
+      "trigger": "ctoken-btn-outlined-border-green",
+      "contents": "btn-outlined-border-green",
+    },
+    {
+      "trigger": "ctoken-btn-outlined-border-green-hover",
+      "contents": "btn-outlined-border-green-hover",
+    },
+    {
+      "trigger": "ctoken-btn-outlined-fg-green",
+      "contents": "btn-outlined-fg-green",
+    },
+    {
+      "trigger": "ctoken-btn-outlined-fg-green-hover",
+      "contents": "btn-outlined-fg-green-hover",
+    },
+    {
+      "trigger": "ctoken-btn-collapse-bg",
+      "contents": "btn-collapse-bg",
+    },
+    {
+      "trigger": "ctoken-btn-collapse-bg-hover",
+      "contents": "btn-collapse-bg-hover",
+    },
+    {
+      "trigger": "ctoken-nav-bar-bg",
+      "contents": "nav-bar-bg",
+    },
+    {
+      "trigger": "ctoken-nav-bar-fg",
+      "contents": "nav-bar-fg",
+    },
+    {
+      "trigger": "ctoken-nav-search-bg",
+      "contents": "nav-search-bg",
+    },
+    {
+      "trigger": "ctoken-nav-search-placeholder",
+      "contents": "nav-search-placeholder",
+    },
+    {
+      "trigger": "ctoken-nav-search-value",
+      "contents": "nav-search-value",
+    },
+    {
+      "trigger": "ctoken-nav-search-icon-prefix",
+      "contents": "nav-search-icon-prefix",
+    },
+    {
+      "trigger": "ctoken-nav-search-icon-suffix",
+      "contents": "nav-search-icon-suffix",
+    },
+    {
+      "trigger": "ctoken-nav-search-card",
+      "contents": "nav-search-card",
+    },
+    {
+      "trigger": "ctoken-nav-item-divider-default",
+      "contents": "nav-item-divider-default",
+    },
+    {
+      "trigger": "ctoken-nav-item-divider-hover-on-light-bg",
+      "contents": "nav-item-divider-hover-on-light-bg",
+    },
+    {
+      "trigger": "ctoken-nav-item-divider-hover-on-dark-bg",
+      "contents": "nav-item-divider-hover-on-dark-bg",
+    },
+    {
+      "trigger": "ctoken-nav-bar-btn-bg",
+      "contents": "nav-bar-btn-bg",
+    },
+    {
+      "trigger": "ctoken-nav-bar-btn-text",
+      "contents": "nav-bar-btn-text",
+    },
+    {
+      "trigger": "ctoken-nav-bar-bg-black",
+      "contents": "nav-bar-bg-black",
+    },
+    {
+      "trigger": "ctoken-nav-bar-logo-brand",
+      "contents": "nav-bar-logo-brand",
+    },
+    {
+      "trigger": "ctoken-nav-bar-bg-white",
+      "contents": "nav-bar-bg-white",
+    },
+    {
+      "trigger": "ctoken-nav-bar-fg-black",
+      "contents": "nav-bar-fg-black",
+    },
+    {
+      "trigger": "ctoken-nav-bar-bg-transparent",
+      "contents": "nav-bar-bg-transparent",
+    },
+    {
+      "trigger": "ctoken-nav-search-bg-on-light-bg",
+      "contents": "nav-search-bg-on-light-bg",
+    },
+    {
+      "trigger": "ctoken-nav-search-placeholder-on-light-bg",
+      "contents": "nav-search-placeholder-on-light-bg",
+    },
+    {
+      "trigger": "ctoken-nav-search-value-on-light-bg",
+      "contents": "nav-search-value-on-light-bg",
+    },
+    {
+      "trigger": "ctoken-nav-search-icon-prefix-on-light-bg",
+      "contents": "nav-search-icon-prefix-on-light-bg",
+    },
+    {
+      "trigger": "ctoken-nav-search-icon-suffix-on-light-bg",
+      "contents": "nav-search-icon-suffix-on-light-bg",
+    },
+    {
+      "trigger": "ctoken-nav-dropdown-bg-default",
+      "contents": "nav-dropdown-bg-default",
+    },
+    {
+      "trigger": "ctoken-nav-dropdown-bg-hover",
+      "contents": "nav-dropdown-bg-hover",
+    },
+    {
+      "trigger": "ctoken-nav-dropdown-bg-transparent",
+      "contents": "nav-dropdown-bg-transparent",
+    },
+    {
+      "trigger": "ctoken-nav-dropdown-bg-lang-hover",
+      "contents": "nav-dropdown-bg-lang-hover",
+    },
+    {
+      "trigger": "ctoken-nav-dropdown-bg-lang-trade-default",
+      "contents": "nav-dropdown-bg-lang-trade-default",
+    },
+    {
+      "trigger": "ctoken-nav-dropdown-bg-lang-trade-hover",
+      "contents": "nav-dropdown-bg-lang-trade-hover",
+    },
+    {
+      "trigger": "ctoken-nav-sidenav-bg",
+      "contents": "nav-sidenav-bg",
+    },
+    {
+      "trigger": "ctoken-nav-sidenav-text",
+      "contents": "nav-sidenav-text",
+    },
+    {
+      "trigger": "ctoken-nav-sidenav-icon",
+      "contents": "nav-sidenav-icon",
+    },
+    {
+      "trigger": "ctoken-nav-sidenav-bg-lang-trade",
+      "contents": "nav-sidenav-bg-lang-trade",
+    },
+    {
+      "trigger": "ctoken-nav-sidenav-scroll-bar",
+      "contents": "nav-sidenav-scroll-bar",
+    },
+    {
+      "trigger": "ctoken-btn-text-fg",
+      "contents": "btn-text-fg",
+    },
+    {
+      "trigger": "ctoken-btn-text-fg-primary-grey",
+      "contents": "btn-text-fg-primary-grey",
+    },
+    {
+      "trigger": "ctoken-btn-text-fg-primary-grey-hover",
+      "contents": "btn-text-fg-primary-grey-hover",
+    },
+    {
+      "trigger": "ctoken-btn-text-fb-secondary-grey",
+      "contents": "btn-text-fb-secondary-grey",
+    },
+    {
+      "trigger": "ctoken-btn-text-fb-secondary-grey-hover",
+      "contents": "btn-text-fb-secondary-grey-hover",
+    },
+    {
+      "trigger": "ctoken-btn-text-fg-brand",
+      "contents": "btn-text-fg-brand",
+    },
+    {
+      "trigger": "ctoken-btn-text-fg-brand-hover",
+      "contents": "btn-text-fg-brand-hover",
+    },
+    {
+      "trigger": "ctoken-btn-text-fg-disabled",
+      "contents": "btn-text-fg-disabled",
+    },
+    {
+      "trigger": "ctoken-btn-text-border",
+      "contents": "btn-text-border",
+    },
+    {
+      "trigger": "ctoken-btn-text-border-primary-grey",
+      "contents": "btn-text-border-primary-grey",
+    },
+    {
+      "trigger": "ctoken-btn-text-border-secondary-grey",
+      "contents": "btn-text-border-secondary-grey",
+    },
+    {
+      "trigger": "ctoken-btn-text-border-dieabled",
+      "contents": "btn-text-border-dieabled",
+    },
+    {
+      "trigger": "ctoken-control-bg",
+      "contents": "control-bg",
+    },
+    {
+      "trigger": "ctoken-control-border",
+      "contents": "control-border",
+    },
+    {
+      "trigger": "ctoken-control-fg",
+      "contents": "control-fg",
+    },
+    {
+      "trigger": "ctoken-control-icon",
+      "contents": "control-icon",
+    },
+    {
+      "trigger": "ctoken-control-text",
+      "contents": "control-text",
+    },
+    {
+      "trigger": "ctoken-control-text-disabled",
+      "contents": "control-text-disabled",
+    },
+    {
+      "trigger": "ctoken-control-bg-brand",
+      "contents": "control-bg-brand",
+    },
+    {
+      "trigger": "ctoken-control-fg-on-brand-bg",
+      "contents": "control-fg-on-brand-bg",
+    },
+    {
+      "trigger": "ctoken-control-border-error",
+      "contents": "control-border-error",
+    },
+    {
+      "trigger": "ctoken-control-bg-disabled",
+      "contents": "control-bg-disabled",
+    },
+    {
+      "trigger": "ctoken-input-disabled-opacity",
+      "contents": "input-disabled-opacity",
+    },
+    {
+      "trigger": "ctoken-input-label",
+      "contents": "input-label",
+    },
+    {
+      "trigger": "ctoken-footer-bg",
+      "contents": "footer-bg",
+    },
+    {
+      "trigger": "ctoken-sidemenu-bg-brand",
+      "contents": "sidemenu-bg-brand",
+    },
+    {
+      "trigger": "ctoken-wl-dropdown-bg",
+      "contents": "wl-dropdown-bg",
+    },
+    {
+      "trigger": "ctoken-wl-dropdown-bg-date-range",
+      "contents": "wl-dropdown-bg-date-range",
+    },
+    {
+      "trigger": "ctoken-wl-dropdown-text-primary-grey",
+      "contents": "wl-dropdown-text-primary-grey",
+    },
+    {
+      "trigger": "ctoken-wl-dropdown-text-secondary-grey",
+      "contents": "wl-dropdown-text-secondary-grey",
+    },
+    {
+      "trigger": "ctoken-wl-dropdown-text-disabled",
+      "contents": "wl-dropdown-text-disabled",
+    },
+    {
+      "trigger": "ctoken-wl-dropdown-text-brand",
+      "contents": "wl-dropdown-text-brand",
+    },
+    {
+      "trigger": "ctoken-wl-dropdown-bg-menu-item",
+      "contents": "wl-dropdown-bg-menu-item",
+    },
+    {
+      "trigger": "ctoken-wl-dropdown-bg-menu-item-hover",
+      "contents": "wl-dropdown-bg-menu-item-hover",
+    },
+    {
+      "trigger": "ctoken-wl-dropdown-bg-menu-item-selected",
+      "contents": "wl-dropdown-bg-menu-item-selected",
+    },
+    {
+      "trigger": "ctoken-sidemenu-fg-default",
+      "contents": "sidemenu-fg-default",
+    },
+    {
+      "trigger": "ctoken-sidemenu-fg-active",
+      "contents": "sidemenu-fg-active",
+    },
+    {
+      "trigger": "ctoken-input-label-special-1",
+      "contents": "input-label-special-1",
+    },
+    {
+      "trigger": "ctoken-footer-text",
+      "contents": "footer-text",
+    },
+    {
+      "trigger": "ctoken-footer-text-primary-grey",
+      "contents": "footer-text-primary-grey",
+    },
+    {
+      "trigger": "ctoken-footer-text-secondary-grey",
+      "contents": "footer-text-secondary-grey",
+    },
+    {
+      "trigger": "ctoken-footer-text-tertiary-grey",
+      "contents": "footer-text-tertiary-grey",
+    },
+    {
+      "trigger": "ctoken-footer-filled-btn-bg",
+      "contents": "footer-filled-btn-bg",
+    },
+    {
+      "trigger": "ctoken-footer-filled-btn-text",
+      "contents": "footer-filled-btn-text",
+    },
+    {
+      "trigger": "ctoken-footer-outlined-btn-border",
+      "contents": "footer-outlined-btn-border",
+    },
+    {
+      "trigger": "ctoken-footer-outlined-btn-text",
+      "contents": "footer-outlined-btn-text",
+    },
+    {
+      "trigger": "ctoken-footer-divider",
+      "contents": "footer-divider",
+    },
+    {
+      "trigger": "ctoken-input-container-bg",
+      "contents": "input-container-bg",
+    },
+    {
+      "trigger": "ctoken-input-container-bg-primary",
+      "contents": "input-container-bg-primary",
+    },
+    {
+      "trigger": "ctoken-input-container-bg-secondary",
+      "contents": "input-container-bg-secondary",
+    },
+    {
+      "trigger": "ctoken-input-container-bg-tertiary",
+      "contents": "input-container-bg-tertiary",
+    },
+    {
+      "trigger": "ctoken-input-container-border",
+      "contents": "input-container-border",
+    },
+    {
+      "trigger": "ctoken-input-container-border-upload",
+      "contents": "input-container-border-upload",
+    },
+    {
+      "trigger": "ctoken-input-container-border-error",
+      "contents": "input-container-border-error",
+    },
+    {
+      "trigger": "ctoken-input-container-border-hover",
+      "contents": "input-container-border-hover",
+    },
+    {
+      "trigger": "ctoken-input-container-border-ondrag",
+      "contents": "input-container-border-ondrag",
+    },
+    {
+      "trigger": "ctoken-input-text",
+      "contents": "input-text",
+    },
+    {
+      "trigger": "ctoken-input-text-placeholder",
+      "contents": "input-text-placeholder",
+    },
+    {
+      "trigger": "ctoken-input-text-value",
+      "contents": "input-text-value",
+    },
+    {
+      "trigger": "ctoken-inptu-text-helper",
+      "contents": "inptu-text-helper",
+    },
+    {
+      "trigger": "ctoken-inptu-text-helper-error",
+      "contents": "inptu-text-helper-error",
+    },
+    {
+      "trigger": "ctoken-input-text-hint",
+      "contents": "input-text-hint",
+    },
+    {
+      "trigger": "ctoken-input-text-tag",
+      "contents": "input-text-tag",
+    },
+    {
+      "trigger": "ctoken-input-text-disabled",
+      "contents": "input-text-disabled",
+    },
+    {
+      "trigger": "ctoken-input-text-white",
+      "contents": "input-text-white",
+    },
+    {
+      "trigger": "ctoken-input-text-brand",
+      "contents": "input-text-brand",
+    },
+    {
+      "trigger": "ctoken-input-text-filter-label",
+      "contents": "input-text-filter-label",
+    },
+    {
+      "trigger": "ctoken-input-text-filter-value",
+      "contents": "input-text-filter-value",
+    },
+    {
+      "trigger": "ctoken-input-icon",
+      "contents": "input-icon",
+    },
+    {
+      "trigger": "ctoken-input-icon-disabled",
+      "contents": "input-icon-disabled",
+    },
+    {
+      "trigger": "ctoken-input-icon-error",
+      "contents": "input-icon-error",
+    },
+    {
+      "trigger": "ctoken-input-icon-success",
+      "contents": "input-icon-success",
+    },
+    {
+      "trigger": "ctoken-input-icon-brand",
+      "contents": "input-icon-brand",
+    },
+    {
+      "trigger": "ctoken-table-txet-primary-grey",
+      "contents": "table-txet-primary-grey",
+    },
+    {
+      "trigger": "ctoken-table-txet-secondary-grey",
+      "contents": "table-txet-secondary-grey",
+    },
+    {
+      "trigger": "ctoken-table-txet-tertiary-grey",
+      "contents": "table-txet-tertiary-grey",
+    },
+    {
+      "trigger": "ctoken-table-txet-brand",
+      "contents": "table-txet-brand",
+    },
+    {
+      "trigger": "ctoken-table-text-yellow",
+      "contents": "table-text-yellow",
+    },
+    {
+      "trigger": "ctoken-table-text-green",
+      "contents": "table-text-green",
+    },
+    {
+      "trigger": "ctoken-table-text-red",
+      "contents": "table-text-red",
+    },
+    {
+      "trigger": "ctoken-table-bg",
+      "contents": "table-bg",
+    },
+    {
+      "trigger": "ctoken-table-bg-hover",
+      "contents": "table-bg-hover",
+    },
+    {
+      "trigger": "ctoken-tab-text",
+      "contents": "tab-text",
+    },
+    {
+      "trigger": "ctoken-tab-divider",
+      "contents": "tab-divider",
+    },
+    {
+      "trigger": "ctoken-tab-text-white-40a",
+      "contents": "tab-text-white-40a",
+    },
+    {
+      "trigger": "ctoken-tab-divider-transparent",
+      "contents": "tab-divider-transparent",
+    },
+    {
+      "trigger": "ctoken-tab-text-white",
+      "contents": "tab-text-white",
+    },
+    {
+      "trigger": "ctoken-tab-divider-white",
+      "contents": "tab-divider-white",
+    },
+    {
+      "trigger": "ctoken-tab-text-primary-grey",
+      "contents": "tab-text-primary-grey",
+    },
+    {
+      "trigger": "ctoken-tab-text-secondary-grey",
+      "contents": "tab-text-secondary-grey",
+    },
+    {
+      "trigger": "ctoken-tab-divider-brand",
+      "contents": "tab-divider-brand",
+    },
+    {
+      "trigger": "ctoken-tab-border",
+      "contents": "tab-border",
+    },
+    {
+      "trigger": "ctoken-tab-text-brand",
+      "contents": "tab-text-brand",
+    },
+    {
+      "trigger": "ctoken-tab-border-brand",
+      "contents": "tab-border-brand",
+    },
+    {
+      "trigger": "ctoken-label-bg",
+      "contents": "label-bg",
+    },
+    {
+      "trigger": "ctoken-message-bg",
+      "contents": "message-bg",
+    },
+    {
+      "trigger": "ctoken-message-border",
+      "contents": "message-border",
+    },
+    {
+      "trigger": "ctoken-message-text",
+      "contents": "message-text",
+    },
+    {
+      "trigger": "ctoken-message-bg-red-20a",
+      "contents": "message-bg-red-20a",
+    },
+    {
+      "trigger": "ctoken-var-------",
+      "contents": "var-------",
+    },
+    {
+      "trigger": "ctoken-message-bg-yellow-20a",
+      "contents": "message-bg-yellow-20a",
+    },
+    {
+      "trigger": "ctoken-message-bg-green-20a",
+      "contents": "message-bg-green-20a",
+    },
+    {
+      "trigger": "ctoken-bg-primary-neutral",
+      "contents": "bg-primary-neutral",
+    },
+    {
+      "trigger": "ctoken-bg-primary-neutral-level1",
+      "contents": "bg-primary-neutral-level1",
+    },
+    {
+      "trigger": "ctoken-bg-primary-neutral-level2",
+      "contents": "bg-primary-neutral-level2",
+    },
+    {
+      "trigger": "ctoken-bg-primary-neutral-level3",
+      "contents": "bg-primary-neutral-level3",
+    },
+    {
+      "trigger": "ctoken-bg-primary-neutral-level4",
+      "contents": "bg-primary-neutral-level4",
+    },
+    {
+      "trigger": "ctoken-bg-primary-neutral-level5",
+      "contents": "bg-primary-neutral-level5",
+    },
+    {
+      "trigger": "ctoken-bg-primary-neutral-level2-40a",
+      "contents": "bg-primary-neutral-level2-40a",
+    },
+    {
+      "trigger": "ctoken-bg-secondary-neutral",
+      "contents": "bg-secondary-neutral",
+    },
+    {
+      "trigger": "ctoken-bg-secondary-neutral-level1",
+      "contents": "bg-secondary-neutral-level1",
+    },
+    {
+      "trigger": "ctoken-bg-secondary-neutral-level2",
+      "contents": "bg-secondary-neutral-level2",
+    },
+    {
+      "trigger": "ctoken-bg-secondary-neutral-level3",
+      "contents": "bg-secondary-neutral-level3",
+    },
+    {
+      "trigger": "ctoken-bg-secondary-neutral-level4",
+      "contents": "bg-secondary-neutral-level4",
+    },
+    {
+      "trigger": "ctoken-bg-secondary-neutral-level5",
+      "contents": "bg-secondary-neutral-level5",
+    },
+    {
+      "trigger": "ctoken-bg-secondary-neutral-level1-40a",
+      "contents": "bg-secondary-neutral-level1-40a",
+    },
+    {
+      "trigger": "ctoken-bg-secondary-neutral-level4-40a",
+      "contents": "bg-secondary-neutral-level4-40a",
+    },
+    {
+      "trigger": "ctoken-bg-tertiary-neutral",
+      "contents": "bg-tertiary-neutral",
+    },
+    {
+      "trigger": "ctoken-bg-tertiary-neutral-level5",
+      "contents": "bg-tertiary-neutral-level5",
+    },
+    {
+      "trigger": "ctoken-bg-brand",
+      "contents": "bg-brand",
+    },
+    {
+      "trigger": "ctoken-bg-brand-500-level1",
+      "contents": "bg-brand-500-level1",
+    },
+    {
+      "trigger": "ctoken-bg-brand-500-level2",
+      "contents": "bg-brand-500-level2",
+    },
+    {
+      "trigger": "ctoken-bg-brand-600-level1",
+      "contents": "bg-brand-600-level1",
+    },
+    {
+      "trigger": "ctoken-bg-brand-600-level2",
+      "contents": "bg-brand-600-level2",
+    },
+    {
+      "trigger": "ctoken-bg-overlay",
+      "contents": "bg-overlay",
+    },
+    {
+      "trigger": "ctoken-bg-gradient-primary",
+      "contents": "bg-gradient-primary",
+    },
+    {
+      "trigger": "ctoken-title",
+      "contents": "title",
+    },
+    {
+      "trigger": "ctoken-title-neutral-800",
+      "contents": "title-neutral-800",
+    },
+    {
+      "trigger": "ctoken-title-neutral-900",
+      "contents": "title-neutral-900",
+    },
+    {
+      "trigger": "ctoken-title-neutral-950",
+      "contents": "title-neutral-950",
+    },
+    {
+      "trigger": "ctoken-title-brand-400",
+      "contents": "title-brand-400",
+    },
+    {
+      "trigger": "ctoken-title-brand-400-fixed",
+      "contents": "title-brand-400-fixed",
+    },
+    {
+      "trigger": "ctoken-title-brand-500",
+      "contents": "title-brand-500",
+    },
+    {
+      "trigger": "ctoken-title-brand-600",
+      "contents": "title-brand-600",
+    },
+    {
+      "trigger": "ctoken-text",
+      "contents": "text",
+    },
+    {
+      "trigger": "ctoken-text-neutral-0",
+      "contents": "text-neutral-0",
+    },
+    {
+      "trigger": "ctoken-text-neutral-0-fixed",
+      "contents": "text-neutral-0-fixed",
+    },
+    {
+      "trigger": "ctoken-text-neutral-0-40a-fixed",
+      "contents": "text-neutral-0-40a-fixed",
+    },
+    {
+      "trigger": "ctoken-text-neutral-200",
+      "contents": "text-neutral-200",
+    },
+    {
+      "trigger": "ctoken-text-neutral-300",
+      "contents": "text-neutral-300",
+    },
+    {
+      "trigger": "ctoken-text-neutral-400",
+      "contents": "text-neutral-400",
+    },
+    {
+      "trigger": "ctoken-text-neutral-500",
+      "contents": "text-neutral-500",
+    },
+    {
+      "trigger": "ctoken-text-neutral-800",
+      "contents": "text-neutral-800",
+    },
+    {
+      "trigger": "ctoken-text-red-400",
+      "contents": "text-red-400",
+    },
+    {
+      "trigger": "ctoken-text-yellow-400",
+      "contents": "text-yellow-400",
+    },
+    {
+      "trigger": "ctoken-text-green-400",
+      "contents": "text-green-400",
+    },
+    {
+      "trigger": "ctoken-text-green-500",
+      "contents": "text-green-500",
+    },
+    {
+      "trigger": "ctoken-text-teal-400",
+      "contents": "text-teal-400",
+    },
+    {
+      "trigger": "ctoken-text-on-brand-bg",
+      "contents": "text-on-brand-bg",
+    },
+    {
+      "trigger": "ctoken-link",
+      "contents": "link",
+    },
+    {
+      "trigger": "ctoken-link-primary-300",
+      "contents": "link-primary-300",
+    },
+    {
+      "trigger": "ctoken-link-primary-400",
+      "contents": "link-primary-400",
+    },
+    {
+      "trigger": "ctoken-border-neutral-50",
+      "contents": "border-neutral-50",
+    },
+    {
+      "trigger": "ctoken-border-neutral-100",
+      "contents": "border-neutral-100",
+    },
+    {
+      "trigger": "ctoken-border-neutral-200",
+      "contents": "border-neutral-200",
+    },
+    {
+      "trigger": "ctoken-border-neutral-400",
+      "contents": "border-neutral-400",
+    },
+    {
+      "trigger": "ctoken-border-neutral-900",
+      "contents": "border-neutral-900",
+    },
+    {
+      "trigger": "ctoken-border-red-400",
+      "contents": "border-red-400",
+    },
+    {
+      "trigger": "ctoken-border-yellow-400",
+      "contents": "border-yellow-400",
+    },
+    {
+      "trigger": "ctoken-border-green-400",
+      "contents": "border-green-400",
+    },
+    {
+      "trigger": "ctoken-fill-neutral-0",
+      "contents": "fill-neutral-0",
+    },
+    {
+      "trigger": "ctoken-fill-brand-200",
+      "contents": "fill-brand-200",
+    },
+    {
+      "trigger": "ctoken-fill-brand-300",
+      "contents": "fill-brand-300",
+    },
+    {
+      "trigger": "ctoken-fill-brand-300-fixed",
+      "contents": "fill-brand-300-fixed",
+    },
+    {
+      "trigger": "ctoken-fill-brand-400",
+      "contents": "fill-brand-400",
+    },
+    {
+      "trigger": "ctoken-fill-brand-400-fixed",
+      "contents": "fill-brand-400-fixed",
+    },
+    {
+      "trigger": "ctoken-fill-brand-500",
+      "contents": "fill-brand-500",
+    },
+    {
+      "trigger": "ctoken-fill-brand-600",
+      "contents": "fill-brand-600",
+    },
+    {
+      "trigger": "ctoken-fill-neutral-0-fixed",
+      "contents": "fill-neutral-0-fixed",
+    },
+    {
+      "trigger": "ctoken-fill-neutral-50",
+      "contents": "fill-neutral-50",
+    },
+    {
+      "trigger": "ctoken-fill-neutral-100",
+      "contents": "fill-neutral-100",
+    },
+    {
+      "trigger": "ctoken-fill-neutral-200",
+      "contents": "fill-neutral-200",
+    },
+    {
+      "trigger": "ctoken-fill-neutral-300",
+      "contents": "fill-neutral-300",
+    },
+    {
+      "trigger": "ctoken-fill-neutral-400",
+      "contents": "fill-neutral-400",
+    },
+    {
+      "trigger": "ctoken-fill-neutral-400-fixed",
+      "contents": "fill-neutral-400-fixed",
+    },
+    {
+      "trigger": "ctoken-fill-neutral-500",
+      "contents": "fill-neutral-500",
+    },
+    {
+      "trigger": "ctoken-fill-neutral-600",
+      "contents": "fill-neutral-600",
+    },
+    {
+      "trigger": "ctoken-fill-neutral-700",
+      "contents": "fill-neutral-700",
+    },
+    {
+      "trigger": "ctoken-fill-neutral-800",
+      "contents": "fill-neutral-800",
+    },
+    {
+      "trigger": "ctoken-fill-neutral-900",
+      "contents": "fill-neutral-900",
+    },
+    {
+      "trigger": "ctoken-fill-neutral-950",
+      "contents": "fill-neutral-950",
+    },
+    {
+      "trigger": "ctoken-fill-neutral-1000",
+      "contents": "fill-neutral-1000",
+    },
+    {
+      "trigger": "ctoken-fill-red-400",
+      "contents": "fill-red-400",
+    },
+    {
+      "trigger": "ctoken-fill-red-500",
+      "contents": "fill-red-500",
+    },
+    {
+      "trigger": "ctoken-fill-yellow-400",
+      "contents": "fill-yellow-400",
+    },
+    {
+      "trigger": "ctoken-fill-green-400",
+      "contents": "fill-green-400",
+    },
+    {
+      "trigger": "ctoken-fill-green-400-fixed",
+      "contents": "fill-green-400-fixed",
+    },
+    {
+      "trigger": "ctoken-fill-green-500",
+      "contents": "fill-green-500",
+    },
+    {
+      "trigger": "ctoken-fill-green-500-fixed",
+      "contents": "fill-green-500-fixed",
+    },
+    {
+      "trigger": "ctoken-fill-teal-300",
+      "contents": "fill-teal-300",
+    },
+    {
+      "trigger": "ctoken-label-fb",
+      "contents": "label-fb",
+    },
+    {
+      "trigger": "ctoken-label-bg-grey",
+      "contents": "label-bg-grey",
+    },
+    {
+      "trigger": "ctoken-label-fb-primary-grey",
+      "contents": "label-fb-primary-grey",
+    },
+    {
+      "trigger": "ctoken-label-bg-red-20a",
+      "contents": "label-bg-red-20a",
+    },
+    {
+      "trigger": "ctoken-label-fg-red",
+      "contents": "label-fg-red",
+    },
+    {
+      "trigger": "ctoken-label-bg-green-20a",
+      "contents": "label-bg-green-20a",
+    },
+    {
+      "trigger": "ctoken-label-fg-green",
+      "contents": "label-fg-green",
+    },
+    {
+      "trigger": "ctoken-label-bg-yellow-20a",
+      "contents": "label-bg-yellow-20a",
+    },
+    {
+      "trigger": "ctoken-label-fg-yellow",
+      "contents": "label-fg-yellow",
+    },
+    {
+      "trigger": "ctoken-label-bg-brand-light",
+      "contents": "label-bg-brand-light",
+    },
+    {
+      "trigger": "ctoken-label-fg-white",
+      "contents": "label-fg-white",
+    },
+    {
+      "trigger": "ctoken-label-bg-white",
+      "contents": "label-bg-white",
+    },
+    {
+      "trigger": "ctoken-lable-fg-brand",
+      "contents": "lable-fg-brand",
+    },
+    {
+      "trigger": "ctoken-label-bg-brand",
+      "contents": "label-bg-brand",
+    },
+    {
+      "trigger": "ctoken-label-fb-secondary-grey",
+      "contents": "label-fb-secondary-grey",
+    },
+    {
+      "trigger": "ctoken-label-bg-grey-hover",
+      "contents": "label-bg-grey-hover",
+    },
+    {
+      "trigger": "ctoken-label-bg-green",
+      "contents": "label-bg-green",
+    },
+    {
+      "trigger": "ctoken-label-bg-brand-darker",
+      "contents": "label-bg-brand-darker",
+    },
+    {
+      "trigger": "ctoken-message-text-red",
+      "contents": "message-text-red",
+    },
+    {
+      "trigger": "ctoken-message-text-yellow",
+      "contents": "message-text-yellow",
+    },
+    {
+      "trigger": "ctoken-message-text-green",
+      "contents": "message-text-green",
+    },
+    {
+      "trigger": "ctoken-nav-bar-border-bottom",
+      "contents": "nav-bar-border-bottom",
+    },
+    {
+      "trigger": "ctoken-nav-bar-border-bottom-grey",
+      "contents": "nav-bar-border-bottom-grey",
+    },
+  ]
+}
