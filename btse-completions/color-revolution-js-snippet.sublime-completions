@@ -1,5 +1,5 @@
 {
-  "scope": "text.html.vue source.less.embedded.html meta.property-list.css meta.block.css meta.property-value.css meta.function-call.arguments.css",
+  "scope": "source.js meta.function.js meta.block.js meta.mapping.js meta.function-call.arguments.js meta.group.js meta.string.js string.quoted.single.js",
   "completions": [
     {
       "trigger": "ctoken-nav-bar-logo",
