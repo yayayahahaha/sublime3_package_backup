@@ -431,6 +431,15 @@
   },
   // LSP
   {
+    "command": "lsp_goto_diagnostic",
+    "keys": [
+      "ctrl+w"
+    ],
+    "args": {
+        "uri": "$view_uri"
+    }
+  },
+  {
     "command": "lsp_document_symbols",
     "keys": [
       "super+shift+o"

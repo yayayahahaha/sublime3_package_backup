@@ -1,11 +1,15 @@
 // Settings in here override those in "LSP-vue/LSP-vue.sublime-settings"
 {
   "settings": {
+/*
     "vetur.completion.autoImport": true,
     "stylusSupremacy": {
       "insertBraces": false,
       "insertSemicolons": false,
     },
+*/
+    "javascript.suggest.autoImports": false, // 打開真的會有點慢
+    "typescript.suggest.autoImports": false, // 打開真的會有點慢
   },
   "languages": [
     {
@@ -18,7 +22,7 @@
   "command": [
     "${node_bin}",
     "${server_path}",
-    "--max-old-space-size=4096",
+    "--max-old-space-size=8192",
     "--stdio"
   ],
 
