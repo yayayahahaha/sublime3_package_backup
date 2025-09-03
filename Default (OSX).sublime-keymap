@@ -36,6 +36,12 @@
     ]
   },
 
+  // show complete hints
+  {
+    "keys": ["super+k", "super+o"],
+    "command": "auto_complete"
+  },
+
   // 透過 extract packages 把 Git 的 Package 解開後，找到裡面的 change branch command, 
   // 然後再把它綁上 shortcut
   {
