@@ -1,0 +1,62 @@
+<snippet>
+    <content><![CDATA[
+import fs, { createWriteStream } from 'fs'
+import path from 'path'
+import { rename, unlink } from 'fs/promises'
+import { pipeline } from 'stream/promises'
+
+export async function fetchDownload(url, outputPath, fetchConfig = {}, { verbose = false } = {}) {
+  const partFilename = `\${outputPath}.part`
+  let partFileStream
+
+  try {
+    const response = await fetch(url, fetchConfig)
+    verbose && console.log(green('[fetchDownload] fetch 成功'))
+
+    if (!response.ok) {
+      const errorBody = await response.text().catch(() => '')
+      throw new Error(`Download failed: \${response.status} \${response.statusText}. \${errorBody}`)
+    }
+
+    const outputDir = path.dirname(outputPath)
+    fs.mkdirSync(outputDir, { recursive: true })
+
+    partFileStream = createWriteStream(partFilename)
+    await pipeline(response.body, partFileStream).catch((error) => {
+      console.log(lightRed(`[fetchDownload] pipeline 失敗!`), red(`\${url} 在進行 pipeline 的階段時失敗了`))
+      throw error
+    })
+    verbose && console.log(green('[fetchDownload] pipeline 成功'))
+    await rename(partFilename, outputPath).catch((error) => {
+      console.log(lightRed(`[fetchDownload] rename 失敗!`), red(`\${url} 在進行 rename 的階段時失敗了`))
+      throw error
+    })
+    verbose && console.log(green('[fetchDownload] rename 成功'))
+  } catch (error) {
+    // If the stream was created, it needs to be closed before unlinking
+    if (partFileStream) partFileStream.close()
+
+    // Attempt to clean up the partial file, ignore errors if it fails
+    await unlink(partFilename).catch(() => {})
+
+    // Re-throw the original error to inform the caller
+    throw error
+  }
+
+  function red(msg) {
+    return `\x1b[31m\${msg}\x1b[0m`
+  }
+  function lightRed(msg) {
+    return `\x1b[1m\x1b[31m\${msg}\x1b[0m`
+  }
+  function green(msg) {
+    return `\x1b[32m\${msg}\x1b[0m`
+  }
+}
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>nodejs:download-by-fetch</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>source.js|source.ts</scope>
+</snippet>

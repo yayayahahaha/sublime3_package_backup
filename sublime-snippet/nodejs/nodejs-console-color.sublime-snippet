@@ -1,39 +1,39 @@
 <snippet>
     <content><![CDATA[
-function red(msg) {
+${1:export }function red(msg) {
   return `\x1b[31m\${msg}\x1b[0m`
 }
-function lightRed(msg) {
+${1:export }function lightRed(msg) {
   return `\x1b[1m\x1b[31m\${msg}\x1b[0m`
 }
-function green(msg) {
+${1:export }function green(msg) {
   return `\x1b[32m\${msg}\x1b[0m`
 }
-function lightGreen(msg) {
+${1:export }function lightGreen(msg) {
   return `\x1b[1m\x1b[32m\${msg}\x1b[0m`
 }
-function yellow(msg) {
+${1:export }function yellow(msg) {
   return `\x1b[33m\${msg}\x1b[0m`
 }
-function lightYellow(msg) {
+${1:export }function lightYellow(msg) {
   return `\x1b[1m\x1b[33m\${msg}\x1b[0m`
 }
-function blue(msg) {
+${1:export }function blue(msg) {
   return `\x1b[34m\${msg}\x1b[0m`
 }
-function lightBlue(msg) {
+${1:export }function lightBlue(msg) {
   return `\x1b[1m\x1b[34m\${msg}\x1b[0m`
 }
-function magenta(msg) {
+${1:export }function magenta(msg) {
   return `\x1b[35m\${msg}\x1b[0m`
 }
-function lightMagenta(msg) {
+${1:export }function lightMagenta(msg) {
   return `\x1b[1m\x1b[35m\${msg}\x1b[0m`
 }
-function cyan(msg) {
+${1:export }function cyan(msg) {
   return `\x1b[36m\${msg}\x1b[0m`
 }
-function lightCyan(msg) {
+${1:export }function lightCyan(msg) {
   return `\x1b[1m\x1b[36m\${msg}\x1b[0m`
 }
 
