@@ -1,224 +1,42 @@
 <snippet>
     <content><![CDATA[
-export class ColorConsole {
-  #color
-  #background
-  constructor(_payload) {
-    let payload = _payload
-    if (typeof payload !== 'object') payload = {}
-    const { color, text, background, bg } = payload ?? {}
-
-    this.#color = ColorConsole.checkTextValid(color) ? color : ColorConsole.checkTextValid(text) ? text : null
-    this.#background = ColorConsole.checkBgValid(background) ? background : ColorConsole.checkBgValid(bg) ? bg : null
-  }
-
-  console(...message) {
-    const [firstMessage, ...others] = message
-
-    console.log(`${this.colorCode}${this.bgCode}${firstMessage}`, ...others, ColorConsole.#noColorCode)
-  }
-
-  log(...message) {
-    this.console(...message)
-  }
-
-  static COLOR_LABEL_MAP = {
-    RED: 'red',
-    GREEN: 'green',
-    YELLOW: 'yellow',
-    BLUE: 'blue',
-    MAGENTA: 'magenta',
-    CYAN: 'cyan',
-    WHITE: 'white',
-    BLACK: 'black',
-    RED_BRIGHT: 'red-bright',
-    BRIGHT_RED: 'bright-red',
-    GREEN_BRIGHT: 'green-bright',
-    BRIGHT_GREEN: 'bright-green',
-    YELLOW_BRIGHT: 'yellow-bright',
-    BRIGHT_YELLOW: 'bright-yellow',
-    BLUE_BRIGHT: 'blue-bright',
-    BRIGHT_BLUE: 'bright-blue',
-    MAGENTA_BRIGHT: 'magenta-bright',
-    BRIGHT_MAGENTA: 'bright-magenta',
-    CYAN_BRIGHT: 'cyan-bright',
-    BRIGHT_CYAN: 'bright-cyan',
-    WHITE_BRIGHT: 'white-bright',
-    BRIGHT_WHITE: 'bright-white',
-  }
-
-  static #noColorCode = '\x1b[0m'
-
-  static #TEXT_COLOR_MAP = {
-    red: '\x1b[31m',
-    green: '\x1b[32m',
-    yellow: '\x1b[33m',
-    blue: '\x1b[34m',
-    magenta: '\x1b[35m',
-    cyan: '\x1b[36m',
-    white: '\x1b[37m',
-    black: '\x1b[30m',
-    'red-bright': '\x1b[1m\x1b[91m',
-    'bright-red': '\x1b[1m\x1b[91m',
-    'green-bright': '\x1b[1m\x1b[92m',
-    'bright-green': '\x1b[1m\x1b[92m',
-    'yellow-bright': '\x1b[1m\x1b[93m',
-    'bright-yellow': '\x1b[1m\x1b[93m',
-    'blue-bright': '\x1b[1m\x1b[94m',
-    'bright-blue': '\x1b[1m\x1b[94m',
-    'magenta-bright': '\x1b[1m\x1b[95m',
-    'bright-magenta': '\x1b[1m\x1b[95m',
-    'cyan-bright': '\x1b[1m\x1b[96m',
-    'bright-cyan': '\x1b[1m\x1b[96m',
-    'white-bright': '\x1b[1m\x1b[97m',
-    'bright-white': '\x1b[1m\x1b[97m',
-  }
-
-  static #BG_COLOR_MAP = {
-    red: '\x1b[41m',
-    green: '\x1b[42m',
-    yellow: '\x1b[43m',
-    blue: '\x1b[44m',
-    magenta: '\x1b[45m',
-    cyan: '\x1b[46m',
-    white: '\x1b[47m',
-    black: '\x1b[40m',
-  }
-
-  static checkTextValid(color) {
-    return ColorConsole.#TEXT_COLOR_MAP[color] != null
-  }
-
-  static checkBgValid(bg) {
-    return ColorConsole.#BG_COLOR_MAP[bg] != null
-  }
-
-  get color() {
-    return this.#color
-  }
-
-  get background() {
-    return this.#background
-  }
-
-  get bg() {
-    return this.#background
-  }
-
-  get colorCode() {
-    return ColorConsole.#TEXT_COLOR_MAP[this.#color] ?? ''
-  }
-
-  get backgroundCode() {
-    return ColorConsole.#BG_COLOR_MAP[this.#background] ?? ''
-  }
-
-  get bgCode() {
-    return ColorConsole.#BG_COLOR_MAP[this.#background] ?? ''
-  }
+${1:export }function red(msg) {
+  return `\x1b[31m\${msg}\x1b[0m`
+}
+${1:export }function lightRed(msg) {
+  return `\x1b[1m\x1b[31m\${msg}\x1b[0m`
+}
+${1:export }function green(msg) {
+  return `\x1b[32m\${msg}\x1b[0m`
+}
+${1:export }function lightGreen(msg) {
+  return `\x1b[1m\x1b[32m\${msg}\x1b[0m`
+}
+${1:export }function yellow(msg) {
+  return `\x1b[33m\${msg}\x1b[0m`
+}
+${1:export }function lightYellow(msg) {
+  return `\x1b[1m\x1b[33m\${msg}\x1b[0m`
+}
+${1:export }function blue(msg) {
+  return `\x1b[34m\${msg}\x1b[0m`
+}
+${1:export }function lightBlue(msg) {
+  return `\x1b[1m\x1b[34m\${msg}\x1b[0m`
+}
+${1:export }function magenta(msg) {
+  return `\x1b[35m\${msg}\x1b[0m`
+}
+${1:export }function lightMagenta(msg) {
+  return `\x1b[1m\x1b[35m\${msg}\x1b[0m`
+}
+${1:export }function cyan(msg) {
+  return `\x1b[36m\${msg}\x1b[0m`
+}
+${1:export }function lightCyan(msg) {
+  return `\x1b[1m\x1b[36m\${msg}\x1b[0m`
 }
 
-export function consoleColor(...payload) {
-  if (payload.length === 1) {
-    console.log(payload[0])
-    return
-  }
-
-  const config = payload.slice(-1)[0]
-  const message = payload.slice(0, -1)
-
-  const colorInstance = new ColorConsole(config)
-
-  colorInstance.log(...message)
-}
-
-export function consoleRed(...message) {
-  return consoleColor(...message, { text: ColorConsole.COLOR_LABEL_MAP.RED })
-}
-
-export function consoleGreen(...message) {
-  return consoleColor(...message, { text: ColorConsole.COLOR_LABEL_MAP.GREEN })
-}
-
-export function consoleYellow(...message) {
-  return consoleColor(...message, { text: ColorConsole.COLOR_LABEL_MAP.YELLOW })
-}
-
-export function consoleBlue(...message) {
-  return consoleColor(...message, { text: ColorConsole.COLOR_LABEL_MAP.BLUE })
-}
-
-export function consoleMagenta(...message) {
-  return consoleColor(...message, { text: ColorConsole.COLOR_LABEL_MAP.MAGENTA })
-}
-
-export function consoleCyan(...message) {
-  return consoleColor(...message, { text: ColorConsole.COLOR_LABEL_MAP.CYAN })
-}
-
-export function consoleWhite(...message) {
-  return consoleColor(...message, { text: ColorConsole.COLOR_LABEL_MAP.WHITE })
-}
-
-export function consoleBlack(...message) {
-  return consoleColor(...message, { text: ColorConsole.COLOR_LABEL_MAP.BLACK })
-}
-
-export function consoleRedBright(...message) {
-  return consoleColor(...message, { text: ColorConsole.COLOR_LABEL_MAP.RED_BRIGHT })
-}
-
-export function consoleBrightRed(...message) {
-  return consoleColor(...message, { text: ColorConsole.COLOR_LABEL_MAP.BRIGHT_RED })
-}
-
-export function consoleGreenBright(...message) {
-  return consoleColor(...message, { text: ColorConsole.COLOR_LABEL_MAP.GREEN_BRIGHT })
-}
-
-export function consoleBrightGreen(...message) {
-  return consoleColor(...message, { text: ColorConsole.COLOR_LABEL_MAP.BRIGHT_GREEN })
-}
-
-export function consoleYellowBright(...message) {
-  return consoleColor(...message, { text: ColorConsole.COLOR_LABEL_MAP.YELLOW_BRIGHT })
-}
-
-export function consoleBrightYellow(...message) {
-  return consoleColor(...message, { text: ColorConsole.COLOR_LABEL_MAP.BRIGHT_YELLOW })
-}
-
-export function consoleBlueBright(...message) {
-  return consoleColor(...message, { text: ColorConsole.COLOR_LABEL_MAP.BLUE_BRIGHT })
-}
-
-export function consoleBrightBlue(...message) {
-  return consoleColor(...message, { text: ColorConsole.COLOR_LABEL_MAP.BRIGHT_BLUE })
-}
-
-export function consoleMagentaBright(...message) {
-  return consoleColor(...message, { text: ColorConsole.COLOR_LABEL_MAP.MAGENTA_BRIGHT })
-}
-
-export function consoleBrightMagenta(...message) {
-  return consoleColor(...message, { text: ColorConsole.COLOR_LABEL_MAP.BRIGHT_MAGENTA })
-}
-
-export function consoleCyanBright(...message) {
-  return consoleColor(...message, { text: ColorConsole.COLOR_LABEL_MAP.CYAN_BRIGHT })
-}
-
-export function consoleBrightCyan(...message) {
-  return consoleColor(...message, { text: ColorConsole.COLOR_LABEL_MAP.BRIGHT_CYAN })
-}
-
-export function consoleWhiteBright(...message) {
-  return consoleColor(...message, { text: ColorConsole.COLOR_LABEL_MAP.WHITE_BRIGHT })
-}
-
-export function consoleBrightWhite(...message) {
-  return consoleColor(...message, { text: ColorConsole.COLOR_LABEL_MAP.BRIGHT_WHITE })
-}
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>nodejs:console-color</tabTrigger>
