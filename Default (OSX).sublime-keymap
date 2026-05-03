@@ -183,7 +183,8 @@
       "super+k",
       "super+r"
     ],
-    "command": "side_bar_reveal" // show in finder
+    "command": "open_dir", // show in finder
+    "args": {"dir": "$file_path", "file": "$file_name"}
   },
   {
     "keys": [
