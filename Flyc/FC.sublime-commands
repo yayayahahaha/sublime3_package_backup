@@ -1,0 +1,35 @@
+[
+    {
+        "caption": "FC: Copy All Open Absolute Paths (複製全部開啟檔案的絕對路徑)",
+        "command": "copy_all_open_paths",
+        "args": { "relative": false }
+    },
+    {
+        "caption": "FC: Copy All Open Relative Paths (複製全部開啟檔案的相對路徑)",
+        "command": "copy_all_open_paths",
+        "args": { "relative": true }
+    },
+    {
+        "caption": "FC: Open Files by Regex (使用正規表達式批次開啟檔案)",
+        "command": "open_files_by_regex"
+    },
+    {
+        "caption": "FC: Open Selected File Names (開啟選取範圍中的所有檔案)",
+        "command": "open_selected_files"
+    },
+    {
+        "caption": "FC: File Management Settings (開啟檔案管理外掛設定檔)",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/User/Flyc/FC_FileManagement.sublime-settings"
+        }
+    },
+    {
+        "caption": "FC: Run Stylelint Fix (執行 Stylelint 修復)",
+        "command": "run_stylelint_fix"
+    },
+    {
+        "caption": "FC: Run ESLint Fix (執行 ESLint 修復)",
+        "command": "run_eslint_fix"
+    }
+]
