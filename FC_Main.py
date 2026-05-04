@@ -21,7 +21,8 @@ from .Flyc.FC_reveal_alias_path import (
 # 3. Terminal 指令 (原本的 fc_terminal.py)
 from .Flyc.FC_terminal import (
     RunStylelintFixCommand,
-    RunEslintFixCommand
+    RunEslintFixCommand,
+    RunStagedLintCommand
 )
 
 # 提示：如果你之後在 Flyc 資料夾內新增了新的 .py 檔案或指令類別，

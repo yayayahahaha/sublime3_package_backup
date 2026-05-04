@@ -37,7 +37,7 @@ class CopyAllOpenPathsCommand(sublime_plugin.WindowCommand):
             sublime.set_clipboard(content)
             sublime.status_message(f"Copied {len(unique_paths)} paths")
         else:
-            sublime.status_message("No open files with paths")
+            sublime.message_dialog("❌ 沒有發現任何已開啟且具有路徑的檔案。")
 
 # ==========================================
 # 2. 一次開啟符合正規表達式的所有檔案
@@ -64,7 +64,7 @@ class OpenFilesByRegexCommand(sublime_plugin.WindowCommand):
         
         folders = self.window.folders()
         if not folders:
-            sublime.status_message("No folders in project")
+            sublime.message_dialog("❌ 專案中沒有任何資料夾，無法搜尋。")
             return
 
         matched_files = []
@@ -84,14 +84,14 @@ class OpenFilesByRegexCommand(sublime_plugin.WindowCommand):
                         matched_files.append(os.path.join(root, file))
 
         if not matched_files:
-            sublime.status_message("No files matched the regex")
+            sublime.message_dialog(f"🔍 搜尋完畢，但沒有找到符合正則「{pattern}」的檔案。")
             return
 
         count = len(matched_files)
         if count > 50: # 安全閥
-            if not sublime.ok_cancel_dialog(f"Found {count} files. Are you sure you want to open them all?", "Open All"):
+            if not sublime.ok_cancel_dialog(f"發現了 {count} 個符合的檔案，確定要全部開啟嗎？", "全部開啟"):
                 return
-        elif not sublime.ok_cancel_dialog(f"Open {count} matched files?", "Open"):
+        elif not sublime.ok_cancel_dialog(f"找到 {count} 個檔案，是否開啟？", "開啟"):
             return
 
         for f in matched_files:
@@ -106,6 +106,9 @@ class OpenSelectedFilesCommand(sublime_plugin.TextCommand):
         if not window:
             return
 
+        opened_count = 0
+        failed_names = []
+
         # 取得所有選擇區塊
         for sel in self.view.sel():
             if sel.empty():
@@ -116,13 +119,21 @@ class OpenSelectedFilesCommand(sublime_plugin.TextCommand):
             file_names = [f.strip() for f in text.split("\n") if f.strip()]
             
             for name in file_names:
-                self.open_file_by_name(window, name)
+                if self.open_file_by_name(window, name):
+                    opened_count += 1
+                else:
+                    failed_names.append(name)
+
+        if opened_count == 0 and failed_names:
+            sublime.message_dialog(f"❌ 無法開啟任何檔案。\n嘗試尋找：\n- " + "\n- ".join(failed_names[:5]) + ("\n..." if len(failed_names) > 5 else ""))
+        elif failed_names:
+            sublime.status_message(f"已開啟 {opened_count} 個檔案，但有 {len(failed_names)} 個找不到。")
 
     def open_file_by_name(self, window, name):
         # 1. 嘗試當作絕對路徑
         if os.path.isabs(name) and os.path.exists(name):
             window.open_file(name)
-            return
+            return True
 
         # 2. 嘗試相對於當前檔案
         current_file = self.view.file_name()
@@ -131,17 +142,16 @@ class OpenSelectedFilesCommand(sublime_plugin.TextCommand):
             candidate = os.path.normpath(os.path.join(base_dir, name))
             if os.path.exists(candidate):
                 window.open_file(candidate)
-                return
+                return True
 
         # 3. 嘗試相對於專案目錄
         for folder in window.folders():
             candidate = os.path.normpath(os.path.join(folder, name))
             if os.path.exists(candidate):
                 window.open_file(candidate)
-                return
+                return True
         
-        # 4. 如果都找不到，嘗試在專案中搜尋 (模糊匹配檔名)
-        sublime.status_message(f"File not found: {name}")
+        return False
 
 # ==========================================
 # 4. 自動根據檔名正則切換 Syntax (回答使用者的問題)

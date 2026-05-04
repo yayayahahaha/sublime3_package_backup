@@ -31,5 +31,9 @@
     {
         "caption": "FC: Run ESLint Fix (執行 ESLint 修復)",
         "command": "run_eslint_fix"
+    },
+    {
+        "caption": "FC: Lint Staged Files (修復 Git 已暫存的檔案 - ESLint & Stylelint)",
+        "command": "run_staged_lint"
     }
 ]
