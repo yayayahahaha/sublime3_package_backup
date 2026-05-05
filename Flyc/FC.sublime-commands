@@ -25,6 +25,11 @@
         }
     },
     {
+        "caption": "FC: Change tab spaces (調整 tab spaces 格數)",
+        "command": "change_tab_size"
+    },
+
+    {
         "caption": "FC: Run Stylelint Fix (執行 Stylelint 修復)",
         "command": "run_stylelint_fix"
     },

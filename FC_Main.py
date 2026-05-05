@@ -25,5 +25,10 @@ from .Flyc.FC_terminal import (
     RunStagedLintCommand
 )
 
+
+from .Flyc.FC_TabSpaces import ChangeTabSizeCommand
+
 # 提示：如果你之後在 Flyc 資料夾內新增了新的 .py 檔案或指令類別，
 # 記得要在這裡補上 import，指令才會在 Sublime Text 中生效喔！
+
+
