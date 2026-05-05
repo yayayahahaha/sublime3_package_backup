@@ -73,3 +73,26 @@ class RunEslintFixCommand(BaseTerminalCommand):
     def run(self):
         cmd = "echo '[FC]執行 ESLint fix: ${file}'; npx eslint \"${file}\" --fix"
         self.execute_terminal(cmd)
+
+# 3. 同時執行 ESLint 與 Stylelint (僅針對 Git Staged 檔案)
+class RunStagedLintCommand(BaseTerminalCommand):
+    def run(self):
+        cmd = """
+        JS_FILES=$(git diff --staged --diff-filter=d --name-only -- "*.vue" "*.js" "*.ts" "*.jsx" "*.tsx");
+        if [ -n "$JS_FILES" ]; then
+            echo "[FC] 正在修復已暫存的 JS/Vue 檔案...";
+            npx eslint --fix $JS_FILES;
+        else
+            echo "[FC] 無發現已暫存的 JS/Vue 檔案";
+        fi;
+
+        CSS_FILES=$(git diff --staged --diff-filter=d --name-only -- "*.vue" "*.less" "*.css" "*.scss");
+        if [ -n "$CSS_FILES" ]; then
+            echo "[FC] 正在修復已暫存的 Style 檔案...";
+            npx stylelint --fix $CSS_FILES;
+        else
+            echo "[FC] 無發現已暫存的 Style 檔案";
+        fi;
+        echo "[FC] Staged 檔案處理完畢";
+        """
+        self.execute_terminal(cmd)
