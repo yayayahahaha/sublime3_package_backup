@@ -123,9 +123,11 @@
     "keys": [
       "super+shift+["
     ],
-    "command": "run_macro_file",
+    // "command": "run_macro_file",
+    "command": "fc_smart_fold",
     "args": {
-      "file": "Packages/User/sublime-macro/folder-current-scope.sublime-macro"
+      // this args is for marco
+      // "file": "Packages/User/sublime-macro/folder-current-scope.sublime-macro"
     }
   },
   {
