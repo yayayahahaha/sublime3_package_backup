@@ -1,29 +1,32 @@
 {
-    // 開啟檔案時要忽略的目錄或檔案名稱
-    "ignore_patterns": [
-        "node_modules",
-        ".git",
-        "__pycache__",
-        ".DS_Store",
-        "dist",
-        "build",
-        ".svelte-kit",
-        ".next"
-    ],
-
-    // 正規表達式匹配檔名來切換 Syntax 的設定
-    // pattern: 比對完整檔案路徑的正則
-    // syntax: Syntax 檔案的路徑 (可以在開啟該類型檔案後，輸入 `view.settings().get('syntax')` 在 console 查看)
-    "regex_syntax_mappings": [
-        // 範例：將所有 .config 結尾的檔案設為 JSON
-        // {
-        //     "pattern": "\\.config$",
-        //     "syntax": "Packages/JSON/JSON.sublime-syntax"
-        // },
-        // 範例：將特定路徑下的檔案設為特定 Syntax
-        // {
-        //     "pattern": "/templates/.*\\.html$",
-        //     "syntax": "Packages/HTML/HTML.sublime-syntax"
-        // }
-    ]
+  // 開啟檔案時要忽略的目錄或檔案名稱
+  "ignore_patterns": [
+    "node_modules",
+    ".git",
+    "__pycache__",
+    ".DS_Store",
+    "dist",
+    "build",
+    ".svelte-kit",
+    ".next"
+  ],
+  // 正規表達式匹配檔名來切換 Syntax 的設定
+  // pattern: 比對完整檔案路徑的正則
+  // syntax: Syntax 檔案的路徑 (可以在開啟該類型檔案後，輸入 `view.settings().get('syntax')` 在 console 查看)
+  "regex_syntax_mappings": [
+    {
+      "pattern": "\\.env\\..+$",
+      "syntax": "Packages/DotENV/DotENV.tmLanguage"
+    },
+    // 範例：將所有 .config 結尾的檔案設為 JSON
+    // {
+    //     "pattern": "\\.config$",
+    //     "syntax": "Packages/JSON/JSON.sublime-syntax"
+    // },
+    // 範例：將特定路徑下的檔案設為特定 Syntax
+    // {
+    //     "pattern": "/templates/.*\\.html$",
+    //     "syntax": "Packages/HTML/HTML.sublime-syntax"
+    // }
+  ]
 }

@@ -11,7 +11,8 @@ FC_SUBMODULES = [
     "User.Flyc.FC_reveal_alias_path",
     "User.Flyc.FC_terminal",
     "User.Flyc.FC_git_conflict",
-    "User.Flyc.FC_smart_fold"
+    "User.Flyc.FC_smart_fold",
+    "User.Flyc.FC_TabSpaces" # 從分支合併進來的新模組
 ]
 
 for mod_name in FC_SUBMODULES:
@@ -55,5 +56,11 @@ from .Flyc.FC_git_conflict import (
 from .Flyc.FC_smart_fold import (
     FcSmartFoldCommand
 )
+
+# 6. Tab 與縮排處理 (從戲言之二分支合併)
+from .Flyc.FC_TabSpaces import ChangeTabSizeCommand
+
+# 提示：如果你之後在 Flyc 資料夾內新增了新的 .py 檔案或指令類別，
+# 記得要在這裡補上 import 並加入 FC_SUBMODULES，指令才會在 Sublime Text 中生效喔！
 
 print("[FC] All modules loaded successfully.")

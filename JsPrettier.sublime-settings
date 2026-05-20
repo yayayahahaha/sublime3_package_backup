@@ -2,5 +2,11 @@
   // "auto_format_on_save": false,
   "auto_format_on_save": true,
   // "debug": true,
+
+  // region todo-hints
+  // 這兩個改動是有一次更新後 prettier 找不到 nodejs 才加上去的，不一定要同步
+  "node_path": "/usr/local/bin/node"
+  // "prettier_cli_path": "./node_modules/.bin/prettier"
+  // endregion todo-hints
 }
 // Settings in here override those in "/JsPrettier/JsPrettier.sublime-settings",
