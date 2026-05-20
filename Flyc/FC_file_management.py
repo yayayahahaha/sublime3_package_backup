@@ -179,3 +179,12 @@ class RegexSyntaxListener(sublime_plugin.EventListener):
                 if re.search(pattern, file_name):
                     view.set_syntax_file(syntax)
                     break
+
+# ==========================================
+# 5. 安全開啟 FC 設定檔的指令
+# ==========================================
+class FcOpenSettingsCommand(sublime_plugin.WindowCommand):
+    def run(self):
+        # 直接使用絕對路徑或相對 Packages 的路徑
+        file_path = os.path.join(sublime.packages_path(), "User", "Flyc", "FC_FileManagement.sublime-settings")
+        self.window.open_file(file_path)

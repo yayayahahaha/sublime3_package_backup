@@ -1,30 +1,36 @@
+# Packages/User/FC_Main.py
 import sys
 import importlib
 
-# 定義需要重新載入的模組清單
-MODULES_TO_RELOAD = [
-    ".Flyc.FC_file_management",
-    ".Flyc.FC_reveal_alias_path",
-    ".Flyc.FC_terminal",
-    ".Flyc.FC_git_conflict"  # 新增
+print("[FC] Loading FC_Main.py...")
+
+# --- 核心：手動強制重新載入子模組，解決 ImportError 問題 ---
+# 定義所有在 Flyc 資料夾下的模組
+FC_SUBMODULES = [
+    "User.Flyc.FC_file_management",
+    "User.Flyc.FC_reveal_alias_path",
+    "User.Flyc.FC_terminal",
+    "User.Flyc.FC_git_conflict",
+    "User.Flyc.FC_smart_fold"
 ]
 
-for module_name in MODULES_TO_RELOAD:
-    full_module_name = "User" + module_name
-    if full_module_name in sys.modules:
-        importlib.reload(sys.modules[full_module_name])
+for mod_name in FC_SUBMODULES:
+    if mod_name in sys.modules:
+        print(f"[FC] Force reloading: {mod_name}")
+        importlib.reload(sys.modules[mod_name])
 
-# -----------------------------------------------------------
-# 正式引入
-# -----------------------------------------------------------
+# --- 正式匯入 ---
 
+# 1. 檔案管理相關功能
 from .Flyc.FC_file_management import (
     CopyAllOpenPathsCommand,
     OpenFilesByRegexCommand,
     OpenSelectedFilesCommand,
-    RegexSyntaxListener
+    RegexSyntaxListener,
+    FcOpenSettingsCommand
 )
 
+# 2. 路徑跳轉與工具
 from .Flyc.FC_reveal_alias_path import (
     RevealAliasPathCommand,
     CopyActiveFileNameCommand,
@@ -33,6 +39,7 @@ from .Flyc.FC_reveal_alias_path import (
     CloneToNewPaneCommand
 )
 
+# 3. Terminal 指令
 from .Flyc.FC_terminal import (
     RunStylelintFixCommand,
     RunEslintFixCommand,
@@ -43,3 +50,10 @@ from .Flyc.FC_terminal import (
 from .Flyc.FC_git_conflict import (
     FcFoldGitConflictsCommand
 )
+
+# 5. 智慧折疊
+from .Flyc.FC_smart_fold import (
+    FcSmartFoldCommand
+)
+
+print("[FC] All modules loaded successfully.")
