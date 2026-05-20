@@ -1,7 +1,23 @@
-# Packages/User/FC_Main.py
-# 這是你個人外掛的總入口檔案，負責從 Flyc 資料夾載入所有功能
+import sys
+import importlib
 
-# 1. 檔案管理相關功能
+# 定義需要重新載入的模組清單
+MODULES_TO_RELOAD = [
+    ".Flyc.FC_file_management",
+    ".Flyc.FC_reveal_alias_path",
+    ".Flyc.FC_terminal",
+    ".Flyc.FC_git_conflict"  # 新增
+]
+
+for module_name in MODULES_TO_RELOAD:
+    full_module_name = "User" + module_name
+    if full_module_name in sys.modules:
+        importlib.reload(sys.modules[full_module_name])
+
+# -----------------------------------------------------------
+# 正式引入
+# -----------------------------------------------------------
+
 from .Flyc.FC_file_management import (
     CopyAllOpenPathsCommand,
     OpenFilesByRegexCommand,
@@ -9,7 +25,6 @@ from .Flyc.FC_file_management import (
     RegexSyntaxListener
 )
 
-# 2. 路徑跳轉與基礎工具 (原本的 reveal_alias_path.py)
 from .Flyc.FC_reveal_alias_path import (
     RevealAliasPathCommand,
     CopyActiveFileNameCommand,
@@ -18,12 +33,13 @@ from .Flyc.FC_reveal_alias_path import (
     CloneToNewPaneCommand
 )
 
-# 3. Terminal 指令 (原本的 fc_terminal.py)
 from .Flyc.FC_terminal import (
     RunStylelintFixCommand,
     RunEslintFixCommand,
     RunStagedLintCommand
 )
 
-# 提示：如果你之後在 Flyc 資料夾內新增了新的 .py 檔案或指令類別，
-# 記得要在這裡補上 import，指令才會在 Sublime Text 中生效喔！
+# 4. Git 衝突處理
+from .Flyc.FC_git_conflict import (
+    FcFoldGitConflictsCommand
+)

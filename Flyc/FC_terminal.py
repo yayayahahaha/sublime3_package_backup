@@ -10,31 +10,44 @@ import sublime_plugin
 class BaseTerminalCommand(sublime_plugin.WindowCommand):
     
     def execute_terminal(self, cmd_template):
-        # 1. 抓取當前變數 (處理 ${file}, ${folder} 等)
+        # 1. 抓取當前變數
         variables = self.window.extract_variables()
-        cwd = variables.get("file_path", variables.get("folder"))
         
-        # 2. 將模板字串替換成真實路徑
+        # 優先順序：當前檔案所在資料夾 > 專案第一個資料夾
+        cwd = variables.get("file_path")
+        if not cwd and variables.get("folder"):
+            cwd = variables.get("folder")
+        
+        # 如果還是沒有 (例如沒開檔案也沒開資料夾)，就報錯
+        if not cwd:
+            sublime.error_message("無法確定執行目錄。")
+            return
+        
+        # 2. 處理字串替換
         cmd_string = sublime.expand_variables(cmd_template, variables)
 
-        # 3. 建立並開啟底部的 Output Panel
-        panel_name = "my_custom_terminal"
+        # 3. 建立並開啟面板
+        panel_name = "fc_terminal"
         panel = self.window.create_output_panel(panel_name)
         panel.settings().set("word_wrap", True)
         self.window.run_command("show_panel", {"panel": "output." + panel_name})
         
         # 4. 處理 Mac 的環境變數 PATH
         env = os.environ.copy()
-        env["PATH"] = "/usr/local/bin:/opt/homebrew/bin:" + env.get("PATH", "")
+        # 確保常用路徑都在裡面，避免找不到 git 或 node
+        env["PATH"] = "/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:" + env.get("PATH", "")
 
         # 5. 啟動背景執行緒
         threading.Thread(target=self._run_process, args=(cmd_string, cwd, env, panel)).start()
 
     def _run_process(self, cmd_string, cwd, env, panel):
         try:
-            # 統一交給 bash 執行，這樣才能支援 echo 和 && 或 ; 這類語法
+            # 在執行指令前，先切換到 git root (如果有的話)
+            # 這樣 git diff --staged 才能抓到整個專案的檔案
+            final_cmd = f"cd \"{cwd}\" && if git rev-parse --show-toplevel > /dev/null 2>&1; then cd $(git rev-parse --show-toplevel); fi; {cmd_string}"
+
             process = subprocess.Popen(
-                ["bash", "-c", cmd_string], 
+                ["bash", "-c", final_cmd], 
                 cwd=cwd, 
                 env=env,
                 stdout=subprocess.PIPE, 
@@ -82,6 +95,10 @@ class RunStagedLintCommand(BaseTerminalCommand):
         if [ -n "$JS_FILES" ]; then
             echo "[FC] 正在修復已暫存的 JS/Vue 檔案...";
             npx eslint --fix $JS_FILES;
+            if [ $? -ne 0 ]; then
+                echo "\\n[❌] ESLint 執行失敗，請檢查配置或程式碼錯誤。";
+                exit 1;
+            fi
         else
             echo "[FC] 無發現已暫存的 JS/Vue 檔案";
         fi;
@@ -90,9 +107,13 @@ class RunStagedLintCommand(BaseTerminalCommand):
         if [ -n "$CSS_FILES" ]; then
             echo "[FC] 正在修復已暫存的 Style 檔案...";
             npx stylelint --fix $CSS_FILES;
+            if [ $? -ne 0 ]; then
+                echo "\\n[❌] Stylelint 執行失敗，請檢查配置或程式碼錯誤。";
+                exit 1;
+            fi
         else
             echo "[FC] 無發現已暫存的 Style 檔案";
         fi;
-        echo "[FC] Staged 檔案處理完畢";
+        echo "\\n[✅] Staged 檔案修復處理完成";
         """
         self.execute_terminal(cmd)
