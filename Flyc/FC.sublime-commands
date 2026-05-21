@@ -40,5 +40,9 @@
     {
         "caption": "FC: Lint Staged Files (修復 Git 已暫存的檔案 - ESLint & Stylelint)",
         "command": "run_staged_lint"
+    },
+    {
+        "caption": "FC: Git Fold Conflicts (折疊 Git 衝突區塊內容)",
+        "command": "fc_fold_git_conflicts"
     }
 ]
