@@ -1,3 +1,7 @@
-// Settings in here override those in "LSP-typescript/LSP-typescript.sublime-settings"
-
-{}
+{
+    "initialization_options": {
+      "preferences": {
+        "importModuleSpecifierPreference": "non-relative"
+      }
+    }
+  }
