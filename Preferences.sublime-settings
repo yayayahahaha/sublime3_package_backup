@@ -68,6 +68,8 @@
 		"*.sublime-workspace"
 	],
 	"folder_exclude_patterns": [
+		// "public/static/js/charting_library",
+		"graphify-out",
 		".svn",
 		".git",
 		".hg",
