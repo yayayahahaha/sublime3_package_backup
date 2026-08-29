@@ -167,10 +167,19 @@ class RegexSyntaxListener(sublime_plugin.EventListener):
         file_name = view.file_name()
         if not file_name:
             return
-            
-        settings = sublime.load_settings("Flyc/FC_FileManagement.sublime-settings")
-        mappings = settings.get("regex_syntax_mappings", [])
-        
+
+        # 注意：sublime.load_settings() 不支援子資料夾路徑。
+        # 改用 sublime.load_resource() 讀取原始內容，再用 sublime.decode_value()
+        # 解析，因為它原生支援 .sublime-settings 的 // 註解與 trailing comma。
+        try:
+            resource_path = "Packages/User/Flyc/FC_FileManagement.sublime-settings"
+            raw = sublime.load_resource(resource_path)
+            data = sublime.decode_value(raw)
+            mappings = data.get("regex_syntax_mappings", [])
+        except Exception as e:
+            print(f"[FC] RegexSyntaxListener: 無法載入設定檔 - {e}")
+            return
+
         # mappings 格式: [{"pattern": "\\.config$", "syntax": "Packages/JSON/JSON.sublime-syntax"}]
         for mapping in mappings:
             pattern = mapping.get("pattern")
@@ -178,6 +187,7 @@ class RegexSyntaxListener(sublime_plugin.EventListener):
             if pattern and syntax:
                 if re.search(pattern, file_name):
                     view.set_syntax_file(syntax)
+                    print(f"[FC] 套用語法 {syntax} 至 {file_name}")
                     break
 
 # ==========================================
